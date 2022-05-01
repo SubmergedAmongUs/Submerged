@@ -40,7 +40,7 @@ Any Among Us versions not listed here are not compatible with Submerged.
 
 | Among Us Version | Submerged Version | Links |
 |:-:|:-:|:-:|
-| v2022.3.29s | v2022.5.1 | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.5.1/) |
+| v2022.3.29s | v2022.5.2 | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.5.2/) |
 
 # Compatibility With Other Mods
 
@@ -148,7 +148,7 @@ For business inquiries, please contact us at `submergedamongus@gmail.com`.
 - Additional Art
   - [acronmd](https://twitter.com/acronmd/)
 - Translators
-  - [heckertv](https://www.twitch.tv/heckertv/) - 中國人
+  - [Hecker](https://www.twitch.tv/heckertv/) - 中國人
   - [MissJukebox](https://www.twitch.tv/missjukebox/) - Español
   - [wild_lou](https://twitter.com/Psyco_Lou/) - Português (Brasil)
   - [ねろちゃん](https://www.twitch.tv/zackdnerrr/) - 日本語
