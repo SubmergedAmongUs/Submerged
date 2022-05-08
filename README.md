@@ -40,7 +40,7 @@ Any Among Us versions not listed here are not compatible with Submerged.
 
 | Among Us Version | Submerged Version | Links |
 |:-:|:-:|:-:|
-| v2022.3.29s | v2022.5.2 | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.5.2/) |
+| v2022.3.29s | v2022.5.8 | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.5.8/) |
 
 # Compatibility With Other Mods
 
@@ -62,7 +62,7 @@ If you are a mod developer, the [FOR MOD DEVELOPERS.md](./FOR%20MOD%20DEVELOPERS
 |-|:-:|:-:|
 | Officials | ✅ | Supported |
 | [Impostor](https://github.com/Impostor/Impostor/) | ✅ | Supported<br>(as of [v1.7.0-ci.253](https://ci.appveyor.com/project/Impostor/Impostor/builds/43291915/artifacts)) |
-| [Hindenburg](https://github.com/SkeldJS/Hindenburg/) | ❓ | Unknown |
+| [Hindenburg](https://github.com/SkeldJS/Hindenburg/) | ❌ | Not Supported |
 
 # Installation
 
@@ -70,7 +70,7 @@ If you are a mod developer, the [FOR MOD DEVELOPERS.md](./FOR%20MOD%20DEVELOPERS
 
 This mod is only guaranteed to work on Windows operating systems. We have no plans on ensuring compatibility with Linux-based operating systems or Mac.
 
-This mod should function correctly on the Steam, Epic and itch.io versions of Among Us. We do not support or endorse using a pirated version of Among Us with Submerged. 
+This mod has been tested and works with the Steam, Epic and itch.io versions of Among Us. We do not support or endorse using a pirated version of Among Us with Submerged. 
 
 ## Installation Steps
 
@@ -86,25 +86,25 @@ Alternatively, if you are already using other mods or already have BepInEx insta
 
 # Localization
 
-Submerged is available in the languages listed below. If you would like to help translate Submerged, please [open an issue](https://github.com/SubmergedAmongUs/Submerged/issues/new/choose/) or contact us at `submergedamongus@gmail.com`.
+Submerged is available in the languages listed below. If you would like to help translate Submerged to one of the languages listed below or want to correct a translation, please [open an issue](https://github.com/SubmergedAmongUs/Submerged/issues/new/choose/) or contact us at `submergedamongus@gmail.com`.
 
 | Language | ❔ | Status |
 |-|:-:|:-:|
 | English | ✅ | - |
 | Português (Brasil) | ✅ | Fully Translated |
 | Español | ✅ | Fully Translated |
+| 简体中文 | ✅ | Fully Translated |
+| 繁體中文 | ✅ | Fully Translated |
 | 日本語 | 🟡 | Mostly Translated |
-| 简体中文 | 🟠 | Partially Translated |
-| 繁體中文 | 🟠 | Partially Translated |
-| Español (Latinoamérica) | 🔴 | Not Translated<br>(Using Español) |
+| Nederlands | 🟠 | In Progress<br>(Partially Translated) |
+| Русский | 🟠 | In Progress<br>(Partially Translated) |
+| Italiano | 🔴 | In Progress<br>(Not Translated) |
+| Español (Latinoamérica) | ❌ | Not Translated<br>(Using Español) |
 | Bisaya | ❌ | Not Translated |
 | Deutsch | ❌ | Not Translated |
 | Français | ❌ | Not Translated |
 | Gaeilge | ❌ | Not Translated |
-| Italiano | ❌ | Not Translated |
-| Nederlands | ❌ | Not Translated |
 | Português | ❌ | Not Translated |
-| Русский | ❌ | Not Translated |
 | 한국어 | ❌ | Not Translated |
 
 # Contributing Guidelines
@@ -148,7 +148,9 @@ For business inquiries, please contact us at `submergedamongus@gmail.com`.
 - Additional Art
   - [acronmd](https://twitter.com/acronmd/)
 - Translators
-  - [Hecker](https://www.twitch.tv/heckertv/) - 中國人
+  - [Hecker黑客](https://www.twitch.tv/heckertv/) - 中國人
   - [MissJukebox](https://www.twitch.tv/missjukebox/) - Español
-  - [wild_lou](https://twitter.com/Psyco_Lou/) - Português (Brasil)
+  - Monid73 - Русский
+  - RobinRMC - Nederlands
+  - [wild_lou](https://twitter.com/Psyco_Lou/) - Português do Brasil
   - [ねろちゃん](https://www.twitch.tv/zackdnerrr/) - 日本語
