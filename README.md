@@ -34,13 +34,11 @@ Submerged is a mod for Among Us which adds a new map into the game.
 
 # Releases
 
-The changelog for each version can be found under the [Releases](https://github.com/SubmergedAmongUs/Submerged/releases) tab.
-
-Any Among Us versions not listed here are not compatible with Submerged.
+The table below only contains Steam versions. The changelog for each version can be found under the [Releases](https://github.com/SubmergedAmongUs/Submerged/releases) tab.
 
 | Among Us Version | Submerged Version | Links |
 |:-:|:-:|:-:|
-| v2022.3.29s | v2022.5.8 | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.5.8/) |
+| v2022.3.29s | v2022.5.14 | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.5.14/) |
 
 # Compatibility With Other Mods
 
@@ -50,6 +48,7 @@ Note: Using Submerged with any other mods might cause bugs or issues, unless the
 |-|:-:|:-:|
 | [Las Monjas](https://github.com/KiraYamato94/LasMonjas/) | ✅ | Supported<br>(as of [v1.5.0](https://github.com/KiraYamato94/LasMonjas/releases/tag/1.5.0)) |
 | [The Other Roles](https://github.com/Eisbison/TheOtherRoles) | ✅ | Supported<br>(as of [v4.1.0](https://github.com/Eisbison/TheOtherRoles/releases/tag/v4.1.0)) |
+| [BetterCrewLink](https://github.com/OhMyGuus/BetterCrewLink) | 🟢 | Compatible<br>(Partially Supported) |
 | [Reactor](https://github.com/nuclearpowered/reactor) | 🟢 | Compatible |
 | [Region Install](https://github.com/miniduikboot/Mini.RegionInstall) | 🟢 | Compatible |
 | [Town of Us Reactivated](https://github.com/eDonnes124/Town-Of-Us-R) | 🕓 | In Progress |
@@ -93,11 +92,11 @@ Submerged is available in the languages listed below. If you would like to help 
 | English | ✅ | - |
 | Português (Brasil) | ✅ | Fully Translated |
 | Español | ✅ | Fully Translated |
+| Nederlands | ✅ | Fully Translated |
+| Русский | ✅ | Fully Translated |
 | 简体中文 | ✅ | Fully Translated |
 | 繁體中文 | ✅ | Fully Translated |
 | 日本語 | 🟡 | Mostly Translated |
-| Nederlands | 🟠 | In Progress<br>(Partially Translated) |
-| Русский | 🟠 | In Progress<br>(Partially Translated) |
 | Italiano | 🔴 | In Progress<br>(Not Translated) |
 | Español (Latinoamérica) | ❌ | Not Translated<br>(Using Español) |
 | Bisaya | ❌ | Not Translated |
@@ -148,9 +147,10 @@ For business inquiries, please contact us at `submergedamongus@gmail.com`.
 - Additional Art
   - [acronmd](https://twitter.com/acronmd/)
 - Translators
-  - [Hecker黑客](https://www.twitch.tv/heckertv/) - 中國人
   - [MissJukebox](https://www.twitch.tv/missjukebox/) - Español
   - Monid73 - Русский
   - RobinRMC - Nederlands
   - [wild_lou](https://twitter.com/Psyco_Lou/) - Português do Brasil
   - [ねろちゃん](https://www.twitch.tv/zackdnerrr/) - 日本語
+  - 阿龍DragonTw - 繁體中文
+  - [黑客Hecker](https://www.twitch.tv/heckertv/) - 简体中文
