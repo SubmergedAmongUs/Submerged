@@ -38,7 +38,7 @@ The table below only contains Steam versions. The changelog for each version can
 
 | Among Us Version | Submerged Version | Links |
 |:-:|:-:|:-:|
-| v2022.3.29s | v2022.5.14 | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.5.14/) |
+| v2022.3.29s | v2022.5.16 | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.5.16/) |
 
 # Compatibility With Other Mods
 
