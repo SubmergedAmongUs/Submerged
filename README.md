@@ -34,11 +34,11 @@ Submerged is a mod for Among Us which adds a new map into the game.
 
 # Releases
 
-The table below only contains Steam versions. The changelog for each version can be found under the [Releases](https://github.com/SubmergedAmongUs/Submerged/releases) tab.
+The table below only contains Steam versions of Among Us. The changelog for each version can be found under the [Releases](https://github.com/SubmergedAmongUs/Submerged/releases) tab.
 
 | Among Us Version | Submerged Version | Links |
 |:-:|:-:|:-:|
-| v2022.3.29s | v2022.5.16 | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.5.16/) |
+| v2022.3.29s | v2022.5.17 | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.5.17/) |
 
 # Compatibility With Other Mods
 
@@ -90,9 +90,10 @@ Submerged is available in the languages listed below. If you would like to help 
 | Language | ❔ | Status |
 |-|:-:|:-:|
 | English | ✅ | - |
-| Português (Brasil) | ✅ | Fully Translated |
+| Deutsch | ✅ | Fully Translated |
 | Español | ✅ | Fully Translated |
 | Nederlands | ✅ | Fully Translated |
+| Português (Brasil) | ✅ | Fully Translated |
 | Русский | ✅ | Fully Translated |
 | 简体中文 | ✅ | Fully Translated |
 | 繁體中文 | ✅ | Fully Translated |
@@ -100,7 +101,6 @@ Submerged is available in the languages listed below. If you would like to help 
 | Italiano | 🔴 | In Progress<br>(Not Translated) |
 | Español (Latinoamérica) | ❌ | Not Translated<br>(Using Español) |
 | Bisaya | ❌ | Not Translated |
-| Deutsch | ❌ | Not Translated |
 | Français | ❌ | Not Translated |
 | Gaeilge | ❌ | Not Translated |
 | Português | ❌ | Not Translated |
@@ -147,6 +147,7 @@ For business inquiries, please contact us at `submergedamongus@gmail.com`.
 - Additional Art
   - [acronmd](https://twitter.com/acronmd/)
 - Translators
+  - [ItsNiceCraft](https://linktr.ee/itsnicecraft) - Deutsch
   - [MissJukebox](https://www.twitch.tv/missjukebox/) - Español
   - Monid73 - Русский
   - RobinRMC - Nederlands
