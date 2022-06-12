@@ -34,7 +34,7 @@ Submerged is a mod for Among Us which adds a new map into the game.
 
 # Releases
 
-The table below only contains Steam versions of Among Us. The changelog for each version can be found under the [Releases](https://github.com/SubmergedAmongUs/Submerged/releases) tab.
+The table below only contains Steam versions of Among Us, however Submerged is compatible with Epic Games and Itch.io versions as well. The changelog for each version can be found under the [Releases](https://github.com/SubmergedAmongUs/Submerged/releases) tab.
 
 | Among Us Version | Submerged Version | Links |
 |:-:|:-:|:-:|
@@ -46,12 +46,15 @@ Note: Using Submerged with any other mods might cause bugs or issues, unless the
 
 | Mod | ❔ | Status |
 |-|:-:|:-:|
-| [Las Monjas](https://github.com/KiraYamato94/LasMonjas/) | ✅ | Supported<br>(as of [v1.5.0](https://github.com/KiraYamato94/LasMonjas/releases/tag/1.5.0)) |
-| [The Other Roles](https://github.com/Eisbison/TheOtherRoles) | ✅ | Supported<br>(as of [v4.1.0](https://github.com/Eisbison/TheOtherRoles/releases/tag/v4.1.0)) |
+| [LasMonjas](https://github.com/KiraYamato94/LasMonjas/) | ✅ | Supported<br>(as of [v1.5.0](https://github.com/KiraYamato94/LasMonjas/releases/tag/1.5.0)) |
+| [TheOtherRoles](https://github.com/Eisbison/TheOtherRoles) | ✅ | Supported<br>(as of [v4.1.0](https://github.com/Eisbison/TheOtherRoles/releases/tag/v4.1.0)) |
+| [TheOtherRoles-GM-Haoming](https://github.com/haoming37/TheOtherRoles-GM-Haoming) | ✅ | Supported<br>(as of [v2.0.10](https://github.com/haoming37/TheOtherRoles-GM-Haoming/releases/tag/v2.0.10)) |
+| [Town-Of-Us-R](https://github.com/eDonnes124/Town-Of-Us-R) | ✅ | Supported<br>(as of [v3.1.0](https://github.com/eDonnes124/Town-Of-Us-R/releases/tag/v3.1.0)) |
 | [BetterCrewLink](https://github.com/OhMyGuus/BetterCrewLink) | 🟢 | Compatible<br>(Partially Supported) |
 | [Reactor](https://github.com/nuclearpowered/reactor) | 🟢 | Compatible |
-| [Region Install](https://github.com/miniduikboot/Mini.RegionInstall) | 🟢 | Compatible |
-| [Town of Us Reactivated](https://github.com/eDonnes124/Town-Of-Us-R) | 🕓 | In Progress |
+| [RegionInstall](https://github.com/miniduikboot/Mini.RegionInstall) | 🟢 | Compatible |
+
+_If you are aware of the compatibility status of any mods not in this list, please let us know by [opening an issue](https://github.com/SubmergedAmongUs/Submerged/issues/new/choose/) or contacting us at `submergedamongus@gmail.com`._
 
 If you are a mod developer, the [FOR MOD DEVELOPERS.md](./FOR%20MOD%20DEVELOPERS.md) file includes more information on how to make your mod compatible with Submerged. If you need any help with compatibility patches, feel free to contact us on Discord. You may also include and redistribute Submerged with your mod, under the terms of the [license](LICENSE.md).
 
@@ -60,7 +63,7 @@ If you are a mod developer, the [FOR MOD DEVELOPERS.md](./FOR%20MOD%20DEVELOPERS
 | Server | ❔ | Status |
 |-|:-:|:-:|
 | Officials | ✅ | Supported |
-| [Impostor](https://github.com/Impostor/Impostor/) | ✅ | Supported<br>(as of [v1.7.0-ci.253](https://ci.appveyor.com/project/Impostor/Impostor/builds/43291915/artifacts)) |
+| [Impostor](https://github.com/Impostor/Impostor/) | ✅ | Supported<br>(as of [v1.7.0-ci.255](https://ci.appveyor.com/project/Impostor/Impostor/builds/43660970/artifacts)) |
 | [Hindenburg](https://github.com/SkeldJS/Hindenburg/) | ❌ | Not Supported |
 
 # Installation
@@ -92,17 +95,17 @@ Submerged is available in the languages listed below. If you would like to help 
 | English | ✅ | - |
 | Deutsch | ✅ | Fully Translated |
 | Español | ✅ | Fully Translated |
+| Français | ✅ | Fully Translated |
 | Nederlands | ✅ | Fully Translated |
 | Português (Brasil) | ✅ | Fully Translated |
 | Русский | ✅ | Fully Translated |
 | 简体中文 | ✅ | Fully Translated |
 | 繁體中文 | ✅ | Fully Translated |
 | 日本語 | 🟡 | Mostly Translated |
-| Italiano | 🔴 | In Progress<br>(Not Translated) |
-| Español (Latinoamérica) | ❌ | Not Translated<br>(Using Español) |
 | Bisaya | ❌ | Not Translated |
-| Français | ❌ | Not Translated |
+| Español (Latinoamérica) | ❌ | Not Translated<br>(Using Español) |
 | Gaeilge | ❌ | Not Translated |
+| Italiano | ❌ | Not Translated |
 | Português | ❌ | Not Translated |
 | 한국어 | ❌ | Not Translated |
 
@@ -150,8 +153,9 @@ For business inquiries, please contact us at `submergedamongus@gmail.com`.
   - [ItsNiceCraft](https://linktr.ee/itsnicecraft) - Deutsch
   - [MissJukebox](https://www.twitch.tv/missjukebox/) - Español
   - Monid73 - Русский
+  - [RevoLou](https://twitter.com/Psyco_Lou/) - Português do Brasil
   - RobinRMC - Nederlands
-  - [wild_lou](https://twitter.com/Psyco_Lou/) - Português do Brasil
+  - [SPRLC](https://twitter.com/SuperLanceur) - Français
   - [ねろちゃん](https://www.twitch.tv/zackdnerrr/) - 日本語
   - 阿龍DragonTw - 繁體中文
   - [黑客Hecker](https://www.twitch.tv/heckertv/) - 简体中文
