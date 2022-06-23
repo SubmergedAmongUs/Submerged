@@ -38,6 +38,7 @@ The table below only contains Steam versions of Among Us, however Submerged is c
 
 | Among Us Version | Submerged Version | Links |
 |:-:|:-:|:-:|
+| v2022.6.21s | v2022.6.23 | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.6.23/) |
 | v2022.3.29s | v2022.6.12 | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.6.12/) |
 
 # Compatibility With Other Mods
@@ -64,7 +65,7 @@ If you are a mod developer, the [FOR MOD DEVELOPERS.md](./FOR%20MOD%20DEVELOPERS
 |-|:-:|:-:|
 | Officials | ✅ | Supported |
 | [Impostor](https://github.com/Impostor/Impostor/) | ✅ | Supported<br>(as of [v1.7.0-ci.255](https://ci.appveyor.com/project/Impostor/Impostor/builds/43660970/artifacts)) |
-| [Hindenburg](https://github.com/SkeldJS/Hindenburg/) | ❌ | Not Supported |
+| [Hindenburg](https://github.com/SkeldJS/Hindenburg/) | 🕓 | In Progress |
 
 # Installation
 
