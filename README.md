@@ -38,6 +38,8 @@ The table below only contains Steam versions of Among Us, however Submerged is c
 
 | Among Us Version | Submerged Version | Links |
 |:-:|:-:|:-:|
+| v2022.8.24s | v2022.8.26 | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.8.26/) |
+| v2022.7.12s | v2022.6.23 | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.6.23/) |
 | v2022.6.21s | v2022.6.23 | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.6.23/) |
 | v2022.3.29s | v2022.6.12 | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.6.12/) |
 
@@ -47,6 +49,8 @@ Note: Using Submerged with any other mods might cause bugs or issues, unless the
 
 | Mod | ❔ | Status |
 |-|:-:|:-:|
+| [BetterTownOfUs](https://github.com/VincentVision/BetterTownOfUs) | ✅ | Supported<br>(as of [v2.1.13](https://github.com/VincentVision/BetterTownOfUs/releases/tag/2.1.13)) |
+| [ExtremeRoles](https://github.com/yukieiji/ExtremeRoles/) | ✅ | Supported<br>(as of [v3.0.0](https://github.com/yukieiji/ExtremeRoles/releases/tag/v3.0.0.0)) |
 | [LasMonjas](https://github.com/KiraYamato94/LasMonjas/) | ✅ | Supported<br>(as of [v1.5.0](https://github.com/KiraYamato94/LasMonjas/releases/tag/1.5.0)) |
 | [TheOtherRoles](https://github.com/Eisbison/TheOtherRoles) | ✅ | Supported<br>(as of [v4.1.0](https://github.com/Eisbison/TheOtherRoles/releases/tag/v4.1.0)) |
 | [TheOtherRoles-GM-Haoming](https://github.com/haoming37/TheOtherRoles-GM-Haoming) | ✅ | Supported<br>(as of [v2.0.10](https://github.com/haoming37/TheOtherRoles-GM-Haoming/releases/tag/v2.0.10)) |
@@ -64,8 +68,7 @@ If you are a mod developer, the [FOR MOD DEVELOPERS.md](./FOR%20MOD%20DEVELOPERS
 | Server | ❔ | Status |
 |-|:-:|:-:|
 | Officials | ✅ | Supported |
-| [Impostor](https://github.com/Impostor/Impostor/) | ✅ | Supported<br>(as of [v1.7.0-ci.255](https://ci.appveyor.com/project/Impostor/Impostor/builds/43660970/artifacts)) |
-| [Hindenburg](https://github.com/SkeldJS/Hindenburg/) | 🕓 | In Progress |
+| [Impostor](https://github.com/Impostor/Impostor/) | ✅ | Supported |
 
 # Installation
 

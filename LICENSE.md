@@ -12,13 +12,13 @@ We allow our users to create and publish Submerged content or videos to any webs
 
 <i>This is a human-readable summary of (and not a substitute for) the license.</i>
 
-- <p>You may share, distribute, or include Submerged <i>non-commercially</i> in your own modpack or mod downloads, under the condition that you do not modify Submerged in any capacity, (including physically modifying the assembly or patching the mod) with the exception of ensuring compatibility between Submerged and your mod.</p>
+<p>You may share, distribute, or include Submerged in your own modpack or mod downloads, under the following conditions:</p>
 
-    - For clarification, you are still allowed to request payments, donations, etc. or have
-      premium-only features in your mod, but you may not sell users the access to play on
-      Submerged with your mod/modpack.
+  - You may not modify the Submerged assembly in any capacity.
+  
+      - You may, however, use Harmony to patch the Submerged assembly, as long as your modifications are for ensuring compatibility with other mods.
 
-- If Submerged stops being distributed, you must remove it from your mod/modpack as well.
+  - You may not sell users the access to play on Submerged with your mod/modpack. Any features your mod/modpack offers on the base-game maps cannot be paywalled for Submerged.
 
 ---
 
@@ -28,7 +28,7 @@ We allow our users to create and publish Submerged content or videos to any webs
 <ol type="a">
 <li id="s1g"><strong>Licensor</strong> means the individual(s) or entity(ies) granting rights under this Public License.</li>
 <li id="s1k"><strong>You</strong> means the individual or entity exercising the Licensed Rights under this Public License. <strong>Your</strong> has a corresponding meaning.</li>
-<li id="s1e"><strong>Licensed Material</strong> means the technological or artistic work, or other material to which the Licensor applied this License.</li>
+<li id="s1e"><strong>Licensed Material</strong> means the technological or artistic work, or other material to which the Licensor applied this License. Screenshots and recordings of the Licensed Material are not considered part of the Licensed Material.</li>
 <li id="s1f"><strong>Licensed Rights</strong> means the rights granted to You subject to the terms and conditions of this License and that the Licensor has authority to license.</li>
 <li id="s1d"><strong>Exceptions</strong> means any exemptions to the License negociated between You and the Licensor.</li>
 <li id="s1d2"><strong>Limitations</strong> means any limitations to the License imposed on You by the Licensor.</li>
@@ -40,7 +40,7 @@ We allow our users to create and publish Submerged content or videos to any webs
 <ol>
 <li id="s2a1">Subject to the terms and conditions of this Public License, the Licensor hereby grants You a worldwide, royalty-free, non-sublicensable, non-exclusive, but revocable license to exercise the Licensed Rights in the Licensed Material, and to Share the Licensed Material, in whole, for non-commercial purposes only.
 </li><li id="s2a2"><span style="text-decoration: underline;">Exceptions and Limitations</span>. For the avoidance of doubt, where Exceptions and Limitations apply to Your use, this Public License does not apply, and You do not need to comply with its terms and conditions.</li>
-<li id="s2a3"><span style="text-decoration: underline;">Term</span>. The term of this Public License is specified in Section <a href="#s5a">5(a)</a>.</li>
+<li id="s2a3"><span style="text-decoration: underline;">Term</span>. The term of this Public License is specified in Section <a href="#s5">5</a>.</li>
 <li id="s2a5"><span style="text-decoration: underline;">Downstream recipients</span>.
 <div class="para">
 <ol type="A">
@@ -68,14 +68,15 @@ We allow our users to create and publish Submerged content or videos to any webs
 </ol>
 </li>
 <li id="s3a2">You may satisfy the conditions in Section <a href="#s3a1">3(a)(1)</a> in any reasonable manner based on the medium, means, and context in which You Share the Licensed Material. For example, it may be reasonable to satisfy the conditions by providing a URI or hyperlink to a resource that includes the required information.</li>
-<li id="s3a3">If requested by the Licensor, You must remove any of the information required by Section <a href="#s3a1A">3(a)(1)(A)</a> to the extent reasonably practicable.</li>
 </ol>
 </li>
-<li><p><strong>No Modification</strong>.</p>
+<li id="s3b"><p><strong>No Modification</strong>.</p>
 <ol>
-<li id="s3a1"><p>If You Share the Licensed Material, You must:</p>
+<li id="s3b1"><p>If You Share the Licensed Material, You must:</p>
 <ol type="A">
-<li id="s3a1B">not modify the Licensed Material in any capacity, including digital modifications of the Licensed Material, and extensions or attachments to the Licensed Material which modify how the Licensed Material operates.</li>
+<li id="s3b1A">not modify the files contained within the Licensed Material in any capacity, such as digital modifications of the Licensed Material.</li>
+<li id="s3b1B">not modify the operation of the files contained within the Licensed Material by any means, such as runtime DLL injection or patching, unless the modifications were made with the intention of facilitating compatibility between the Licensed Material and other software.</li>
+<li id="s3b1C">ensure that other software shared alongside the Licensed Material, if present, does not include any features that are generally available, but require payment to be used in conjunction with the Licensed Material.</li>
 </ol>
 </ol>
 </ol>
@@ -90,21 +91,31 @@ We allow our users to create and publish Submerged content or videos to any webs
 </ol>
 <p id="s5"><strong>Section 5 – Term and Termination.</strong></p>
 <ol type="a">
-<li id="s5a">If You fail to comply with this License, then Your rights under this License terminate automatically. The Licensor may also choose to terminate Your rights under License at any time, without specifying a reason.</li>
-<li id="s5b">
+<li id="s5a">If You fail to comply with this License, then Your rights under this License terminate automatically.
+<ul>
+<li>
 <p>Where Your right to use the Licensed Material has terminated under Section <a href="#s5a">5(a)</a>, it reinstates:</p>
-<ol>
-<li id="s5b1">automatically as of the date the violation is cured, provided it is cured within 15 days of Your discovery of the violation; or</li>
-<li id="s5b2">upon express reinstatement by the Licensor.</li>
+<ol type="A">
+<li id="s5a1">automatically as of the date the violation is cured, provided it is cured within 7 days of Your discovery of the violation; or</li>
+<li id="s5a2">upon express reinstatement by the Licensor.</li>
 </ol>
-For the avoidance of doubt, this Section <a href="#s5b">5(b)</a> does not affect any right the Licensor may have to seek remedies for Your violations of this License.</li>
-<li id="s5c">The Licensor may offer the Licensed Material under separate terms or conditions; however, doing so will not terminate this License.</li>
-<li>The Licensor may choose to stop distributing the Licensed Material at any time. In doing so, Your rights under License will be terminated unless they are expressly reinstated by the Licensor.</li>
-<li id="s5d">Sections <a href="#s1">1</a>, <a href="#s4">4</a>, <a href="#s5">5</a>, and <a href="#s6">6</a> survive termination of this License.</li>
+</li>
+</ul>
+</li>
+<li id="s5b">The Licensor may choose to terminate Your rights under License at any time, without specifying a reason.
+<ul>
+<li>
+<p>Where Your right to use the Licensed Material has terminated under Section <a href="#s5b">5(b)</a>, it reinstates only upon express reinstatement by the Licensor.</p>
+</li>
+</ul>
+</li>
+<li id="s5c">For the avoidance of doubt, the Sections <a href="#s5a">5(a)</a> and <a href="#s5b">5(b)</a> do not affect any right the Licensor may have to seek remedies for Your violations of this License.</li>
+<li id="s5d">The Licensor may offer the Licensed Material under separate terms or conditions; however, doing so will not terminate this License.</li>
+<li id="s5e">Sections <a href="#s1">1</a>, <a href="#s4">4</a>, <a href="#s5">5</a>, and <a href="#s6">6</a> survive termination of this License.</li>
 </ol>
 <p id="s6"><strong>Section 6 – Other Terms and Conditions.</strong></p>
 <ol type="a">
 <li id="s6a">The Licensor shall not be bound by any additional or different terms or conditions communicated by You unless expressly agreed.</li>
 <li id="s6b">Any arrangements, understandings, or agreements regarding the Licensed Material not stated herein are separate from and independent of the terms and conditions of this License.</li>
-<li id="s6c">Exemptions from this License may be negotiated with the Licensor.</li>
+<li id="s6c">Exemptions from this License or alternative licenses may be negotiated with the Licensor.</li>
 </ol>
