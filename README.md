@@ -34,29 +34,32 @@ Submerged is a mod for Among Us which adds a new map into the game.
 
 # Releases
 
-The table below only contains Steam versions of Among Us, however Submerged is compatible with Epic Games and Itch.io versions as well. The changelog for each version can be found under the [Releases](https://github.com/SubmergedAmongUs/Submerged/releases) tab.
+Submerged is compatible with desktop releases of Among Us. This includes Steam, Epic Games and Itch.io. We do not support cracked versions of Among Us.
+
+The table below lists the most recent Submerged release for each Among Us version after `v2022.3.29` (for desktop platforms only). The changelog for each version can be found under the [Releases](https://github.com/SubmergedAmongUs/Submerged/releases) tab.
 
 | Among Us Version | Submerged Version | Links |
 |:-:|:-:|:-:|
-| v2022.8.24s | v2022.8.26 | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.8.26/) |
-| v2022.7.12s | v2022.6.23 | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.6.23/) |
-| v2022.6.21s | v2022.6.23 | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.6.23/) |
-| v2022.3.29s | v2022.6.12 | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.6.12/) |
+| `v2022.10.25` | `v2022.10.26` | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.10.26/) |
+| `v2022.10.18` | - | Unavailable |
+| `v2022.9.20`<br>`v2022.8.25`<br>`v2022.8.24`<br>`v2022.8.23` | `v2022.8.26` | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.8.26/) |
+| `v2022.7.12`<br>`v2022.6.21` | `v2022.6.23` | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.6.23/) |
+| `v2022.4.19`<br>`v2022.3.29` | `v2022.6.12` | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.6.12/) |
 
 # Compatibility With Other Mods
 
-Note: Using Submerged with any other mods might cause bugs or issues, unless the developers of the those mods have ensured that their mod is compatible with Submerged. If you encounter problems while using Submerged with other mods, please contact the developers of those mods. 
+Note: Using Submerged with any other mods might cause bugs or issues, unless the developers of the those mods have ensured that their mod is compatible with Submerged. If you encounter problems while using Submerged with other mods, please contact the developers of those mods.
 
 | Mod | ❔ | Status |
 |-|:-:|:-:|
-| [BetterTownOfUs](https://github.com/VincentVision/BetterTownOfUs) | ✅ | Supported<br>(as of [v2.1.13](https://github.com/VincentVision/BetterTownOfUs/releases/tag/2.1.13)) |
-| [ExtremeRoles](https://github.com/yukieiji/ExtremeRoles/) | ✅ | Supported<br>(as of [v3.0.0](https://github.com/yukieiji/ExtremeRoles/releases/tag/v3.0.0.0)) |
-| [LasMonjas](https://github.com/KiraYamato94/LasMonjas/) | ✅ | Supported<br>(as of [v1.5.0](https://github.com/KiraYamato94/LasMonjas/releases/tag/1.5.0)) |
-| [TheOtherRoles](https://github.com/Eisbison/TheOtherRoles) | ✅ | Supported<br>(as of [v4.1.0](https://github.com/Eisbison/TheOtherRoles/releases/tag/v4.1.0)) |
-| [TheOtherRoles-GM-Haoming](https://github.com/haoming37/TheOtherRoles-GM-Haoming) | ✅ | Supported<br>(as of [v2.0.10](https://github.com/haoming37/TheOtherRoles-GM-Haoming/releases/tag/v2.0.10)) |
-| [Town-Of-Us-R](https://github.com/eDonnes124/Town-Of-Us-R) | ✅ | Supported<br>(as of [v3.1.0](https://github.com/eDonnes124/Town-Of-Us-R/releases/tag/v3.1.0)) |
+| [Reactor](https://github.com/nuclearpowered/reactor) | 🔗 | Required |
+| [BetterTownOfUs](https://github.com/VincentVision/BetterTownOfUs) | ✅ | Supported |
+| [ExtremeRoles](https://github.com/yukieiji/ExtremeRoles/) | ✅ | Supported |
+| [LasMonjas](https://github.com/KiraYamato94/LasMonjas/) | ✅ | Supported |
+| [TheOtherRoles](https://github.com/Eisbison/TheOtherRoles) | ✅ | Supported |
+| [TheOtherRoles-GM-Haoming](https://github.com/haoming37/TheOtherRoles-GM-Haoming) | ✅ | Supported |
+| [Town-Of-Us-R](https://github.com/eDonnes124/Town-Of-Us-R) | ✅ | Supported |
 | [BetterCrewLink](https://github.com/OhMyGuus/BetterCrewLink) | 🟢 | Compatible<br>(Partially Supported) |
-| [Reactor](https://github.com/nuclearpowered/reactor) | 🟢 | Compatible |
 | [RegionInstall](https://github.com/miniduikboot/Mini.RegionInstall) | 🟢 | Compatible |
 
 _If you are aware of the compatibility status of any mods not in this list, please let us know by [opening an issue](https://github.com/SubmergedAmongUs/Submerged/issues/new/choose/) or contacting us at `submergedamongus@gmail.com`._
@@ -103,9 +106,9 @@ Submerged is available in the languages listed below. If you would like to help 
 | Nederlands | ✅ | Fully Translated |
 | Português (Brasil) | ✅ | Fully Translated |
 | Русский | ✅ | Fully Translated |
+| 日本語 | ✅ | Fully Translated |
 | 简体中文 | ✅ | Fully Translated |
 | 繁體中文 | ✅ | Fully Translated |
-| 日本語 | 🟡 | Mostly Translated |
 | Bisaya | ❌ | Not Translated |
 | Español (Latinoamérica) | ❌ | Not Translated<br>(Using Español) |
 | Gaeilge | ❌ | Not Translated |
@@ -137,7 +140,6 @@ For business inquiries, please contact us at `submergedamongus@gmail.com`.
   - [AlexejheroYTB](https://twitter.com/AlexejheroYTB/)
   - [arctic_zeph](https://twitter.com/arctic_zeph/)
   - [associatedlogos](https://twitter.com/associatedlogos/)
-  - [roobscoob1](https://twitter.com/roobscoob1/)
 - Map Design
   - [Axyn](https://twitter.com/itsAxyn/)
   - [Blaustoise](https://twitter.com/blaustoise/)
@@ -154,6 +156,7 @@ For business inquiries, please contact us at `submergedamongus@gmail.com`.
 - Additional Art
   - [acronmd](https://twitter.com/acronmd/)
 - Translators
+  - [Dekokiyo](https://twitter.com/DekoKiyomori) - 日本語
   - [ItsNiceCraft](https://linktr.ee/itsnicecraft) - Deutsch
   - [MissJukebox](https://www.twitch.tv/missjukebox/) - Español
   - Monid73 - Русский
