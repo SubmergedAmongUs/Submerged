@@ -1,4 +1,4 @@
-![Submerged](./Images/Icon.png)
+![Submerged](./.github/Images/Icon.png)
 
 # Submerged
 
@@ -21,57 +21,41 @@ Submerged is a mod for Among Us which adds a new map into the game.
   
 [See the trailer on YouTube](http://www.youtube.com/watch?v=gAX_mDOX4Pc)
 
-![Screenshot 1](./Images/Screenshot-1.png)
-![Screenshot 2](./Images/Screenshot-2.png)
-![Screenshot 3](./Images/Screenshot-3.png)
-![Screenshot 4](./Images/Screenshot-4.png)
-![Screenshot 5](./Images/Screenshot-5.png)
-![Screenshot 6](./Images/Screenshot-6.png)
-![Screenshot 7](./Images/Screenshot-7.png)
-![Screenshot 8](./Images/Screenshot-8.png)
+![Screenshot 1](./.github/Images/Screenshot-1.png)
+![Screenshot 2](./.github/Images/Screenshot-2.png)
+![Screenshot 3](./.github/Images/Screenshot-3.png)
+![Screenshot 4](./.github/Images/Screenshot-4.png)
+![Screenshot 5](./.github/Images/Screenshot-5.png)
+![Screenshot 6](./.github/Images/Screenshot-6.png)
+![Screenshot 7](./.github/Images/Screenshot-7.png)
+![Screenshot 8](./.github/Images/Screenshot-8.png)
 
 </details>
 
 # Releases
 
-Submerged is compatible with desktop releases of Among Us. This includes Steam, Epic Games and Itch.io. We do not support cracked versions of Among Us.
+Submerged is compatible with desktop releases of Among Us. This includes Steam, Epic Games and itch.io. We do not support cracked versions of Among Us.
 
 The table below lists the most recent Submerged release for each Among Us version after `v2022.3.29` (for desktop platforms only). The changelog for each version can be found under the [Releases](https://github.com/SubmergedAmongUs/Submerged/releases) tab.
 
 | Among Us Version | Submerged Version | Links |
 |:-:|:-:|:-:|
+| `v2023.7.12`<br>`v2023.7.11` | `v2023.7.24` | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2023.7.24/) |
+| `v2023.6.27`<br>`v2023.6.13`<br>`v2023.3.28`<br>`v2023.2.28`<br>`v2022.12.14`<br>`v2022.12.8` | Unavailable | - |
 | `v2022.10.25` | `v2022.10.26` | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.10.26/) |
-| `v2022.10.18` | - | Unavailable |
+| `v2022.10.18` | Unavailable | - |
 | `v2022.9.20`<br>`v2022.8.25`<br>`v2022.8.24`<br>`v2022.8.23` | `v2022.8.26` | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.8.26/) |
 | `v2022.7.12`<br>`v2022.6.21` | `v2022.6.23` | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.6.23/) |
 | `v2022.4.19`<br>`v2022.3.29` | `v2022.6.12` | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.6.12/) |
 
-# Compatibility With Other Mods
+# Dependencies
 
-Note: Using Submerged with any other mods might cause bugs or issues, unless the developers of the those mods have ensured that their mod is compatible with Submerged. If you encounter problems while using Submerged with other mods, please contact the developers of those mods.
+Submerged depends on the following mods and modding tools in order to function properly:
 
-| Mod | ❔ | Status |
-|-|:-:|:-:|
-| [Reactor](https://github.com/nuclearpowered/reactor) | 🔗 | Required |
-| [BetterTownOfUs](https://github.com/VincentVision/BetterTownOfUs) | ✅ | Supported |
-| [ExtremeRoles](https://github.com/yukieiji/ExtremeRoles/) | ✅ | Supported |
-| [LasMonjas](https://github.com/KiraYamato94/LasMonjas/) | ✅ | Supported |
-| [TheOtherRoles](https://github.com/Eisbison/TheOtherRoles) | ✅ | Supported |
-| [TheOtherRoles-GM-Haoming](https://github.com/haoming37/TheOtherRoles-GM-Haoming) | ✅ | Supported |
-| [Town-Of-Us-R](https://github.com/eDonnes124/Town-Of-Us-R) | ✅ | Supported |
-| [BetterCrewLink](https://github.com/OhMyGuus/BetterCrewLink) | 🟢 | Compatible<br>(Partially Supported) |
-| [RegionInstall](https://github.com/miniduikboot/Mini.RegionInstall) | 🟢 | Compatible |
-
-_If you are aware of the compatibility status of any mods not in this list, please let us know by [opening an issue](https://github.com/SubmergedAmongUs/Submerged/issues/new/choose/) or contacting us at `submergedamongus@gmail.com`._
-
-If you are a mod developer, the [FOR MOD DEVELOPERS.md](./FOR%20MOD%20DEVELOPERS.md) file includes more information on how to make your mod compatible with Submerged. If you need any help with compatibility patches, feel free to contact us on Discord. You may also include and redistribute Submerged with your mod, under the terms of the [license](LICENSE.md).
-
-# Compatibility With Servers
-
-| Server | ❔ | Status |
-|-|:-:|:-:|
-| Officials | ✅ | Supported |
-| [Impostor](https://github.com/Impostor/Impostor/) | ✅ | Supported |
+| Mod | Version |
+|-|:-:|
+| [BepInEx](https://builds.bepinex.dev/projects/bepinex_be) (IL2CPP-win-x86) | `v6.0.0-be.671` |
+| [Reactor](https://github.com/nuclearpowered/reactor) | `v2.2.0` |
 
 # Installation
 
@@ -79,7 +63,7 @@ If you are a mod developer, the [FOR MOD DEVELOPERS.md](./FOR%20MOD%20DEVELOPERS
 
 This mod is only guaranteed to work on Windows operating systems. We have no plans on ensuring compatibility with Linux-based operating systems or Mac.
 
-This mod has been tested and works with the Steam, Epic and itch.io versions of Among Us. We do not support or endorse using a pirated version of Among Us with Submerged. 
+This mod has been tested and works with the Steam, Epic and itch.io versions of Among Us. We do not support or endorse using a pirated version of Among Us with Submerged.
 
 ## Installation Steps
 
@@ -87,7 +71,7 @@ This mod has been tested and works with the Steam, Epic and itch.io versions of 
 2. Navigate to your Among Us installation directory.
 3. Extract the downloaded files there. Ensure that the `BepInEx` folder is located in the same folder as the `Among Us.exe` file (Check screenshot below).
 
-![Folder Structure](./Images/Folder-Structure.png)
+![Folder Structure](./.github/Images/Folder-Structure.png)
 
 4. Run the game (Please note that the first launch might take some time).
 
@@ -100,21 +84,49 @@ Submerged is available in the languages listed below. If you would like to help 
 | Language | ❔ | Status |
 |-|:-:|:-:|
 | English | ✅ | - |
-| Deutsch | ✅ | Fully Translated |
-| Español | ✅ | Fully Translated |
 | Français | ✅ | Fully Translated |
-| Nederlands | ✅ | Fully Translated |
-| Português (Brasil) | ✅ | Fully Translated |
-| Русский | ✅ | Fully Translated |
 | 日本語 | ✅ | Fully Translated |
-| 简体中文 | ✅ | Fully Translated |
+| Deutsch | ✅ | Fully Translated |
 | 繁體中文 | ✅ | Fully Translated |
+| Español | 🟡 | Partially Translated |
+| Nederlands | 🟡 | Partially Translated |
+| Português (Brasil) | 🟡 | Partially Translated |
+| Русский | 🟡 | Partially Translated |
+| 简体中文 | 🟡 | Partially Translated |
 | Bisaya | ❌ | Not Translated |
 | Español (Latinoamérica) | ❌ | Not Translated<br>(Using Español) |
 | Gaeilge | ❌ | Not Translated |
 | Italiano | ❌ | Not Translated |
 | Português | ❌ | Not Translated |
 | 한국어 | ❌ | Not Translated |
+
+# Compatibility
+
+This mod tries to touch as little as possible in order to be compatible with as many other mods as possible. However, if you encounter any issues while using Submerged alongside other mods, **please contact the developers of those mods first** before reaching out to us, as we will only investigate Submerged-related issues and not issues related to other mods.
+
+If you are a mod developer, the [FOR MOD DEVELOPERS.md](./.github/FOR%20MOD%20DEVELOPERS.md) file includes more information on how to make your mod compatible with Submerged.
+
+Submerged is compatible both with official servers and [Impostor](https://github.com/Impostor/Impostor) servers.
+
+<!--
+
+# Contributing Guidelines
+
+Any and all contributions are welcome, but please keep in mind that Submerged is a finished project. We will not accept any new major features unless they are very cool 😎. If you want to add new features, please open an issue discussing your proposed changes before creating a pull request.
+
+Additionally feel free to [open an issue](https://github.com/SubmergedAmongUs/Submerged/issues/new/choose/) if you have a feature request, want to report a bug, or basically anything else.
+
+All pull request contributors are required to sign a [CLA](https://gist.github.com/Alexejhero/fabcc123434c6306bb5c3fde8a6bcd9c) (a bot will comment on opened pull requests with instructions).
+
+# License
+
+This mod is licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/). Please check [LICENSE.md](LICENSE.md) for more information.
+
+*This mod is not affiliated with Among Us or Innersloth LLC, and the content contained therein is not endorsed or otherwise sponsored by Innersloth LLC. Portions of the materials contained herein are property of Innersloth LLC. © Innersloth LLC.*
+
+For business inquiries, please contact us at `submergedamongus@gmail.com`.
+
+-->
 
 # Contributing Guidelines
 
@@ -132,14 +144,15 @@ _This mod is not affiliated with Among Us or Innersloth LLC, and the content con
 
 For business inquiries, please contact us at `submergedamongus@gmail.com`.
 
+
 # Credits
 
 - Project Lead
   - [5up](https://twitch.tv/5up/)
 - Developers
-  - [AlexejheroYTB](https://twitter.com/AlexejheroYTB/)
+  - [Alexejhero](https://github.com/Alexejhero/)
   - [arctic_zeph](https://twitter.com/arctic_zeph/)
-  - [associatedlogos](https://twitter.com/associatedlogos/)
+  - [probablyadnf](https://github.com/simonkellly/)
 - Map Design
   - [Axyn](https://twitter.com/itsAxyn/)
   - [Blaustoise](https://twitter.com/blaustoise/)
@@ -152,6 +165,7 @@ For business inquiries, please contact us at `submergedamongus@gmail.com`.
   - [xiiyta](https://twitter.com/xiiyta/)
 - Technical Support
   - [cybershard](https://github.com/cybershard/)
+  - [js6pak](https://github.com/js6pak)
   - [Sanae6](https://twitter.com/Sanae6k/)
 - Additional Art
   - [acronmd](https://twitter.com/acronmd/)

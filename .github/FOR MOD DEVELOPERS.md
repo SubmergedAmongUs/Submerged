@@ -1,3 +1,11 @@
+# NOTICE
+
+This document was written for Submerged version `v2022.5.1` and hasn't been updated since. Some information might be outdated, but most of it should be ok.
+
+If you have any doubts check the source code or contact me on discord: `@alexejhero`
+
+---
+
 # For Mod Developers
 
 Submerged tries to patch as little as possible in order to allow other mods to be easily updated to be compatible with it. However, there are a few classes and patches that we have, which will commonly conflict with most other mods.
@@ -7,7 +15,7 @@ Submerged tries to patch as little as possible in order to allow other mods to b
 # Networking-related IDs used by Submerged
 
 - SpawnablePrefabs
-  - `9` - SubmarineStatus
+  - `11` - SubmarineStatus
 - RPCCalls
   - `210` - SetCustomData
   - `211` - RequestChangeFloor
@@ -16,10 +24,10 @@ Submerged tries to patch as little as possible in order to allow other mods to b
   - `214` - OxygenDeath
 - Systems
   - `130` - SubmarineOxygenSystem
-  - `136` - SubmarineElevatorSystem (WestLeft)
-  - `137` - SubmarineElevatorSystem (WestRight)
-  - `138` - SubmarineElevatorSystem (EastLeft)
-  - `139` - SubmarineElevatorSystem (EastRight)
+  - `136` - SubmarineElevatorSystem (HallwayLeft)
+  - `137` - SubmarineElevatorSystem (HallwayRight)
+  - `138` - SubmarineElevatorSystem (LobbyLeft)
+  - `139` - SubmarineElevatorSystem (LobbyRight)
   - `140` - SubmarineElevatorSystem (Service)
   - `141` - SubmarinePlayerFloorSystem
   - `142` - SubmarineSecuritySabotageSystem
