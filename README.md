@@ -40,6 +40,7 @@ The table below lists the most recent Submerged release for each Among Us versio
 
 | Among Us Version | Submerged Version | Links |
 |:-:|:-:|:-:|
+| `v023.10.24` | `v2023.10.28` | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2023.10.28/) |
 | `v2023.7.12`<br>`v2023.7.11` | `v2023.8.2` | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2023.8.2/) |
 | `v2023.6.27`<br>`v2023.6.13`<br>`v2023.3.28`<br>`v2023.2.28`<br>`v2022.12.14`<br>`v2022.12.8` | Unavailable | - |
 | `v2022.10.25` | `v2022.10.26` | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.10.26/) |
@@ -85,13 +86,13 @@ Submerged is available in the languages listed below. If you would like to help 
 |-|:-:|:-:|
 | English | ✅ | - |
 | Français | ✅ | Fully Translated |
-| 日本語 | ✅ | Fully Translated |
 | Deutsch | ✅ | Fully Translated |
+| Português (Brasil) | ✅ | Fully Translated |
+| 日本語 | ✅ | Fully Translated |
 | 简体中文 | ✅ | Fully Translated |
 | 繁體中文 | ✅ | Fully Translated |
 | Español | 🟡 | Partially Translated |
 | Nederlands | 🟡 | Partially Translated |
-| Português (Brasil) | 🟡 | Partially Translated |
 | Русский | 🟡 | Partially Translated |
 | Bisaya | ❌ | Not Translated |
 | Español (Latinoamérica) | ❌ | Not Translated<br>(Using Español) |
@@ -171,7 +172,7 @@ For business inquiries, please contact us at `submergedamongus@gmail.com`.
   - [acronmd](https://twitter.com/acronmd/)
 - Translators
   - [Dekokiyo](https://twitter.com/DekoKiyomori) - 日本語
-  - [ItsNiceCraft](https://linktr.ee/itsnicecraft) - Deutsch
+  - [ItsNiceCraft](https://bento.me/itsnicecraft) - Deutsch
   - [MissJukebox](https://www.twitch.tv/missjukebox/) - Español
   - Monid73 - Русский
   - [RevoLou](https://twitter.com/Psyco_Lou/) - Português do Brasil
