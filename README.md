@@ -86,15 +86,15 @@ Submerged is available in the languages listed below. If you would like to help 
 | Language | ❔ | Status |
 |-|:-:|:-:|
 | English | ✅ | - |
-| Français | ✅ | Fully Translated |
 | Deutsch | ✅ | Fully Translated |
+| Français | ✅ | Fully Translated |
+| Nederlands | ✅ | Fully Translated |
 | Português (Brasil) | ✅ | Fully Translated |
+| Русский | ✅ | Fully Translated |
 | 日本語 | ✅ | Fully Translated |
 | 简体中文 | ✅ | Fully Translated |
 | 繁體中文 | ✅ | Fully Translated |
 | Español | 🟡 | Partially Translated |
-| Nederlands | 🟡 | Partially Translated |
-| Русский | 🟡 | Partially Translated |
 | Bisaya | ❌ | Not Translated |
 | Español (Latinoamérica) | ❌ | Not Translated<br>(Using Español) |
 | Gaeilge | ❌ | Not Translated |
