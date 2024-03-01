@@ -5,11 +5,9 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.OxygenateSeaPlants.MonoBehaviours;
 
 [RegisterInIl2Cpp]
-public sealed class CoralBehaviour : MonoBehaviour
+public sealed class CoralBehaviour(nint ptr) : MonoBehaviour(ptr)
 {
     public OxygenateCoralMinigame minigame;
-
-    public CoralBehaviour(IntPtr ptr) : base(ptr) { }
 
     private void OnTriggerEnter2D(Collider2D other)
     {

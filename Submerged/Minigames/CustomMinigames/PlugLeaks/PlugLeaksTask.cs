@@ -8,11 +8,9 @@ using Submerged.Map;
 namespace Submerged.Minigames.CustomMinigames.PlugLeaks;
 
 [RegisterInIl2Cpp]
-public sealed class PlugLeaksTask : NormalPlayerTask
+public sealed class PlugLeaksTask(nint ptr) : NormalPlayerTask(ptr)
 {
     public List<int> validConsoleIds;
-
-    public PlugLeaksTask(IntPtr ptr) : base(ptr) { }
 
     private void Awake()
     {
@@ -71,7 +69,6 @@ public sealed class PlugLeaksTask : NormalPlayerTask
         if (!Owner.AmOwner)
         {
             Arrow.gameObject.SetActive(false);
-
             return;
         }
 

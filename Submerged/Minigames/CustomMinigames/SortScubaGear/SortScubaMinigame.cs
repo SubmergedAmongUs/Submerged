@@ -12,20 +12,18 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.SortScubaGear;
 
 [RegisterInIl2Cpp]
-public sealed class SortScubaMinigame : Minigame
+public sealed class SortScubaMinigame(nint ptr) : Minigame(ptr)
 {
     public MinigameProperties properties;
 
-    public List<ScubaGearItem> scubaGearItems = new();
+    public List<ScubaGearItem> scubaGearItems = [];
 
-    public List<Transform> boxes = new();
+    public List<Transform> boxes = [];
 
-    public List<Draggable> hovering = new();
+    public List<Draggable> hovering = [];
 
     private bool _forceClose;
     public Dictionary<ScubaGearType, SortScubaBox> scubaBoxes = new();
-
-    public SortScubaMinigame(IntPtr ptr) : base(ptr) { }
 
     private void Start()
     {

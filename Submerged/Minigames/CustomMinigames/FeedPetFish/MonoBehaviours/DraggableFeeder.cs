@@ -6,7 +6,7 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.FeedPetFish.MonoBehaviours;
 
 [RegisterInIl2Cpp]
-public sealed class DraggableFeeder : MonoBehaviour
+public sealed class DraggableFeeder(nint ptr) : MonoBehaviour(ptr)
 {
     private const float SNAP_BACK_DURATION = 0.2f;
 
@@ -14,10 +14,10 @@ public sealed class DraggableFeeder : MonoBehaviour
 
     public Transform rotationTarget;
     public ParticleSystem fishFood;
-    public Transform fishFoodParent;
+    // public Transform fishFoodParent;
     public BoxCollider2D activatedArea;
 
-    public float shakeDuration = 3f;
+    // public float shakeDuration = 3f;
     private int _correctFoodIndex;
     private float _counter;
     private bool _isCorrectFood;
@@ -30,8 +30,6 @@ public sealed class DraggableFeeder : MonoBehaviour
     private Transform _myLid;
     private float _recordedMovement;
     private float _stepDuration;
-
-    public DraggableFeeder(IntPtr ptr) : base(ptr) { }
 
     private void Start()
     {

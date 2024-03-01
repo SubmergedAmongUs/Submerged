@@ -11,20 +11,17 @@ using AU = Submerged.BaseGame.Interfaces.AU;
 namespace Submerged.SpawnIn;
 
 [RegisterInIl2Cpp(typeof(ISystemType))]
-public sealed class SubmarineSpawnInSystem : CppObject, AU.ISystemType
+public sealed class SubmarineSpawnInSystem(nint ptr) : CppObject(ptr), AU.ISystemType
 {
     public SpawnInState currentState = SpawnInState.Loading;
-    public HashSet<byte> players = new();
+    public HashSet<byte> players = [];
     public float timer = 10;
 
-    public SubmarineSpawnInSystem() : base(ClassInjector.DerivedConstructorPointer<SubmarineSpawnInSystem>())
+    public SubmarineSpawnInSystem() : this(ClassInjector.DerivedConstructorPointer<SubmarineSpawnInSystem>())
     {
         ClassInjector.DerivedConstructorBody(this);
         Instance = this;
     }
-
-    [UsedImplicitly]
-    public SubmarineSpawnInSystem(IntPtr ptr) : base(ptr) { }
 
     public static SubmarineSpawnInSystem Instance { get; private set; }
 

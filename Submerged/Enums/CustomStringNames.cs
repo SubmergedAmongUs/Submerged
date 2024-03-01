@@ -8,7 +8,7 @@ public readonly struct CustomStringNames
 {
     #region Struct implementation
 
-    public static List<CustomStringNames> All { get; } = new();
+    public static List<CustomStringNames> All { get; } = [];
     private static readonly Dictionary<StringNames, CustomStringNames> _mapping = new();
 
     public readonly StringNames stringName;
@@ -34,6 +34,9 @@ public readonly struct CustomStringNames
     #region Enum members
 
     // ReSharper disable InconsistentNaming
+
+    public const int MINIMUM = 555_0_000;
+    public const int MAXIMUM = 555_9_999;
 
     // General
     public static readonly CustomStringNames Submerged = new(555_0_000, "Submerged");

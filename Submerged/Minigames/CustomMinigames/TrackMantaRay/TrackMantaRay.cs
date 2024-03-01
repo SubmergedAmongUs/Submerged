@@ -10,7 +10,7 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.TrackMantaRay;
 
 [RegisterInIl2Cpp]
-public sealed class TrackMantaMinigame : Minigame
+public sealed class TrackMantaMinigame(nint ptr) : Minigame(ptr)
 {
     private const float LERP_TIME = 0.3f;
 
@@ -18,7 +18,7 @@ public sealed class TrackMantaMinigame : Minigame
     private const float SWIM_SPEED = 2.22f * 8f;
     private const float TIME_TO_TRACK = 5f;
 
-    private readonly List<Vector2> _positions = new();
+    private readonly List<Vector2> _positions = [];
 
     private bool _amTracking;
     private Vector2 _lastPosition;
@@ -34,8 +34,6 @@ public sealed class TrackMantaMinigame : Minigame
     private float _timeTracked;
 
     private ClickableSprite _trackingCollider;
-
-    public TrackMantaMinigame(IntPtr ptr) : base(ptr) { }
 
     private void Start()
     {

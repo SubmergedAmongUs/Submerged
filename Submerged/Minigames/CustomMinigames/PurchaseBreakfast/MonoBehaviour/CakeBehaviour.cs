@@ -8,7 +8,7 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.PurchaseBreakfast.MonoBehaviour;
 
 [RegisterInIl2Cpp]
-public sealed class CakeBehaviour : UnityEngine.MonoBehaviour
+public sealed class CakeBehaviour(nint ptr) : UnityEngine.MonoBehaviour(ptr)
 {
     public PurchaseBreakfastMinigame minigame;
 
@@ -25,8 +25,6 @@ public sealed class CakeBehaviour : UnityEngine.MonoBehaviour
     public SpriteRenderer rightNumber;
 
     public Dictionary<int, Sprite> numbers;
-
-    public CakeBehaviour(IntPtr ptr) : base(ptr) { }
 
     private void Awake()
     {

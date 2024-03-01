@@ -6,13 +6,11 @@ using UnityEngine;
 namespace Submerged.UI;
 
 [RegisterInIl2Cpp]
-public sealed class CreditsScreenManager : MonoBehaviour
+public sealed class CreditsScreenManager(nint ptr) : MonoBehaviour(ptr)
 {
     private const string TRANSLATORS = "DekoKiyo (日本語), ItsNiceCraft (Deutsch), MissJukebox (Español),\n" +
                                        "Monid73 (Русский), RevoLou (Português do Brasil), RobinRMC (Nederlands),\n" +
                                        "SPRLC (Français), ねろちゃん (日本語), 阿龍DragonTw (繁體中文), 黑客Hecker (简体中文)";
-
-    public CreditsScreenManager(IntPtr ptr) : base(ptr) { }
 
     public void Awake()
     {

@@ -9,13 +9,21 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.PlugLeaks;
 
 [RegisterInIl2Cpp]
-public sealed class PlugLeaksMinigame : Minigame
+public sealed class PlugLeaksMinigame(nint ptr) : Minigame(ptr)
 {
     private const float ANGLE_OFFSET = 24.65f;
 
     private static readonly int _redColor = Shader.PropertyToID("_RedColor");
 
-    public Color[] redColors = { new(0.3199982f, 0.4059609f, 0.4433962f, 1f), new(0.4528302f, 0.4147556f, 0.3438946f, 1f), new(0.3867925f, 0.3338603f, 0.2791474f, 1f), new(0.5188679f, 0.5188679f, 0.5188679f, 1f), new(0.3199982f, 0.4059609f, 0.4433962f, 1f), new(0.4528302f, 0.4147556f, 0.3438946f, 1f) };
+    public Color[] redColors =
+    [
+        new Color(0.3199982f, 0.4059609f, 0.4433962f, 1f),
+        new Color(0.4528302f, 0.4147556f, 0.3438946f, 1f),
+        new Color(0.3867925f, 0.3338603f, 0.2791474f, 1f),
+        new Color(0.5188679f, 0.5188679f, 0.5188679f, 1f),
+        new Color(0.3199982f, 0.4059609f, 0.4433962f, 1f),
+        new Color(0.4528302f, 0.4147556f, 0.3438946f, 1f)
+    ];
 
     public GameObject[] backgrounds;
     public SpriteRenderer redRip;
@@ -27,7 +35,7 @@ public sealed class PlugLeaksMinigame : Minigame
 
     public PolygonCollider2D crackCollider;
     public List<Vector2> colliderPoints;
-    public List<BoxCollider2D> tapeStripColliders = new();
+    public List<BoxCollider2D> tapeStripColliders = [];
     private bool _blockClose;
 
     private int _count;
@@ -37,8 +45,6 @@ public sealed class PlugLeaksMinigame : Minigame
     private float _lastTapeAngle = 24.65f;
 
     private MinigameProperties _minigameProperties;
-
-    public PlugLeaksMinigame(IntPtr ptr) : base(ptr) { }
 
     // Engines = 0
     // Ballast = 1
@@ -62,27 +68,26 @@ public sealed class PlugLeaksMinigame : Minigame
         {
             case 0:
                 roomId = 2;
-
                 break;
+
             case 1:
                 roomId = 0;
-
                 break;
+
             case 2:
                 roomId = 3;
-
                 break;
+
             case 3:
                 roomId = 1;
-
                 break;
+
             case 4:
                 roomId = 4;
-
                 break;
+
             case 5:
                 roomId = 5;
-
                 break;
         }
 
@@ -97,7 +102,7 @@ public sealed class PlugLeaksMinigame : Minigame
         {
             if (colliderPoints == null)
             {
-                colliderPoints = new List<Vector2>();
+                colliderPoints = [];
                 Il2CppStructArray<Vector2> path = crackCollider.GetPath(0);
 
                 foreach (Vector2 point in path)
@@ -141,7 +146,7 @@ public sealed class PlugLeaksMinigame : Minigame
 
             foreach (BoxCollider2D collider in tapeStripColliders)
             {
-                List<Vector2> points = new(colliderPoints);
+                List<Vector2> points = [..colliderPoints];
 
                 foreach (Vector2 point in points)
                 {

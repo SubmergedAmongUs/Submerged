@@ -10,7 +10,7 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.ShootDepthCharges;
 
 [RegisterInIl2Cpp]
-public sealed class ShootDepthChargesMinigame : Minigame
+public sealed class ShootDepthChargesMinigame(nint ptr) : Minigame(ptr)
 {
     public float yStart;
 
@@ -35,8 +35,6 @@ public sealed class ShootDepthChargesMinigame : Minigame
 
     private float _timer;
     private FloatRange _xRange;
-
-    public ShootDepthChargesMinigame(IntPtr ptr) : base(ptr) { }
 
     public bool IsFinished => MyNormTask.taskStep >= MyNormTask.MaxStep;
 

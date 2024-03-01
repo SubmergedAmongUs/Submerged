@@ -10,7 +10,7 @@ using UnityEngine.UI;
 namespace Submerged.Minigames.CustomMinigames.ReconnectPiping.MonoBehaviours;
 
 [RegisterInIl2Cpp]
-public sealed class PipeCell : MonoBehaviour
+public sealed class PipeCell(nint ptr) : MonoBehaviour(ptr)
 {
     public GameObject straight;
     public GameObject elbow;
@@ -21,8 +21,6 @@ public sealed class PipeCell : MonoBehaviour
     private int _queuedClicks;
     private ReconnectPipingMinigame _reconnectPipingMinigame;
     private bool _straightSet;
-
-    public PipeCell(IntPtr ptr) : base(ptr) { }
 
     private void Awake()
     {
@@ -143,13 +141,13 @@ public sealed class PipeCell : MonoBehaviour
 
     public void SetRandom()
     {
-        List<Direction> directions = new()
-        {
+        List<Direction> directions =
+        [
             Direction.North,
             Direction.East,
             Direction.South,
             Direction.West
-        };
+        ];
 
         directions.Shuffle();
         SetPiece(directions[0], directions[1]);

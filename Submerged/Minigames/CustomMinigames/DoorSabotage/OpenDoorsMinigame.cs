@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel;
 using Reactor.Utilities.Attributes;
+using Submerged.BaseGame.Interfaces;
 using Submerged.Extensions;
 using TMPro;
 using UnityEngine;
@@ -7,11 +8,9 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.DoorSabotage;
 
 [RegisterInIl2Cpp(typeof(IDoorMinigame))]
-public sealed class OpenDoorsMinigame : OpenDoorsMinigameNoInterface
+public sealed class OpenDoorsMinigame(nint ptr) : OpenDoorsMinigameNoInterface(ptr), AU.IDoorMinigame
 {
-    public OpenDoorsMinigame(IntPtr ptr) : base(ptr) { }
-
-    public void SetDoor(PlainDoor door)
+    public void SetDoor(OpenableDoor door)
     {
         myDoor = door;
     }
@@ -19,7 +18,7 @@ public sealed class OpenDoorsMinigame : OpenDoorsMinigameNoInterface
 
 [RegisterInIl2Cpp]
 [Description("Yes, this is a bug with Unhollower. No, we are not going to report it as it would be hard to reproduce and we are busy people.")]
-public class OpenDoorsMinigameNoInterface : Minigame
+public class OpenDoorsMinigameNoInterface(nint ptr) : Minigame(ptr)
 {
     public TextMeshPro character;
     public GameObject finishedScreen;
@@ -34,9 +33,7 @@ public class OpenDoorsMinigameNoInterface : Minigame
     private char _targetLetter;
     private float _timer;
 
-    protected PlainDoor myDoor;
-
-    public OpenDoorsMinigameNoInterface(IntPtr ptr) : base(ptr) { }
+    protected OpenableDoor myDoor;
 
     public void Start()
     {
@@ -59,7 +56,7 @@ public class OpenDoorsMinigameNoInterface : Minigame
 
         if (_complete) return;
 
-        if (myDoor.Open)
+        if (myDoor.IsOpen)
         {
             _complete = true;
             StartCoroutine(CoStartClose(0.25f));

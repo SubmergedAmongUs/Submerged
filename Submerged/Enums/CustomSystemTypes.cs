@@ -13,7 +13,7 @@ public readonly struct CustomSystemTypes
 
     #region Struct implementation
 
-    public static List<CustomSystemTypes> All { get; } = new();
+    public static List<CustomSystemTypes> All { get; } = [];
     private static readonly Dictionary<SystemTypes, CustomSystemTypes> _mapping = new();
 
     public readonly SystemTypes systemType;
@@ -39,6 +39,8 @@ public readonly struct CustomSystemTypes
     #region Enum members
 
     // ReSharper disable InconsistentNaming
+    public const int MINIMUM = 0x80;
+    public const int MAXIMUM = 0x99;
 
     // Rooms
     [UsedImplicitly]

@@ -5,11 +5,9 @@ using Submerged.Localization.Strings;
 namespace Submerged.Minigames.CustomMinigames.MicrowaveLunch;
 
 [RegisterInIl2Cpp]
-public sealed class MicrowaveLunchTask : NormalPlayerTask
+public sealed class MicrowaveLunchTask(nint ptr) : NormalPlayerTask(ptr)
 {
     public int[] customData;
-
-    public MicrowaveLunchTask(IntPtr ptr) : base(ptr) { }
 
     private void Awake()
     {

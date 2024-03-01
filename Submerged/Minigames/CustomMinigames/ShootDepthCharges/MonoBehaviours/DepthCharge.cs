@@ -7,7 +7,7 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.ShootDepthCharges.MonoBehaviours;
 
 [RegisterInIl2Cpp]
-public sealed class DepthCharge : MonoBehaviour
+public sealed class DepthCharge(nint ptr) : MonoBehaviour(ptr)
 {
     public ShootDepthChargesMinigame minigame;
 
@@ -19,8 +19,6 @@ public sealed class DepthCharge : MonoBehaviour
     private Camera _mainCam;
 
     private bool _visible;
-
-    public DepthCharge(IntPtr ptr) : base(ptr) { }
 
     private void Start()
     {

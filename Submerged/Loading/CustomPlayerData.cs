@@ -4,7 +4,7 @@ using UnityEngine;
 namespace Submerged.Loading;
 
 [RegisterInIl2Cpp]
-public sealed class CustomPlayerData : MonoBehaviour
+public sealed class CustomPlayerData(nint ptr) : MonoBehaviour(ptr)
 {
     private bool _hasMap;
 
@@ -15,8 +15,6 @@ public sealed class CustomPlayerData : MonoBehaviour
     }
 
     public PlayerControl player;
-
-    public CustomPlayerData(IntPtr ptr) : base(ptr) { }
 
     public void Awake()
     {

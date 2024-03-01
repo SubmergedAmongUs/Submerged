@@ -10,7 +10,7 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.DispenseWater;
 
 [RegisterInIl2Cpp]
-public sealed class DispenseWaterMinigame : Minigame
+public sealed class DispenseWaterMinigame(nint ptr) : Minigame(ptr)
 {
     public MinigameProperties minigameProperties;
     public Animator waterAnimation;
@@ -29,8 +29,6 @@ public sealed class DispenseWaterMinigame : Minigame
 
     private SpriteRenderer _renderer;
     private float _timer;
-
-    public DispenseWaterMinigame(IntPtr ptr) : base(ptr) { }
 
     private void Start()
     {

@@ -4,15 +4,13 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.LocateVolcanicActivity.MonoBehaviours;
 
 [RegisterInIl2Cpp]
-public sealed class ConstantScroll : MonoBehaviour
+public sealed class ConstantScroll(nint ptr) : MonoBehaviour(ptr)
 {
     public Transform top;
     public Transform bottom;
     public float speed = -0.2f;
 
     private float _offset;
-
-    public ConstantScroll(IntPtr ptr) : base(ptr) { }
 
     private void Start()
     {

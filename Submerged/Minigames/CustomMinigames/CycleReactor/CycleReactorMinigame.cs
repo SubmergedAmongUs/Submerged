@@ -10,7 +10,7 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.CycleReactor;
 
 [RegisterInIl2Cpp]
-public sealed class CycleReactorMinigame : Minigame
+public sealed class CycleReactorMinigame(nint ptr) : Minigame(ptr)
 {
     private Transform _barMask;
 
@@ -35,8 +35,6 @@ public sealed class CycleReactorMinigame : Minigame
     private TextMeshPro _text;
     private float _timer;
     private float _totalAngle;
-
-    public CycleReactorMinigame(IntPtr ptr) : base(ptr) { }
 
     private void Start()
     {

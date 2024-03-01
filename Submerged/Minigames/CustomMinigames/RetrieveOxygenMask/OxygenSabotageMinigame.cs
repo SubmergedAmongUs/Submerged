@@ -9,7 +9,7 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.RetrieveOxygenMask;
 
 [RegisterInIl2Cpp]
-public sealed class OxygenSabotageMinigame : Minigame
+public sealed class OxygenSabotageMinigame(nint ptr) : Minigame(ptr)
 {
     private Transform _background;
     private Draggable _mask;
@@ -17,8 +17,6 @@ public sealed class OxygenSabotageMinigame : Minigame
     private SubmarineOxygenSystem _oxygenSystem;
     private TextMeshPro _text;
     private Draggable _window;
-
-    public OxygenSabotageMinigame(IntPtr ptr) : base(ptr) { }
 
     public void Start()
     {

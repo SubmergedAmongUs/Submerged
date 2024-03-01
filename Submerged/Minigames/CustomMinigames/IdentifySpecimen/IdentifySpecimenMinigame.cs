@@ -8,11 +8,9 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.IdentifySpecimen;
 
 [RegisterInIl2Cpp]
-public sealed class IdentifySpecimenMinigame : Minigame
+public sealed class IdentifySpecimenMinigame(nint ptr) : Minigame(ptr)
 {
     private Transform[] _jars;
-
-    public IdentifySpecimenMinigame(IntPtr ptr) : base(ptr) { }
 
     private void Start()
     {

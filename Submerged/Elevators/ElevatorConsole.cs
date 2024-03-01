@@ -8,10 +8,8 @@ using AU = Submerged.BaseGame.Interfaces.AU;
 namespace Submerged.Systems.Elevator;
 
 [RegisterInIl2Cpp(typeof(IUsable))]
-public sealed class ElevatorConsole : MonoBehaviour, AU.IUsable
+public sealed class ElevatorConsole(nint ptr) : MonoBehaviour(ptr), AU.IUsable
 {
-    public ElevatorConsole(nint ptr) : base(ptr) { }
-
     [UsedImplicitly]
     public Il2CppValueField<float> usableDistance; // = 0.5f
 

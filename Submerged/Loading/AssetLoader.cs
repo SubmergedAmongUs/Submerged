@@ -13,14 +13,12 @@ using UnityEngine;
 namespace Submerged.Loading;
 
 [RegisterInIl2Cpp]
-public sealed class AssetLoader : MonoBehaviour
+public sealed class AssetLoader(nint ptr) : MonoBehaviour(ptr)
 {
     private static AssetLoader _instance;
 
     private bool _errored;
     private GameObject _submerged;
-
-    public AssetLoader(IntPtr ptr) : base(ptr) { }
 
     public static GameObject Submerged => _instance._submerged;
 

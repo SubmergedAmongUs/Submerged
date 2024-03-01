@@ -6,7 +6,7 @@ using UnityEngine;
 namespace Submerged.Minigames.MonoBehaviours;
 
 [RegisterInIl2Cpp]
-public sealed class NeedleBehaviour : MonoBehaviour
+public sealed class NeedleBehaviour(nint ptr) : MonoBehaviour(ptr)
 {
     public enum Movement
     {
@@ -21,8 +21,6 @@ public sealed class NeedleBehaviour : MonoBehaviour
 
     public bool randomInitialAngle;
     public FloatRange initialAngleRange;
-
-    public NeedleBehaviour(IntPtr ptr) : base(ptr) { }
 
     public void Start()
     {

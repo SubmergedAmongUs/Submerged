@@ -5,7 +5,7 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.StabilizeWaterLevels;
 
 [RegisterInIl2Cpp]
-public sealed class BallastSabotageMinigame : Minigame
+public sealed class BallastSabotageMinigame(nint ptr) : Minigame(ptr)
 {
     private const float MIN_VALUE = -2.65f;
     private const float MAX_VALUE = 0f;
@@ -19,8 +19,6 @@ public sealed class BallastSabotageMinigame : Minigame
 
     private bool _inRange;
     private ReactorSystemType _reactor;
-
-    public BallastSabotageMinigame(IntPtr ptr) : base(ptr) { }
 
     private void Start()
     {

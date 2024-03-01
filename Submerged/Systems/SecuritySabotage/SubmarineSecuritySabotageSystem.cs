@@ -8,10 +8,10 @@ using AU = Submerged.BaseGame.Interfaces.AU;
 namespace Submerged.Systems.SecuritySabotage;
 
 [RegisterInIl2Cpp(typeof(ISystemType))]
-public sealed class SubmarineSecuritySabotageSystem : CppObject, AU.ISystemType
+public sealed class SubmarineSecuritySabotageSystem(nint ptr) : CppObject(ptr), AU.ISystemType
 {
-    public List<byte> fixedCams = new()
-    {
+    public List<byte> fixedCams =
+    [
         0,
         1,
         2,
@@ -19,15 +19,13 @@ public sealed class SubmarineSecuritySabotageSystem : CppObject, AU.ISystemType
         4,
         5,
         6
-    };
+    ];
 
-    public SubmarineSecuritySabotageSystem() : base(ClassInjector.DerivedConstructorPointer<SubmarineSecuritySabotageSystem>())
+    public SubmarineSecuritySabotageSystem() : this(ClassInjector.DerivedConstructorPointer<SubmarineSecuritySabotageSystem>())
     {
         ClassInjector.DerivedConstructorBody(this);
         Instance = this;
     }
-
-    public SubmarineSecuritySabotageSystem(IntPtr ptr) : base(ptr) { }
 
     public static SubmarineSecuritySabotageSystem Instance { get; private set; }
 

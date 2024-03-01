@@ -7,7 +7,7 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.SpotWhaleShark;
 
 [RegisterInIl2Cpp]
-public sealed class WhaleSharkTask : NormalPlayerTask
+public sealed class WhaleSharkTask(nint ptr) : NormalPlayerTask(ptr)
 {
     public static bool CanComplete(PlayerControl player) => !player.Data.Role.IsImpostor;
 
@@ -16,8 +16,6 @@ public sealed class WhaleSharkTask : NormalPlayerTask
 
     public float visibleDuration;
     public float notVisibleDuration;
-
-    public WhaleSharkTask(IntPtr ptr) : base(ptr) { }
 
     private void Start()
     {

@@ -8,10 +8,8 @@ using UnityEngine;
 namespace Submerged.Elevators.Objects;
 
 [RegisterInIl2Cpp]
-public class ElevatorMover : MonoBehaviour
+public class ElevatorMover(nint ptr) : MonoBehaviour(ptr)
 {
-    public ElevatorMover(IntPtr ptr) : base(ptr) { }
-
     private void Update()
     {
         if (!ShipStatus.Instance.IsSubmerged())

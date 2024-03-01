@@ -15,7 +15,7 @@ public static class ExileControllerPatches
         _allowedPrefixPatches.Add(id);
     }
 
-    private static readonly SCG.HashSet<string> _allowedPrefixPatches = new() { SubmergedPlugin.Id };
+    private static readonly SCG.HashSet<string> _allowedPrefixPatches = [SubmergedPlugin.Id];
 
     public static void ExileController_Begin(ExileController self, GameData.PlayerInfo exiled, bool tie)
     {

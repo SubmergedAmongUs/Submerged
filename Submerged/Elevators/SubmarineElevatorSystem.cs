@@ -10,9 +10,9 @@ using AU = Submerged.BaseGame.Interfaces.AU;
 namespace Submerged.Elevators;
 
 [RegisterInIl2Cpp(typeof(ISystemType))]
-public sealed class SubmarineElevatorSystem : CppObject, AU.ISystemType
+public sealed class SubmarineElevatorSystem(nint ptr) : CppObject(ptr), AU.ISystemType
 {
-    private readonly List<PlayerControl> _inElevatorPlayers = new();
+    private readonly List<PlayerControl> _inElevatorPlayers = [];
     private readonly SubmarineElevator _myElevator;
 
     public readonly SystemTypes systemTypes;
@@ -28,7 +28,7 @@ public sealed class SubmarineElevatorSystem : CppObject, AU.ISystemType
     // This is also the floor it is currently on if not moving
     public bool upperDeckIsTargetFloor;
 
-    public SubmarineElevatorSystem(SystemTypes systemType, bool startsOnUpper, SystemTypes tandemElevator = SystemTypes.Hallway) : base(ClassInjector.DerivedConstructorPointer<SubmarineElevatorSystem>())
+    public SubmarineElevatorSystem(SystemTypes systemType, bool startsOnUpper, SystemTypes tandemElevator = SystemTypes.Hallway) : this(ClassInjector.DerivedConstructorPointer<SubmarineElevatorSystem>())
     {
         ClassInjector.DerivedConstructorBody(this);
 
@@ -40,9 +40,6 @@ public sealed class SubmarineElevatorSystem : CppObject, AU.ISystemType
         systemTypes = systemType;
         tandemSystemType = tandemElevator;
     }
-
-    // ReSharper disable once UnusedMember.Global
-    public SubmarineElevatorSystem(IntPtr ptr) : base(ptr) { }
 
     private SubmarineElevatorSystem Tandem => _tandem ??= ShipStatus.Instance.Systems[tandemSystemType].Cast<SubmarineElevatorSystem>();
 

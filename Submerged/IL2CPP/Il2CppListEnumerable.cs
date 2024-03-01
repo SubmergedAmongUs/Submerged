@@ -8,12 +8,12 @@ public unsafe struct Il2CppListEnumerable<T> where T : CppObject
     private struct Il2CppListStruct
     {
 #pragma warning disable CS0169
-        private IntPtr _ptr1;
-        private IntPtr _ptr2;
+        private nint _ptr1;
+        private nint _ptr2;
 #pragma warning restore CS0169
 
 #pragma warning disable CS0649
-        public IntPtr items;
+        public nint items;
         public int size;
 #pragma warning restore CS0649
     }
@@ -23,11 +23,11 @@ public unsafe struct Il2CppListEnumerable<T> where T : CppObject
 
     static Il2CppListEnumerable()
     {
-        _elemSize = IntPtr.Size;
-        _offset = 4 * IntPtr.Size;
+        _elemSize = nint.Size;
+        _offset = 4 * nint.Size;
     }
 
-    private readonly IntPtr _arrayPointer;
+    private readonly nint _arrayPointer;
     private readonly int _count;
     private int _index = -1;
 
@@ -46,7 +46,7 @@ public unsafe struct Il2CppListEnumerable<T> where T : CppObject
     public bool MoveNext()
     {
         if (++_index >= _count) return false;
-        IntPtr refPtr = *(IntPtr*) IntPtr.Add(IntPtr.Add(_arrayPointer, _offset), _index * _elemSize);
+        nint refPtr = *(nint*) nint.Add(nint.Add(_arrayPointer, _offset), _index * _elemSize);
         Current = Il2CppObjectPool.Get<T>(refPtr);
 
         return true;

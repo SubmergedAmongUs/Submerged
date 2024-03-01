@@ -7,44 +7,42 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.FixWiring.MonoBehaviours;
 
 [RegisterInIl2Cpp]
-public sealed class KcegListener : MonoBehaviour
+public sealed class KcegListener(nint ptr) : MonoBehaviour(ptr)
 {
     public const string PLAYER_PREFS_KEY = "HasDoneKCEG";
 
-    public static readonly List<KeyCode[]> requiredInputs = new()
-    {
-        new[] { KeyCode.UpArrow, KeyCode.W, KeyCode.Keypad8 },
-        new[] { KeyCode.UpArrow, KeyCode.W, KeyCode.Keypad8 },
-        new[] { KeyCode.DownArrow, KeyCode.S, KeyCode.Keypad2 },
-        new[] { KeyCode.DownArrow, KeyCode.S, KeyCode.Keypad2 },
-        new[] { KeyCode.LeftArrow, KeyCode.A, KeyCode.Keypad4 },
-        new[] { KeyCode.RightArrow, KeyCode.D, KeyCode.Keypad6 },
-        new[] { KeyCode.LeftArrow, KeyCode.A, KeyCode.Keypad4 },
-        new[] { KeyCode.RightArrow, KeyCode.D, KeyCode.Keypad6 },
-        new[] { KeyCode.B, KeyCode.Mouse1 },
-        new[] { KeyCode.A, KeyCode.Mouse0 }
-    };
+    private static readonly List<KeyCode[]> _requiredInputs =
+    [
+        [KeyCode.UpArrow, KeyCode.W, KeyCode.Keypad8],
+        [KeyCode.UpArrow, KeyCode.W, KeyCode.Keypad8],
+        [KeyCode.DownArrow, KeyCode.S, KeyCode.Keypad2],
+        [KeyCode.DownArrow, KeyCode.S, KeyCode.Keypad2],
+        [KeyCode.LeftArrow, KeyCode.A, KeyCode.Keypad4],
+        [KeyCode.RightArrow, KeyCode.D, KeyCode.Keypad6],
+        [KeyCode.LeftArrow, KeyCode.A, KeyCode.Keypad4],
+        [KeyCode.RightArrow, KeyCode.D, KeyCode.Keypad6],
+        [KeyCode.B, KeyCode.Mouse1],
+        [KeyCode.A, KeyCode.Mouse0]
+    ];
 
-    public static KcegListener instance;
+    public static KcegListener Instance { get; private set; }
 
     public int step;
     public float nextKeyTimer;
     public bool triggered;
 
-    public KcegListener(IntPtr ptr) : base(ptr) { }
-
     public void Awake()
     {
         try
         {
-            if (instance != null)
+            if (Instance != null)
                 DestroyImmediate(this);
             else
-                instance = this;
+                Instance = this;
         }
         catch (ObjectCollectedException)
         {
-            instance = this;
+            Instance = this;
         }
     }
 
@@ -60,7 +58,7 @@ public sealed class KcegListener : MonoBehaviour
                 break;
 
             case 2: // Did the easter egg and saw straight wires
-                instance = null;
+                Instance = null;
                 DestroyImmediate(this);
 
                 break;
@@ -71,7 +69,7 @@ public sealed class KcegListener : MonoBehaviour
     {
         if (triggered) return;
 
-        foreach (KeyCode keyCode in requiredInputs[step])
+        foreach (KeyCode keyCode in _requiredInputs[step])
         {
             if (Input.GetKeyDown(keyCode))
             {
@@ -82,7 +80,7 @@ public sealed class KcegListener : MonoBehaviour
             }
         }
 
-        if (step == requiredInputs.Count)
+        if (step == _requiredInputs.Count)
         {
             PlayerPrefs.SetInt(PLAYER_PREFS_KEY, 1);
             triggered = true;
@@ -102,6 +100,6 @@ public sealed class KcegListener : MonoBehaviour
 
     public void OnDestroy()
     {
-        instance = null;
+        Instance = null;
     }
 }

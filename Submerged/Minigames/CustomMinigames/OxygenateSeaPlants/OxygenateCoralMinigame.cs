@@ -14,7 +14,7 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.OxygenateSeaPlants;
 
 [RegisterInIl2Cpp]
-public sealed class OxygenateCoralMinigame : Minigame
+public sealed class OxygenateCoralMinigame(nint ptr) : Minigame(ptr)
 {
     private const float PROBABILITY = 0.25f;
 
@@ -35,11 +35,8 @@ public sealed class OxygenateCoralMinigame : Minigame
     private Camera _mainCam;
 
     public CoralCell[,] cells;
-    public Dictionary<int, int> colorTranslations = new();
 
     public (Sprite sprite, PolygonCollider2D collider)[] slugs;
-
-    public OxygenateCoralMinigame(IntPtr ptr) : base(ptr) { }
 
     private void Start()
     {
@@ -183,7 +180,7 @@ public sealed class OxygenateCoralMinigame : Minigame
         int[] randomXs = Enumerable.Range(0, 9).ToArray().ShuffleCopy().Take(colorSpriteSets.Length).ToArray();
         int[] randomYs = Enumerable.Range(0, 12).ToArray().ShuffleCopy().Take(colorSpriteSets.Length).ToArray();
 
-        List<(int x, int y)> pointsToVisit = new();
+        List<(int x, int y)> pointsToVisit = [];
 
         for (int i = 0; i < randomXs.Length; i++)
         {
@@ -407,12 +404,12 @@ public sealed class OxygenateCoralMinigame : Minigame
 
     public void GenerateMazeDfsNonRecursive()
     {
-        List<(int xPos, int yPos)> stack = new();
+        List<(int xPos, int yPos)> stack = [];
 
         [HideFromIl2Cpp]
         List<(int xPos, int yPos)> getNeighbours((int xPos, int yPos) position)
         {
-            List<(int xPos, int yPos)> neighbours = new();
+            List<(int xPos, int yPos)> neighbours = [];
             CoralCell northCell = position.yPos == 0 ? null : cells[position.xPos, position.yPos - 1];
             CoralCell eastCell = position.xPos == 8 ? null : cells[position.xPos + 1, position.yPos];
             CoralCell southCell = position.yPos == 11 ? null : cells[position.xPos, position.yPos + 1];
@@ -464,7 +461,7 @@ public sealed class OxygenateCoralMinigame : Minigame
     [HideFromIl2Cpp]
     public List<(int xPos, int yPos)> PathfindBfs(int xStart, int yStart, int xEnd, int yEnd)
     {
-        List<(int xPos, int yPos)> stack = new();
+        List<(int xPos, int yPos)> stack = [];
         Dictionary<(int xPos, int yPos), (int xPos, int yPos)> visitedCells = new();
 
         (int xStart, int yStart) startCell = (xStart, yStart);
@@ -527,13 +524,13 @@ public sealed class OxygenateCoralMinigame : Minigame
                 }
             }
 
-            List<Action> wallChecks = new()
-            {
+            List<Action> wallChecks =
+            [
                 checkNorth,
                 checkEast,
                 checkSouth,
                 checkWest
-            };
+            ];
 
             wallChecks.Shuffle();
 
@@ -544,7 +541,7 @@ public sealed class OxygenateCoralMinigame : Minigame
         }
 
         (int xEnd, int yEnd) tracingCell = endCell;
-        List<(int xPos, int yPos)> pathPoints = new();
+        List<(int xPos, int yPos)> pathPoints = [];
 
         while (visitedCells[tracingCell] != tracingCell)
         {
@@ -556,10 +553,6 @@ public sealed class OxygenateCoralMinigame : Minigame
 
         return pathPoints;
     }
-
-    #endregion
-
-    #region Bubble Movement
 
     #endregion
 }

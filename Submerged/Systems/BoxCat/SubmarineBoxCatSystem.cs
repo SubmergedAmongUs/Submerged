@@ -8,11 +8,11 @@ using AU = Submerged.BaseGame.Interfaces.AU;
 namespace Submerged.Systems.BoxCat;
 
 [RegisterInIl2Cpp(typeof(ISystemType))]
-public sealed class SubmarineBoxCatSystem : CppObject, AU.ISystemType
+public sealed class SubmarineBoxCatSystem(nint ptr) : CppObject(ptr), AU.ISystemType
 {
     private byte _position = byte.MaxValue;
 
-    public SubmarineBoxCatSystem() : base(ClassInjector.DerivedConstructorPointer<SubmarineBoxCatSystem>())
+    public SubmarineBoxCatSystem() : this(ClassInjector.DerivedConstructorPointer<SubmarineBoxCatSystem>())
     {
         ClassInjector.DerivedConstructorBody(this);
 
@@ -20,9 +20,6 @@ public sealed class SubmarineBoxCatSystem : CppObject, AU.ISystemType
 
         MoveCat();
     }
-
-    [UsedImplicitly]
-    public SubmarineBoxCatSystem(IntPtr ptr) : base(ptr) { }
 
     public static SubmarineBoxCatSystem Instance { get; private set; }
 

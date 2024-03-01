@@ -11,7 +11,7 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.MopPuddles;
 
 [RegisterInIl2Cpp]
-public sealed class MopPuddlesMinigame : Minigame
+public sealed class MopPuddlesMinigame(nint ptr) : Minigame(ptr)
 {
     public MinigameProperties minigameProperties;
 
@@ -26,7 +26,7 @@ public sealed class MopPuddlesMinigame : Minigame
     public Material bucketBackMat;
     public Transform bucketTarget;
 
-    public List<PuddleBehaviour> puddles = new();
+    public List<PuddleBehaviour> puddles = [];
     public int driedPuddles;
 
     public bool mopDirty;
@@ -37,8 +37,6 @@ public sealed class MopPuddlesMinigame : Minigame
     private bool _blockClose;
     private Vector3 _bucketWaterEndPos;
     private Vector3 _bucketWaterStartPos;
-
-    public MopPuddlesMinigame(IntPtr ptr) : base(ptr) { }
 
     private void Start()
     {

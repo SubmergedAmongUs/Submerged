@@ -10,7 +10,7 @@ using AU = Submerged.BaseGame.Interfaces.AU;
 namespace Submerged.Systems.Oxygen;
 
 [RegisterInIl2Cpp(typeof(ISystemType), typeof(IActivatable))]
-public sealed class SubmarineOxygenSystem : CppObject, AU.ISystemType
+public sealed class SubmarineOxygenSystem(nint ptr) : CppObject(ptr), AU.ISystemType
 {
     public readonly float duration;
 
@@ -23,16 +23,13 @@ public sealed class SubmarineOxygenSystem : CppObject, AU.ISystemType
 
     public float recentlyActive;
 
-    public SubmarineOxygenSystem(float duration) : base(ClassInjector.DerivedConstructorPointer<SubmarineOxygenSystem>())
+    public SubmarineOxygenSystem(float duration) : this(ClassInjector.DerivedConstructorPointer<SubmarineOxygenSystem>())
     {
         ClassInjector.DerivedConstructorBody(this);
 
         Instance = this;
         this.duration = duration;
     }
-
-    [UsedImplicitly]
-    public SubmarineOxygenSystem(IntPtr ptr) : base(ptr) { }
 
     public static SubmarineOxygenSystem Instance { get; private set; }
 

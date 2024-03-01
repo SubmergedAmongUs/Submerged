@@ -5,7 +5,7 @@ using UnityEngine;
 namespace Submerged.HudMap;
 
 [RegisterInIl2Cpp]
-public sealed class SubmergedHudMap : MonoBehaviour
+public sealed class SubmergedHudMap(nint ptr) : MonoBehaviour(ptr)
 {
     public const float LOWER_Y = 8.375f;
 
@@ -22,8 +22,6 @@ public sealed class SubmergedHudMap : MonoBehaviour
     public Il2CppReferenceField<GameObject> downArrow;
 
     private bool _disableChangeFloor;
-
-    public SubmergedHudMap(IntPtr ptr) : base(ptr) { }
 
     private void Start()
     {

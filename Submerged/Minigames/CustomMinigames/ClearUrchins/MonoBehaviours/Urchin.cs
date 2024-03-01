@@ -6,13 +6,11 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.ClearUrchins.MonoBehaviours;
 
 [RegisterInIl2Cpp]
-public sealed class Urchin : MonoBehaviour
+public sealed class Urchin(nint ptr) : MonoBehaviour(ptr)
 {
     public ClearUrchinsMinigame minigame;
     public bool hit;
     public AudioClip urchinHit;
-
-    public Urchin(IntPtr ptr) : base(ptr) { }
 
     private void OnTriggerEnter2D(Collider2D other)
     {

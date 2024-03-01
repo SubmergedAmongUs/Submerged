@@ -6,11 +6,9 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.CamsSabotage.MonoBehaviours;
 
 [RegisterInIl2Cpp]
-public sealed class CamSlider : Draggable
+public sealed class CamSlider(nint ptr) : Draggable(ptr)
 {
     public FloatRange localXRange = new(-1.84f, 1.84f);
-
-    public CamSlider(IntPtr ptr) : base(ptr) { }
 
     [HideFromIl2Cpp]
     public float SliderValue => (transform.localPosition.x - localXRange.min) / (localXRange.max - localXRange.min);

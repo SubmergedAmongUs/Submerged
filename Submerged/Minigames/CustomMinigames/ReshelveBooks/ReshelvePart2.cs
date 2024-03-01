@@ -8,7 +8,7 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.ReshelveBooks;
 
 [RegisterInIl2Cpp]
-public sealed class ReshelvePart2 : MonoBehaviour
+public sealed class ReshelvePart2(nint ptr) : MonoBehaviour(ptr)
 {
     public ReshelveBooksMinigame minigame;
 
@@ -19,8 +19,6 @@ public sealed class ReshelvePart2 : MonoBehaviour
     public Transform book2;
 
     private bool _stopClose;
-
-    public ReshelvePart2(IntPtr ptr) : base(ptr) { }
 
     private void Start()
     {

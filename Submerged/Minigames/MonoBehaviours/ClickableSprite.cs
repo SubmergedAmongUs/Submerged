@@ -5,7 +5,7 @@ using UnityEngine;
 namespace Submerged.Minigames.MonoBehaviours;
 
 [RegisterInIl2Cpp]
-public class ClickableSprite : MonoBehaviour
+public class ClickableSprite(nint ptr) : MonoBehaviour(ptr)
 {
     public Action onDown;
     public Action onDrag;
@@ -19,8 +19,6 @@ public class ClickableSprite : MonoBehaviour
     public Action<Collider2D> onTriggerStay;
     public Action onUp;
     public Action onUpAsButton;
-
-    public ClickableSprite(IntPtr ptr) : base(ptr) { }
 
     #region Events
 

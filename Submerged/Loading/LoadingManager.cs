@@ -7,13 +7,11 @@ using UnityEngine;
 namespace Submerged.Loading;
 
 [RegisterInIl2Cpp]
-public sealed class LoadingManager : MonoBehaviour
+public sealed class LoadingManager(nint ptr) : MonoBehaviour(ptr)
 {
-    public static readonly List<string> loadingers = new();
+    public static readonly List<string> loadingers = [];
 
     public GameObject loadingScreen;
-
-    public LoadingManager(IntPtr ptr) : base(ptr) { }
 
     public void Update()
     {

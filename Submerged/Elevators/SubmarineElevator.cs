@@ -13,14 +13,14 @@ using UnityEngine;
 namespace Submerged.Systems.Elevator;
 
 [RegisterInIl2Cpp]
-public sealed class SubmarineElevator : MonoBehaviour
+public sealed class SubmarineElevator(nint ptr) : MonoBehaviour(ptr)
 {
     private static readonly int _mainTex = Shader.PropertyToID("_MainTex");
     private static readonly int _alpha = Shader.PropertyToID("_Alpha");
     private static readonly int _colorPropertyID = Shader.PropertyToID("_Color");
 
     private static readonly float[] _individualTimings =
-    {
+    [
         // These are the timings for each stage of the elevator movement animation
         // All times are in seconds
 
@@ -33,7 +33,7 @@ public sealed class SubmarineElevator : MonoBehaviour
         0.20f // DoorsOpening
 
         // Total - 5.6s
-    };
+    ];
 
     private int _colorCount;
     private AudioSource _dingSound;
@@ -52,8 +52,6 @@ public sealed class SubmarineElevator : MonoBehaviour
     private Il2CppStructArray<Color> _vertexColors;
 
     public SubmarineElevatorSystem system;
-
-    public SubmarineElevator(IntPtr ptr) : base(ptr) { }
 
     public bool LocalPlayerInElevator => GetInElevator(PlayerControl.LocalPlayer);
 

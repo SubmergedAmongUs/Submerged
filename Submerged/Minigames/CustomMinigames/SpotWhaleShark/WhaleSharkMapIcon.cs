@@ -4,15 +4,13 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.SpotWhaleShark;
 
 [RegisterInIl2Cpp]
-public sealed class WhaleSharkMapIcon : MonoBehaviour
+public sealed class WhaleSharkMapIcon(nint ptr) : MonoBehaviour(ptr)
 {
     public WhaleSharkTask task;
 
     public bool lastVisible;
 
     private SpriteRenderer _icon;
-
-    public WhaleSharkMapIcon(IntPtr ptr) : base(ptr) { }
 
     public void Awake()
     {

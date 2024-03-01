@@ -10,7 +10,7 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.RetrieveOxygenMask;
 
 [RegisterInIl2Cpp]
-public sealed class OxygenSabotageTask : PlayerTask
+public sealed class OxygenSabotageTask(nint ptr) : PlayerTask(ptr)
 {
     public bool isComplete;
     public bool taskTextYellow;
@@ -18,8 +18,6 @@ public sealed class OxygenSabotageTask : PlayerTask
     public ArrowBehaviour[] arrows;
 
     public SubmarineOxygenSystem system;
-
-    public OxygenSabotageTask(IntPtr ptr) : base(ptr) { }
 
     public override bool IsComplete => isComplete;
     public override int TaskStep => 0;

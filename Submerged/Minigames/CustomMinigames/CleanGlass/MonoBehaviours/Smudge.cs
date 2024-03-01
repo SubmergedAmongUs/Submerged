@@ -9,7 +9,7 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.CleanGlass.MonoBehaviours;
 
 [RegisterInIl2Cpp]
-public sealed class Smudge : MonoBehaviour
+public sealed class Smudge(nint ptr) : MonoBehaviour(ptr)
 {
     public Draggable draggable;
 
@@ -25,8 +25,6 @@ public sealed class Smudge : MonoBehaviour
     private SpriteRenderer _spriteRenderer;
 
     private float _squeakThreshold = 10;
-
-    public Smudge(IntPtr ptr) : base(ptr) { }
 
     private void Start()
     {

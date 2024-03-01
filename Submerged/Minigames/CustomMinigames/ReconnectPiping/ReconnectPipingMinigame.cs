@@ -15,16 +15,14 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.ReconnectPiping;
 
 [RegisterInIl2Cpp]
-public sealed class ReconnectPipingMinigame : Minigame
+public sealed class ReconnectPipingMinigame(nint ptr) : Minigame(ptr)
 {
-    public static int seed;
+    public static int LastSeed { get; private set; }
 
-    public int[] seeds = { 326907259, 407357077, 2001864847, 20885327, 2118582405, 1545346156, 276236684, 436702103, 1613700476, 1151508687, 1908408660, 782524822, 38597829, 1823140859, 285183977, 116038448, 963051378, 2133468912, 60144147, 2081408537, 127617096, 1520984973, 64894018, 737729816, 1490420376, 1964503931, 663335080, 1055545808, 2048850280, 1834039874, 425877024, 1020089911, 203988300, 904052500, 2097071838, 1815037601, 44206942, 418787165, 2037043467, 402392094, 1095217546, 1769336404, 1911757930, 574371127, 1095048023, 563977301, 1943992207, 1057236064, 1819439226, 2104842910, 568151366, 509610580, 1816391224, 615074661, 845740689, 600989049, 262237723, 33807084, 201414864, 625200086, 2033357123, 770133455, 885000920, 2030125499, 1095048023, 563977301, 1943992207, 1057236064, 1819439226, 2104842910, 568151366, 509610580, 1816391224, 615074661, 845740689, 600989049, 262237723, 33807084, 201414864, 625200086, 2033357123, 770133455, 885000920, 2030125499 };
+    public int[] seeds = [326907259, 407357077, 2001864847, 20885327, 2118582405, 1545346156, 276236684, 436702103, 1613700476, 1151508687, 1908408660, 782524822, 38597829, 1823140859, 285183977, 116038448, 963051378, 2133468912, 60144147, 2081408537, 127617096, 1520984973, 64894018, 737729816, 1490420376, 1964503931, 663335080, 1055545808, 2048850280, 1834039874, 425877024, 1020089911, 203988300, 904052500, 2097071838, 1815037601, 44206942, 418787165, 2037043467, 402392094, 1095217546, 1769336404, 1911757930, 574371127, 1095048023, 563977301, 1943992207, 1057236064, 1819439226, 2104842910, 568151366, 509610580, 1816391224, 615074661, 845740689, 600989049, 262237723, 33807084, 201414864, 625200086, 2033357123, 770133455, 885000920, 2030125499, 1095048023, 563977301, 1943992207, 1057236064, 1819439226, 2104842910, 568151366, 509610580, 1816391224, 615074661, 845740689, 600989049, 262237723, 33807084, 201414864, 625200086, 2033357123, 770133455, 885000920, 2030125499];
 
     private Cell[,] _cells;
     private List<(int xPos, int yPos)> _path;
-
-    public ReconnectPipingMinigame(IntPtr ptr) : base(ptr) { }
 
     private void Awake()
     {
@@ -39,8 +37,8 @@ public sealed class ReconnectPipingMinigame : Minigame
 
         while (_path == null)
         {
-            seed = seeds.Random();
-            UnityRandom.seed = seed;
+            LastSeed = seeds.Random();
+            UnityRandom.seed = LastSeed;
             _path?.Clear();
             AssignDefaultCells();
 
@@ -51,7 +49,7 @@ public sealed class ReconnectPipingMinigame : Minigame
             dict[pathLength] += 1;
         }
 
-        List<Cell> randomCells = new();
+        List<Cell> randomCells = [];
         foreach (Cell cell in _cells) randomCells.Add(cell);
 
         foreach ((int xPos, int yPos) pos in _path!) randomCells.Remove(_cells[pos.xPos, pos.yPos]);
@@ -75,7 +73,7 @@ public sealed class ReconnectPipingMinigame : Minigame
 
     public void CheckComplete()
     {
-        List<(int xPos, int yPos)> visitedPositions = new();
+        List<(int xPos, int yPos)> visitedPositions = [];
 
         (int xPos, int yPos) currentPosition = (0, 5);
         Direction lastDirection = Direction.East;
@@ -186,12 +184,12 @@ public sealed class ReconnectPipingMinigame : Minigame
 
     public void GenerateMazeDfsNonRecursive()
     {
-        List<(int xPos, int yPos)> stack = new();
+        List<(int xPos, int yPos)> stack = [];
 
         [HideFromIl2Cpp]
         List<(int xPos, int yPos)> getNeighbours((int xPos, int yPos) position)
         {
-            List<(int xPos, int yPos)> neighbours = new();
+            List<(int xPos, int yPos)> neighbours = [];
             Cell northCell = position.yPos == 0 ? null : _cells[position.xPos, position.yPos - 1];
             Cell eastCell = position.xPos == 3 ? null : _cells[position.xPos + 1, position.yPos];
             Cell southCell = position.yPos == 5 ? null : _cells[position.xPos, position.yPos + 1];
@@ -243,7 +241,7 @@ public sealed class ReconnectPipingMinigame : Minigame
     [HideFromIl2Cpp]
     public List<(int xPos, int yPos)> PathfindBfs(int xStart, int yStart, int xEnd, int yEnd)
     {
-        List<(int xPos, int yPos)> stack = new();
+        List<(int xPos, int yPos)> stack = [];
         Dictionary<(int xPos, int yPos), (int xPos, int yPos)> visitedCells = new();
 
         (int xStart, int yStart) startCell = (xStart, yStart);
@@ -300,7 +298,7 @@ public sealed class ReconnectPipingMinigame : Minigame
         }
 
         (int xEnd, int yEnd) tracingCell = endCell;
-        List<(int xPos, int yPos)> pathPoints = new();
+        List<(int xPos, int yPos)> pathPoints = [];
 
         while (visitedCells[tracingCell] != tracingCell)
         {

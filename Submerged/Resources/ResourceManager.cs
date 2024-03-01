@@ -25,7 +25,7 @@ public static class ResourceManager
         long length = manifestResourceStream.Length;
         Il2CppStructArray<byte> array = new(manifestResourceStream.Length);
 
-        Span<byte> span = new(IntPtr.Add(array.Pointer, IntPtr.Size * 4).ToPointer(), (int) length);
+        Span<byte> span = new(nint.Add(array.Pointer, nint.Size * 4).ToPointer(), (int) length);
         // ReSharper disable once MustUseReturnValue
         manifestResourceStream.Read(span);
 

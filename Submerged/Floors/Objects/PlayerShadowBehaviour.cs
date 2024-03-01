@@ -7,7 +7,7 @@ using UnityEngine;
 namespace Submerged.Floors.Objects;
 
 [RegisterInIl2Cpp]
-public sealed class PlayerShadowBehaviour : MonoBehaviour
+public sealed class PlayerShadowBehaviour(nint ptr) : MonoBehaviour(ptr)
 {
     public GameObject shadowObj;
     public SpriteRenderer shadowRend;
@@ -17,8 +17,6 @@ public sealed class PlayerShadowBehaviour : MonoBehaviour
     public Color shadowColor;
 
     private readonly Dictionary<Sprite, Sprite> _spritesDict = new();
-
-    public PlayerShadowBehaviour(IntPtr ptr) : base(ptr) { }
 
     public void Start()
     {

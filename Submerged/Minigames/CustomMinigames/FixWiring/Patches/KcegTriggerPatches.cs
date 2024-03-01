@@ -18,7 +18,7 @@ public static class KcegTriggerPatches
         try
         {
             if (!ShipStatus.Instance.IsSubmerged()) return true;
-            if (!KcegListener.instance || !KcegListener.instance.triggered || array.Length != 8) return true;
+            if (!KcegListener.Instance || !KcegListener.Instance.triggered || array.Length != 8) return true;
 
             PlayerPrefs.SetInt(KcegListener.PLAYER_PREFS_KEY, 2);
 

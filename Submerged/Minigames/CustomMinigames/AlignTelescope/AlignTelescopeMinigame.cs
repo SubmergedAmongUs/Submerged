@@ -9,7 +9,7 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.AlignTelescope;
 
 [RegisterInIl2Cpp]
-public sealed class AlignTelescopeMinigame : Minigame
+public sealed class AlignTelescopeMinigame(nint ptr) : Minigame(ptr)
 {
     private readonly FloatRange _blipDelay = new(0.01f, 1f);
 
@@ -27,8 +27,6 @@ public sealed class AlignTelescopeMinigame : Minigame
     private Collider2D _reticle;
     private SpriteRenderer _reticleImage;
     private Collider2D _targetItem;
-
-    public AlignTelescopeMinigame(IntPtr ptr) : base(ptr) { }
 
     public void Start()
     {

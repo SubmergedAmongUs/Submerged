@@ -14,9 +14,9 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.MicrowaveLunch;
 
 [RegisterInIl2Cpp]
-public sealed class MicrowaveLunchMinigame : Minigame
+public sealed class MicrowaveLunchMinigame(nint ptr) : Minigame(ptr)
 {
-    private readonly List<int> _enteredNumber = new();
+    private readonly List<int> _enteredNumber = [];
 
     private readonly ClickableSprite[] _numberButtons = new ClickableSprite[10];
 
@@ -46,8 +46,6 @@ public sealed class MicrowaveLunchMinigame : Minigame
     private GameObject _screenLight;
 
     private TextMeshPro _timerText;
-
-    public MicrowaveLunchMinigame(IntPtr ptr) : base(ptr) { }
 
     private void Start()
     {

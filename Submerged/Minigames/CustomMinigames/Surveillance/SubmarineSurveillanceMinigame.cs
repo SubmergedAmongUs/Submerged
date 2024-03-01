@@ -13,7 +13,7 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.Surveillance;
 
 [RegisterInIl2Cpp]
-public sealed class SubmarineSurvillanceMinigame : Minigame
+public sealed class SubmarineSurvillanceMinigame(nint ptr) : Minigame(ptr)
 {
     private static readonly int _hsvRangeMin = Shader.PropertyToID("_HSVRangeMin");
 
@@ -54,8 +54,6 @@ public sealed class SubmarineSurvillanceMinigame : Minigame
 
     private AudioClip _switchSound;
     private Transform _upperWindow;
-
-    public SubmarineSurvillanceMinigame(IntPtr ptr) : base(ptr) { }
 
     private void Awake()
     {

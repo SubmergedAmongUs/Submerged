@@ -7,12 +7,12 @@ namespace Submerged.UI.Patches;
 [HarmonyPatch]
 public static class DisableReactorWarningPatches
 {
-    private static readonly SCG.HashSet<string> _allowedPlugins = new()
-    {
+    private static readonly SCG.HashSet<string> _allowedPlugins =
+    [
         "com.sinai.unityexplorer",
         "gg.reactor.api",
         "Submerged"
-    };
+    ];
 
     [HarmonyPatch(typeof(DisconnectPopup), nameof(DisconnectPopup.ShowCustom))]
     [HarmonyPrefix]

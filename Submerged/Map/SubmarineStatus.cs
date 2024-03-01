@@ -27,13 +27,13 @@ using UnityEngine;
 namespace Submerged.Map;
 
 [RegisterInIl2Cpp]
-public sealed class SubmarineStatus : MonoBehaviour
+public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
 {
     public static SubmarineStatus instance;
 
     public ShipStatus normalShip;
     public MinigameProperties minigameProperties;
-    public List<SubmarineElevator> elevators = new();
+    public List<SubmarineElevator> elevators = [];
     public bool shakeOverridden;
     public GameObject vitalsPanel;
     public Transform referenceHolder;
@@ -44,8 +44,6 @@ public sealed class SubmarineStatus : MonoBehaviour
     public SwitchSystem switchSystem;
 
     private float _ventTransitionTimer;
-
-    public SubmarineStatus(IntPtr intPtr) : base(intPtr) { }
 
     private static float CrewLightMod => GameOptionsManager.Instance.CurrentGameOptions.GetFloat(FloatOptionNames.CrewLightMod);
     private static float ImpostorLightMod => GameOptionsManager.Instance.CurrentGameOptions.GetFloat(FloatOptionNames.ImpostorLightMod);
@@ -299,13 +297,13 @@ public sealed class SubmarineStatus : MonoBehaviour
     {
         lightFlickerActive = true;
         float[] segments =
-        {
+        [
             0.2f, // Off
             0.3f, 0.15f, // Off
             0.35f, 0.2f, // Off
             0.8f, 0.1f, // Off,
             0.2f, 0.1f, 0.1f
-        };
+        ];
 
         float segmentSum = segments.Sum();
 
@@ -474,7 +472,7 @@ public sealed class SubmarineStatus : MonoBehaviour
     [HideFromIl2Cpp]
     private void ResolveSystemConsoleMinigames(SystemConsole[] consoles)
     {
-        List<(SystemConsole console, GameObject minigameObject)> consoleMinigames = new();
+        List<(SystemConsole console, GameObject minigameObject)> consoleMinigames = [];
         IEnumerable<SystemConsole> filteredConsoles = consoles.Where(c => c.MinigamePrefab && c.MinigamePrefab.GetComponent<DivertPowerMetagame>());
         foreach (SystemConsole console in filteredConsoles) consoleMinigames.Add((console, Instantiate(console.MinigamePrefab.gameObject, referenceHolder)));
 
@@ -529,7 +527,7 @@ public sealed class SubmarineStatus : MonoBehaviour
     [HideFromIl2Cpp]
     private void ResolveDoorMinigames()
     {
-        List<(DoorConsole console, GameObject minigameObject)> consoleMinigames = new();
+        List<(DoorConsole console, GameObject minigameObject)> consoleMinigames = [];
         IEnumerable<DoorConsole> filteredConsoles = normalShip.GetComponentsInChildren<DoorConsole>().Where(c => c.MinigamePrefab && c.MinigamePrefab.GetComponent<DivertPowerMetagame>());
         foreach (DoorConsole console in filteredConsoles) consoleMinigames.Add((console, Instantiate(console.MinigamePrefab.gameObject, referenceHolder)));
 

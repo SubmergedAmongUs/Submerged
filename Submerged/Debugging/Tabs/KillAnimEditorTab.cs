@@ -11,7 +11,7 @@ public sealed class KillAnimEditorTab : IDebugTab
 {
     private const float ANIM_DURATION = 2.5f;
 
-    private readonly List<KillAnimFrame> _frames = new();
+    private readonly List<KillAnimFrame> _frames = [];
     private readonly Dictionary<int, KillAnimFrame> _previewLookup = new();
 
     private int _currentAnimation;

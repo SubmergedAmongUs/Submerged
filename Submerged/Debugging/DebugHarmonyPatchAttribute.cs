@@ -6,6 +6,4 @@ namespace Submerged.Debugging;
 
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method | AttributeTargets.Delegate, AllowMultiple = true)]
 [Conditional("DEBUG")]
-public sealed class DebugHarmonyPatchAttribute : HarmonyPatch
-{
-}
+public sealed class DebugHarmonyPatchAttribute : HarmonyPatch;

@@ -9,12 +9,10 @@ using UnityEngine;
 namespace Submerged.Debugging;
 
 [RegisterInIl2Cpp]
-public sealed class DebugWindow : MonoBehaviour
+public sealed class DebugWindow(nint ptr) : MonoBehaviour(ptr)
 {
     private int _activeTabIdx;
     private Rect _windowRect = new(20, 20, 100, 100);
-
-    public DebugWindow(IntPtr ptr) : base(ptr) { }
 
     public static DebugWindow Instance { get; private set; }
 

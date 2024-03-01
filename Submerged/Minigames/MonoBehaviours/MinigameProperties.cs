@@ -6,7 +6,7 @@ using UnityEngine;
 namespace Submerged.Minigames.MonoBehaviours;
 
 [RegisterInIl2Cpp]
-public sealed class MinigameProperties : MonoBehaviour
+public sealed class MinigameProperties(nint ptr) : MonoBehaviour(ptr)
 {
     public string @string;
     public AudioClip[] audioClips;
@@ -21,8 +21,6 @@ public sealed class MinigameProperties : MonoBehaviour
     public string minigameName = "";
 
     public bool dontCloseOnBgClick;
-
-    public MinigameProperties(IntPtr ptr) : base(ptr) { }
 
     public void Awake()
     {
@@ -43,7 +41,7 @@ public sealed class MinigameProperties : MonoBehaviour
         transforms = gameSettingMenu.AllItems;
         vector2S = polishRubyGame.directions;
 
-        string[] splits = @string.Split(new[] { ';' }, 2);
+        string[] splits = @string.Split([';'], 2);
         if (splits.Length > 0) playerTaskName = splits[0];
         if (splits.Length > 1) minigameName = splits[1];
     }
@@ -67,7 +65,7 @@ public sealed class MinigameProperties : MonoBehaviour
 
         string p = "", m = "";
 
-        string[] splits = textLink.targetUrl.Split(new[] { ';' }, 2);
+        string[] splits = textLink.targetUrl.Split([';'], 2);
         if (splits.Length > 0) p = splits[0];
         if (splits.Length > 1) m = splits[1];
 

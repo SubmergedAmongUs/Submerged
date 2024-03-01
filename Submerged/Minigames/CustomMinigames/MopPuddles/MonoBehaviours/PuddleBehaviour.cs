@@ -7,7 +7,7 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.MopPuddles.MonoBehaviours;
 
 [RegisterInIl2Cpp]
-public sealed class PuddleBehaviour : MonoBehaviour
+public sealed class PuddleBehaviour(nint ptr) : MonoBehaviour(ptr)
 {
     public MopPuddlesMinigame minigame;
     public Draggable draggable;
@@ -21,14 +21,12 @@ public sealed class PuddleBehaviour : MonoBehaviour
 
     private SpriteRenderer _spriteRenderer;
 
-    public PuddleBehaviour(IntPtr ptr) : base(ptr) { }
-
     private void Awake()
     {
         _spriteRenderer = GetComponent<SpriteRenderer>();
         _collider2D = gameObject.AddComponent<PolygonCollider2D>();
 
-        if (name.Contains("4")) transform.localScale = Vector3.one;
+        if (name.Contains('4')) transform.localScale = Vector3.one;
     }
 
     private void LateUpdate()

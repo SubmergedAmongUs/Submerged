@@ -24,7 +24,7 @@ public sealed class SubmergedLocalizationProvider : LocalizationProvider
     {
         result = null;
 
-        if ((int) stringName is < 555_0_000 or >= 556_0_000) return false;
+        if ((int) stringName is < CustomStringNames.MINIMUM or > CustomStringNames.MAXIMUM) return false;
 
         if (!CustomStringNames.TryGetFromStringName(stringName, out CustomStringNames custom)) return false;
         result = custom.getter();
@@ -36,7 +36,7 @@ public sealed class SubmergedLocalizationProvider : LocalizationProvider
     {
         result = null;
 
-        if ((int) systemType is < 0x80 or >= 0xA0) return false;
+        if ((int) systemType is < CustomSystemTypes.MINIMUM or > CustomSystemTypes.MAXIMUM) return false;
 
         if (!CustomSystemTypes.TryGetFromSystemType(systemType, out CustomSystemTypes custom)) return false;
         result = custom.stringName;
@@ -48,7 +48,7 @@ public sealed class SubmergedLocalizationProvider : LocalizationProvider
     {
         result = null;
 
-        if ((int) taskType is < 0x80 or >= 0xA0) return false;
+        if ((int) taskType is < CustomTaskTypes.MINIMUM or > CustomTaskTypes.MAXIMUM) return false;
 
         if (!CustomTaskTypes.TryGetFromTaskType(taskType, out CustomTaskTypes custom)) return false;
         result = custom.stringName;

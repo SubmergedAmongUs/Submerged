@@ -4,7 +4,7 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.ResetBreakers.MonoBehaviours;
 
 [RegisterInIl2Cpp]
-public sealed class CircuitBreaker : MonoBehaviour
+public sealed class CircuitBreaker(nint ptr) : MonoBehaviour(ptr)
 {
     public GameObject on;
     public GameObject off;
@@ -15,8 +15,6 @@ public sealed class CircuitBreaker : MonoBehaviour
     public char targetChar;
 
     public bool complete;
-
-    public CircuitBreaker(IntPtr ptr) : base(ptr) { }
 
     public void Awake()
     {

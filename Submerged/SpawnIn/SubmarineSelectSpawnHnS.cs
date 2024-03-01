@@ -11,11 +11,9 @@ using UnityEngine;
 namespace Submerged.SpawnIn;
 
 [RegisterInIl2Cpp]
-public sealed class SubmarineSelectSpawnHnS : SubmarineSelectSpawn
+public sealed class SubmarineSelectSpawnHnS(nint ptr) : SubmarineSelectSpawn(ptr)
 {
     private bool _spawned;
-
-    public SubmarineSelectSpawnHnS(IntPtr ptr) : base(ptr) { }
 
     public override void Update()
     {

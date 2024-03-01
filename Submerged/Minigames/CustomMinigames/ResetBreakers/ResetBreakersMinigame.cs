@@ -9,7 +9,7 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.ResetBreakers;
 
 [RegisterInIl2Cpp]
-public sealed class ResetBreakersMinigame : Minigame
+public sealed class ResetBreakersMinigame(nint ptr) : Minigame(ptr)
 {
     public MinigameProperties minigameProperties;
 
@@ -18,9 +18,7 @@ public sealed class ResetBreakersMinigame : Minigame
 
     public AudioClip breakerClick;
 
-    public List<CircuitBreaker> circutBreakers = new();
-
-    public ResetBreakersMinigame(IntPtr ptr) : base(ptr) { }
+    public List<CircuitBreaker> circutBreakers = [];
 
     private void Start()
     {

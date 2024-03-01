@@ -7,11 +7,9 @@ using Submerged.Extensions;
 namespace Submerged.Minigames.CustomMinigames.MopPuddles;
 
 [RegisterInIl2Cpp]
-public sealed class MopPuddlesTask : NormalPlayerTask
+public sealed class MopPuddlesTask(nint ptr) : NormalPlayerTask(ptr)
 {
     public List<int> validConsoleIds;
-
-    public MopPuddlesTask(IntPtr ptr) : base(ptr) { }
 
     private void Awake()
     {

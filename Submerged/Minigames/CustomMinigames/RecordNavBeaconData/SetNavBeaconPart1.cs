@@ -10,15 +10,13 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.RecordNavBeaconData;
 
 [RegisterInIl2Cpp]
-public sealed class SetNavBeaconPart1 : MonoBehaviour
+public sealed class SetNavBeaconPart1(nint ptr) : MonoBehaviour(ptr)
 {
     private List<TextMeshPro> _bottomTexts;
     private List<TextMeshPro> _codeTexts;
 
     private SetNavBeaconMinigame _parent;
     private Transform _speechBubble;
-
-    public SetNavBeaconPart1(IntPtr ptr) : base(ptr) { }
 
     private static string BottomText => Tasks.RecordNavBeaconData_Wait;
 

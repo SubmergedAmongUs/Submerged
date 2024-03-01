@@ -4,7 +4,7 @@ using UnityEngine;
 namespace Submerged.Minigames.MonoBehaviours;
 
 [RegisterInIl2Cpp]
-public class Draggable : ClickableSprite
+public class Draggable(nint ptr) : ClickableSprite(ptr)
 {
     public bool forceStop;
 
@@ -14,8 +14,6 @@ public class Draggable : ClickableSprite
     private Camera _mainCam;
 
     private Vector2 _offset;
-
-    public Draggable(IntPtr ptr) : base(ptr) { }
 
     private void Awake()
     {

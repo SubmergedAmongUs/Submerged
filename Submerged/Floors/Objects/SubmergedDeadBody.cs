@@ -6,13 +6,11 @@ using UnityEngine;
 namespace Submerged.Floors.Objects;
 
 [RegisterInIl2Cpp]
-public sealed class SubmergedDeadBody : MonoBehaviour
+public sealed class SubmergedDeadBody(nint ptr) : MonoBehaviour(ptr)
 {
     public DeadBody parent;
     public SpriteRenderer shadowRenderer;
     public SpriteAnim bodyAnim;
-
-    public SubmergedDeadBody(IntPtr ptr) : base(ptr) { }
 
     private void Awake()
     {

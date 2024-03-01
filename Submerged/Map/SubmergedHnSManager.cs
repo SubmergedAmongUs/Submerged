@@ -39,11 +39,9 @@ public static class SubmergedHnSManager
     {
         // Warning($"Reassinging tasks for player {player.Data.PlayerName}");
 
-        List<byte> newTasks = new();
+        List<byte> newTasks = [];
         List<CustomTaskTypes> tasksToChooseFrom = CustomTaskTypes.All.Where(t => t.floor ==
-                (forUpper
-                    ? CustomTaskTypes.Floor.UpperDeck
-                    : CustomTaskTypes.Floor.LowerDeck))
+                (forUpper ? CustomTaskTypes.Floor.UpperDeck : CustomTaskTypes.Floor.LowerDeck))
             .ToList();
 
         foreach (GameData.TaskInfo task in player.Data.Tasks)

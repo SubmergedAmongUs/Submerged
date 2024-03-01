@@ -11,7 +11,7 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.CamsSabotage;
 
 [RegisterInIl2Cpp]
-public sealed class SetupCamsMinigame : Minigame
+public sealed class SetupCamsMinigame(nint ptr) : Minigame(ptr)
 {
     private const float ACCURACY = 0.03f;
     private const float IN_RANGE_TIMER_TARGET = 0.75f;
@@ -37,8 +37,6 @@ public sealed class SetupCamsMinigame : Minigame
 
     private TextMeshPro _statusText;
     private float _target;
-
-    public SetupCamsMinigame(IntPtr ptr) : base(ptr) { }
 
     private void Awake()
     {

@@ -6,11 +6,9 @@ using UnityEngine;
 namespace Submerged.Systems.Oxygen;
 
 [RegisterInIl2Cpp]
-public sealed class SubmarineOxygenTint : MonoBehaviour
+public sealed class SubmarineOxygenTint(nint ptr) : MonoBehaviour(ptr)
 {
     private static readonly AnimationCurve _lerpCurve = new(new Keyframe(25, 0), new Keyframe(15, 0.33f), new Keyframe(0, 1.05f));
-
-    public SubmarineOxygenTint(nint ptr) : base(ptr) { }
 
     private MeshRenderer _meshRenderer;
     private bool _lastActive;

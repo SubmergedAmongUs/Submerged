@@ -15,7 +15,7 @@ using UnityEngine;
 namespace Submerged.SpawnIn;
 
 [RegisterInIl2Cpp]
-public class SubmarineSelectSpawn : Minigame
+public class SubmarineSelectSpawn(nint ptr) : Minigame(ptr)
 {
     public TextMeshPro timerText;
     public TextMeshPro playersText;
@@ -42,8 +42,6 @@ public class SubmarineSelectSpawn : Minigame
     protected TextMeshPro upperDeckText;
 
     protected Transform upperDeckTransform;
-
-    public SubmarineSelectSpawn(IntPtr ptr) : base(ptr) { }
 
     private void Awake()
     {

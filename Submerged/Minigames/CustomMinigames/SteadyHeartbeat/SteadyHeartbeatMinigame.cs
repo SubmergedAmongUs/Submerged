@@ -9,15 +9,15 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.SteadyHeartbeat;
 
 [RegisterInIl2Cpp]
-public sealed class SteadyHeartbeatMinigame : Minigame
+public sealed class SteadyHeartbeatMinigame(nint ptr) : Minigame(ptr)
 {
     private const float IN_RANGE_TARGET = 5f;
-    private readonly Vector3[] _default = { new(-4.65f, 0, 0), new(4.65f, 0, 0) };
+    private readonly Vector3[] _default = [new Vector3(-4.65f, 0, 0), new Vector3(4.65f, 0, 0)];
     private Vector3[] _beat;
 
     private LineRenderer _beatLine;
 
-    private List<float> _beats = new();
+    private List<float> _beats = [];
     private float _beatTimer;
 
     private int _bpmTarget;
@@ -35,7 +35,6 @@ public sealed class SteadyHeartbeatMinigame : Minigame
 
     private float _timer;
 
-    public SteadyHeartbeatMinigame(IntPtr ptr) : base(ptr) { }
     // private List<float> TimeDeltas;
 
     private void Start()
@@ -59,7 +58,7 @@ public sealed class SteadyHeartbeatMinigame : Minigame
         _timer = 0;
 
         _range = new FloatRange(-4.65f, 4.65f);
-        _points = new List<Vector3>();
+        _points = [];
     }
 
     private void Update()

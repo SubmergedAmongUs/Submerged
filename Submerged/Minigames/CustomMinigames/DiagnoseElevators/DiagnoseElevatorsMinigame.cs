@@ -11,7 +11,7 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.DiagnoseElevators;
 
 [RegisterInIl2Cpp]
-public sealed class DiagnoseElevatorsMinigame : Minigame
+public sealed class DiagnoseElevatorsMinigame(nint ptr) : Minigame(ptr)
 {
     public ClickableSprite ticketButton;
 
@@ -29,8 +29,6 @@ public sealed class DiagnoseElevatorsMinigame : Minigame
 
     private bool _clickedDiagnose;
     private bool _ticketClicked;
-
-    public DiagnoseElevatorsMinigame(IntPtr ptr) : base(ptr) { }
 
     private void Start()
     {
@@ -125,8 +123,8 @@ public sealed class DiagnoseElevatorsMinigame : Minigame
 
         yield return new WaitForSeconds(minigameProperties.audioClips[3].length * 0.8f);
         ticketTransform.gameObject.SetActive(false);
-        MyNormTask!?.NextStep();
-        MyNormTask.Data[ConsoleId] = byte.MaxValue;
+        MyNormTask!.NextStep();
+        MyNormTask!.Data[ConsoleId] = byte.MaxValue;
         StartCoroutine(CoStartClose());
     }
 }

@@ -10,20 +10,17 @@ using AU = Submerged.BaseGame.Interfaces.AU;
 namespace Submerged.Floors;
 
 [RegisterInIl2Cpp(typeof(ISystemType))]
-public sealed class SubmarinePlayerFloorSystem : CppObject, AU.ISystemType
+public sealed class SubmarinePlayerFloorSystem(nint ptr) : CppObject(ptr), AU.ISystemType
 {
     public readonly Dictionary<byte, int> playerFloorSids = new(); // On Upper Deck
 
     public readonly Dictionary<byte, bool> playerFloorStates = new(); // On Upper Deck
 
-    public SubmarinePlayerFloorSystem() : base(ClassInjector.DerivedConstructorPointer<SubmarinePlayerFloorSystem>())
+    public SubmarinePlayerFloorSystem() : this(ClassInjector.DerivedConstructorPointer<SubmarinePlayerFloorSystem>())
     {
         ClassInjector.DerivedConstructorBody(this);
         Instance = this;
     }
-
-    [UsedImplicitly]
-    public SubmarinePlayerFloorSystem(IntPtr ptr) : base(ptr) { }
 
     public static SubmarinePlayerFloorSystem Instance { get; private set; }
 

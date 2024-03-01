@@ -7,7 +7,7 @@ using UnityEngine;
 namespace Submerged.ExileCutscene;
 
 [RegisterInIl2Cpp]
-public sealed class FishController : MonoBehaviour
+public sealed class FishController(nint ptr) : MonoBehaviour(ptr)
 {
     public AnimationClip swim;
     public AnimationClip bite;
@@ -21,8 +21,6 @@ public sealed class FishController : MonoBehaviour
     private bool _bit;
 
     private float _speed = 10f;
-
-    public FishController(IntPtr ptr) : base(ptr) { }
 
     private void Start()
     {

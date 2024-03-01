@@ -11,13 +11,13 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.ClearUrchins;
 
 [RegisterInIl2Cpp]
-public sealed class ClearUrchinsMinigame : Minigame
+public sealed class ClearUrchinsMinigame(nint ptr) : Minigame(ptr)
 {
     private const float ANGLE_OFFSET = 137f;
     private const float PELLET_ANGLE_OFFSET = 47.3f;
 
     private readonly FloatRange _angleRange = new(-20.3f, 16.8f);
-    private readonly List<Urchin> _urchins = new();
+    private readonly List<Urchin> _urchins = [];
     private Camera _camera;
     private bool _finished;
 
@@ -29,8 +29,6 @@ public sealed class ClearUrchinsMinigame : Minigame
     private Rigidbody2D _pelletBody;
 
     private bool _shooting;
-
-    public ClearUrchinsMinigame(IntPtr ptr) : base(ptr) { }
 
     private void Start()
     {

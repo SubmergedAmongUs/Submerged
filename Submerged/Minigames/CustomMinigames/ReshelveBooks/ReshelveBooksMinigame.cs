@@ -5,14 +5,12 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.ReshelveBooks;
 
 [RegisterInIl2Cpp]
-public sealed class ReshelveBooksMinigame : Minigame
+public sealed class ReshelveBooksMinigame(nint ptr) : Minigame(ptr)
 {
     public int loungeBook;
     public int medicalBook;
 
     public MinigameProperties minigameProperties;
-
-    public ReshelveBooksMinigame(IntPtr ptr) : base(ptr) { }
 
     public ReshelveBooksTask Task => MyNormTask.Cast<ReshelveBooksTask>();
 

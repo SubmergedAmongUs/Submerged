@@ -4,7 +4,7 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.StartSubmersible.MonoBehaviours;
 
 [RegisterInIl2Cpp]
-public sealed class SubmersibleSlider : MonoBehaviour
+public sealed class SubmersibleSlider(nint ptr) : MonoBehaviour(ptr)
 {
     public bool complete;
 
@@ -19,8 +19,6 @@ public sealed class SubmersibleSlider : MonoBehaviour
     private readonly Controller _controller = new();
     private bool _active;
     private Vector2 _mouseOffset;
-
-    public SubmersibleSlider(IntPtr ptr) : base(ptr) { }
 
     private void Awake()
     {

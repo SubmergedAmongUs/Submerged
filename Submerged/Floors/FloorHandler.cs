@@ -13,7 +13,7 @@ using UnityEngine;
 namespace Submerged.Floors;
 
 [RegisterInIl2Cpp]
-public sealed class FloorHandler : MonoBehaviour
+public sealed class FloorHandler(nint ptr) : MonoBehaviour(ptr)
 {
     public const float MAP_OFFSET = 48.119f;
     public const float FLOOR_CUTOFF = -6.19f;
@@ -36,8 +36,6 @@ public sealed class FloorHandler : MonoBehaviour
     private Transform _transform;
 
     public IEnumerable<int> ints = new List<int>();
-
-    public FloorHandler(IntPtr ptr) : base(ptr) { }
 
     private PlayerControl Player
     {

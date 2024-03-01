@@ -11,7 +11,7 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.RecordNavBeaconData;
 
 [RegisterInIl2Cpp]
-public sealed class SetNavBeaconPart2 : MonoBehaviour
+public sealed class SetNavBeaconPart2(nint ptr) : MonoBehaviour(ptr)
 {
     private static readonly KeyCode[] _validKeyCodes = Enum.GetValues(typeof(KeyCode))
                                                            .OfType<KeyCode>()
@@ -24,8 +24,6 @@ public sealed class SetNavBeaconPart2 : MonoBehaviour
 
     private SetNavBeaconMinigame _parent;
     private TextMeshPro _text;
-
-    public SetNavBeaconPart2(IntPtr ptr) : base(ptr) { }
 
     private void Awake()
     {

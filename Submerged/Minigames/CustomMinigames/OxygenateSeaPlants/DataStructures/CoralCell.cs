@@ -14,7 +14,7 @@ public sealed class CoralCell
     public CoralWall topWall;
     public bool visited = false;
 
-    public void SetState(Walls direction, List<Sprite> validSprites, Transform transform)
+    /*public void SetState(Walls direction, List<Sprite> validSprites, Transform transform)
     {
         if (!transform) return;
         bool wallThere = false;
@@ -52,5 +52,5 @@ public sealed class CoralCell
         walls += topWall.exists ? 1 : 0;
 
         return walls == 3;
-    }
+    }*/
 }

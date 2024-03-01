@@ -4,14 +4,12 @@ using UnityEngine;
 namespace Submerged.ExileCutscene;
 
 [RegisterInIl2Cpp]
-public sealed class ExileParallax : MonoBehaviour
+public sealed class ExileParallax(nint ptr) : MonoBehaviour(ptr)
 {
     private const float SCALE = 0.5f;
     private ParallaxChild[] _children;
 
     private Vector3 _initialCamPos;
-
-    public ExileParallax(IntPtr ptr) : base(ptr) { }
 
     private void Awake()
     {

@@ -5,7 +5,7 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.OxygenateSeaPlants.MonoBehaviours;
 
 [RegisterInIl2Cpp]
-public sealed class SlugBehaviour : MonoBehaviour
+public sealed class SlugBehaviour(nint ptr) : MonoBehaviour(ptr)
 {
     public Collider2D collider2D;
     public Rigidbody2D body;
@@ -15,8 +15,6 @@ public sealed class SlugBehaviour : MonoBehaviour
 
     public GameObject @object;
     public OxygenateCoralMinigame minigame;
-
-    public SlugBehaviour(IntPtr ptr) : base(ptr) { }
 
     private void Start()
     {

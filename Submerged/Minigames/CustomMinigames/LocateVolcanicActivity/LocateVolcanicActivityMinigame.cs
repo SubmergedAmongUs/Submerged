@@ -13,7 +13,7 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.LocateVolcanicActivity;
 
 [RegisterInIl2Cpp]
-public sealed class LocateVolcanicActivityMinigame : Minigame
+public sealed class LocateVolcanicActivityMinigame(nint ptr) : Minigame(ptr)
 {
     private AudioClip _failClick;
     private int _failures;
@@ -24,8 +24,6 @@ public sealed class LocateVolcanicActivityMinigame : Minigame
     private int _targetAmount;
     private AudioClip _targetClick;
     private List<SpriteRenderer> _targets;
-
-    public LocateVolcanicActivityMinigame(IntPtr ptr) : base(ptr) { }
 
     public void Reset()
     {

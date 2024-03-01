@@ -10,12 +10,10 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.ReshelveBooks;
 
 [RegisterInIl2Cpp]
-public sealed class ReshelvePart1 : MonoBehaviour
+public sealed class ReshelvePart1(nint ptr) : MonoBehaviour(ptr)
 {
     public ReshelveBooksMinigame minigame;
     private bool _clicked;
-
-    public ReshelvePart1(IntPtr ptr) : base(ptr) { }
 
     private void Start()
     {

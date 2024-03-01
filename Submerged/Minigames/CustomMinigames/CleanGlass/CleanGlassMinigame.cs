@@ -12,7 +12,7 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.CleanGlass;
 
 [RegisterInIl2Cpp]
-public sealed class CleanGlassMinigame : Minigame
+public sealed class CleanGlassMinigame(nint ptr) : Minigame(ptr)
 {
     public GameObject[] smudges;
     public Draggable cloth;
@@ -24,8 +24,6 @@ public sealed class CleanGlassMinigame : Minigame
     private bool _hovering;
 
     private MinigameProperties _minigameProperties;
-
-    public CleanGlassMinigame(IntPtr ptr) : base(ptr) { }
 
     private void Start()
     {

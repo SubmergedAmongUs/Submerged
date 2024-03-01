@@ -7,7 +7,7 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.RecordNavBeaconData;
 
 [RegisterInIl2Cpp]
-public sealed class SetNavBeaconMinigame : Minigame
+public sealed class SetNavBeaconMinigame(nint ptr) : Minigame(ptr)
 {
     private static readonly char[] _letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
     private static readonly char[] _numbers = "0123456789".ToCharArray();
@@ -16,8 +16,6 @@ public sealed class SetNavBeaconMinigame : Minigame
     public SetNavBeaconPart2 part2;
 
     public string code = "";
-
-    public SetNavBeaconMinigame(IntPtr ptr) : base(ptr) { }
 
     private void Start()
     {

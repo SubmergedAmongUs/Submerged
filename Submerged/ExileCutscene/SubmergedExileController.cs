@@ -11,7 +11,7 @@ using UnityEngine;
 namespace Submerged.ExileCutscene;
 
 [RegisterInIl2Cpp]
-public sealed class SubmergedExileController : ExileController
+public sealed class SubmergedExileController(nint ptr) : ExileController(ptr)
 {
     private const float MULTIPLIER = 6;
     public Transform textTransform;
@@ -33,8 +33,6 @@ public sealed class SubmergedExileController : ExileController
     private bool _textRoutine;
 
     private float _timer;
-
-    public SubmergedExileController(IntPtr ptr) : base(ptr) { }
 
     private void Start()
     {

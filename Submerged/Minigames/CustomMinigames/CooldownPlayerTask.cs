@@ -9,11 +9,9 @@ namespace Submerged.Minigames.CustomMinigames;
 
 // TODO: change this to cooldown consoles or something idk
 [RegisterInIl2Cpp]
-public sealed class CooldownPlayerTask : NormalPlayerTask
+public sealed class CooldownPlayerTask(nint ptr) : NormalPlayerTask(ptr)
 {
     public float timer;
-
-    public CooldownPlayerTask(IntPtr ptr) : base(ptr) { }
 
     private void Awake()
     {

@@ -10,7 +10,7 @@ using UnityEngine.UI;
 namespace Submerged.Minigames.CustomMinigames.StartSubmersible;
 
 [RegisterInIl2Cpp]
-public sealed class StartSubmersibleMinigame : Minigame
+public sealed class StartSubmersibleMinigame(nint ptr) : Minigame(ptr)
 {
     public SubmersibleSlider shieldSlider;
     public SubmersibleSlider weaponsSlider;
@@ -25,8 +25,6 @@ public sealed class StartSubmersibleMinigame : Minigame
     private AudioSource _audio;
 
     private int _flickedSwitches;
-
-    public StartSubmersibleMinigame(IntPtr ptr) : base(ptr) { }
 
     private void Start()
     {

@@ -15,25 +15,27 @@ using UnityEngine;
 
 namespace Submerged.Minigames.CustomMinigames.PurchaseBreakfast;
 
+// I have no idea wtf was going on with us when we wrote this task
+
 [RegisterInIl2Cpp]
-public sealed class PurchaseBreakfastMinigame : Minigame
+public sealed class PurchaseBreakfastMinigame(nint ptr) : Minigame(ptr)
 {
     public MinigameProperties properties;
 
     // Prices
-    public int[] currencyDenominations = { 1, 5, 10, 20 };
-    public List<int> possiblePrices = new();
-    public List<int> existingBillConfigurations = new();
+    public int[] currencyDenominations = [1, 5, 10, 20];
+    public List<int> possiblePrices = [];
+    public List<int> existingBillConfigurations = [];
 
     // Selections
-    public List<int> pickedPrices = new();
-    public List<int> pickedSlots = new();
-    public List<int> pickedSales = new();
-    public List<SpriteRenderer> billRenderers = new();
-    public List<Transform> billTransforms = new();
+    public List<int> pickedPrices = [];
+    public List<int> pickedSlots = [];
+    public List<int> pickedSales = [];
+    public List<SpriteRenderer> billRenderers = [];
+    public List<Transform> billTransforms = [];
 
-    public List<Transform> traysMovingParts = new();
-    public List<Transform> salesMovingParts = new();
+    public List<Transform> traysMovingParts = [];
+    public List<Transform> salesMovingParts = [];
     private int _amountOfBills = 5;
 
     private int _callCount;
@@ -49,14 +51,12 @@ public sealed class PurchaseBreakfastMinigame : Minigame
     private int _seed;
 
     public Dictionary<int, CakeBehaviour> cakeBehaviours = new();
-    public List<(Sprite single, Sprite multiple)> foodSprites = new();
+    public List<(Sprite single, Sprite multiple)> foodSprites = [];
     public Dictionary<int, Sprite> moneySprites = new();
 
     // Sprites
     public Dictionary<int, Sprite> numbers = new();
-    public List<(int price, int[] bills)> priceToBill = new();
-
-    public PurchaseBreakfastMinigame(IntPtr ptr) : base(ptr) { }
+    public List<(int price, int[] bills)> priceToBill = [];
 
     private void Awake()
     {
@@ -143,7 +143,7 @@ public sealed class PurchaseBreakfastMinigame : Minigame
                 sale.Find("RightMoney").GetComponent<SpriteRenderer>().sprite = numbers[discount % 10];
             }
 
-            List<int> cakePrices = new(pickedPrices);
+            List<int> cakePrices = [..pickedPrices];
             cakePrices.Sort();
             int chosenPrice = cakePrices[0];
             int[] bills = ShuffleWithRandom(ShuffleWithRandom(priceToBill, _random)
@@ -162,18 +162,18 @@ public sealed class PurchaseBreakfastMinigame : Minigame
                 cake.balance = chosenPrice;
             }
 
-            traysMovingParts = new List<Transform>
-            {
+            traysMovingParts =
+            [
                 transform.Find("Trays"),
                 transform.Find("Slots"),
                 transform.Find("TrayFronts")
-            };
+            ];
 
-            salesMovingParts = new List<Transform>
-            {
+            salesMovingParts =
+            [
                 transform.Find("Cards/Sliding"),
                 transform.Find("Sales")
-            };
+            ];
 
             if (!_hasShownEasterEgg && UnityRandom.Range(0, 40) == 0)
             {
@@ -527,7 +527,7 @@ public sealed class PurchaseBreakfastMinigame : Minigame
 
     public static List<T> ShuffleWithRandomCopy<T>(List<T> list, SystemRandom random)
     {
-        List<T> newList = new(list);
+        List<T> newList = [..list];
         int index = newList.Count;
 
         while (index > 1)

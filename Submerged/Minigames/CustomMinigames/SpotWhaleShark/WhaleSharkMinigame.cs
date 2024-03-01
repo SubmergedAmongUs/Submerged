@@ -5,7 +5,7 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.SpotWhaleShark;
 
 [RegisterInIl2Cpp]
-public sealed class WhaleSharkMinigame : Minigame
+public sealed class WhaleSharkMinigame(nint ptr) : Minigame(ptr)
 {
     private ClickableSprite _button;
 
@@ -17,8 +17,6 @@ public sealed class WhaleSharkMinigame : Minigame
 
     private WhaleSharkTask _task;
     private Transform _whaleShark;
-
-    public WhaleSharkMinigame(IntPtr ptr) : base(ptr) { }
 
     private void Start()
     {

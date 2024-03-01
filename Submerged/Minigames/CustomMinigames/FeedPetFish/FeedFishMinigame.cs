@@ -12,18 +12,16 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.FeedPetFish;
 
 [RegisterInIl2Cpp]
-public sealed class FeedFishMinigame : Minigame
+public sealed class FeedFishMinigame(nint ptr) : Minigame(ptr)
 {
     private readonly bool[] _completedSpecies = new bool[2];
-    private readonly List<DraggableFeeder> _fishFood = new();
+    private readonly List<DraggableFeeder> _fishFood = [];
     private AudioSource _audio;
     private List<Transform> _fishGroup;
 
     private MinigameProperties _minigameProperties;
 
     private int[] _selectedSpecies = new int[2];
-
-    public FeedFishMinigame(IntPtr ptr) : base(ptr) { }
 
     private void Start()
     {
@@ -42,9 +40,9 @@ public sealed class FeedFishMinigame : Minigame
             draggableFeeder.owner = this;
             draggableFeeder.rotationTarget = rotationLookAtPoint;
             draggableFeeder.fishFood = shakerParticles;
-            draggableFeeder.fishFoodParent = shakerParticles.transform.parent;
+            // draggableFeeder.fishFoodParent = shakerParticles.transform.parent;
             draggableFeeder.activatedArea = activatorArea;
-            draggableFeeder.shakeDuration = 3f;
+            // draggableFeeder.shakeDuration = 3f;
             _fishFood.Add(draggableFeeder);
         }
 

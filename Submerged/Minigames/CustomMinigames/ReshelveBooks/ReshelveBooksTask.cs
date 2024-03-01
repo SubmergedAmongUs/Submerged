@@ -5,11 +5,9 @@ using Submerged.Enums;
 namespace Submerged.Minigames.CustomMinigames.ReshelveBooks;
 
 [RegisterInIl2Cpp]
-public sealed class ReshelveBooksTask : NormalPlayerTask
+public sealed class ReshelveBooksTask(nint ptr) : NormalPlayerTask(ptr)
 {
     public byte[] customData;
-
-    public ReshelveBooksTask(IntPtr ptr) : base(ptr) { }
 
     private void Awake()
     {

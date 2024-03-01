@@ -8,14 +8,12 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.SortScubaGear.MonoBehaviours;
 
 [RegisterInIl2Cpp]
-public sealed class ScubaGearItem : MonoBehaviour
+public sealed class ScubaGearItem(nint ptr) : MonoBehaviour(ptr)
 {
     public SortScubaMinigame minigame;
 
     public ScubaGearType itemType;
     public Draggable draggable;
-
-    public ScubaGearItem(IntPtr ptr) : base(ptr) { }
 
     private void Awake()
     {

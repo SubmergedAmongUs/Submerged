@@ -5,10 +5,8 @@ using UnityEngine;
 namespace Submerged.Minigames.CustomMinigames.SortScubaGear.MonoBehaviours;
 
 [RegisterInIl2Cpp]
-public sealed class SortScubaBox : MonoBehaviour
+public sealed class SortScubaBox(nint ptr) : MonoBehaviour(ptr)
 {
     public ScubaGearType targetType;
     public PolygonCollider2D polygonCollider2D;
-
-    public SortScubaBox(IntPtr ptr) : base(ptr) { }
 }
