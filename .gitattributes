@@ -1,0 +1,10 @@
+# Marks end of line as LF
+* text=auto eol=lf
+
+# Automatically resolve merge conflicts in contentModel.xml
+**/.idea/contentModel.xml merge=union
+
+# Treat unity files as binary files, so they don't get corrupted by merge conflicts
+*.meta binary
+*.prefab binary
+*.unity binary

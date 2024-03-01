@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{5819678E-32DB-4841-A4F9-89ECE2AE8ADA}"
+ProjectSection(SolutionItems) = preProject
+	nuget.config = nuget.config
+EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Submerged", "Submerged\Submerged.csproj", "{13ACAAD7-C0BE-468C-8710-14C77F7C24BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Submerged = Debug|Submerged
+		Release|Submerged = Release|Submerged
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13ACAAD7-C0BE-468C-8710-14C77F7C24BA}.Debug|Submerged.ActiveCfg = Debug|Submerged
+		{13ACAAD7-C0BE-468C-8710-14C77F7C24BA}.Debug|Submerged.Build.0 = Debug|Submerged
+		{13ACAAD7-C0BE-468C-8710-14C77F7C24BA}.Release|Submerged.ActiveCfg = Release|Submerged
+		{13ACAAD7-C0BE-468C-8710-14C77F7C24BA}.Release|Submerged.Build.0 = Release|Submerged
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3F449C4-EA0F-4F6E-BA08-A2D3C001A9FC}
+	EndGlobalSection
+EndGlobal
