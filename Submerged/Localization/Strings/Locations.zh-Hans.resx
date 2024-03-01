@@ -1,0 +1,60 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="Research" xml:space="preserve">
+        <value>研究室</value>
+    </data>
+    <data name="Observatory" xml:space="preserve">
+        <value>观察室</value>
+    </data>
+    <data name="Central.Upper" xml:space="preserve">
+        <value>上层中庭</value>
+    </data>
+    <data name="Lobby.Upper" xml:space="preserve">
+        <value>上层大厅</value>
+    </data>
+    <data name="Filtration" xml:space="preserve">
+        <value>过滤室</value>
+    </data>
+    <data name="Ballast" xml:space="preserve">
+        <value>镇流器房</value>
+    </data>
+    <data name="Central.Lower" xml:space="preserve">
+        <value>下层中庭</value>
+    </data>
+    <data name="Lobby.Lower" xml:space="preserve">
+        <value>下层大厅</value>
+    </data>
+    <data name="Elevator" xml:space="preserve">
+        <value>电梯</value>
+    </data>
+    <data name="Elevator.Service" xml:space="preserve">
+        <value>电梯维修部</value>
+    </data>
+    <data name="Central" xml:space="preserve">
+        <value>中庭</value>
+    </data>
+    <data name="Lobby" xml:space="preserve">
+        <value>大厅</value>
+    </data>
+    <data name="Deck.Upper" xml:space="preserve">
+        <value>上层甲板</value>
+    </data>
+    <data name="Deck.Lower" xml:space="preserve">
+        <value>下层甲板</value>
+    </data>
+</root>

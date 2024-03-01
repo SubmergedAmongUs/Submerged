@@ -1,0 +1,60 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="Research" xml:space="preserve">
+        <value>Исследовательская</value>
+    </data>
+    <data name="Observatory" xml:space="preserve">
+        <value>Обсерватория</value>
+    </data>
+    <data name="Central.Upper" xml:space="preserve">
+        <value>Верхний узел</value>
+    </data>
+    <data name="Lobby.Upper" xml:space="preserve">
+        <value>Верхнее лобби</value>
+    </data>
+    <data name="Filtration" xml:space="preserve">
+        <value>Фильтрационная</value>
+    </data>
+    <data name="Ballast" xml:space="preserve">
+        <value>Балласт</value>
+    </data>
+    <data name="Central.Lower" xml:space="preserve">
+        <value>Нижний узел</value>
+    </data>
+    <data name="Lobby.Lower" xml:space="preserve">
+        <value>Нижнее лобби</value>
+    </data>
+    <data name="Elevator" xml:space="preserve">
+        <value>Лифт</value>
+    </data>
+    <data name="Elevator.Service" xml:space="preserve">
+        <value>Служебный лифт</value>
+    </data>
+    <data name="Central" xml:space="preserve">
+        <value>Узел</value>
+    </data>
+    <data name="Lobby" xml:space="preserve">
+        <value>Лобби</value>
+    </data>
+    <data name="Deck.Lower" xml:space="preserve">
+        <value>Нижняя палуба</value>
+    </data>
+    <data name="Deck.Upper" xml:space="preserve">
+        <value>Верхняя палуба</value>
+    </data>
+</root>

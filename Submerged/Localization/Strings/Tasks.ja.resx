@@ -1,0 +1,266 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="CamsSabotage.Disabled" xml:space="preserve">
+        <value>動作していません</value>
+    </data>
+    <data name="CamsSabotage.Repairing" xml:space="preserve">
+        <value>修理中</value>
+    </data>
+    <data name="CamsSabotage.Active" xml:space="preserve">
+        <value>稼働中</value>
+    </data>
+    <data name="CleanGlass" xml:space="preserve">
+        <value>ガラス磨き</value>
+    </data>
+    <data name="ClearUrchins" xml:space="preserve">
+        <value>ウニを掃除</value>
+    </data>
+    <data name="CycleReactor" xml:space="preserve">
+        <value>サイクルリアクター</value>
+    </data>
+    <data name="CycleReactor.RPM" xml:space="preserve">
+        <value>回転速度:{0}</value>
+    </data>
+    <data name="DiagnoseElevators" xml:space="preserve">
+        <value>エレベーターの状態を調査する</value>
+    </data>
+    <data name="DiagnoseElevators.Diagnose" xml:space="preserve">
+        <value>診断ボタン</value>
+    </data>
+    <data name="DispenseWater" xml:space="preserve">
+        <value>給水</value>
+    </data>
+    <data name="FeedPetFish" xml:space="preserve">
+        <value>魚ちゃんにエサをあげる</value>
+    </data>
+    <data name="IdentifySpecimen" xml:space="preserve">
+        <value>検体識別</value>
+    </data>
+    <data name="IdentifySpecimen.Pufferfish" xml:space="preserve">
+        <value>癒しのフグちゃん</value>
+    </data>
+    <data name="LocateVolcanicActivity" xml:space="preserve">
+        <value>火山の活動体を見つける</value>
+    </data>
+    <data name="LocateVolcanicActivity.Incomplete" xml:space="preserve">
+        <value>円錐成層火山&#10;標高: 7,800 フィート&#10;状態: 活動中&#10;リスク: 噴火寸前</value>
+    </data>
+    <data name="LocateVolcanicActivity.Complete" xml:space="preserve">
+        <value>円錐成層火山&#10;標高: 7,800 フィート&#10;状態: 活動中&#10;リスク: 低</value>
+    </data>
+    <data name="MicrowaveLunch" xml:space="preserve">
+        <value>電子レンジでお昼ごはんを温める</value>
+    </data>
+    <data name="MicrowaveLunch.TaskTimer" xml:space="preserve">
+        <value>{0}分{1}秒</value>
+    </data>
+    <data name="MicrowaveLunch.CookTime" xml:space="preserve">
+        <value>加熱時間: {0}秒&#10;備忘録:&#10;後で取りに&#10;戻ってくること</value>
+    </data>
+    <data name="MopPuddles" xml:space="preserve">
+        <value>水たまりにモップ掛け</value>
+    </data>
+    <data name="OxygenateSeaPlants" xml:space="preserve">
+        <value>海藻に酸素を送る</value>
+    </data>
+    <data name="PlugLeaks" xml:space="preserve">
+        <value>漏れ口を塞ぐ</value>
+    </data>
+    <data name="PurchaseBreakfast" xml:space="preserve">
+        <value>朝食を買う</value>
+    </data>
+    <data name="PurchaseBreakfast.Offers" xml:space="preserve">
+        <value>特価提供:</value>
+    </data>
+    <data name="ReconnectPiping" xml:space="preserve">
+        <value>パイプを再接続</value>
+    </data>
+    <data name="ReconnectPiping.HighPressure" xml:space="preserve">
+        <value>&lt;size=150%&gt;高圧&lt;/size&gt;</value>
+    </data>
+    <data name="RecordNavBeaconData" xml:space="preserve">
+        <value>ナビゲーションビーコンのデータを記録する</value>
+    </data>
+    <data name="RecordNavBeaconData.Wait" xml:space="preserve">
+        <value>メッセージ取得中・・・</value>
+    </data>
+    <data name="RecordNavBeaconData.Done" xml:space="preserve">
+        <value>メッセージを取得しました。</value>
+    </data>
+    <data name="RecordNavBeaconData.Enter" xml:space="preserve">
+        <value>ビーコンから取得した&#10;メッセージを入力してください</value>
+    </data>
+    <data name="ResetBreakers" xml:space="preserve">
+        <value>ブレーカーリセット</value>
+    </data>
+    <data name="ReshelveBooks" xml:space="preserve">
+        <value>本を本棚に戻す</value>
+    </data>
+    <data name="ReshelveBooks.Book01" xml:space="preserve">
+        <value>&lt;size=125%&gt;あ&lt;/size&gt;んただれよ</value>
+    </data>
+    <data name="ReshelveBooks.Book02-Lounge" xml:space="preserve">
+        <value>&lt;size=125%&gt;い&lt;/size&gt;かとたこのちがい</value>
+    </data>
+    <data name="ReshelveBooks.Book03" xml:space="preserve">
+        <value>&lt;size=125%&gt;う&lt;/size&gt;みがめのさんらん</value>
+    </data>
+    <data name="ReshelveBooks.Book04" xml:space="preserve">
+        <value>&lt;size=125%&gt;え&lt;/size&gt;んざいです！僕はやってません！</value>
+    </data>
+    <data name="ReshelveBooks.Book05" xml:space="preserve">
+        <value>&lt;size=125%&gt;お&lt;/size&gt;りがみの折り方（中級）</value>
+    </data>
+    <data name="ReshelveBooks.Book06-Lounge" xml:space="preserve">
+        <value>&lt;size=125%&gt;か&lt;/size&gt;らいもの大好き君の1日</value>
+    </data>
+    <data name="ReshelveBooks.Book07" xml:space="preserve">
+        <value>&lt;size=125%&gt;黄&lt;/size&gt;色信号なんてない</value>
+    </data>
+    <data name="ReshelveBooks.Book08-Medical" xml:space="preserve">
+        <value>&lt;size=125%&gt;く&lt;/size&gt;りの食べ方</value>
+    </data>
+    <data name="ReshelveBooks.Book09" xml:space="preserve">
+        <value>&lt;size=125%&gt;け&lt;/size&gt;んこう生活1日目</value>
+    </data>
+    <data name="ReshelveBooks.Book10-Medical" xml:space="preserve">
+        <value>&lt;size=125%&gt;こ&lt;/size&gt;んな食べ物はいやだ</value>
+    </data>
+    <data name="ReshelveBooks.Book11-Lounge" xml:space="preserve">
+        <value>&lt;size=125%&gt;サ&lt;/size&gt;プライズプレゼント～君に～</value>
+    </data>
+    <data name="ReshelveBooks.Book12" xml:space="preserve">
+        <value>&lt;size=125%&gt;シ&lt;/size&gt;－ラカンス釣りたい</value>
+    </data>
+    <data name="ReshelveBooks.Book13-Medical" xml:space="preserve">
+        <value>&lt;size=125%&gt;寿&lt;/size&gt;司の握り方</value>
+    </data>
+    <data name="ReshelveBooks.Book14" xml:space="preserve">
+        <value>&lt;size=125%&gt;世&lt;/size&gt;界征服簡単ガイド</value>
+    </data>
+    <data name="ReshelveBooks.Book15" xml:space="preserve">
+        <value>&lt;size=125%&gt;ソ&lt;/size&gt;プラノ歌手名鑑</value>
+    </data>
+    <data name="RetrieveOxygenMask" xml:space="preserve">
+        <value>酸素マスクを取る</value>
+    </data>
+    <data name="ShootDepthCharges" xml:space="preserve">
+        <value>爆雷を撃つ</value>
+    </data>
+    <data name="ShootDepthCharges.Remaining" xml:space="preserve">
+        <value>残り爆雷数: {0}</value>
+    </data>
+    <data name="SortScubaGear" xml:space="preserve">
+        <value>スキューバ用品の整理</value>
+    </data>
+    <data name="SpotWhaleShark" xml:space="preserve">
+        <value>ジンベエザメを見つける</value>
+    </data>
+    <data name="SpotWhaleShark.NotVisible" xml:space="preserve">
+        <value>まだ見れません {0}秒</value>
+    </data>
+    <data name="SpotWhaleShark.InRange" xml:space="preserve">
+        <value>見れます {0}秒</value>
+    </data>
+    <data name="StabilizeWaterLevels" xml:space="preserve">
+        <value>水位を安定させる</value>
+    </data>
+    <data name="StartSubmersible" xml:space="preserve">
+        <value>潜水船を起動する</value>
+    </data>
+    <data name="StartSubmersible.Status.Inactive" xml:space="preserve">
+        <value>状態: 非稼働</value>
+    </data>
+    <data name="StartSubmersible.Status.Starting" xml:space="preserve">
+        <value>状態: 起動中・・・</value>
+    </data>
+    <data name="StartSubmersible.Status.Active" xml:space="preserve">
+        <value>状態: 稼働</value>
+    </data>
+    <data name="StartSubmersible.Shields" xml:space="preserve">
+        <value>シールド</value>
+    </data>
+    <data name="StartSubmersible.Weapons" xml:space="preserve">
+        <value>ウェポン</value>
+    </data>
+    <data name="StartSubmersible.MainEngines" xml:space="preserve">
+        <value>メインエンジン</value>
+    </data>
+    <data name="StartSubmersible.AuxEngines" xml:space="preserve">
+        <value>補助エンジン</value>
+    </data>
+    <data name="StartSubmersible.ExternalSystems" xml:space="preserve">
+        <value>外部システム</value>
+    </data>
+    <data name="SteadyHeartbeat" xml:space="preserve">
+        <value>心拍数を安定させる</value>
+    </data>
+    <data name="SteadyHeartbeat.BPMLeft" xml:space="preserve">
+        <value>心拍数</value>
+    </data>
+    <data name="SteadyHeartbeat.BPMRight" xml:space="preserve">
+        <value>{0}&#10;BPM​</value>
+    </data>
+    <data name="SteadyHeartbeat.Target" xml:space="preserve">
+        <value>&lt;u&gt;患者メモ&lt;/u&gt;&#10;&#10;正常心拍数:&#10;{0} - {1} BPM</value>
+    </data>
+    <data name="SteadyHeartbeat.Status" xml:space="preserve">
+        <value>状態: {0}</value>
+    </data>
+    <data name="SteadyHeartbeat.Status.Irregular" xml:space="preserve">
+        <value>異常</value>
+    </data>
+    <data name="SteadyHeartbeat.Status.Stabilizing" xml:space="preserve">
+        <value>安定中</value>
+    </data>
+    <data name="SteadyHeartbeat.Status.Stable" xml:space="preserve">
+        <value>安定</value>
+    </data>
+    <data name="TrackMantaRay" xml:space="preserve">
+        <value>マンタを追跡する</value>
+    </data>
+    <data name="TrackMantaRay.Tracking" xml:space="preserve">
+        <value>追跡中: {0}%</value>
+    </data>
+    <data name="SpawnIn.Bottom.Loading" xml:space="preserve">
+        <value>ロード中・・・（{0}/{1}）</value>
+    </data>
+    <data name="SpawnIn.Bottom.Spawning" xml:space="preserve">
+        <value>準備完了している人数：{0}/{1}</value>
+    </data>
+    <data name="SpawnIn.Top.LoadingClicked" xml:space="preserve">
+        <value>他のプレイヤーを待っています・・・</value>
+    </data>
+    <data name="SpawnIn.Top.SpawningClicked" xml:space="preserve">
+        <value>他のプレイヤーを待っています・・・（{0}秒）</value>
+    </data>
+    <data name="SpawnIn.Top.SpawningNotClicked" xml:space="preserve">
+        <value>残り時間：{0}秒</value>
+    </data>
+    <data name="MicrowaveLunch.PostItPink" xml:space="preserve">
+        <value>絶対俺のピザ食うなよ！
+- ピンク</value>
+    </data>
+    <data name="MicrowaveLunch.PostItGreen" xml:space="preserve">
+        <value>使った後にちゃんと掃除すること！
+- 緑とライム</value>
+    </data>
+    <data name="SpawnIn.Top.SpawningHnS" xml:space="preserve">
+        <value>インポスターを待っています・・・（{0}秒）</value>
+    </data>
+</root>

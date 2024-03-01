@@ -1,0 +1,60 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="Research" xml:space="preserve">
+        <value>研究所</value>
+    </data>
+    <data name="Observatory" xml:space="preserve">
+        <value>展望台</value>
+    </data>
+    <data name="Central.Upper" xml:space="preserve">
+        <value>アッパーセントラル</value>
+    </data>
+    <data name="Lobby.Upper" xml:space="preserve">
+        <value>アッパーロビー</value>
+    </data>
+    <data name="Filtration" xml:space="preserve">
+        <value>ろ過室</value>
+    </data>
+    <data name="Ballast" xml:space="preserve">
+        <value>バラスト</value>
+    </data>
+    <data name="Central.Lower" xml:space="preserve">
+        <value>ロワーセントラル</value>
+    </data>
+    <data name="Lobby.Lower" xml:space="preserve">
+        <value>ロワーロビー</value>
+    </data>
+    <data name="Elevator" xml:space="preserve">
+        <value>エレベーター</value>
+    </data>
+    <data name="Elevator.Service" xml:space="preserve">
+        <value>サービスエレベーター</value>
+    </data>
+    <data name="Central" xml:space="preserve">
+        <value>セントラル</value>
+    </data>
+    <data name="Lobby" xml:space="preserve">
+        <value>ロビー</value>
+    </data>
+    <data name="Deck.Lower" xml:space="preserve">
+        <value>ロワーデッキ</value>
+    </data>
+    <data name="Deck.Upper" xml:space="preserve">
+        <value>アッパーデッキ</value>
+    </data>
+</root>

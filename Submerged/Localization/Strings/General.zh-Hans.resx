@@ -1,0 +1,46 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="Credits.Developers" xml:space="preserve">
+        <value>开发人员</value>
+    </data>
+    <data name="Credits.MapDesign" xml:space="preserve">
+        <value>地图设计</value>
+    </data>
+    <data name="Credits.ProjectLead" xml:space="preserve">
+        <value>项目负责人</value>
+    </data>
+    <data name="Credits.Artists" xml:space="preserve">
+        <value>画家</value>
+    </data>
+    <data name="Credits.Translators" xml:space="preserve">
+        <value>翻译人员</value>
+    </data>
+    <data name="Credits.TechnicalSupport" xml:space="preserve">
+        <value>技术人员</value>
+    </data>
+    <data name="Credits.AdditionalArt" xml:space="preserve">
+        <value>更多艺术家</value>
+    </data>
+    <data name="Error.PlayersMissingSubmerged" xml:space="preserve">
+        <value>以下玩家没有Submerged:</value>
+    </data>
+    <data name="Error.AssetsNotLoaded" xml:space="preserve">
+        <value>不可加载游戏，请重启游戏，
+还有问题请重新安装Submerged或者去GitHub开问题票</value>
+    </data>
+</root>

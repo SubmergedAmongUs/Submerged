@@ -1,0 +1,271 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="CamsSabotage.Active" xml:space="preserve">
+        <value>已啟用</value>
+    </data>
+    <data name="CamsSabotage.Disabled" xml:space="preserve">
+        <value>關閉</value>
+    </data>
+    <data name="MicrowaveLunch.PostItPink" xml:space="preserve">
+        <value>不要吃我的披薩
+
+      - 粉紅</value>
+    </data>
+    <data name="IdentifySpecimen.Pufferfish" xml:space="preserve">
+        <value>河豚</value>
+    </data>
+    <data name="LocateVolcanicActivity.Incomplete" xml:space="preserve">
+        <value>海底錐形火山&#10;高度: 7,800 英尺&#10;狀態: 活躍&#10;風險: 危險</value>
+    </data>
+    <data name="MicrowaveLunch.CookTime" xml:space="preserve">
+        <value>需要: {0}秒
+
+記得領取</value>
+    </data>
+    <data name="LocateVolcanicActivity" xml:space="preserve">
+        <value>觀察火山地形</value>
+    </data>
+    <data name="DiagnoseElevators.Diagnose" xml:space="preserve">
+        <value>診斷</value>
+    </data>
+    <data name="DiagnoseElevators" xml:space="preserve">
+        <value>診斷電梯</value>
+    </data>
+    <data name="CycleReactor" xml:space="preserve">
+        <value>循環引擎反應器</value>
+    </data>
+    <data name="CycleReactor.RPM" xml:space="preserve">
+        <value>RPM:{0}​</value>
+    </data>
+    <data name="IdentifySpecimen" xml:space="preserve">
+        <value>檢驗標本</value>
+    </data>
+    <data name="ClearUrchins" xml:space="preserve">
+        <value>清理海膽</value>
+    </data>
+    <data name="MicrowaveLunch.PostItGreen" xml:space="preserve">
+        <value>記得用完後要清理乾淨
+
+- 深綠 &amp; 淺綠</value>
+    </data>
+    <data name="FeedPetFish" xml:space="preserve">
+        <value>餵食寵物魚</value>
+    </data>
+    <data name="CamsSabotage.Repairing" xml:space="preserve">
+        <value>修理中</value>
+    </data>
+    <data name="CleanGlass" xml:space="preserve">
+        <value>擦拭玻璃</value>
+    </data>
+    <data name="LocateVolcanicActivity.Complete" xml:space="preserve">
+        <value>海底錐形火山&#10;高度: 7,800 英尺&#10;狀態: 活躍&#10;風險: 低</value>
+    </data>
+    <data name="DispenseWater" xml:space="preserve">
+        <value>裝滿水瓶</value>
+    </data>
+    <data name="MicrowaveLunch" xml:space="preserve">
+        <value>加熱食物</value>
+    </data>
+    <data name="MicrowaveLunch.TaskTimer" xml:space="preserve">
+        <value>{0}:{1}​</value>
+    </data>
+    <data name="MopPuddles" xml:space="preserve">
+        <value>拖乾地面</value>
+    </data>
+    <data name="OxygenateSeaPlants" xml:space="preserve">
+        <value>氧化海生植物</value>
+    </data>
+    <data name="PlugLeaks" xml:space="preserve">
+        <value>堵住漏水處</value>
+    </data>
+    <data name="PurchaseBreakfast" xml:space="preserve">
+        <value>購買早餐</value>
+    </data>
+    <data name="PurchaseBreakfast.Offers" xml:space="preserve">
+        <value>特價:</value>
+    </data>
+    <data name="ReconnectPiping" xml:space="preserve">
+        <value>重新連接水管</value>
+    </data>
+    <data name="ReconnectPiping.HighPressure" xml:space="preserve">
+        <value>高壓水路</value>
+    </data>
+    <data name="RecordNavBeaconData" xml:space="preserve">
+        <value>紀錄海洋導航信標資料</value>
+    </data>
+    <data name="RecordNavBeaconData.Wait" xml:space="preserve">
+        <value>資料接收中...</value>
+    </data>
+    <data name="RecordNavBeaconData.Done" xml:space="preserve">
+        <value>資料已接收到.</value>
+    </data>
+    <data name="RecordNavBeaconData.Enter" xml:space="preserve">
+        <value>寫入海洋導航信標資料</value>
+    </data>
+    <data name="ResetBreakers" xml:space="preserve">
+        <value>重置斷路器</value>
+    </data>
+    <data name="ReshelveBooks" xml:space="preserve">
+        <value>整理書籍</value>
+    </data>
+    <data name="ReshelveBooks.Book01" xml:space="preserve">
+        <value>第１集:水族館保養</value>
+    </data>
+    <data name="ReshelveBooks.Book02-Lounge" xml:space="preserve">
+        <value>第２集:水生生物</value>
+    </data>
+    <data name="ReshelveBooks.Book03" xml:space="preserve">
+        <value>第３集:海蝕洞</value>
+    </data>
+    <data name="ReshelveBooks.Book04" xml:space="preserve">
+        <value>第４集:海洋生態知多少</value>
+    </data>
+    <data name="ReshelveBooks.Book05" xml:space="preserve">
+        <value>第５集:尋找格里莫</value>
+    </data>
+    <data name="ReshelveBooks.Book06-Lounge" xml:space="preserve">
+        <value>第６集:魚類科</value>
+    </data>
+    <data name="ReshelveBooks.Book07" xml:space="preserve">
+        <value>第７集:海洋世界</value>
+    </data>
+    <data name="ReshelveBooks.Book08-Medical" xml:space="preserve">
+        <value>第８集:海底微生物</value>
+    </data>
+    <data name="ReshelveBooks.Book09" xml:space="preserve">
+        <value>第９集:潛水家</value>
+    </data>
+    <data name="ReshelveBooks.Book10-Medical" xml:space="preserve">
+        <value>第１０集:海綿寶寶</value>
+    </data>
+    <data name="ReshelveBooks.Book11-Lounge" xml:space="preserve">
+        <value>第１１集:章魚的消化系統</value>
+    </data>
+    <data name="ReshelveBooks.Book12" xml:space="preserve">
+        <value>第１２集:水面探測方法</value>
+    </data>
+    <data name="ReshelveBooks.Book13-Medical" xml:space="preserve">
+        <value>第１３集:海蛞蝓和你自己</value>
+    </data>
+    <data name="ReshelveBooks.Book14" xml:space="preserve">
+        <value>第１４集:有毒的海上垃圾</value>
+    </data>
+    <data name="ReshelveBooks.Book15" xml:space="preserve">
+        <value>第１５集:鯨魚的生存區域</value>
+    </data>
+    <data name="RetrieveOxygenMask" xml:space="preserve">
+        <value>拾取氧氣面罩</value>
+    </data>
+    <data name="ShootDepthCharges" xml:space="preserve">
+        <value>射擊掉落的水雷</value>
+    </data>
+    <data name="ShootDepthCharges.Remaining" xml:space="preserve">
+        <value>水雷剩餘數量: {0}</value>
+    </data>
+    <data name="SortScubaGear" xml:space="preserve">
+        <value>整理潛水用具</value>
+    </data>
+    <data name="SpotWhaleShark" xml:space="preserve">
+        <value>觀察鯨鯊</value>
+    </data>
+    <data name="SpotWhaleShark.NotVisible" xml:space="preserve">
+        <value>尚未出沒 {0}s</value>
+    </data>
+    <data name="SpotWhaleShark.InRange" xml:space="preserve">
+        <value>出沒中 {0}s</value>
+    </data>
+    <data name="StabilizeWaterLevels" xml:space="preserve">
+        <value>穩定水位</value>
+    </data>
+    <data name="StartSubmersible" xml:space="preserve">
+        <value>啟動潛水艇</value>
+    </data>
+    <data name="StartSubmersible.Status.Inactive" xml:space="preserve">
+        <value>狀態: 休眠中</value>
+    </data>
+    <data name="StartSubmersible.Status.Starting" xml:space="preserve">
+        <value>狀態: 啟動中...</value>
+    </data>
+    <data name="StartSubmersible.Status.Active" xml:space="preserve">
+        <value>狀態: 運轉中</value>
+    </data>
+    <data name="StartSubmersible.Shields" xml:space="preserve">
+        <value>護盾</value>
+    </data>
+    <data name="StartSubmersible.Weapons" xml:space="preserve">
+        <value>武器</value>
+    </data>
+    <data name="StartSubmersible.MainEngines" xml:space="preserve">
+        <value>主引擎</value>
+    </data>
+    <data name="StartSubmersible.AuxEngines" xml:space="preserve">
+        <value>輔助引擎</value>
+    </data>
+    <data name="StartSubmersible.ExternalSystems" xml:space="preserve">
+        <value>外部系統</value>
+    </data>
+    <data name="SteadyHeartbeat" xml:space="preserve">
+        <value>穩定心跳</value>
+    </data>
+    <data name="SteadyHeartbeat.BPMLeft" xml:space="preserve">
+        <value>心率</value>
+    </data>
+    <data name="SteadyHeartbeat.BPMRight" xml:space="preserve">
+        <value>{0}
+BPM​</value>
+    </data>
+    <data name="SteadyHeartbeat.Target" xml:space="preserve">
+        <value>病患紀錄&#10;正常心率:&#10;{0} - {1} BPM</value>
+    </data>
+    <data name="SteadyHeartbeat.Status" xml:space="preserve">
+        <value>狀態: {0}</value>
+    </data>
+    <data name="SteadyHeartbeat.Status.Irregular" xml:space="preserve">
+        <value>不正常</value>
+    </data>
+    <data name="SteadyHeartbeat.Status.Stabilizing" xml:space="preserve">
+        <value>穩定中</value>
+    </data>
+    <data name="SteadyHeartbeat.Status.Stable" xml:space="preserve">
+        <value>穩定</value>
+    </data>
+    <data name="TrackMantaRay" xml:space="preserve">
+        <value>追蹤鬼蝠紅</value>
+    </data>
+    <data name="TrackMantaRay.Tracking" xml:space="preserve">
+        <value>追蹤中: {0}%</value>
+    </data>
+    <data name="SpawnIn.Top.SpawningNotClicked" xml:space="preserve">
+        <value>剩餘時間: {0}s</value>
+    </data>
+    <data name="SpawnIn.Top.LoadingClicked" xml:space="preserve">
+        <value>等待其他玩家...</value>
+    </data>
+    <data name="SpawnIn.Top.SpawningClicked" xml:space="preserve">
+        <value>等待其他玩家... ({0}s)</value>
+    </data>
+    <data name="SpawnIn.Bottom.Loading" xml:space="preserve">
+        <value>載入中... ({0}/{1})</value>
+    </data>
+    <data name="SpawnIn.Bottom.Spawning" xml:space="preserve">
+        <value>準備玩家: {0}/{1}</value>
+    </data>
+    <data name="SpawnIn.Top.SpawningHnS" xml:space="preserve">
+        <value>等待偽裝者... ({0}s)</value>
+    </data>
+</root>

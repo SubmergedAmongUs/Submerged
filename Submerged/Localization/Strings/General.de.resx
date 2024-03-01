@@ -1,0 +1,47 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+
+    <data name="Credits.AdditionalArt" xml:space="preserve">
+        <value>Zusätzliches Design</value>
+    </data>
+    <data name="Credits.Artists" xml:space="preserve">
+        <value>Designer</value>
+    </data>
+    <data name="Credits.Developers" xml:space="preserve">
+        <value>Entwickler</value>
+    </data>
+    <data name="Credits.MapDesign" xml:space="preserve">
+        <value>Mapdesign</value>
+    </data>
+    <data name="Credits.ProjectLead" xml:space="preserve">
+        <value>Projektleitung</value>
+    </data>
+    <data name="Credits.TechnicalSupport" xml:space="preserve">
+        <value>Technische Unterstützung</value>
+    </data>
+    <data name="Credits.Translators" xml:space="preserve">
+        <value>Übersetzer</value>
+    </data>
+    <data name="Error.PlayersMissingSubmerged" xml:space="preserve">
+        <value>Das Spiel kann nicht gestartet werden, da die folgenden Spieler Submerged nicht installiert haben:</value>
+    </data>
+    <data name="Error.AssetsNotLoaded" xml:space="preserve">
+        <value>Die Submerged-Assets konnten nicht geladen werden. Bitte starte dein Spiel neu.
+Wenn dieses Problem weiterhin besteht, installiere Submerged neu oder öffne eine Issue auf GitHub.</value>
+    </data>
+</root>
