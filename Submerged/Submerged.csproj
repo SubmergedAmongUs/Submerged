@@ -30,6 +30,18 @@
     <ItemGroup>
         <EmbeddedResource Include="**\Resources\**" />
         <EmbeddedResource Remove="**\Resources\**\*.cs" />
+        <EmbeddedResource Update="Localization\Strings\General.resx">
+            <Generator>ResXFileCodeGenerator</Generator>
+            <LastGenOutput>General.Designer.cs</LastGenOutput>
+        </EmbeddedResource>
+        <EmbeddedResource Update="Localization\Strings\Locations.resx">
+            <Generator>ResXFileCodeGenerator</Generator>
+            <LastGenOutput>Locations.Designer.cs</LastGenOutput>
+        </EmbeddedResource>
+        <EmbeddedResource Update="Localization\Strings\Tasks.resx">
+            <Generator>ResXFileCodeGenerator</Generator>
+            <LastGenOutput>Tasks.Designer.cs</LastGenOutput>
+        </EmbeddedResource>
     </ItemGroup>
 
     <ItemGroup>
