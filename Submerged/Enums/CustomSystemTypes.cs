@@ -8,7 +8,7 @@ public readonly struct CustomSystemTypes
 {
     public static void Initialize()
     {
-        SystemTypeHelpers.AllTypes = Enum.GetValues<SystemTypes>().Concat(All.Select(t => t.systemType)).ToArray();
+        SystemTypeHelpers.AllTypes = SystemTypeHelpers.AllTypes.Concat(All.Select(t => t.systemType)).ToArray();
     }
 
     #region Struct implementation
