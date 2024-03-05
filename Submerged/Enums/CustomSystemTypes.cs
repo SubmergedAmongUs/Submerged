@@ -6,7 +6,7 @@ namespace Submerged.Enums;
 
 public readonly struct CustomSystemTypes
 {
-    public static void Initialize()
+    internal static void Initialize()
     {
         SystemTypeHelpers.AllTypes = SystemTypeHelpers.AllTypes.Concat(All.Select(t => t.systemType)).ToArray();
     }
