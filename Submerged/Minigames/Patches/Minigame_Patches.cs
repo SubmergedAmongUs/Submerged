@@ -2,9 +2,10 @@ using HarmonyLib;
 
 namespace Submerged.Minigames.Patches;
 
-[HarmonyPatch(typeof(Minigame), nameof(Minigame.Begin))]
+[HarmonyPatch]
 public static class MinigameBeginPatch
 {
+    [HarmonyPatch(typeof(Minigame), nameof(Minigame.Begin))]
     [HarmonyPrefix]
     public static void Prefix(Minigame __instance)
     {

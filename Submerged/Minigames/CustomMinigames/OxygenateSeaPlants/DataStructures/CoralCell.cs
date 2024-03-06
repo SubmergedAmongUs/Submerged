@@ -1,9 +1,4 @@
-﻿using System.Collections.Generic;
-using Submerged.Extensions;
-using Submerged.Minigames.CustomMinigames.OxygenateSeaPlants.Enums;
-using UnityEngine;
-
-namespace Submerged.Minigames.CustomMinigames.OxygenateSeaPlants.DataStructures;
+﻿namespace Submerged.Minigames.CustomMinigames.OxygenateSeaPlants.DataStructures;
 
 public sealed class CoralCell
 {

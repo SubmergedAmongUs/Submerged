@@ -1,11 +1,9 @@
-﻿using Hazel;
-
-namespace Submerged.BaseGame.Interfaces;
+﻿namespace Submerged.BaseGame.Interfaces;
 
 // ReSharper disable once InconsistentNaming
 public sealed partial class AU
 {
-    [BaseGameCode(LastChecked.v2023_11_28)]
+    [BaseGameCode(LastChecked.v2024_3_5)]
     public interface IDoorMinigame
     {
         [UsedImplicitly]

@@ -1,6 +1,5 @@
 using HarmonyLib;
 using Submerged.Extensions;
-using IntroCutscene_CoBegin = IntroCutscene._CoBegin_d__33;
 using static Submerged.Vents.VentPatchData;
 
 namespace Submerged.Vents.Patches;

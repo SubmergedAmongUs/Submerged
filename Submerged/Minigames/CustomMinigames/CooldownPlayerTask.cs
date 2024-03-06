@@ -42,14 +42,14 @@ public sealed class CooldownPlayerTask(nint ptr) : NormalPlayerTask(ptr)
         sb.Append("</color>");
     }
 
-    [BaseGameCode(LastChecked.v2023_10_24, "Default switch case of NormalPlayerTask.ValidConsole, none of the other cases apply")]
+    [BaseGameCode(LastChecked.v2024_3_5, "Default switch case of NormalPlayerTask.ValidConsole, none of the other cases apply")]
     private bool BaseValidConsole(Console console)
     {
         return console.TaskTypes.Any(tt => tt == TaskType) ||
             console.ValidTasks.Any(set => TaskType == set.taskType && set.taskStep.Contains(taskStep));
     }
 
-    [BaseGameCode(LastChecked.v2023_10_24, "NormalPlayerTask.AppendTaskText with steps and timer conditions removed because they are never met")]
+    [BaseGameCode(LastChecked.v2024_3_5, "NormalPlayerTask.AppendTaskText with steps and timer conditions removed because they are never met")]
     private void BaseAppendTaskText(StringBuilder sb)
     {
         if (IsComplete) sb.Append("<color=#00DD00FF>");

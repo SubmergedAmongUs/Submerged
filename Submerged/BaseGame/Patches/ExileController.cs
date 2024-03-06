@@ -17,6 +17,7 @@ public static class ExileControllerPatches
 
     private static readonly SCG.HashSet<string> _allowedPrefixPatches = [SubmergedPlugin.Id];
 
+    [BaseGameCode(LastChecked.v2024_3_5, "Sometimes the text doesn't show up. We have no idea why so instead we just patch the method with its own code to fix it :)")]
     public static void ExileController_Begin(ExileController self, GameData.PlayerInfo exiled, bool tie)
     {
         if (self.specialInputHandler != null)
@@ -66,6 +67,10 @@ public static class ExileControllerPatches
                 new Action(() =>
                 {
                     SkinViewData skin = ShipStatus.Instance.CosmeticsCache.GetSkin(exiled.Outfits[PlayerOutfitType.Default].SkinId);
+                    if (!DestroyableSingleton<HatManager>.Instance.CheckLongModeValidCosmetic(exiled.Outfits[PlayerOutfitType.Default].SkinId, self.Player.GetIgnoreLongMode()))
+                    {
+                        skin = ShipStatus.Instance.CosmeticsCache.GetSkin("skin_None");
+                    }
 
                     if (self.useIdleAnim)
                     {
@@ -116,7 +121,6 @@ public static class ExileControllerPatches
 
     [HarmonyPatch(typeof(ExileController), nameof(ExileController.Begin))]
     [HarmonyPrefix]
-    [BaseGameCode(LastChecked.v2023_10_24, "Sometimes the text doesn't show up. We have no idea why so instead we just patch the method with its own code to fix it :)")]
     public static bool BeginPatch(ExileController __instance, MethodInfo __originalMethod, GameData.PlayerInfo exiled, bool tie)
     {
         HarmonyLib.Patches patchInfo = Harmony.GetPatchInfo(__originalMethod);

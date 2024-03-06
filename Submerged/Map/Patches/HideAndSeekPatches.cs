@@ -2,7 +2,7 @@ using System.Linq;
 using HarmonyLib;
 using Submerged.Extensions;
 using Submerged.Systems.Elevator;
-using IntroCutscene_CoBegin = IntroCutscene._CoBegin_d__33;
+using IntroCutscene_CoBegin = IntroCutscene._CoBegin_d__35;
 
 namespace Submerged.Map.Patches;
 

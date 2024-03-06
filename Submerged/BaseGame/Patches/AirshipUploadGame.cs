@@ -8,7 +8,7 @@ public static class AirshipUploadGameUpdatePatches
 {
     [HarmonyPatch(typeof(AirshipUploadGame), nameof(AirshipUploadGame.Update))]
     [HarmonyPrefix]
-    [BaseGameCode(LastChecked.v2023_10_24, "Patching the method with it's own code because C# > C++")]
+    [BaseGameCode(LastChecked.v2024_3_5, "Patching the method with it's own code because C# > C++")]
     public static void Prefix(AirshipUploadGame __instance, out bool __runOriginal)
     {
         __runOriginal = false;
