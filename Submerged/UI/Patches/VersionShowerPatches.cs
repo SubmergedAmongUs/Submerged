@@ -10,6 +10,7 @@ public static class VersionShowerPatches
     [HarmonyPriority(Priority.Last)]
     public static void PingTrackerPatch(PingTracker __instance)
     {
-        __instance.text.text += $"\n<size=50%>{SubmergedPlugin.VersionText}</size>";
+        if (!__instance.text.text.EndsWith("\n")) __instance.text.text += "\n";
+        __instance.text.text += $"<size=50%>{SubmergedPlugin.VersionText}</size>";
     }
 }
