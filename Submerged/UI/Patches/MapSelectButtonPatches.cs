@@ -37,6 +37,7 @@ public static class MapSelectButtonPatches
         submergedButton.name = "SubmergedButton";
         submergedButton.map = CustomMapNames.Submerged;
         submergedButton.GetComponent<SpriteRenderer>().sprite = ResourceManager.spriteCache["Logo"];
+        submergedButton.OnPressEvent = fungleButton.OnPressEvent;
 
         fungleButton.transform.position = new Vector3(__instance.buttons[0].transform.position.x, fungleButton.transform.position.y, fungleButton.transform.position.z);
         submergedButton.transform.position = new Vector3(__instance.buttons[1].transform.position.x, fungleButton.transform.position.y, fungleButton.transform.position.z);

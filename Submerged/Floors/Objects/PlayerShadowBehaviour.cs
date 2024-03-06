@@ -25,7 +25,7 @@ public sealed class PlayerShadowBehaviour(nint ptr) : MonoBehaviour(ptr)
         shadowRend = shadowObj.AddComponent<SpriteRenderer>();
         shadowObj.transform.parent = transform;
         shadowObj.transform.localPosition = Vector3.zero;
-        shadowObj.transform.localScale = Constants.ShouldHorseAround() ? new Vector3(0.6734f * 0.5f, 0.6734f * 0.5f, 1f) : new Vector3(0.5f, 0.5f, 1f);
+        shadowObj.transform.localScale = new Vector3(0.5f, 0.5f, 1f);
         shadowColor = shadowRend.color;
         sprites = SubmarineStatus.instance.minigameProperties.sprites;
 

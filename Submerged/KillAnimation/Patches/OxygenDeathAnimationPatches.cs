@@ -1,4 +1,4 @@
-using BepInEx.Unity.IL2CPP.Utils.Collections;
+﻿using BepInEx.Unity.IL2CPP.Utils.Collections;
 using HarmonyLib;
 using Reactor.Utilities.Extensions;
 using Submerged.Enums;
@@ -51,7 +51,7 @@ public static class OxygenDeathAnimationPatches
     [HarmonyPrefix]
     public static bool ShowOxygenKillAnimationPatch(KillOverlay __instance, [HarmonyArgument(0)] GameData.PlayerInfo killer, [HarmonyArgument(1)] GameData.PlayerInfo victim)
     {
-        if (killer.PlayerId != victim.PlayerId || !IsOxygenDeath || Constants.ShouldHorseAround()) return true;
+        if (killer.PlayerId != victim.PlayerId || !IsOxygenDeath) return true;
 
         __instance.ShowKillAnimation(OxygenDeath, killer, victim);
 
