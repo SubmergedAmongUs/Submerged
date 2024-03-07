@@ -18,7 +18,7 @@ Submerged is a mod for Among Us which adds a new map into the game.
 <summary>Click to expand</summary>
 
 [![Submerged Trailer](http://img.youtube.com/vi/gAX_mDOX4Pc/0.jpg)](http://www.youtube.com/watch?v=gAX_mDOX4Pc "Submerged Trailer")
-  
+
 [See the trailer on YouTube](http://www.youtube.com/watch?v=gAX_mDOX4Pc)
 
 ![Screenshot 1](./.github/Images/Screenshot-1.png)
@@ -38,26 +38,27 @@ Submerged is compatible with desktop releases of Among Us. This includes Steam, 
 
 The table below lists the most recent Submerged release for each Among Us version after `v2022.3.29` (for desktop platforms only). The changelog for each version can be found under the [Releases](https://github.com/SubmergedAmongUs/Submerged/releases) tab.
 
-| Among Us Version | Submerged Version | Links |
-|:-:|:-:|:-:|
-| `v2023.11.28` | `v2023.11.29` | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2023.11.29/) |
-| `v2023.10.24` | `v2023.11.2` | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2023.11.2/) |
-| `v2023.7.12`<br>`v2023.7.11` | `v2023.8.2` | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2023.8.2/) |
-| `v2023.6.27`<br>`v2023.6.13`<br>`v2023.3.28`<br>`v2023.2.28`<br>`v2022.12.14`<br>`v2022.12.8` | Unavailable | - |
-| `v2022.10.25` | `v2022.10.26` | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.10.26/) |
-| `v2022.10.18` | Unavailable | - |
-| `v2022.9.20`<br>`v2022.8.25`<br>`v2022.8.24`<br>`v2022.8.23` | `v2022.8.26` | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.8.26/) |
-| `v2022.7.12`<br>`v2022.6.21` | `v2022.6.23` | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.6.23/) |
-| `v2022.4.19`<br>`v2022.3.29` | `v2022.6.12` | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.6.12/) |
+|                                       Among Us Version                                        | Submerged Version |                                        Links                                        |
+|:---------------------------------------------------------------------------------------------:|:-----------------:|:-----------------------------------------------------------------------------------:|
+|                                          `v2024.3.5`                                          |   `v2024.3.??`    | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2024.3.??/)  |
+|                                         `v2023.11.28`                                         |   `v2023.11.29`   | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2023.11.29/) |
+|                                         `v2023.10.24`                                         |   `v2023.11.2`    | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2023.11.2/)  |
+|                                 `v2023.7.12`<br>`v2023.7.11`                                  |    `v2023.8.2`    |  [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2023.8.2/)  |
+| `v2023.6.27`<br>`v2023.6.13`<br>`v2023.3.28`<br>`v2023.2.28`<br>`v2022.12.14`<br>`v2022.12.8` |    Unavailable    |                                          -                                          |
+|                                         `v2022.10.25`                                         |   `v2022.10.26`   | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.10.26/) |
+|                                         `v2022.10.18`                                         |    Unavailable    |                                          -                                          |
+|                 `v2022.9.20`<br>`v2022.8.25`<br>`v2022.8.24`<br>`v2022.8.23`                  |   `v2022.8.26`    | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.8.26/)  |
+|                                 `v2022.7.12`<br>`v2022.6.21`                                  |   `v2022.6.23`    | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.6.23/)  |
+|                                 `v2022.4.19`<br>`v2022.3.29`                                  |   `v2022.6.12`    | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2022.6.12/)  |
 
 # Dependencies
 
 Submerged depends on the following mods and modding tools in order to function properly:
 
-| Mod | Version |
-|-|:-:|
+| Mod                                                                        |     Version     |
+|----------------------------------------------------------------------------|:---------------:|
 | [BepInEx](https://builds.bepinex.dev/projects/bepinex_be) (IL2CPP-win-x86) | `v6.0.0-be.671` |
-| [Reactor](https://github.com/nuclearpowered/reactor) | `v2.2.0` |
+| [Reactor](https://github.com/nuclearpowered/reactor)                       |    `v2.2.0`     |
 
 # Installation
 
@@ -72,7 +73,6 @@ This mod has been tested and works with the Steam, Epic and itch.io versions of 
 1. Download the correct ZIP [release](#releases) based on your Among Us version.
 2. Navigate to your Among Us installation directory.
 3. Extract the downloaded files there. Ensure that the `BepInEx` folder is located in the same folder as the `Among Us.exe` file (Check screenshot below).
-
 ![Folder Structure](./.github/Images/Folder-Structure.png)
 
 4. Run the game (Please note that the first launch might take some time).
@@ -83,24 +83,24 @@ Alternatively, if you are already using other mods or already have BepInEx insta
 
 Submerged is available in the languages listed below. If you would like to help translate Submerged to one of the languages listed below or want to correct a translation, please [open an issue](https://github.com/SubmergedAmongUs/Submerged/issues/new/choose/) or contact us at `submergedamongus@gmail.com`.
 
-| Language | ❔ | Status |
-|-|:-:|:-:|
-| English | ✅ | - |
-| Deutsch | ✅ | Fully Translated |
-| Français | ✅ | Fully Translated |
-| Nederlands | ✅ | Fully Translated |
-| Português (Brasil) | ✅ | Fully Translated |
-| Русский | ✅ | Fully Translated |
-| 日本語 | ✅ | Fully Translated |
-| 简体中文 | ✅ | Fully Translated |
-| 繁體中文 | ✅ | Fully Translated |
-| Español | 🟡 | Partially Translated |
-| Bisaya | ❌ | Not Translated |
-| Español (Latinoamérica) | ❌ | Not Translated<br>(Using Español) |
-| Gaeilge | ❌ | Not Translated |
-| Italiano | ❌ | Not Translated |
-| Português | ❌ | Not Translated |
-| 한국어 | ❌ | Not Translated |
+| Language                | ❔  |              Status               |
+|-------------------------|:--:|:---------------------------------:|
+| English                 | ✅  |                 -                 |
+| Deutsch                 | ✅  |         Fully Translated          |
+| Français                | ✅  |         Fully Translated          |
+| Nederlands              | ✅  |         Fully Translated          |
+| Português (Brasil)      | ✅  |         Fully Translated          |
+| Русский                 | ✅  |         Fully Translated          |
+| 日本語                     | ✅  |         Fully Translated          |
+| 简体中文                    | ✅  |         Fully Translated          |
+| 繁體中文                    | ✅  |         Fully Translated          |
+| Español                 | 🟡 |       Partially Translated        |
+| Bisaya                  | ❌  |          Not Translated           |
+| Español (Latinoamérica) | ❌  | Not Translated<br>(Using Español) |
+| Gaeilge                 | ❌  |          Not Translated           |
+| Italiano                | ❌  |          Not Translated           |
+| Português               | ❌  |          Not Translated           |
+| 한국어                     | ❌  |          Not Translated           |
 
 # Compatibility
 
