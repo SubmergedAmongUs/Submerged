@@ -91,7 +91,6 @@ public sealed class PlayerShadowBehaviour(nint ptr) : MonoBehaviour(ptr)
                 return;
             }
 
-            longPlayerBody.gameObject.layer = playerControl.Data.IsDead ? 14 : 8; //The code will probably not run after he dies, but this is just to ensure.
             shadowRend.sprite = sprite;
             neckRend.sprite = longPlayerBody.neckSprite.sprite;
             headRend.sprite = longPlayerBody.headSprite.sprite;
