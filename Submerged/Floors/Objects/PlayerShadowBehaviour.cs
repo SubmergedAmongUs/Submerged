@@ -7,7 +7,7 @@ using UnityEngine;
 namespace Submerged.Floors.Objects;
 
 [RegisterInIl2Cpp]
-public sealed class PlayerShadowBehaviour(nint ptr) : MonoBehaviour(ptr)
+public class PlayerShadowBehaviour(nint ptr) : MonoBehaviour(ptr)
 {
     public GameObject shadowObj;
     public SpriteRenderer shadowRend;
@@ -18,7 +18,7 @@ public sealed class PlayerShadowBehaviour(nint ptr) : MonoBehaviour(ptr)
 
     private readonly Dictionary<Sprite, Sprite> _spritesDict = new();
 
-    public void Start()
+    protected virtual void Start()
     {
         Camera.main!.cullingMask = 1073969927; // yay magic numbers
         shadowObj = new GameObject("Submerged Shadow") { layer = 4 };
@@ -32,7 +32,7 @@ public sealed class PlayerShadowBehaviour(nint ptr) : MonoBehaviour(ptr)
         playerRend = playerControl.cosmetics.currentBodySprite.BodySprite;
     }
 
-    public void LateUpdate()
+    private void LateUpdate()
     {
         if (playerControl == null) return;
         bool shouldBeActive = playerRend.enabled && !playerControl.Data.IsDead;
@@ -40,6 +40,11 @@ public sealed class PlayerShadowBehaviour(nint ptr) : MonoBehaviour(ptr)
 
         if (!shouldBeActive) return;
 
+        UpdateSprite();
+    }
+
+    protected virtual void UpdateSprite()
+    {
         Sprite sprite = playerRend.sprite;
         Sprite newSprite = null;
 
