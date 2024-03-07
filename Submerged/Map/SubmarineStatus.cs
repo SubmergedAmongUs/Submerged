@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using AmongUs.GameOptions;
 using BepInEx.Unity.IL2CPP.Utils;
+using Il2CppInterop.Runtime;
 using Il2CppInterop.Runtime.Attributes;
 using Il2CppInterop.Runtime.InteropTypes;
 using Il2CppInterop.Runtime.InteropTypes.Arrays;
@@ -251,13 +252,14 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
     }
 
     [HideFromIl2Cpp]
-    private IEnumerator CoAddShadows()
+    private static IEnumerator CoAddShadows()
     {
         while (!PlayerControl.LocalPlayer) yield return null;
 
         foreach (PlayerControl player in FindObjectsOfType<PlayerControl>())
         {
-            player.gameObject.EnsureComponent<PlayerShadowBehaviour>().playerControl = player;
+            Type componentType = !AprilFoolsMode.ShouldLongAround() ? typeof(PlayerShadowBehaviour) : typeof(LongPlayerShadowBehaviour);
+            player.gameObject.EnsureComponent(componentType).Cast<PlayerShadowBehaviour>().playerControl = player;
         }
     }
 
