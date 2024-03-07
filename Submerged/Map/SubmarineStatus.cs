@@ -258,8 +258,7 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
 
         foreach (PlayerControl player in FindObjectsOfType<PlayerControl>())
         {
-            Type componentType = !AprilFoolsMode.ShouldLongAround() ? typeof(PlayerShadowBehaviour) : typeof(LongPlayerShadowBehaviour);
-            player.gameObject.EnsureComponent(componentType).Cast<PlayerShadowBehaviour>().playerControl = player;
+            player.gameObject.EnsureComponent<PlayerShadowBehaviour>().playerControl = player;
         }
     }
 
