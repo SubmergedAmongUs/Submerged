@@ -88,6 +88,7 @@ namespace Submerged.Floors.Objects
                     return;
                 }
 
+                longPlayerBody.gameObject.layer = 8;
                 shadowRend.sprite = sprite;
                 neckRend.sprite = longPlayerBody.neckSprite.sprite;
                 headRend.sprite = longPlayerBody.headSprite.sprite;
