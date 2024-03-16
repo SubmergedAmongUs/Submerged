@@ -15,11 +15,10 @@ public sealed class PlayerShadowBehaviour(nint ptr) : MonoBehaviour(ptr)
     public Sprite[] sprites;
     public Color shadowColor;
 
-    //SETUP FOR NEW UPDATE
     public SpriteRenderer headRend;
     public SpriteRenderer neckRend;
 
-    private readonly Dictionary<Sprite, Sprite> _spritesDict = new Dictionary<Sprite, Sprite>();
+    private readonly Dictionary<Sprite, Sprite> _spritesDict = [];
 
     public void Start()
     {
@@ -64,7 +63,7 @@ public sealed class PlayerShadowBehaviour(nint ptr) : MonoBehaviour(ptr)
 
     private void UpdateScale()
     {
-        shadowObj.transform.localScale = playerControl.IsHorse() ? new Vector3(0.3367f, 0.3367f, 1f) : Vector3.one * 0.5f;
+        shadowObj.transform.localScale = playerControl.MyPhysics.bodyType == PlayerBodyTypes.Horse ? new Vector3(0.3367f, 0.3367f, 1f) : Vector3.one * 0.5f;
     }
 
     private void UpdateSprites()
@@ -81,7 +80,7 @@ public sealed class PlayerShadowBehaviour(nint ptr) : MonoBehaviour(ptr)
         }
         shadowRend.sprite = newSprite ? newSprite : sprite;
 
-        if (playerControl.IsLong())
+        if (playerControl.MyPhysics.bodyType is PlayerBodyTypes.Long or PlayerBodyTypes.LongSeeker)
         {
             LongBoiPlayerBody longPlayerBody = playerControl.GetComponentInChildren<LongBoiPlayerBody>();
 
