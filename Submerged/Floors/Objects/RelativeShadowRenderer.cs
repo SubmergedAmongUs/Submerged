@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using BepInEx.Unity.IL2CPP.Utils;
+using Il2CppInterop.Runtime.Attributes;
 using Reactor.Utilities.Attributes;
 using Submerged.Extensions;
 using UnityEngine;
@@ -70,6 +71,7 @@ public class RelativeShadowRenderer(nint ptr) : MonoBehaviour(ptr)
         return null;
     }
 
+    [HideFromIl2Cpp]
     // ReSharper disable once FunctionRecursiveOnAllPaths
     private IEnumerator UpdateTargetRenderer()
     {

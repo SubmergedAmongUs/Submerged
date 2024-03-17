@@ -18,7 +18,7 @@ public class GenericShadowBehaviour(nint ptr) : MonoBehaviour(ptr)
 
     protected virtual void CreateShadowsRecursively(Transform currentObject, Transform currentShadow)
     {
-        RelativeShadowRenderer rend = currentObject.gameObject.AddComponent<RelativeShadowRenderer>();
+        RelativeShadowRenderer rend = currentShadow.gameObject.AddComponent<RelativeShadowRenderer>();
         rend.target = currentObject;
         rend.replacementSprites = SubmarineStatus.instance.GetReplacementShadowSprites(currentObject.name);
 
