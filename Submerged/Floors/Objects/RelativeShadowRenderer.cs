@@ -14,6 +14,7 @@ public class RelativeShadowRenderer(nint ptr) : MonoBehaviour(ptr)
     public Transform target;
     public SpriteRenderer targetRenderer;
 
+    public bool isRoot;
     public Sprite[] replacementSprites;
     public SpriteRenderer shadowRenderer;
 
@@ -32,9 +33,18 @@ public class RelativeShadowRenderer(nint ptr) : MonoBehaviour(ptr)
 
     protected virtual void LateUpdate()
     {
-        transform.localPosition = target.transform.localPosition;
-        transform.localScale = target.transform.localScale;
-        transform.localRotation = target.transform.localRotation;
+        if (isRoot)
+        {
+            transform.localPosition = new Vector3(-0.04f, 0, 0); // slight offset in the shadow idk why
+            transform.localScale = Vector3.one;
+            transform.localRotation = Quaternion.identity;
+        }
+        else
+        {
+            transform.localPosition = target.transform.localPosition;
+            transform.localScale = target.transform.localScale;
+            transform.localRotation = target.transform.localRotation;
+        }
 
         if (targetRenderer)
         {
