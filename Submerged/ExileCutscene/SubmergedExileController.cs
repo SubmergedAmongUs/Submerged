@@ -152,6 +152,8 @@ public sealed class SubmergedExileController(nint ptr) : ExileController(ptr)
 
         string completeStr = completeString;
 
+        Warning("I am trying to render: " + completeStr);
+
         for (float t = 0; t < TEXT_DUR; t += Time.deltaTime)
         {
             if (!string.IsNullOrWhiteSpace(completeStr))

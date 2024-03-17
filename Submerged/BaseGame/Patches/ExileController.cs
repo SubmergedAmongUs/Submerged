@@ -30,34 +30,39 @@ public static class ExileControllerPatches
         self.exiled = exiled;
         self.Text.gameObject.SetActive(false);
         self.Text.text = string.Empty;
-        int num = GameData.Instance.AllPlayers.Count(p => p.Role.IsImpostor && !p.IsDead && !p.Disconnected);
+        int aliveImpostors = GameData.Instance.AllPlayers.Count(p => p.Role.IsImpostor && !p.IsDead && !p.Disconnected);
 
         if (exiled != null)
         {
-            int num2 = GameData.Instance.AllPlayers.Count(p => p.Role.IsImpostor);
+            int allImpostors = GameData.Instance.AllPlayers.Count(p => p.Role.IsImpostor);
 
             if (!GameManager.Instance.LogicOptions.GetConfirmImpostor())
             {
                 self.completeString = TranslationController.Instance.GetString(StringNames.ExileTextNonConfirm, exiled.PlayerName);
+                Warning("ExileTextNonConfirm " + self.completeString);
             }
             else if (exiled.Role.IsImpostor)
             {
-                if (num2 > 1)
+                if (allImpostors > 1)
                 {
                     self.completeString = TranslationController.Instance.GetString(StringNames.ExileTextPP, exiled.PlayerName);
+                    Warning("ExileTextPP " + self.completeString);
                 }
                 else
                 {
                     self.completeString = TranslationController.Instance.GetString(StringNames.ExileTextSP, exiled.PlayerName);
+                    Warning("ExileTextSP " + self.completeString);
                 }
             }
-            else if (num2 > 1)
+            else if (allImpostors > 1)
             {
                 self.completeString = TranslationController.Instance.GetString(StringNames.ExileTextPN, exiled.PlayerName);
+                Warning("ExileTextPN " + self.completeString);
             }
             else
             {
                 self.completeString = TranslationController.Instance.GetString(StringNames.ExileTextSN, exiled.PlayerName);
+                Warning("ExileTextSN " + self.completeString);
             }
 
             self.Player.UpdateFromEitherPlayerDataOrCache(exiled,
@@ -90,7 +95,7 @@ public static class ExileControllerPatches
 
             if (exiled.Role.IsImpostor)
             {
-                num--;
+                aliveImpostors--;
             }
         }
         else
@@ -98,22 +103,24 @@ public static class ExileControllerPatches
             if (tie)
             {
                 self.completeString = TranslationController.Instance.GetString(StringNames.NoExileTie);
+                Warning("NoExileTie " + self.completeString);
             }
             else
             {
                 self.completeString = TranslationController.Instance.GetString(StringNames.NoExileSkip);
+                Warning("NoExileSkip " + self.completeString);
             }
 
             self.Player.gameObject.SetActive(false);
         }
 
-        if (num == 1)
+        if (aliveImpostors == 1)
         {
-            self.ImpostorText.text = TranslationController.Instance.GetString(StringNames.ImpostorsRemainS, num);
+            self.ImpostorText.text = TranslationController.Instance.GetString(StringNames.ImpostorsRemainS, aliveImpostors);
         }
         else
         {
-            self.ImpostorText.text = TranslationController.Instance.GetString(StringNames.ImpostorsRemainP, num);
+            self.ImpostorText.text = TranslationController.Instance.GetString(StringNames.ImpostorsRemainP, aliveImpostors);
         }
 
         self.StartCoroutine(self.Animate());
