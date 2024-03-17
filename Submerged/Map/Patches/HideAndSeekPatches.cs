@@ -29,7 +29,7 @@ public static class HideAndSeekPatches
         SubmarineStatus.instance.elevators.Do(e =>
         {
             e.system.tandemSystemType = default;
-            e.system.upperDeckIsTargetFloor = !SubmergedHnSManager.CurrentGameIsOnUpperDeck;
+            e.system.upperDeckIsTargetFloor = SubmergedHnSManager.CurrentGameIsOnUpperDeck;
         });
     }
 
