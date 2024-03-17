@@ -20,7 +20,7 @@ public sealed class SubmergedDeadBody(nint ptr) : MonoBehaviour(ptr)
 
     private void Start()
     {
-        parent.bodyRenderers.First().gameObject.layer = 8;
+        parent.bodyRenderers.First().gameObject.layer = LayerMask.NameToLayer("Players");
 
         shadowRenderer = new GameObject("Submerged Shadow") { layer = 4 }.AddComponent<SpriteRenderer>();
         Transform shadowRendererTransform = shadowRenderer.transform;

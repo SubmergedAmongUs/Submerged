@@ -68,7 +68,7 @@ public class RelativeShadowRenderer(nint ptr) : MonoBehaviour(ptr)
             return newShadowSprite;
         }
 
-        return null;
+        return spriteToGet;
     }
 
     [HideFromIl2Cpp]
