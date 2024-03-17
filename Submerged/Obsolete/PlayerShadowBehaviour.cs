@@ -5,6 +5,8 @@ using Reactor.Utilities.Attributes;
 using Submerged.Map;
 using UnityEngine;
 
+// ReSharper disable all
+
 namespace Submerged.Floors.Objects;
 
 [RegisterInIl2Cpp]

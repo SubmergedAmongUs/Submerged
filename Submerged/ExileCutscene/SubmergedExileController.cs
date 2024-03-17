@@ -5,6 +5,7 @@ using Il2CppInterop.Runtime.Attributes;
 using PowerTools;
 using Reactor.Utilities.Attributes;
 using Submerged.BaseGame;
+using Submerged.ExileCutscene.Patches;
 using Submerged.Systems.BoxCat;
 using UnityEngine;
 
@@ -150,9 +151,9 @@ public sealed class SubmergedExileController(nint ptr) : ExileController(ptr)
         const float TEXT_DUR = 2f;
         int previousValue = 0;
 
-        string completeStr = completeString;
+        string completeStr = BaseGameResolvingPatches.LastExileText;
 
-        Warning("I am trying to render: " + completeStr);
+        Warning("Displaying SubmergedExileController text: " + completeStr);
 
         for (float t = 0; t < TEXT_DUR; t += Time.deltaTime)
         {
