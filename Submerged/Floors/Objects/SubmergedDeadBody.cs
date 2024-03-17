@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using PowerTools;
 using Reactor.Utilities.Attributes;
 using UnityEngine;
@@ -6,6 +7,7 @@ using UnityEngine;
 namespace Submerged.Floors.Objects;
 
 [RegisterInIl2Cpp]
+[Obsolete("This component is no longer used in Submerged and might be removed in a future update. Please use GenericShadowBehaviour instead.", true)]
 public sealed class SubmergedDeadBody(nint ptr) : MonoBehaviour(ptr)
 {
     public DeadBody parent;
@@ -20,7 +22,7 @@ public sealed class SubmergedDeadBody(nint ptr) : MonoBehaviour(ptr)
 
     private void Start()
     {
-        parent.bodyRenderers.First().gameObject.layer = 8;
+        parent.bodyRenderers.First().gameObject.layer = LayerMask.NameToLayer("Players");
 
         shadowRenderer = new GameObject("Submerged Shadow") { layer = 4 }.AddComponent<SpriteRenderer>();
         Transform shadowRendererTransform = shadowRenderer.transform;

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Reactor.Utilities.Attributes;
 using Submerged.Map;
@@ -7,7 +8,8 @@ using UnityEngine;
 namespace Submerged.Floors.Objects;
 
 [RegisterInIl2Cpp]
-public class PlayerShadowBehaviour(nint ptr) : MonoBehaviour(ptr)
+[Obsolete("This component is no longer used in Submerged and might be removed in a future update. Please use GenericShadowBehaviour instead.", true)]
+public sealed class PlayerShadowBehaviour(nint ptr) : MonoBehaviour(ptr)
 {
     public GameObject shadowObj;
     public SpriteRenderer shadowRend;
@@ -18,7 +20,7 @@ public class PlayerShadowBehaviour(nint ptr) : MonoBehaviour(ptr)
 
     private readonly Dictionary<Sprite, Sprite> _spritesDict = new();
 
-    protected virtual void Start()
+    public void Start()
     {
         Camera.main!.cullingMask = 1073969927; // yay magic numbers
         shadowObj = new GameObject("Submerged Shadow") { layer = 4 };
@@ -32,7 +34,7 @@ public class PlayerShadowBehaviour(nint ptr) : MonoBehaviour(ptr)
         playerRend = playerControl.cosmetics.currentBodySprite.BodySprite;
     }
 
-    private void LateUpdate()
+    public void LateUpdate()
     {
         if (playerControl == null) return;
         bool shouldBeActive = playerRend.enabled && !playerControl.Data.IsDead;
@@ -40,11 +42,6 @@ public class PlayerShadowBehaviour(nint ptr) : MonoBehaviour(ptr)
 
         if (!shouldBeActive) return;
 
-        UpdateSprite();
-    }
-
-    protected virtual void UpdateSprite()
-    {
         Sprite sprite = playerRend.sprite;
         Sprite newSprite = null;
 

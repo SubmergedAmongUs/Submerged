@@ -29,7 +29,7 @@ public static class GameTestingPatches
 
     [HarmonyPatch(typeof(AprilFoolsMode), nameof(AprilFoolsMode.ShouldShowAprilFoolsToggle))]
     [HarmonyPrefix]
-    public static bool EnableAprilFoolsMode(out bool __result)
+    public static bool EnableAprilFoolsTogglePatch(out bool __result)
     {
         __result = true;
         return false;

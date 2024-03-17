@@ -36,6 +36,5 @@ public static class ComponentExtensions
 
     public static Component EnsureComponent(this GameObject obj, Type type) => obj.GetComponent(Il2CppType.From(type)) ?? obj.AddComponent(Il2CppType.From(type));
 
-    [Obsolete("This should eventualy disappear from the codebase.")]
     public static Component AddInjectedComponentByName(this GameObject obj, string typeName) => obj.AddComponent(Il2CppType.From(RegisteredTypes[typeName]));
 }

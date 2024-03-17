@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using AmongUs.GameOptions;
 using BepInEx.Unity.IL2CPP.Utils;
-using Il2CppInterop.Runtime;
 using Il2CppInterop.Runtime.Attributes;
 using Il2CppInterop.Runtime.InteropTypes;
 using Il2CppInterop.Runtime.InteropTypes.Arrays;
@@ -33,7 +32,6 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
     public static SubmarineStatus instance;
 
     public ShipStatus normalShip;
-    public MinigameProperties minigameProperties;
     public List<SubmarineElevator> elevators = [];
     public bool shakeOverridden;
     public GameObject vitalsPanel;
@@ -43,6 +41,9 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
     public AudioSource powerDownSound;
     public AudioSource powerUpSound;
     public SwitchSystem switchSystem;
+
+    public MinigameProperties minigameProperties;
+    public Tilemap2 aprilFoolsShadowSpritesHolder;
 
     private float _ventTransitionTimer;
 
@@ -69,6 +70,7 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
         minigameProperties = gameObject.AddComponent<MinigameProperties>();
         minigameProperties.Awake();
         DestroyImmediate(GetComponent<DivertPowerMetagame>());
+        aprilFoolsShadowSpritesHolder = transform.Find("MinigameProperties/April Fools Shadow Sprites").GetComponent<Tilemap2>();
 
         ResolveTaskMinigames(normalShip.CommonTasks);
         ResolveTaskMinigames(normalShip.LongTasks);
@@ -138,17 +140,7 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
 
     private void Start()
     {
-        if (!TutorialManager.InstanceExists)
-        {
-            foreach (PlayerControl player in FindObjectsOfType<PlayerControl>())
-            {
-                player.gameObject.EnsureComponent<PlayerShadowBehaviour>().playerControl = player;
-            }
-        }
-        else
-        {
-            this.StartCoroutine(CoAddShadows());
-        }
+        this.StartCoroutine(CoAddShadows());
     }
 
     private void Update()
@@ -258,8 +250,7 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
 
         foreach (PlayerControl player in FindObjectsOfType<PlayerControl>())
         {
-            Type componentType = !AprilFoolsMode.ShouldLongAround() ? typeof(PlayerShadowBehaviour) : typeof(LongPlayerShadowBehaviour);
-            player.gameObject.EnsureComponent(componentType).Cast<PlayerShadowBehaviour>().playerControl = player;
+            player.transform.Find("BodyForms").gameObject.EnsureComponent<GenericShadowBehaviour>();
         }
     }
 
@@ -371,6 +362,16 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
         }
 
         return Mathf.Lerp(0, normalShip.MinLightRadius, Mathf.Clamp01(adjustedamount)) * CrewLightMod;
+    }
+
+    [HideFromIl2Cpp]
+    public Sprite[] GetReplacementShadowSprites(string objectName)
+    {
+        return objectName switch
+        {
+            "Horse" or "LongBoiBody" or "LongSeekerBody" => aprilFoolsShadowSpritesHolder.sprites,
+            _ => minigameProperties.sprites
+        };
     }
 
     #region Resolve Stuff
