@@ -16,7 +16,7 @@ public sealed class GenericShadowBehaviour(nint ptr) : MonoBehaviour(ptr)
 
     static GenericShadowBehaviour()
     {
-        ShadowTypeOverrides.Add(obj => obj.gameObject.GetComponentInParent<LongBoiPlayerBody>() ? typeof(LongPlayerShadowRenderer) : null);
+        ShadowTypeOverrides.Add(obj => obj.gameObject.GetComponentInParent<LongBoiPlayerBody>(true) ? typeof(LongPlayerShadowRenderer) : null);
         ShadowTypeOverrides.Add(obj => obj.gameObject.GetComponent<DeadBody>() ? typeof(DeadBodyShadowRenderer) : null);
     }
 

@@ -11,7 +11,7 @@ public class LongPlayerShadowRenderer(nint ptr) : RelativeShadowRenderer(ptr)
     protected override void Start()
     {
         base.Start();
-        body = target.GetComponentInParent<LongBoiPlayerBody>();LayerMask.NameToLayer("Players");
+        body = target.GetComponentsInParent<LongBoiPlayerBody>(true)[0];
         body.gameObject.layer = LayerMask.NameToLayer("Players");
     }
 
