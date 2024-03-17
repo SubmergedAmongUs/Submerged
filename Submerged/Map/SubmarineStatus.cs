@@ -140,17 +140,7 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
 
     private void Start()
     {
-        if (!TutorialManager.InstanceExists)
-        {
-            foreach (PlayerControl player in FindObjectsOfType<PlayerControl>())
-            {
-                player.gameObject.EnsureComponent<PlayerShadowBehaviour>().playerControl = player;
-            }
-        }
-        else
-        {
-            this.StartCoroutine(CoAddShadows());
-        }
+        this.StartCoroutine(CoAddShadows());
     }
 
     private void Update()
@@ -260,7 +250,7 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
 
         foreach (PlayerControl player in FindObjectsOfType<PlayerControl>())
         {
-            player.gameObject.EnsureComponent<PlayerShadowBehaviour>().playerControl = player;
+            player.transform.Find("BodyForms").gameObject.EnsureComponent<GenericShadowBehaviour>();
         }
     }
 
@@ -372,6 +362,16 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
         }
 
         return Mathf.Lerp(0, normalShip.MinLightRadius, Mathf.Clamp01(adjustedamount)) * CrewLightMod;
+    }
+
+    [HideFromIl2Cpp]
+    public Sprite[] GetReplacementShadowSprites(string objectName)
+    {
+        return objectName switch
+        {
+            "Horse" or "LongBoiBody" or "LongSeekerBody" => aprilFoolsShadowSpritesHolder.sprites,
+            _ => minigameProperties.sprites
+        };
     }
 
     #region Resolve Stuff

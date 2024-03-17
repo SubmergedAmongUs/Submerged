@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Reactor.Utilities.Attributes;
 using Submerged.Extensions;
@@ -8,6 +9,7 @@ using UnityEngine;
 namespace Submerged.Floors.Objects;
 
 [RegisterInIl2Cpp]
+[Obsolete("This component is obsolete and will be removed in a future update. Please use GenericShadowBehaviour instead.", true)]
 public sealed class PlayerShadowBehaviour(nint ptr) : MonoBehaviour(ptr)
 {
     public GameObject shadowObj;
