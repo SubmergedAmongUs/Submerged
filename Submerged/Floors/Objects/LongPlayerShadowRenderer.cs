@@ -4,7 +4,7 @@ using UnityEngine;
 namespace Submerged.Floors.Objects;
 
 [RegisterInIl2Cpp]
-public class LongPlayerRelativeShadowRenderer(nint ptr) : RelativeShadowRenderer(ptr)
+public class LongPlayerShadowRenderer(nint ptr) : RelativeShadowRenderer(ptr)
 {
     public LongBoiPlayerBody body;
 

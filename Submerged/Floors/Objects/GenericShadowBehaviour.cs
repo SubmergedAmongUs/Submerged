@@ -25,7 +25,7 @@ public class GenericShadowBehaviour(nint ptr) : MonoBehaviour(ptr)
 
         RelativeShadowRenderer rend = !longBoi
             ? currentShadow.gameObject.AddComponent<RelativeShadowRenderer>()
-            : currentShadow.gameObject.AddComponent<LongPlayerRelativeShadowRenderer>();
+            : currentShadow.gameObject.AddComponent<LongPlayerShadowRenderer>();
 
         rend.target = currentObject;
         rend.replacementSprites = SubmarineStatus.instance.GetReplacementShadowSprites(currentObject.name);
