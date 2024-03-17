@@ -144,8 +144,7 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
         {
             foreach (PlayerControl player in FindObjectsOfType<PlayerControl>())
             {
-                // player.gameObject.EnsureComponent<PlayerShadowBehaviour>().playerControl = player;
-                player.transform.Find("BodyForms").gameObject.EnsureComponent<ShadowBehaviour>();
+                player.gameObject.EnsureComponent<PlayerShadowBehaviour>().playerControl = player;
             }
         }
         else
@@ -261,8 +260,7 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
 
         foreach (PlayerControl player in FindObjectsOfType<PlayerControl>())
         {
-            // player.gameObject.EnsureComponent<PlayerShadowBehaviour>().playerControl = player;
-            player.transform.Find("BodyForms").gameObject.EnsureComponent<ShadowBehaviour>();
+            player.gameObject.EnsureComponent<PlayerShadowBehaviour>().playerControl = player;
         }
     }
 
@@ -374,50 +372,6 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
         }
 
         return Mathf.Lerp(0, normalShip.MinLightRadius, Mathf.Clamp01(adjustedamount)) * CrewLightMod;
-    }
-
-    private readonly Dictionary<Sprite, Sprite> _cachedShadowSprites = [];
-    private readonly Dictionary<Sprite, Sprite> _cachedAprilFoolsShadowSprites = [];
-    public Sprite GetReplacementShadowSprite(Sprite bodySprite, string gameObjectName)
-    {
-        if (!bodySprite) return null;
-
-        if (gameObjectName is "Horse" or "LongBoiBody" or "LongSeekerBody")
-        {
-            if (tryGetBodyShadowSpriteInList(bodySprite, aprilFoolsShadowSpritesHolder.sprites, _cachedAprilFoolsShadowSprites, out Sprite aprilFoolsResult))
-            {
-                return aprilFoolsResult;
-            }
-        }
-
-        if (tryGetBodyShadowSpriteInList(bodySprite, minigameProperties.sprites, _cachedShadowSprites, out Sprite result))
-        {
-            return result;
-        }
-
-        return bodySprite;
-
-        static bool tryGetBodyShadowSpriteInList(Sprite spriteToGet, Sprite[] allSprites, Dictionary<Sprite, Sprite> cachedSprites, out Sprite result)
-        {
-            if (cachedSprites.TryGetValue(spriteToGet, out Sprite cachedShadowSprite) && cachedShadowSprite)
-            {
-                result = cachedShadowSprite;
-                return true;
-            }
-
-            string spriteName = spriteToGet.name;
-            Sprite newShadowSprite = allSprites.FirstOrDefault(s => s.name == spriteName);
-
-            if (newShadowSprite)
-            {
-                cachedSprites[spriteToGet] = newShadowSprite;
-                result = newShadowSprite;
-                return true;
-            }
-
-            result = null;
-            return false;
-        }
     }
 
     #region Resolve Stuff
