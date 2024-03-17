@@ -30,7 +30,7 @@ public sealed class PlayerShadowBehaviour(nint ptr) : MonoBehaviour(ptr)
         shadowObj = new GameObject("Submerged Shadow") { layer = 4 };
         shadowRend = shadowObj.AddComponent<SpriteRenderer>();
         shadowObj.transform.SetParent(transform);
-        shadowObj.transform.localPosition = Vector3.zero;
+        shadowObj.AddComponent<RelativeShadowRenderer>();
 
         GameObject neckObj = new("Neck Shadow") { layer = 4 };
         neckObj.transform.SetParent(shadowObj.transform);
