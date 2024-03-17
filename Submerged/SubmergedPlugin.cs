@@ -25,7 +25,6 @@ public sealed partial class SubmergedPlugin : BasePlugin
     public SubmergedPlugin()
     {
         InteropPatches.Initialize();
-        FixExileTextDetours.Apply();
 
         Version version = Assembly.GetExecutingAssembly().GetName().Version!;
         _humanReadableVersion = $"{version.Major}.{version.Minor}.{version.Build}";
