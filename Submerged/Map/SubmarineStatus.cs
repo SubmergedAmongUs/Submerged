@@ -32,7 +32,6 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
     public static SubmarineStatus instance;
 
     public ShipStatus normalShip;
-    public MinigameProperties minigameProperties;
     public List<SubmarineElevator> elevators = [];
     public bool shakeOverridden;
     public GameObject vitalsPanel;
@@ -42,6 +41,9 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
     public AudioSource powerDownSound;
     public AudioSource powerUpSound;
     public SwitchSystem switchSystem;
+
+    public MinigameProperties minigameProperties;
+    public Tilemap2 aprilFoolsShadowSpritesHolder;
 
     private float _ventTransitionTimer;
 
@@ -68,6 +70,7 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
         minigameProperties = gameObject.AddComponent<MinigameProperties>();
         minigameProperties.Awake();
         DestroyImmediate(GetComponent<DivertPowerMetagame>());
+        aprilFoolsShadowSpritesHolder = transform.Find("MinigameProperties/April Fools Shadow Sprites").GetComponent<Tilemap2>();
 
         ResolveTaskMinigames(normalShip.CommonTasks);
         ResolveTaskMinigames(normalShip.LongTasks);

@@ -3,7 +3,6 @@ using System.Linq;
 using Reactor.Utilities.Attributes;
 using Submerged.Map;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace Submerged.Floors.Objects;
 
@@ -18,9 +17,11 @@ public sealed class PlayerShadowBehaviour(nint ptr) : MonoBehaviour(ptr)
     public SpriteRenderer headRend;
     public SpriteRenderer neckRend;
 
-    // This array contains all the default player body sprites, but with their bottom shadow removed. The dictionary is just a cached version of this array.
+    // These arrays contains all the default player body sprites, but with their bottom shadows removed. The dictionaries are just a cached version of these arrays.
     public Sprite[] shadowlessPlayerSprites;
+    public Sprite[] shadowlessAprilFoolsPlayerSprites;
     private readonly Dictionary<Sprite, Sprite> _spritesDict = [];
+    private readonly Dictionary<Sprite, Sprite> _aprilFoolsSpritesDict = [];
 
     public void Start()
     {
@@ -43,7 +44,9 @@ public sealed class PlayerShadowBehaviour(nint ptr) : MonoBehaviour(ptr)
         headRend.transform.localPosition = new Vector3(0f, 1.9f, 0f);
 
         shadowColor = shadowRend.color;
+
         shadowlessPlayerSprites = SubmarineStatus.instance.minigameProperties.sprites;
+        shadowlessAprilFoolsPlayerSprites = SubmarineStatus.instance.aprilFoolsShadowSpritesHolder.sprites;
     }
 
     public void LateUpdate()
@@ -61,7 +64,7 @@ public sealed class PlayerShadowBehaviour(nint ptr) : MonoBehaviour(ptr)
 
     private void UpdateSprites()
     {
-        shadowRend.sprite = GetBodyShadowSprite(playerControl.cosmetics.currentBodySprite.BodySprite.sprite);
+        shadowRend.sprite = GetBodyShadowSprite(playerControl.cosmetics.currentBodySprite.BodySprite.sprite, playerControl.cosmetics.bodyType);
 
         if (playerControl.MyPhysics.bodyType is PlayerBodyTypes.Long or PlayerBodyTypes.LongSeeker)
         {
@@ -103,24 +106,48 @@ public sealed class PlayerShadowBehaviour(nint ptr) : MonoBehaviour(ptr)
         headRend.flipX = flipX;
     }
 
-    private Sprite GetBodyShadowSprite(Sprite bodySprite)
+    private Sprite GetBodyShadowSprite(Sprite bodySprite, PlayerBodyTypes bodyType)
     {
         if (!bodySprite) return null;
 
-        if (_spritesDict.TryGetValue(bodySprite, out Sprite cachedShadowSprite) && cachedShadowSprite)
+        if (bodyType != PlayerBodyTypes.Normal)
         {
-            return cachedShadowSprite;
+            if (tryGetBodyShadowSpriteInList(bodySprite, shadowlessAprilFoolsPlayerSprites, _aprilFoolsSpritesDict, out Sprite aprilFoolsResult)) return aprilFoolsResult;
         }
 
-        string spriteName = bodySprite.name;
-        Sprite newShadowSprite = shadowlessPlayerSprites.FirstOrDefault(s => s.name == spriteName);
-
-        if (newShadowSprite)
+        if (tryGetBodyShadowSpriteInList(bodySprite, shadowlessPlayerSprites, _spritesDict, out Sprite result))
         {
-            _spritesDict[bodySprite] = newShadowSprite;
-            return newShadowSprite;
+            return result;
         }
 
         return bodySprite;
+
+        static bool tryGetBodyShadowSpriteInList(Sprite spriteToGet, Sprite[] allSprites, Dictionary<Sprite, Sprite> cachedSprites, out Sprite result)
+        {
+            if (!spriteToGet)
+            {
+                result = null;
+                return false;
+            }
+
+            if (cachedSprites.TryGetValue(spriteToGet, out Sprite cachedShadowSprite) && cachedShadowSprite)
+            {
+                result = cachedShadowSprite;
+                return true;
+            }
+
+            string spriteName = spriteToGet.name;
+            Sprite newShadowSprite = allSprites.FirstOrDefault(s => s.name == spriteName);
+
+            if (newShadowSprite)
+            {
+                cachedSprites[spriteToGet] = newShadowSprite;
+                result = newShadowSprite;
+                return true;
+            }
+
+            result = null;
+            return false;
+        }
     }
 }
