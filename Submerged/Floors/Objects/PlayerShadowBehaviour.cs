@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Reactor.Utilities.Attributes;
+using Submerged.Extensions;
 using Submerged.Map;
 using UnityEngine;
 
@@ -96,9 +97,7 @@ public sealed class PlayerShadowBehaviour(nint ptr) : MonoBehaviour(ptr)
         float scaleModifier = playerControl.MyPhysics.bodyType == PlayerBodyTypes.Horse ? 0.3367f : 0.5f;
         shadowObj.transform.localScale = Vector3.one * scaleModifier;
 
-        Color color = shadowColor;
-        color.a = playerControl.cosmetics.currentBodySprite.BodySprite.color.a;
-        shadowRend.color = color;
+        shadowRend.SetColorAlpha(playerControl.cosmetics.currentBodySprite.BodySprite.color.a);
 
         bool flipX = playerControl.cosmetics.currentBodySprite.BodySprite.flipX;
         shadowRend.flipX = flipX;
