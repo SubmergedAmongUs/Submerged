@@ -542,7 +542,8 @@ public sealed class PurchaseBreakfastMinigame(nint ptr) : Minigame(ptr)
 
     public override void Close()
     {
-        MyNormTask.Cast<CooldownPlayerTask>().timer = 3;
+        CooldownConsole cc = Console.Cast<CooldownConsole>();
+        cc.CoolDown = cc.MaxCoolDown;
         this.BaseClose();
     }
 }

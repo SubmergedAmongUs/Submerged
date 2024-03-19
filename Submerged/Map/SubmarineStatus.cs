@@ -79,6 +79,7 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
         ResolveSystemConsoleMinigames(normalShip.GetComponentsInChildren<SystemConsole>());
         ResolveDoorMinigames();
         ResolveExileController();
+        ResolveCooldownConsoles(normalShip.AllConsoles);
 
         normalShip.CommonTasks[0].Arrow = normalShip.CommonTasks[0].gameObject.GetComponentInChildren<ArrowBehaviour>();
 
@@ -473,7 +474,7 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
     }
 
     [HideFromIl2Cpp]
-    private void ResolveSystemConsoleMinigames(SystemConsole[] consoles)
+    private void ResolveSystemConsoleMinigames(IEnumerable<SystemConsole> consoles)
     {
         List<(SystemConsole console, GameObject minigameObject)> consoleMinigames = [];
         IEnumerable<SystemConsole> filteredConsoles = consoles.Where(c => c.MinigamePrefab && c.MinigamePrefab.GetComponent<DivertPowerMetagame>());
@@ -562,6 +563,30 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
         {
             console.MinigamePrefab = minigameObject.GetComponents<Minigame>().FirstOrDefault(m => m.TryCast<IDoorMinigame>() != null);
             console.MyDoor = console.GetComponent<PlainDoor>();
+        }
+    }
+
+    [HideFromIl2Cpp]
+    private void ResolveCooldownConsoles(IEnumerable<Console> consoles)
+    {
+        foreach (Console console in consoles)
+        {
+            if (console == null || !console.name.Contains("-CooldownConsole-")) continue;
+
+            CooldownConsole cooldownConsole = console.gameObject.AddComponent<CooldownConsole>();
+            cooldownConsole.usableDistance = console.usableDistance;
+            cooldownConsole.ConsoleId = console.ConsoleId;
+            cooldownConsole.onlyFromBelow = console.onlyFromBelow;
+            cooldownConsole.onlySameRoom = console.onlySameRoom;
+            cooldownConsole.checkWalls = console.checkWalls;
+            cooldownConsole.GhostsIgnored = console.GhostsIgnored;
+            cooldownConsole.AllowImpostor = console.AllowImpostor;
+            cooldownConsole.Room = console.Room;
+            cooldownConsole.TaskTypes = console.TaskTypes;
+            cooldownConsole.ValidTasks = console.ValidTasks;
+            cooldownConsole.Image = console.Image;
+
+            DestroyImmediate(console);
         }
     }
 

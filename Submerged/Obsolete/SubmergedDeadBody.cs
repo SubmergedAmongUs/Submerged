@@ -9,7 +9,7 @@ using UnityEngine;
 namespace Submerged.Floors.Objects;
 
 [RegisterInIl2Cpp]
-[Obsolete("This component is no longer used in Submerged and might be removed in a future update. Please use GenericShadowBehaviour instead.", true)]
+[Obsolete("This component is no longer used in Submerged and might be removed in a future update. Please use GenericShadowBehaviour instead.")]
 public sealed class SubmergedDeadBody(nint ptr) : MonoBehaviour(ptr)
 {
     public DeadBody parent;
@@ -18,6 +18,12 @@ public sealed class SubmergedDeadBody(nint ptr) : MonoBehaviour(ptr)
 
     private void Awake()
     {
+        Warning("SubmergedDeadBody is no longer used in Submerged and might be removed in a future update. Please use GenericShadowBehaviour instead!");
+        Warning("SubmergedDeadBody is no longer used in Submerged and might be removed in a future update. Please use GenericShadowBehaviour instead!");
+        Warning("SubmergedDeadBody is no longer used in Submerged and might be removed in a future update. Please use GenericShadowBehaviour instead!");
+        Warning("SubmergedDeadBody is no longer used in Submerged and might be removed in a future update. Please use GenericShadowBehaviour instead!");
+        Warning("SubmergedDeadBody is no longer used in Submerged and might be removed in a future update. Please use GenericShadowBehaviour instead!");
+
         parent = GetComponent<DeadBody>();
         bodyAnim = parent.bodyRenderers.First().GetComponent<SpriteAnim>();
     }

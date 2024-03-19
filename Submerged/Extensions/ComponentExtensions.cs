@@ -20,9 +20,10 @@ public static class ComponentExtensions
 
             foreach (Type type in Assembly.GetExecutingAssembly().GetTypes())
             {
-                RegisterInIl2CppAttribute attribute = type.GetCustomAttribute<RegisterInIl2CppAttribute>();
+                RegisterInIl2CppAttribute registerAttribute = type.GetCustomAttribute<RegisterInIl2CppAttribute>();
+                ObsoleteAttribute obsoleteAttribute = type.GetCustomAttribute<ObsoleteAttribute>();
 
-                if (attribute != null)
+                if (registerAttribute != null && obsoleteAttribute == null)
                 {
                     _registeredTypes[type.Name] = type;
                 }

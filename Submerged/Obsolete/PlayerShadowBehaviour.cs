@@ -10,7 +10,7 @@ using UnityEngine;
 namespace Submerged.Floors.Objects;
 
 [RegisterInIl2Cpp]
-[Obsolete("This component is no longer used in Submerged and might be removed in a future update. Please use GenericShadowBehaviour instead.", true)]
+[Obsolete("This component is no longer used in Submerged and might be removed in a future update. Please use GenericShadowBehaviour instead.")]
 public sealed class PlayerShadowBehaviour(nint ptr) : MonoBehaviour(ptr)
 {
     public GameObject shadowObj;
@@ -24,6 +24,12 @@ public sealed class PlayerShadowBehaviour(nint ptr) : MonoBehaviour(ptr)
 
     public void Start()
     {
+        Warning("PlayerShadowBehaviour is no longer used in Submerged and might be removed in a future update. Please use GenericShadowBehaviour instead!");
+        Warning("PlayerShadowBehaviour is no longer used in Submerged and might be removed in a future update. Please use GenericShadowBehaviour instead!");
+        Warning("PlayerShadowBehaviour is no longer used in Submerged and might be removed in a future update. Please use GenericShadowBehaviour instead!");
+        Warning("PlayerShadowBehaviour is no longer used in Submerged and might be removed in a future update. Please use GenericShadowBehaviour instead!");
+        Warning("PlayerShadowBehaviour is no longer used in Submerged and might be removed in a future update. Please use GenericShadowBehaviour instead!");
+
         Camera.main!.cullingMask = 1073969927; // yay magic numbers
         shadowObj = new GameObject("Submerged Shadow") { layer = 4 };
         shadowRend = shadowObj.AddComponent<SpriteRenderer>();
