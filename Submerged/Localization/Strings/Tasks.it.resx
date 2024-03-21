@@ -111,7 +111,7 @@ Prendi Quand'è
         <value>Riconnetti Tubature</value>
     </data>
     <data name="ReconnectPiping.HighPressure" xml:space="preserve">
-        <value>&lt;b&gt;&lt;size=125%&gt;HIGH&lt;/size&gt;
+        <value>&lt;b&gt;&lt;size=125%&gt;ALTA&lt;/size&gt;
 PRESSIONE&lt;/b&gt;</value>
     </data>
     <data name="RecordNavBeaconData" xml:space="preserve">
