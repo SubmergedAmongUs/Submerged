@@ -74,10 +74,10 @@ Rischio: IMMINENTE</value>
     </data>
     <data name="MicrowaveLunch.CookTime" xml:space="preserve">
         <value>Tempo: {0}s
-Nota Per Se:
+Nota per se:
 
-Prendi Quand'è
-       Pronto</value>
+Prendi quando
+       finisce il timer</value>
     </data>
     <data name="MicrowaveLunch.PostItGreen" xml:space="preserve">
         <value>Ricorda Di Pulire Dopo l'Utilizzo
