@@ -1,0 +1,285 @@
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="CamsSabotage.Active" xml:space="preserve">
+        <value>ATTIVO</value>
+    </data>
+    <data name="CamsSabotage.Disabled" xml:space="preserve">
+        <value>DISABILITATE</value>
+    </data>
+    <data name="CamsSabotage.Repairing" xml:space="preserve">
+        <value>RIPARANDO</value>
+    </data>
+    <data name="CleanGlass" xml:space="preserve">
+        <value>Pulisci Vetro</value>
+    </data>
+    <data name="ClearUrchins" xml:space="preserve">
+        <value>Pulisci Animali</value>
+    </data>
+    <data name="CycleReactor" xml:space="preserve">
+        <value>Riattiva Reattore</value>
+    </data>
+    <data name="CycleReactor.RPM" xml:space="preserve">
+        <value>RPM:{0}​</value>
+    </data>
+    <data name="DiagnoseElevators" xml:space="preserve">
+        <value>Diagnosi Ascensori</value>
+    </data>
+    <data name="DiagnoseElevators.Diagnose" xml:space="preserve">
+        <value>DIAGNOSI</value>
+    </data>
+    <data name="DispenseWater" xml:space="preserve">
+        <value>Distribuisci Acqua</value>
+    </data>
+    <data name="FeedPetFish" xml:space="preserve">
+        <value>Dare Da Mangiare Al Pesce</value>
+    </data>
+    <data name="IdentifySpecimen" xml:space="preserve">
+        <value>Individua Creatura</value>
+    </data>
+    <data name="IdentifySpecimen.Pufferfish" xml:space="preserve">
+        <value>Pesce Supporto Morale</value>
+    </data>
+    <data name="LocateVolcanicActivity" xml:space="preserve">
+        <value>Individua Attività Vulcanica</value>
+    </data>
+    <data name="LocateVolcanicActivity.Complete" xml:space="preserve">
+        <value>Stratovulcano Conico
+Altezza: 2,377 Metri
+Stato: Attivo
+Rischio: Basso</value>
+    </data>
+    <data name="LocateVolcanicActivity.Incomplete" xml:space="preserve">
+        <value>Stratovulcano Conico
+Altezza: 2,377 Metri
+Stato: Attivo
+Rischio: IMMINENTE</value>
+    </data>
+    <data name="MicrowaveLunch" xml:space="preserve">
+        <value>Pranzo Forno A Micronde</value>
+    </data>
+    <data name="MicrowaveLunch.CookTime" xml:space="preserve">
+        <value>Tempo: {0}s
+Nota per se:
+
+Prendi quando
+       finisce il timer</value>
+    </data>
+    <data name="MicrowaveLunch.PostItGreen" xml:space="preserve">
+        <value>Ricorda Di Pulire Dopo l'Utilizzo
+
+  - Verde
+     &amp; Lime</value>
+    </data>
+    <data name="MicrowaveLunch.PostItPink" xml:space="preserve">
+        <value>Non Mangiare La Mia Fetta Di pizza!
+        - Rosa</value>
+    </data>
+    <data name="MicrowaveLunch.TaskTimer" xml:space="preserve">
+        <value>{0}:{1}​</value>
+    </data>
+    <data name="MopPuddles" xml:space="preserve">
+        <value>Pulisci Pozzanghere</value>
+    </data>
+    <data name="OxygenateSeaPlants" xml:space="preserve">
+        <value>Ossigena Piante</value>
+    </data>
+    <data name="PlugLeaks" xml:space="preserve">
+        <value>Pulisci Foglie</value>
+    </data>
+    <data name="PurchaseBreakfast" xml:space="preserve">
+        <value>Compra Colazione</value>
+    </data>
+    <data name="PurchaseBreakfast.Offers" xml:space="preserve">
+        <value>OFFERTE:</value>
+    </data>
+    <data name="ReconnectPiping" xml:space="preserve">
+        <value>Riconnetti Tubature</value>
+    </data>
+    <data name="ReconnectPiping.HighPressure" xml:space="preserve">
+        <value>&lt;b&gt;&lt;size=125%&gt;ALTA&lt;/size&gt;
+PRESSIONE&lt;/b&gt;</value>
+    </data>
+    <data name="RecordNavBeaconData" xml:space="preserve">
+        <value>Registra Informazioni Del Radar Di Navigazione</value>
+    </data>
+    <data name="RecordNavBeaconData.Done" xml:space="preserve">
+        <value>Messagio Ricevuto.</value>
+    </data>
+    <data name="RecordNavBeaconData.Enter" xml:space="preserve">
+        <value>Entra Coordinate Del Radar Di Navigazione</value>
+    </data>
+    <data name="RecordNavBeaconData.Wait" xml:space="preserve">
+        <value>Ricevimento Messaggio...</value>
+    </data>
+    <data name="ResetBreakers" xml:space="preserve">
+        <value>Riattiva Elettricità</value>
+    </data>
+    <data name="ReshelveBooks" xml:space="preserve">
+        <value>Riordina Libri</value>
+    </data>
+    <data name="ReshelveBooks.Book01" xml:space="preserve">
+        <value>&lt;size=125%&gt;A&lt;/size&gt;cquari e cosa sono</value>
+    </data>
+    <data name="ReshelveBooks.Book02-Lounge" xml:space="preserve">
+        <value>&lt;size=125%&gt;B&lt;/size&gt;rodo Etnico</value>
+    </data>
+    <data name="ReshelveBooks.Book03" xml:space="preserve">
+        <value>&lt;size=125%&gt;C&lt;/size&gt;reature di Caverne</value>
+    </data>
+    <data name="ReshelveBooks.Book04" xml:space="preserve">
+        <value>&lt;size=125%&gt;E&lt;/size&gt;sotica Vita Marina</value>
+    </data>
+    <data name="ReshelveBooks.Book05" xml:space="preserve">
+        <value>&lt;size=125%&gt;F&lt;/size&gt;riggendo Nemo</value>
+    </data>
+    <data name="ReshelveBooks.Book06-Lounge" xml:space="preserve">
+        <value>&lt;size=125%&gt;I&lt;/size&gt;ctiologia 101</value>
+    </data>
+    <data name="ReshelveBooks.Book07" xml:space="preserve">
+        <value>&lt;size=125%&gt;J&lt;/size&gt;immy Il Pesciolone</value>
+    </data>
+    <data name="ReshelveBooks.Book08-Medical" xml:space="preserve">
+        <value>&lt;size=125%&gt;L&lt;/size&gt;eggereper Amongussini</value>
+    </data>
+    <data name="ReshelveBooks.Book09" xml:space="preserve">
+        <value>&lt;size=125%&gt;M&lt;/size&gt;angrovie tutto il
+Lunedì</value>
+    </data>
+    <data name="ReshelveBooks.Book10-Medical" xml:space="preserve">
+        <value>&lt;size=125%&gt;N&lt;/size&gt;autico Viaggio</value>
+    </data>
+    <data name="ReshelveBooks.Book11-Lounge" xml:space="preserve">
+        <value>&lt;size=125%&gt;O&lt;/size&gt;rnitorinchi Da Cucinare</value>
+    </data>
+    <data name="ReshelveBooks.Book12" xml:space="preserve">
+        <value>&lt;size=125%&gt;P&lt;/size&gt;rovare A Nuotare!</value>
+    </data>
+    <data name="ReshelveBooks.Book13-Medical" xml:space="preserve">
+        <value>&lt;size=125%&gt;S&lt;/size&gt;e Non Sai Che Fare Durante Un Sabotaggio</value>
+    </data>
+    <data name="ReshelveBooks.Book14" xml:space="preserve">
+        <value>&lt;size=125%&gt;V&lt;/size&gt;iaggi Perfetti</value>
+    </data>
+    <data name="ReshelveBooks.Book15" xml:space="preserve">
+        <value>&lt;size=125%&gt;X&lt;/size&gt;ilofoni Migliori</value>
+    </data>
+    <data name="RetrieveOxygenMask" xml:space="preserve">
+        <value>Prendi Mascgera Ossigeno</value>
+    </data>
+    <data name="ShootDepthCharges" xml:space="preserve">
+        <value>Spara Carichi Subacquei</value>
+    </data>
+    <data name="ShootDepthCharges.Remaining" xml:space="preserve">
+        <value>Carichi Rimanenti: {0}</value>
+    </data>
+    <data name="SortScubaGear" xml:space="preserve">
+        <value>Metti In Ordine Equipaghiamento Scuba</value>
+    </data>
+    <data name="SpawnIn.Bottom.Loading" xml:space="preserve">
+        <value>Caricamento... ({0}/{1})</value>
+    </data>
+    <data name="SpawnIn.Bottom.Spawning" xml:space="preserve">
+        <value>Giocatori Pronti: {0}/{1}</value>
+    </data>
+    <data name="SpawnIn.Top.LoadingClicked" xml:space="preserve">
+        <value>Aspwttando I Giocatori...</value>
+    </data>
+    <data name="SpawnIn.Top.SpawningClicked" xml:space="preserve">
+        <value>Aspettando I Giocatori... ({0}s)</value>
+    </data>
+    <data name="SpawnIn.Top.SpawningHnS" xml:space="preserve">
+        <value>Aspettando L'Impostore... ({0}s)</value>
+    </data>
+    <data name="SpawnIn.Top.SpawningNotClicked" xml:space="preserve">
+        <value>Tempo Rimanente: {0}s</value>
+    </data>
+    <data name="SpotWhaleShark" xml:space="preserve">
+        <value>Trova lo Squalo Balena</value>
+    </data>
+    <data name="SpotWhaleShark.InRange" xml:space="preserve">
+        <value>In Vista {0}s</value>
+    </data>
+    <data name="SpotWhaleShark.NotVisible" xml:space="preserve">
+        <value>Invisibile {0}s</value>
+    </data>
+    <data name="StabilizeWaterLevels" xml:space="preserve">
+        <value>Stabilizza Livello Dell'Acqua</value>
+    </data>
+    <data name="StartSubmersible" xml:space="preserve">
+        <value>Attiva Sommergibile</value>
+    </data>
+    <data name="StartSubmersible.AuxEngines" xml:space="preserve">
+        <value>MOTORI AUSILIARI</value>
+    </data>
+    <data name="StartSubmersible.ExternalSystems" xml:space="preserve">
+        <value>SISTEMI ESTERNI</value>
+    </data>
+    <data name="StartSubmersible.MainEngines" xml:space="preserve">
+        <value>MOTORI PRINCIPALE</value>
+    </data>
+    <data name="StartSubmersible.Shields" xml:space="preserve">
+        <value>SCUDI</value>
+    </data>
+    <data name="StartSubmersible.Status.Active" xml:space="preserve">
+        <value>Status: Attivo</value>
+    </data>
+    <data name="StartSubmersible.Status.Inactive" xml:space="preserve">
+        <value>Status: Inattivo</value>
+    </data>
+    <data name="StartSubmersible.Status.Starting" xml:space="preserve">
+        <value>Stato: Accensione...</value>
+    </data>
+    <data name="StartSubmersible.Weapons" xml:space="preserve">
+        <value>ARMI</value>
+    </data>
+    <data name="SteadyHeartbeat" xml:space="preserve">
+        <value>Stabilizza Battito</value>
+    </data>
+    <data name="SteadyHeartbeat.BPMLeft" xml:space="preserve">
+        <value>Velocità</value>
+    </data>
+    <data name="SteadyHeartbeat.BPMRight" xml:space="preserve">
+        <value>{0}
+BPM​</value>
+    </data>
+    <data name="SteadyHeartbeat.Status" xml:space="preserve">
+        <value>Stato: {0}</value>
+    </data>
+    <data name="SteadyHeartbeat.Status.Irregular" xml:space="preserve">
+        <value>Irregolare</value>
+    </data>
+    <data name="SteadyHeartbeat.Status.Stabilizing" xml:space="preserve">
+        <value>Stabilizzando</value>
+    </data>
+    <data name="SteadyHeartbeat.Status.Stable" xml:space="preserve">
+        <value>Stabile</value>
+    </data>
+    <data name="SteadyHeartbeat.Target" xml:space="preserve">
+        <value>&lt;u&gt;Note Paziente&lt;/u&gt;
+
+Normal
+Heart Rate:
+{0} - {1} BPM</value>
+    </data>
+    <data name="TrackMantaRay" xml:space="preserve">
+        <value>Traccia Manta Ray</value>
+    </data>
+    <data name="TrackMantaRay.Tracking" xml:space="preserve">
+        <value>Tracciando: {0}%</value>
+    </data>
+</root>

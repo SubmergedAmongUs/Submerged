@@ -88,6 +88,7 @@ Submerged is available in the languages listed below. If you would like to help 
 | English                 | ✅  |                 -                 |
 | Deutsch                 | ✅  |         Fully Translated          |
 | Français                | ✅  |         Fully Translated          |
+| Italiano                | ✅  |         Fully Translated          |
 | Nederlands              | ✅  |         Fully Translated          |
 | Português (Brasil)      | ✅  |         Fully Translated          |
 | Русский                 | ✅  |         Fully Translated          |
@@ -98,7 +99,6 @@ Submerged is available in the languages listed below. If you would like to help 
 | Bisaya                  | ❌  |          Not Translated           |
 | Español (Latinoamérica) | ❌  | Not Translated<br>(Using Español) |
 | Gaeilge                 | ❌  |          Not Translated           |
-| Italiano                | ❌  |          Not Translated           |
 | Português               | ❌  |          Not Translated           |
 | 한국어                     | ❌  |          Not Translated           |
 
@@ -156,6 +156,7 @@ For business inquiries, please contact us at `submergedamongus@gmail.com`.
   - [ItsNiceCraft](https://bento.me/itsnicecraft) - Deutsch
   - [MissJukebox](https://www.twitch.tv/missjukebox/) - Español
   - Monid73 - Русский
+  - [PENGUN](https://youtube.com/@PENGUINWITHGUN) - Italiano
   - [RevoLou](https://twitter.com/Psyco_Lou/) - Português do Brasil
   - RobinRMC - Nederlands
   - [SPRLC](https://twitter.com/SuperLanceur) - Français
