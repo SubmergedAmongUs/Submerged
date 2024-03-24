@@ -57,7 +57,7 @@ Submerged depends on the following mods and modding tools in order to function p
 
 | Mod                                                                        |     Version     |
 |----------------------------------------------------------------------------|:---------------:|
-| [BepInEx](https://builds.bepinex.dev/projects/bepinex_be) (IL2CPP-win-x86) | `v6.0.0-be.671` |
+| [BepInEx](https://builds.bepinex.dev/projects/bepinex_be) (IL2CPP-win-x86) | `v6.0.0-be.688` |
 | [Reactor](https://github.com/nuclearpowered/reactor)                       |    `v2.2.0`     |
 
 # Installation
