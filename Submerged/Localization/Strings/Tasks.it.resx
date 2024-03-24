@@ -277,7 +277,7 @@ Heart Rate:
 {0} - {1} BPM</value>
     </data>
     <data name="TrackMantaRay" xml:space="preserve">
-        <value>TracciaManta Ray</value>
+        <value>Traccia Manta Ray</value>
     </data>
     <data name="TrackMantaRay.Tracking" xml:space="preserve">
         <value>Tracciando: {0}%</value>
