@@ -28,7 +28,7 @@ public static class AddSubmergedComponentsPatches
 
         if (body)
         {
-            body.gameObject.AddComponent<SubmergedDeadBody>();
+            body.gameObject.AddComponent<GenericShadowBehaviour>();
             body.gameObject.AddComponent<ElevatorMover>();
         }
     }

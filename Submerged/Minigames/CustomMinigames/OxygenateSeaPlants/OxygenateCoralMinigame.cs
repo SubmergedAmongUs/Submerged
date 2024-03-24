@@ -9,6 +9,7 @@ using Submerged.BaseGame.Extensions;
 using Submerged.Extensions;
 using Submerged.Minigames.CustomMinigames.OxygenateSeaPlants.DataStructures;
 using Submerged.Minigames.CustomMinigames.OxygenateSeaPlants.MonoBehaviours;
+using Submerged.Minigames.MonoBehaviours;
 using UnityEngine;
 
 namespace Submerged.Minigames.CustomMinigames.OxygenateSeaPlants;
@@ -374,7 +375,8 @@ public sealed class OxygenateCoralMinigame(nint ptr) : Minigame(ptr)
 
     public override void Close()
     {
-        MyNormTask.Cast<CooldownPlayerTask>().timer = 3;
+        CooldownConsole cc = Console.Cast<CooldownConsole>();
+        cc.CoolDown = cc.MaxCoolDown;
         this.BaseClose();
     }
 

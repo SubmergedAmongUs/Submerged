@@ -32,7 +32,6 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
     public static SubmarineStatus instance;
 
     public ShipStatus normalShip;
-    public MinigameProperties minigameProperties;
     public List<SubmarineElevator> elevators = [];
     public bool shakeOverridden;
     public GameObject vitalsPanel;
@@ -42,6 +41,9 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
     public AudioSource powerDownSound;
     public AudioSource powerUpSound;
     public SwitchSystem switchSystem;
+
+    public MinigameProperties minigameProperties;
+    public Tilemap2 aprilFoolsShadowSpritesHolder;
 
     private float _ventTransitionTimer;
 
@@ -68,6 +70,7 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
         minigameProperties = gameObject.AddComponent<MinigameProperties>();
         minigameProperties.Awake();
         DestroyImmediate(GetComponent<DivertPowerMetagame>());
+        aprilFoolsShadowSpritesHolder = transform.Find("MinigameProperties/April Fools Shadow Sprites").GetComponent<Tilemap2>();
 
         ResolveTaskMinigames(normalShip.CommonTasks);
         ResolveTaskMinigames(normalShip.LongTasks);
@@ -76,6 +79,7 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
         ResolveSystemConsoleMinigames(normalShip.GetComponentsInChildren<SystemConsole>());
         ResolveDoorMinigames();
         ResolveExileController();
+        ResolveCooldownConsoles(normalShip.AllConsoles);
 
         normalShip.CommonTasks[0].Arrow = normalShip.CommonTasks[0].gameObject.GetComponentInChildren<ArrowBehaviour>();
 
@@ -137,17 +141,7 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
 
     private void Start()
     {
-        if (!TutorialManager.InstanceExists)
-        {
-            foreach (PlayerControl player in FindObjectsOfType<PlayerControl>())
-            {
-                player.gameObject.EnsureComponent<PlayerShadowBehaviour>().playerControl = player;
-            }
-        }
-        else
-        {
-            this.StartCoroutine(CoAddShadows());
-        }
+        this.StartCoroutine(CoAddShadows());
     }
 
     private void Update()
@@ -251,13 +245,13 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
     }
 
     [HideFromIl2Cpp]
-    private IEnumerator CoAddShadows()
+    private static IEnumerator CoAddShadows()
     {
         while (!PlayerControl.LocalPlayer) yield return null;
 
         foreach (PlayerControl player in FindObjectsOfType<PlayerControl>())
         {
-            player.gameObject.EnsureComponent<PlayerShadowBehaviour>().playerControl = player;
+            player.transform.Find("BodyForms").gameObject.EnsureComponent<GenericShadowBehaviour>();
         }
     }
 
@@ -371,6 +365,16 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
         return Mathf.Lerp(0, normalShip.MinLightRadius, Mathf.Clamp01(adjustedamount)) * CrewLightMod;
     }
 
+    [HideFromIl2Cpp]
+    public Sprite[] GetReplacementShadowSprites(string objectName)
+    {
+        return objectName switch
+        {
+            "Horse" or "LongBoiBody" or "LongSeekerBody" => aprilFoolsShadowSpritesHolder.sprites,
+            _ => minigameProperties.sprites
+        };
+    }
+
     #region Resolve Stuff
 
     private void ResolveBaseGameMinigame(TaskTypes taskType, ShipStatus from)
@@ -470,7 +474,7 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
     }
 
     [HideFromIl2Cpp]
-    private void ResolveSystemConsoleMinigames(SystemConsole[] consoles)
+    private void ResolveSystemConsoleMinigames(IEnumerable<SystemConsole> consoles)
     {
         List<(SystemConsole console, GameObject minigameObject)> consoleMinigames = [];
         IEnumerable<SystemConsole> filteredConsoles = consoles.Where(c => c.MinigamePrefab && c.MinigamePrefab.GetComponent<DivertPowerMetagame>());
@@ -559,6 +563,30 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
         {
             console.MinigamePrefab = minigameObject.GetComponents<Minigame>().FirstOrDefault(m => m.TryCast<IDoorMinigame>() != null);
             console.MyDoor = console.GetComponent<PlainDoor>();
+        }
+    }
+
+    [HideFromIl2Cpp]
+    private void ResolveCooldownConsoles(IEnumerable<Console> consoles)
+    {
+        foreach (Console console in consoles)
+        {
+            if (console == null || !console.name.Contains("-CooldownConsole-")) continue;
+
+            CooldownConsole cooldownConsole = console.gameObject.AddComponent<CooldownConsole>();
+            cooldownConsole.usableDistance = console.usableDistance;
+            cooldownConsole.ConsoleId = console.ConsoleId;
+            cooldownConsole.onlyFromBelow = console.onlyFromBelow;
+            cooldownConsole.onlySameRoom = console.onlySameRoom;
+            cooldownConsole.checkWalls = console.checkWalls;
+            cooldownConsole.GhostsIgnored = console.GhostsIgnored;
+            cooldownConsole.AllowImpostor = console.AllowImpostor;
+            cooldownConsole.Room = console.Room;
+            cooldownConsole.TaskTypes = console.TaskTypes;
+            cooldownConsole.ValidTasks = console.ValidTasks;
+            cooldownConsole.Image = console.Image;
+
+            DestroyImmediate(console);
         }
     }
 

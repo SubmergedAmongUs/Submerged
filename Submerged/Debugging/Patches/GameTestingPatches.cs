@@ -26,4 +26,12 @@ public static class GameTestingPatches
     [HarmonyPrefix]
     [HarmonyPriority(Priority.First)]
     public static bool StopGameEndingPatch() => false;
+
+    [HarmonyPatch(typeof(AprilFoolsMode), nameof(AprilFoolsMode.ShouldShowAprilFoolsToggle))]
+    [HarmonyPrefix]
+    public static bool EnableAprilFoolsTogglePatch(out bool __result)
+    {
+        __result = true;
+        return false;
+    }
 }

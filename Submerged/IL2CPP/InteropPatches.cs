@@ -21,7 +21,7 @@ public static class InteropPatches
 {
     private static readonly Harmony _harmony = new(nameof(InteropPatches));
 
-    public static void Initialize()
+    internal static void Initialize()
     {
         _harmony.PatchAll(typeof(InteropPatches));
     }

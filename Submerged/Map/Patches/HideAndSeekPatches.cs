@@ -2,7 +2,7 @@ using System.Linq;
 using HarmonyLib;
 using Submerged.Extensions;
 using Submerged.Systems.Elevator;
-using IntroCutscene_CoBegin = IntroCutscene._CoBegin_d__33;
+using IntroCutscene_CoBegin = IntroCutscene._CoBegin_d__35;
 
 namespace Submerged.Map.Patches;
 
@@ -29,7 +29,7 @@ public static class HideAndSeekPatches
         SubmarineStatus.instance.elevators.Do(e =>
         {
             e.system.tandemSystemType = default;
-            e.system.upperDeckIsTargetFloor = !SubmergedHnSManager.CurrentGameIsOnUpperDeck;
+            e.system.upperDeckIsTargetFloor = SubmergedHnSManager.CurrentGameIsOnUpperDeck;
         });
     }
 

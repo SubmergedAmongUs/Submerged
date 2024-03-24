@@ -5,6 +5,7 @@ using Il2CppInterop.Runtime.Attributes;
 using PowerTools;
 using Reactor.Utilities.Attributes;
 using Submerged.BaseGame;
+using Submerged.ExileCutscene.Patches;
 using Submerged.Systems.BoxCat;
 using UnityEngine;
 
@@ -150,7 +151,9 @@ public sealed class SubmergedExileController(nint ptr) : ExileController(ptr)
         const float TEXT_DUR = 2f;
         int previousValue = 0;
 
-        string completeStr = completeString;
+        string completeStr = BaseGameResolvingPatches.LastExileText;
+
+        Warning("Displaying SubmergedExileController text: " + completeStr);
 
         for (float t = 0; t < TEXT_DUR; t += Time.deltaTime)
         {
@@ -192,7 +195,7 @@ public sealed class SubmergedExileController(nint ptr) : ExileController(ptr)
 
     // CLeanup this WrapUpAndSpawn method
     [HideFromIl2Cpp]
-    [BaseGameCode(LastChecked.v2023_10_24, "Similar to AirshipExileController.WrapUpAndSpawn")]
+    [BaseGameCode(LastChecked.v2024_3_5, "Similar to AirshipExileController.WrapUpAndSpawn")]
     public IEnumerator WrapUpAndSpawn()
     {
         if (exiled != null)

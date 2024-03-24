@@ -20,9 +20,10 @@ public static class ComponentExtensions
 
             foreach (Type type in Assembly.GetExecutingAssembly().GetTypes())
             {
-                RegisterInIl2CppAttribute attribute = type.GetCustomAttribute<RegisterInIl2CppAttribute>();
+                RegisterInIl2CppAttribute registerAttribute = type.GetCustomAttribute<RegisterInIl2CppAttribute>();
+                ObsoleteAttribute obsoleteAttribute = type.GetCustomAttribute<ObsoleteAttribute>();
 
-                if (attribute != null)
+                if (registerAttribute != null && obsoleteAttribute == null)
                 {
                     _registeredTypes[type.Name] = type;
                 }
@@ -34,6 +35,7 @@ public static class ComponentExtensions
 
     public static T EnsureComponent<T>(this GameObject obj) where T : Component => obj.GetComponent<T>() ?? obj.AddComponent<T>();
 
-    [Obsolete("This should eventualy disappear from the codebase.")]
+    public static Component EnsureComponent(this GameObject obj, Type type) => obj.GetComponent(Il2CppType.From(type)) ?? obj.AddComponent(Il2CppType.From(type));
+
     public static Component AddInjectedComponentByName(this GameObject obj, string typeName) => obj.AddComponent(Il2CppType.From(RegisteredTypes[typeName]));
 }
