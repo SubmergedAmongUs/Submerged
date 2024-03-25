@@ -20,6 +20,8 @@ public class RelativeShadowRenderer(nint ptr) : MonoBehaviour(ptr)
 
     private readonly Dictionary<Sprite, Sprite> _cachedSprites = [];
 
+    public virtual bool EnableShadow => true;
+
     protected virtual void Awake()
     {
         gameObject.layer = 4;
@@ -48,7 +50,7 @@ public class RelativeShadowRenderer(nint ptr) : MonoBehaviour(ptr)
 
         if (targetRenderer)
         {
-            shadowRenderer.enabled = targetRenderer.enabled && targetRenderer.gameObject.activeInHierarchy;
+            shadowRenderer.enabled = targetRenderer.enabled && targetRenderer.gameObject.activeInHierarchy && EnableShadow;
             shadowRenderer.sprite = GetReplacementSprite(targetRenderer.sprite);
             shadowRenderer.SetColorAlpha(targetRenderer.color.a);
             shadowRenderer.flipX = targetRenderer.flipX;
