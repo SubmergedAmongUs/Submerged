@@ -116,7 +116,7 @@ Any and all contributions are welcome, but please keep in mind that Submerged is
 
 Additionally feel free to [open an issue](https://github.com/SubmergedAmongUs/Submerged/issues/new/choose/) if you have a feature request, want to report a bug, or basically anything else.
 
-All pull request contributors are required to sign a [CLA](https://gist.github.com/Alexejhero/fabcc123434c6306bb5c3fde8a6bcd9c) (a bot will comment on opened pull requests with instructions).
+All pull request contributors are required to sign a [CLA](https://gist.github.com/Alexejhero/740d681de944b21948edd940a23f3ff1) (a bot will comment on opened pull requests with instructions).
 
 # License
 
