@@ -567,10 +567,11 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
     }
 
     [HideFromIl2Cpp]
-    private void ResolveCooldownConsoles(IEnumerable<Console> consoles)
+    private void ResolveCooldownConsoles(Il2CppReferenceArray<Console> consoles)
     {
-        foreach (Console console in consoles)
+        for (int i = 0; i < consoles.Count; i++)
         {
+            Console console = consoles[i];
             if (console == null || !console.name.Contains("-CooldownConsole-")) continue;
 
             CooldownConsole cooldownConsole = console.gameObject.AddComponent<CooldownConsole>();
@@ -587,6 +588,8 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
             cooldownConsole.Image = console.Image;
 
             DestroyImmediate(console);
+
+            consoles[i] = cooldownConsole;
         }
     }
 
