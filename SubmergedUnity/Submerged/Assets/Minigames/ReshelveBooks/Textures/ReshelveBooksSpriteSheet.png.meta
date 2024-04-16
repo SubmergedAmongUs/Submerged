@@ -1,0 +1,516 @@
+fileFormatVersion: 2
+guid: c6be0fc03fd81764cbaf584c38aad312
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 118122005513370663
+    second: background
+  - first:
+      213: -1475217080110034401
+    second: BB (b2)
+  - first:
+      213: 6354619415515976590
+    second: benthic_beasts
+  - first:
+      213: 4052034619865970767
+    second: ichthyologist_weekly
+  - first:
+      213: 8949759254071620935
+    second: IW (b3)
+  - first:
+      213: -14230228636386438
+    second: kelper_worms
+  - first:
+      213: -7870557921473065445
+    second: KW (b1)
+  - first:
+      213: -1277204224837708462
+    second: nautical_nonsense
+  - first:
+      213: -346663897251480613
+    second: NN (b3)
+  - first:
+      213: -565236158815204801
+    second: octopus_digest
+  - first:
+      213: 7586277213143569934
+    second: OD (b1)
+  - first:
+      213: -8615202382627692436
+    second: paper
+  - first:
+      213: -571824944287832636
+    second: reshelve_books_p2_shelf
+  - first:
+      213: 7858890755792140816
+    second: sea_slugs_and_you
+  - first:
+      213: 7632501428435422212
+    second: SS&U (b2)
+  - first:
+      213: 6050513584568908935
+    second: stack
+  - first:
+      213: -1779572522790044833
+    second: table
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: background
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2544
+        width: 2107
+        height: 2107
+      alignment: 9
+      pivot: {x: 0.4447081, y: 0.49691504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72cf7c29657a3a100800000000000000
+      internalID: 118122005513370663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BB (b2)
+      rect:
+        serializedVersion: 2
+        x: 2790
+        y: 1374
+        width: 790
+        height: 1095
+      alignment: 9
+      pivot: {x: -0.121518984, y: 0.51141554}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f12d375b1e9f68be0800000000000000
+      internalID: -1475217080110034401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: benthic_beasts
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 426
+        width: 184
+        height: 572
+      alignment: 9
+      pivot: {x: 2.375, y: -0.6870629}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8351a0b0b4203850800000000000000
+      internalID: 6354619415515976590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ichthyologist_weekly
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 681
+        width: 198
+        height: 625
+      alignment: 9
+      pivot: {x: 3.1111112, y: 0.5216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4832b6a408bb3830800000000000000
+      internalID: 4052034619865970767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IW (b3)
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 24
+        width: 994
+        height: 415
+      alignment: 9
+      pivot: {x: -0.55935615, y: 0.2313253}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745343caf9ee33c70800000000000000
+      internalID: 8949759254071620935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kelper_worms
+      rect:
+        serializedVersion: 2
+        x: 3565
+        y: 1578
+        width: 269
+        height: 655
+      alignment: 9
+      pivot: {x: 0.9665428, y: 0.49160305}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b3e05bea17dcff0800000000000000
+      internalID: -14230228636386438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KW (b1)
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 213
+        width: 969
+        height: 508
+      alignment: 9
+      pivot: {x: 1.009288, y: 1.027559}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e067a354926c290800000000000000
+      internalID: -7870557921473065445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nautical_nonsense
+      rect:
+        serializedVersion: 2
+        x: 3273
+        y: 32
+        width: 417
+        height: 676
+      alignment: 9
+      pivot: {x: -0.4292566, y: 0.4837278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2559be04685764ee0800000000000000
+      internalID: -1277204224837708462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NN (b3)
+      rect:
+        serializedVersion: 2
+        x: 2387
+        y: 176
+        width: 869
+        height: 613
+      alignment: 9
+      pivot: {x: -0.38319907, y: 0.9771615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb7fdba507603bf0800000000000000
+      internalID: -346663897251480613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: octopus_digest
+      rect:
+        serializedVersion: 2
+        x: 3571
+        y: 3419
+        width: 184
+        height: 597
+      alignment: 9
+      pivot: {x: 3.3369565, y: 1.6934674}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a0d9355b0e728f0800000000000000
+      internalID: -565236158815204801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OD (b1)
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 419
+        width: 1059
+        height: 487
+      alignment: 9
+      pivot: {x: 0.6147309, y: 0.9486653}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0610197eeed74960800000000000000
+      internalID: 7586277213143569934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 743
+        width: 1090
+        height: 778
+      alignment: 9
+      pivot: {x: 1.3935779, y: 1.3881748}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60a06b0417a07880800000000000000
+      internalID: -8615202382627692436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reshelve_books_p2_shelf
+      rect:
+        serializedVersion: 2
+        x: 2215
+        y: 2491
+        width: 1334
+        height: 2160
+      alignment: 9
+      pivot: {x: 0.505997, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5240a2e387018f0800000000000000
+      internalID: -571824944287832636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sea_slugs_and_you
+      rect:
+        serializedVersion: 2
+        x: 3571
+        y: 4038
+        width: 180
+        height: 613
+      alignment: 9
+      pivot: {x: 1.7277777, y: 1.6460032}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a77931183601d60800000000000000
+      internalID: 7858890755792140816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS&U (b2)
+      rect:
+        serializedVersion: 2
+        x: 2751
+        y: 730
+        width: 1023
+        height: 660
+      alignment: 9
+      pivot: {x: 0.23753665, y: 1.6363636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c0e854c971ce960800000000000000
+      internalID: 7632501428435422212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stack
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 903
+        width: 1257
+        height: 686
+      alignment: 9
+      pivot: {x: -0.33731106, y: 0.7580175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78cb7e45c0eb7f350800000000000000
+      internalID: 6050513584568908935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1328
+        width: 2904
+        height: 1194
+      alignment: 9
+      pivot: {x: 0.38085398, y: 0.9045226}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5bbd071830bd47e0800000000000000
+      internalID: -1779572522790044833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

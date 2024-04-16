@@ -1,0 +1,555 @@
+fileFormatVersion: 2
+guid: aa17c832e53617241b1ef533420f54c4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5874314683907977096
+    second: Dial_pointer
+  - first:
+      213: 2227783724632387922
+    second: Full_Wheel
+  - first:
+      213: -3196857380016991960
+    second: HighlightBackground
+  - first:
+      213: 9198678579800050646
+    second: Key
+  - first:
+      213: -8908889174907225979
+    second: Key_Green_Light
+  - first:
+      213: -8752444242541456192
+    second: Key_Hole
+  - first:
+      213: -1381780030183193139
+    second: Key_Red_Light
+  - first:
+      213: 1509551986078764235
+    second: Submarine_Outline
+  - first:
+      213: -8563570607142750046
+    second: Submersible_Background
+  - first:
+      213: 2014073544603233025
+    second: Switch_Light_Green
+  - first:
+      213: -6540937284625143322
+    second: Switch_Light_Red
+  - first:
+      213: -3617276167927408384
+    second: Switch_Off
+  - first:
+      213: -8985936486114544999
+    second: Switch_On
+  - first:
+      213: -6634051554928762064
+    second: VerticalDial_Bar
+  - first:
+      213: 2384553229086466037
+    second: VerticalDial_Fill
+  - first:
+      213: 2647286427753634454
+    second: VerticalDial_Slider
+  - first:
+      213: -5500478010636356401
+    second: VerticalDial_WhiteBar
+  - first:
+      213: 7946369693787772444
+    second: Wheel_shadow
+  - first:
+      213: 5418457852541175948
+    second: modified_bg
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dial_pointer
+      rect:
+        serializedVersion: 2
+        x: 3051
+        y: 1299
+        width: 35
+        height: 133
+      alignment: 9
+      pivot: {x: 0.40483, y: 0.28825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88f2231e412c58150800000000000000
+      internalID: 5874314683907977096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Full_Wheel
+      rect:
+        serializedVersion: 2
+        x: 2225
+        y: 720
+        width: 716
+        height: 716
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2513c178e7daaee10800000000000000
+      internalID: 2227783724632387922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HighlightBackground
+      rect:
+        serializedVersion: 2
+        x: 2225
+        y: 1458
+        width: 803
+        height: 877
+      alignment: 9
+      pivot: {x: 1.2951432, y: -0.16191562}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821508a862b72a3d0800000000000000
+      internalID: -3196857380016991960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Key
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 1112
+        width: 160
+        height: 341
+      alignment: 9
+      pivot: {x: 0.503125, y: 0.50879765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db0aff7e6548af70800000000000000
+      internalID: 9198678579800050646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Key_Green_Light
+      rect:
+        serializedVersion: 2
+        x: 2963
+        y: 1172
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 588f45a2f744d5480800000000000000
+      internalID: -8908889174907225979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Key_Hole
+      rect:
+        serializedVersion: 2
+        x: 3050
+        y: 1476
+        width: 284
+        height: 285
+      alignment: 9
+      pivot: {x: 0.4964789, y: 0.49824563}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c457e67552198680800000000000000
+      internalID: -8752444242541456192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Key_Red_Light
+      rect:
+        serializedVersion: 2
+        x: 2923
+        y: 1299
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc5c33f226ee2dce0800000000000000
+      internalID: -1381780030183193139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: modified_bg
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 175
+        width: 2202
+        height: 2160
+      alignment: 9
+      pivot: {x: 0.5113533, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c88842b65ba323b40800000000000000
+      internalID: 5418457852541175948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Submarine_Outline
+      rect:
+        serializedVersion: 2
+        x: 2935
+        y: 84
+        width: 536
+        height: 566
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bccc53c888103f410800000000000000
+      internalID: 1509551986078764235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Switch_Light_Green
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 884
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b6691c73d63fb10800000000000000
+      internalID: 2014073544603233025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Switch_Light_Red
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 983
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e96fcbe13ce935a0800000000000000
+      internalID: -6540937284625143322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Switch_Off
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 846
+        width: 223
+        height: 275
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5327273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 009533c8d7adccdc0800000000000000
+      internalID: -3617276167927408384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Switch_On
+      rect:
+        serializedVersion: 2
+        x: 2963
+        y: 856
+        width: 223
+        height: 295
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4898305}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 992bbea106a8b4380800000000000000
+      internalID: -8985936486114544999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VerticalDial_Bar
+      rect:
+        serializedVersion: 2
+        x: 3050
+        y: 1783
+        width: 190
+        height: 552
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 033e7de624d1fe3a0800000000000000
+      internalID: -6634051554928762064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VerticalDial_Fill
+      rect:
+        serializedVersion: 2
+        x: 3262
+        y: 1837
+        width: 145
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff95b72782a71120800000000000000
+      internalID: 2384553229086466037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VerticalDial_Slider
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 34
+        width: 262
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ad7f8eafc0db420800000000000000
+      internalID: 2647286427753634454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VerticalDial_WhiteBar
+      rect:
+        serializedVersion: 2
+        x: 2791
+        y: 1426
+        width: 238
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc43c2164606aa3b0800000000000000
+      internalID: -5500478010636356401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wheel_shadow
+      rect:
+        serializedVersion: 2
+        x: 2223
+        y: 1
+        width: 698
+        height: 697
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c165624822d274e60800000000000000
+      internalID: 7946369693787772444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

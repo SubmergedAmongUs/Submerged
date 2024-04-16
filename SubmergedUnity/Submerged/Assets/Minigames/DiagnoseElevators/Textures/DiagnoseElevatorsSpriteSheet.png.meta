@@ -1,0 +1,876 @@
+fileFormatVersion: 2
+guid: 3c5b6779a7e7186468786b32c3384a09
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4543555419946760460
+    second: Base_Back
+  - first:
+      213: 8973528545786387743
+    second: Diagnose_Button
+  - first:
+      213: -4936889353348742911
+    second: Ticket
+  - first:
+      213: -7323354658855041726
+    second: Ticket_dispenser_Full
+  - first:
+      213: 3861960490497601522
+    second: Ticket_dispenser_Top
+  - first:
+      213: 8101081864173048521
+    second: DiagnoseDoor2_01
+  - first:
+      213: -1237119960684186650
+    second: DiagnoseDoor2_02
+  - first:
+      213: -8933867527636504673
+    second: DiagnoseDoor2_03
+  - first:
+      213: 3643000672816917428
+    second: DiagnoseDoor2_04
+  - first:
+      213: -6860136125316798982
+    second: DiagnoseDoor2_05
+  - first:
+      213: 1557701800019165973
+    second: DiagnoseDoor2_06
+  - first:
+      213: -8271536535329424495
+    second: DiagnoseDoor2_07
+  - first:
+      213: -6744465332097982303
+    second: DiagnoseDoor2_08
+  - first:
+      213: 7576007203764538748
+    second: DiagnoseDoor2_09
+  - first:
+      213: -89160517342632371
+    second: DiagnoseDoor2_10
+  - first:
+      213: -3249262981152306627
+    second: DiagnoseDoor2_11
+  - first:
+      213: -6930802295987255841
+    second: DiagnoseDoor2_12
+  - first:
+      213: -3540080886079928731
+    second: DiagnoseDoor2_13
+  - first:
+      213: 5220557380606002932
+    second: DiagnoseDoor2_14
+  - first:
+      213: -4340823639768324049
+    second: DiagnoseDoor2_15
+  - first:
+      213: -402550754799429388
+    second: DiagnoseDoor2_16
+  - first:
+      213: 3961944066089558918
+    second: DiagnoseDoor2_17
+  - first:
+      213: -8302150726190437095
+    second: DiagnoseDoor2_18
+  - first:
+      213: -894428126473288738
+    second: DiagnoseDoor2_19
+  - first:
+      213: -561673461812886985
+    second: DiagnoseDoor2_20
+  - first:
+      213: -1132087515271113597
+    second: DiagnoseDoor2_21
+  - first:
+      213: -5765024022301969386
+    second: DiagnoseDoor2_22
+  - first:
+      213: 6228903259599779420
+    second: DiagnoseDoor2_23
+  - first:
+      213: -5042681047787128211
+    second: DiagnoseDoor2_24
+  - first:
+      213: 6582869869735435282
+    second: DiagnoseDoor2_25
+  - first:
+      213: -1093913881135308090
+    second: DiagnoseDoor2_26
+  - first:
+      213: 3585165839111352652
+    second: Ticket2
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Base_Back
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 897
+        width: 994
+        height: 1890
+      alignment: 9
+      pivot: {x: 0.20422535, y: 0.4862434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f6c5c81b6c02f0c0800000000000000
+      internalID: -4543555419946760460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diagnose_Button
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 17
+        width: 331
+        height: 124
+      alignment: 9
+      pivot: {x: -0.7703928, y: -0.19354838}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ddc692ba0688c70800000000000000
+      internalID: 8973528545786387743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagnoseDoor2_01
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 1397
+        width: 430
+        height: 694
+      alignment: 9
+      pivot: {x: 0.1744186, y: 0.3573487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2d46ab803dc6070800000000000000
+      internalID: 8101081864173048521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagnoseDoor2_02
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 2093
+        width: 397
+        height: 694
+      alignment: 9
+      pivot: {x: 0.18891688, y: 0.3573487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e3bfd643fdd4dee0800000000000000
+      internalID: -1237119960684186650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagnoseDoor2_03
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 1397
+        width: 364
+        height: 694
+      alignment: 9
+      pivot: {x: 0.20604396, y: 0.35878962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f24d831d6840480800000000000000
+      internalID: -8933867527636504673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagnoseDoor2_04
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 1396
+        width: 331
+        height: 696
+      alignment: 9
+      pivot: {x: 0.2265861, y: 0.3591954}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bbe2cb7fc98e8230800000000000000
+      internalID: 3643000672816917428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagnoseDoor2_05
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 701
+        width: 298
+        height: 693
+      alignment: 9
+      pivot: {x: 0.25167784, y: 0.35930735}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af5eaa36a86ebc0a0800000000000000
+      internalID: -6860136125316798982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagnoseDoor2_06
+      rect:
+        serializedVersion: 2
+        x: 1997
+        y: 699
+        width: 265
+        height: 695
+      alignment: 9
+      pivot: {x: 0.28301886, y: 0.35971224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5130128b8811e9510800000000000000
+      internalID: 1557701800019165973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagnoseDoor2_07
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 1
+        width: 232
+        height: 698
+      alignment: 9
+      pivot: {x: 0.32327586, y: 0.35959885}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b36097859953d80800000000000000
+      internalID: -8271536535329424495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagnoseDoor2_08
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 3
+        width: 198
+        height: 696
+      alignment: 9
+      pivot: {x: 0.37878788, y: 0.3591954}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a0ec50a388d662a0800000000000000
+      internalID: -6744465332097982303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagnoseDoor2_09
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 5
+        width: 165
+        height: 694
+      alignment: 9
+      pivot: {x: 0.45454547, y: 0.35878962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d8f249962632960800000000000000
+      internalID: 7576007203764538748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagnoseDoor2_10
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 6
+        width: 132
+        height: 694
+      alignment: 9
+      pivot: {x: 0.5681818, y: 0.35878962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d466dcb5bfc33cef0800000000000000
+      internalID: -89160517342632371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagnoseDoor2_11
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 2093
+        width: 99
+        height: 694
+      alignment: 9
+      pivot: {x: 0.75757575, y: 0.3573487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a0792b88c48e2d0800000000000000
+      internalID: -3249262981152306627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagnoseDoor2_12
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 199
+        width: 66
+        height: 696
+      alignment: 9
+      pivot: {x: 1.1363636, y: 0.3591954}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5c7336808d0df90800000000000000
+      internalID: -6930802295987255841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagnoseDoor2_13
+      rect:
+        serializedVersion: 2
+        x: 2393
+        y: 2095
+        width: 33
+        height: 692
+      alignment: 9
+      pivot: {x: 2.2727273, y: 0.3583815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5664e05b03b1fdec0800000000000000
+      internalID: -3540080886079928731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagnoseDoor2_14
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 2094
+        width: 32
+        height: 692
+      alignment: 9
+      pivot: {x: 2.4375, y: 0.36416185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f680982745237840800000000000000
+      internalID: 5220557380606002932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagnoseDoor2_15
+      rect:
+        serializedVersion: 2
+        x: 2499
+        y: 7
+        width: 65
+        height: 695
+      alignment: 9
+      pivot: {x: 1.7076923, y: 0.36546764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28adf6f5eb42c3c0800000000000000
+      internalID: -4340823639768324049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagnoseDoor2_16
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 199
+        width: 99
+        height: 696
+      alignment: 9
+      pivot: {x: 1.4646465, y: 0.36637932}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f85d18a83ad96af0800000000000000
+      internalID: -402550754799429388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagnoseDoor2_17
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 5
+        width: 133
+        height: 695
+      alignment: 9
+      pivot: {x: 1.3458647, y: 0.36546764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6832c370327abf630800000000000000
+      internalID: 3961944066089558918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagnoseDoor2_18
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 4
+        width: 165
+        height: 695
+      alignment: 9
+      pivot: {x: 1.2787879, y: 0.36402878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91deaa5b6e5d8cc80800000000000000
+      internalID: -8302150726190437095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagnoseDoor2_19
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 5
+        width: 199
+        height: 694
+      alignment: 9
+      pivot: {x: 1.2311558, y: 0.36599424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed3017c9b5a5693f0800000000000000
+      internalID: -894428126473288738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagnoseDoor2_20
+      rect:
+        serializedVersion: 2
+        x: 2264
+        y: 4
+        width: 233
+        height: 698
+      alignment: 9
+      pivot: {x: 1.1974249, y: 0.3653295}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73201ec56f88438f0800000000000000
+      internalID: -561673461812886985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagnoseDoor2_21
+      rect:
+        serializedVersion: 2
+        x: 2264
+        y: 704
+        width: 265
+        height: 694
+      alignment: 9
+      pivot: {x: 1.1735849, y: 0.3631124}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3845c9527640a40f0800000000000000
+      internalID: -1132087515271113597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagnoseDoor2_22
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 701
+        width: 298
+        height: 694
+      alignment: 9
+      pivot: {x: 1.1543624, y: 0.36599424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 614f81532358effa0800000000000000
+      internalID: -5765024022301969386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagnoseDoor2_23
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 1400
+        width: 330
+        height: 692
+      alignment: 9
+      pivot: {x: 1.1393939, y: 0.36416185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c56b7b03382817650800000000000000
+      internalID: 6228903259599779420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagnoseDoor2_24
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 2094
+        width: 365
+        height: 693
+      alignment: 9
+      pivot: {x: 1.1260273, y: 0.36363637}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6abd07ed4cc40ab0800000000000000
+      internalID: -5042681047787128211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagnoseDoor2_25
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 702
+        width: 398
+        height: 693
+      alignment: 9
+      pivot: {x: 1.1155779, y: 0.36363637}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21cd33cd44d0b5b50800000000000000
+      internalID: 6582869869735435282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiagnoseDoor2_26
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 2093
+        width: 430
+        height: 694
+      alignment: 9
+      pivot: {x: 1.1069767, y: 0.3631124}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2af04fe13a1d0f0800000000000000
+      internalID: -1093913881135308090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ticket
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 143
+        width: 456
+        height: 752
+      alignment: 9
+      pivot: {x: -0.17324561, y: 1.1968085}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1018d363a45ac7bb0800000000000000
+      internalID: -4936889353348742911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ticket_dispenser_Full
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 60
+        width: 508
+        height: 81
+      alignment: 9
+      pivot: {x: -0.07283465, y: 2.4320989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2454eb21db73e5a90800000000000000
+      internalID: -7323354658855041726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ticket_dispenser_Top
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 13
+        width: 508
+        height: 45
+      alignment: 9
+      pivot: {x: -0.07283465, y: 3.5777779}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ffe3b4ca90789530800000000000000
+      internalID: 3861960490497601522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ticket2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 143
+        width: 456
+        height: 752
+      alignment: 9
+      pivot: {x: -0.17324561, y: 1.1968085}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41f81de55111c130800000000000000
+      internalID: 3585165839111352652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

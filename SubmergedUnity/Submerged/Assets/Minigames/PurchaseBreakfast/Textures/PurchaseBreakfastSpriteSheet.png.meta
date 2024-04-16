@@ -1,0 +1,924 @@
+fileFormatVersion: 2
+guid: ca90c5d5fef6cc8458ce1f169bde462e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4259662049211489943
+    second: 3 cards
+  - first:
+      213: -2362804172835250619
+    second: 3 holders
+  - first:
+      213: 878604302108316537
+    second: Background-no cards
+  - first:
+      213: -6647930735968547094
+    second: Bill_1
+  - first:
+      213: -8242738594451165317
+    second: Bill_5
+  - first:
+      213: -7316159446545449961
+    second: Bill_10
+  - first:
+      213: -7192196318835403891
+    second: Bill_20
+  - first:
+      213: 2098569757100432506
+    second: Leafling-1-fork
+  - first:
+      213: -6569444433886026930
+    second: Leafling-2
+  - first:
+      213: 4331361383796175435
+    second: Leafling-3
+  - first:
+      213: -2599829655396062324
+    second: Leafling-4
+  - first:
+      213: 5049892332096998598
+    second: Minus
+  - first:
+      213: 5018245044114003449
+    second: Money_sign
+  - first:
+      213: 2889116143424084155
+    second: Pastries-Bagel
+  - first:
+      213: -4373340367274576989
+    second: Pastries-Bagels
+  - first:
+      213: -3740776717818392997
+    second: Pastries-chococroissant
+  - first:
+      213: -3340978534305921950
+    second: Pastries-chococroissants
+  - first:
+      213: 1303813914404328665
+    second: Pastries-cinnamon
+  - first:
+      213: 2405804406452409521
+    second: Pastries-cinnamons
+  - first:
+      213: 1366251386277777930
+    second: Pastries-crabbread
+  - first:
+      213: 2647971044766211029
+    second: Pastries-crabbreads
+  - first:
+      213: 9161776533378679986
+    second: Pastries-Danish
+  - first:
+      213: 3363016107901244212
+    second: Pastries-Danishes
+  - first:
+      213: -7909916158107125996
+    second: Pastries-Muffin
+  - first:
+      213: -5481807000225736389
+    second: Pastries-Muffins
+  - first:
+      213: -6327827296612195106
+    second: Pastries-rollcake
+  - first:
+      213: -8347381244276217438
+    second: Pastries-rollcakes
+  - first:
+      213: 6544436694207873127
+    second: Pastries-tart
+  - first:
+      213: 6288661627603470976
+    second: Pastries-Tarts
+  - first:
+      213: 7873598928253601160
+    second: Screen
+  - first:
+      213: -2033128496776165338
+    second: specials card+shadow
+  - first:
+      213: -5847163875439050953
+    second: specials holder
+  - first:
+      213: -17618783700799211
+    second: Trays
+  - first:
+      213: -4156861092360618709
+    second: Trays_front
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 3 cards
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1043
+        width: 1679
+        height: 244
+      alignment: 9
+      pivot: {x: 0.33472306, y: -2.9672132}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e967aa01c5d1b30800000000000000
+      internalID: 4259662049211489943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3 holders
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 4860
+        width: 1421
+        height: 69
+      alignment: 9
+      pivot: {x: 0.3026038, y: -10.855072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e185c9f12a53fd0800000000000000
+      internalID: -2362804172835250619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background-no cards
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3721
+        width: 2326
+        height: 1466
+      alignment: 9
+      pivot: {x: 0.50085986, y: 0.4106412}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 973db4d25fd613c00800000000000000
+      internalID: 878604302108316537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bill_1
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 452
+        width: 490
+        height: 603
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee8137c73ecdb3a0800000000000000
+      internalID: -6647930735968547094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bill_10
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 455
+        width: 490
+        height: 603
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c3a8cfeb7c77a90800000000000000
+      internalID: -7316159446545449961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bill_20
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 455
+        width: 490
+        height: 603
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8391fccd8f203c90800000000000000
+      internalID: -7192196318835403891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bill_5
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 684
+        width: 490
+        height: 603
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7fe5559be8eb9d80800000000000000
+      internalID: -8242738594451165317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafling-1-fork
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 2
+        width: 344
+        height: 245
+      alignment: 9
+      pivot: {x: 0.5101744, y: 0.49591836}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c595c431e9f1d10800000000000000
+      internalID: 2098569757100432506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafling-2
+      rect:
+        serializedVersion: 2
+        x: 2167
+        y: 2392
+        width: 328
+        height: 245
+      alignment: 9
+      pivot: {x: 0.5121951, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e436e820815a4d4a0800000000000000
+      internalID: -6569444433886026930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafling-3
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1376
+        width: 339
+        height: 196
+      alignment: 9
+      pivot: {x: 0.48230088, y: 0.49489796}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42f303ea361c1c30800000000000000
+      internalID: 4331361383796175435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leafling-4
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 199
+        width: 451
+        height: 267
+      alignment: 9
+      pivot: {x: 0.49334812, y: 0.5093633}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8b6791f3bc8bebd0800000000000000
+      internalID: -2599829655396062324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minus
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 1042
+        width: 86
+        height: 28
+      alignment: 9
+      pivot: {x: 0.61627907, y: 0.30357143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc4c901252d41640800000000000000
+      internalID: 5049892332096998598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Money_sign
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 453
+        width: 176
+        height: 120
+      alignment: 9
+      pivot: {x: 0.5568182, y: 0.49583334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f59742a74364a540800000000000000
+      internalID: 5018245044114003449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastries-Bagel
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1695
+        width: 280
+        height: 164
+      alignment: 9
+      pivot: {x: 0.49642858, y: 0.5121951}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb893a343d3381820800000000000000
+      internalID: 2889116143424084155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastries-Bagels
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 217
+        width: 472
+        height: 236
+      alignment: 9
+      pivot: {x: 0.5052966, y: 0.50211865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3f8be5b16ce43c0800000000000000
+      internalID: -4373340367274576989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastries-chococroissant
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 1395
+        width: 251
+        height: 179
+      alignment: 9
+      pivot: {x: 0.5179283, y: 0.5027933}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e02660567161cc0800000000000000
+      internalID: -3740776717818392997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastries-chococroissants
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 1396
+        width: 426
+        height: 183
+      alignment: 9
+      pivot: {x: 0.5070422, y: 0.4863388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2648d7c69b572a1d0800000000000000
+      internalID: -3340978534305921950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastries-cinnamon
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 1060
+        width: 267
+        height: 212
+      alignment: 9
+      pivot: {x: 0.5093633, y: 0.5212264}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d41845e8d3181210800000000000000
+      internalID: 1303813914404328665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastries-cinnamons
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 33
+        width: 483
+        height: 217
+      alignment: 9
+      pivot: {x: 0.505176, y: 0.5138249}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b45aa57c52236120800000000000000
+      internalID: 2405804406452409521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastries-crabbread
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1653
+        width: 357
+        height: 233
+      alignment: 9
+      pivot: {x: 0.5028011, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02d8f8a566e5f210800000000000000
+      internalID: 1366251386277777930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastries-crabbreads
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 214
+        width: 519
+        height: 245
+      alignment: 9
+      pivot: {x: 0.50481695, y: 0.49387756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db5fcab2ab7fb420800000000000000
+      internalID: 2647971044766211029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastries-Danish
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 11
+        width: 351
+        height: 218
+      alignment: 9
+      pivot: {x: 0.517094, y: 0.5091743}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b4cb87473b252f70800000000000000
+      internalID: 9161776533378679986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastries-Danishes
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 234
+        width: 511
+        height: 228
+      alignment: 9
+      pivot: {x: 0.5117417, y: 0.49780703}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 433de550555dbae20800000000000000
+      internalID: 3363016107901244212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastries-Muffin
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 1665
+        width: 245
+        height: 206
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49514562}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417f6e8a9255a3290800000000000000
+      internalID: -7909916158107125996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastries-Muffins
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1374
+        width: 433
+        height: 251
+      alignment: 9
+      pivot: {x: 0.5034642, y: 0.49800798}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b399b40c395bce3b0800000000000000
+      internalID: -5481807000225736389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastries-rollcake
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 1377
+        width: 239
+        height: 186
+      alignment: 9
+      pivot: {x: 0.5041841, y: 0.48924732}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4e869999a0f28a0800000000000000
+      internalID: -6327827296612195106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastries-rollcakes
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 54
+        width: 453
+        height: 184
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47826087}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a968221cf4282c80800000000000000
+      internalID: -8347381244276217438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastries-tart
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 6
+        width: 298
+        height: 204
+      alignment: 9
+      pivot: {x: 0.49161074, y: 0.51960784}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 760ca4ddf7282da50800000000000000
+      internalID: 6544436694207873127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastries-Tarts
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 241
+        width: 498
+        height: 205
+      alignment: 9
+      pivot: {x: 0.49598393, y: 0.50731707}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a4fe97e60d54750800000000000000
+      internalID: 6288661627603470976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Screen
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2767
+        width: 2292
+        height: 952
+      alignment: 9
+      pivot: {x: 0.5013089, y: 0.31617647}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 885c3765284a44d60800000000000000
+      internalID: 7873598928253601160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: specials card+shadow
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 442
+        width: 556
+        height: 240
+      alignment: 9
+      pivot: {x: 1.9946043, y: -3.0333333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 628cee67760e8c3e0800000000000000
+      internalID: -2033128496776165338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: specials holder
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 4860
+        width: 304
+        height: 69
+      alignment: 9
+      pivot: {x: 3.2203948, y: -10.855072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f75f45f63badea0800000000000000
+      internalID: -5847163875439050953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trays
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1950
+        width: 2238
+        height: 815
+      alignment: 9
+      pivot: {x: 0.4982127, y: 0.29325154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511b3204fc761cff0800000000000000
+      internalID: -17618783700799211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trays_front
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1289
+        width: 2233
+        height: 676
+      alignment: 9
+      pivot: {x: 0.49798477, y: 0.3535503}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2df3394cdcdf46c0800000000000000
+      internalID: -4156861092360618709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

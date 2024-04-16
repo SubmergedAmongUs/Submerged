@@ -1,0 +1,660 @@
+fileFormatVersion: 2
+guid: e3557a1b4f2ebcd449f8a0e99155de3c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1359453621712661944
+    second: food1_egg
+  - first:
+      213: 5292281210610355178
+    second: food2_fish
+  - first:
+      213: -1987506512888402790
+    second: food3_quiche
+  - first:
+      213: -4797833381070574131
+    second: food4_sandwhich
+  - first:
+      213: 2069280361065480784
+    second: food5_pizza
+  - first:
+      213: -3990605353784605719
+    second: microwave_base
+  - first:
+      213: 2330403076606801535
+    second: MicrowaveLight
+  - first:
+      213: -8487744055056290006
+    second: notes_with_shadow
+  - first:
+      213: 1883278411930941159
+    second: numpad_0
+  - first:
+      213: -1917747596969493677
+    second: numpad_1
+  - first:
+      213: 6540325066721126549
+    second: numpad_2
+  - first:
+      213: 8003209083917769180
+    second: numpad_3
+  - first:
+      213: 422971247930945588
+    second: numpad_4
+  - first:
+      213: 4379296231024758635
+    second: numpad_5
+  - first:
+      213: -2432242856874169634
+    second: numpad_6
+  - first:
+      213: 5198890010214433452
+    second: numpad_7
+  - first:
+      213: 4543346232417244258
+    second: numpad_8
+  - first:
+      213: -1740938177792246743
+    second: numpad_9
+  - first:
+      213: 1376690927559897554
+    second: numpad_clear
+  - first:
+      213: 1834388824180171532
+    second: numpad_cook
+  - first:
+      213: 6547299590817294874
+    second: OpenDoor
+  - first:
+      213: 586189491108521247
+    second: plate
+  - first:
+      213: 754840452542730952
+    second: screen_overlay
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 400
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: food1_egg
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 878
+        width: 1342
+        height: 370
+      alignment: 9
+      pivot: {x: 0.95827127, y: 0.85405403}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd2dc2cddfbdd210800000000000000
+      internalID: 1359453621712661944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food2_fish
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 192
+        width: 1509
+        height: 278
+      alignment: 9
+      pivot: {x: 0.86414844, y: 1.0539569}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb87e9a8b5f17940800000000000000
+      internalID: 5292281210610355178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food3_quiche
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1989
+        width: 859
+        height: 433
+      alignment: 9
+      pivot: {x: 1.0838184, y: 0.7413395}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ce2865b55fa64e0800000000000000
+      internalID: -1987506512888402790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food4_sandwhich
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1530
+        width: 883
+        height: 471
+      alignment: 9
+      pivot: {x: 1.0804077, y: 0.50955415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcde6cdb5fbaa6db0800000000000000
+      internalID: -4797833381070574131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food5_pizza
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 468
+        width: 1057
+        height: 258
+      alignment: 9
+      pivot: {x: 0.96877956, y: 1.1046512}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052000e568f87bc10800000000000000
+      internalID: 2069280361065480784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: microwave_base
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 2096
+        width: 3742
+        height: 2046
+      alignment: 9
+      pivot: {x: 0.5064137, y: 0.4843597}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e385e8e2958e98c0800000000000000
+      internalID: -3990605353784605719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MicrowaveLight
+      rect:
+        serializedVersion: 2
+        x: 1954
+        y: 1046
+        width: 2010
+        height: 1048
+      alignment: 9
+      pivot: {x: 0.50024873, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7630ac4041475020800000000000000
+      internalID: 2330403076606801535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notes_with_shadow
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 439
+        width: 3691
+        height: 1975
+      alignment: 9
+      pivot: {x: 0.5201842, y: 0.49012658}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2fafed70c9753a80800000000000000
+      internalID: -8487744055056290006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numpad_0
+      rect:
+        serializedVersion: 2
+        x: 4571
+        y: 5611
+        width: 142
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e63e44dcbfb22a10800000000000000
+      internalID: 1883278411930941159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numpad_1
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 5927
+        width: 142
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b36c1a8bac265e0800000000000000
+      internalID: -1917747596969493677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numpad_2
+      rect:
+        serializedVersion: 2
+        x: 4571
+        y: 5769
+        width: 142
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598ee7dfef6e3ca50800000000000000
+      internalID: 6540325066721126549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numpad_3
+      rect:
+        serializedVersion: 2
+        x: 4571
+        y: 5927
+        width: 142
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9191e424c111f60800000000000000
+      internalID: 8003209083917769180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numpad_4
+      rect:
+        serializedVersion: 2
+        x: 3774
+        y: 98
+        width: 142
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 430b027eb12bed500800000000000000
+      internalID: 422971247930945588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numpad_5
+      rect:
+        serializedVersion: 2
+        x: 3774
+        y: 256
+        width: 142
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f007838b266cc30800000000000000
+      internalID: 4379296231024758635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numpad_6
+      rect:
+        serializedVersion: 2
+        x: 3774
+        y: 414
+        width: 142
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edaa88c1200fe3ed0800000000000000
+      internalID: -2432242856874169634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numpad_7
+      rect:
+        serializedVersion: 2
+        x: 3774
+        y: 572
+        width: 142
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2882d5bea262840800000000000000
+      internalID: 5198890010214433452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numpad_8
+      rect:
+        serializedVersion: 2
+        x: 3774
+        y: 730
+        width: 142
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 264d6d2a3553d0f30800000000000000
+      internalID: 4543346232417244258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numpad_9
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1046
+        width: 142
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92cf6c083f1f6d7e0800000000000000
+      internalID: -1740938177792246743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numpad_clear
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 5927
+        width: 144
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1f5b6ca1dfa1310800000000000000
+      internalID: 1376690927559897554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numpad_cook
+      rect:
+        serializedVersion: 2
+        x: 3774
+        y: 888
+        width: 143
+        height: 156
+      alignment: 9
+      pivot: {x: 0.5034965, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c03a435aaee057910800000000000000
+      internalID: 1834388824180171532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenDoor
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 4090
+        width: 4972
+        height: 1993
+      alignment: 9
+      pivot: {x: 0.48511666, y: 0.4977421}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1aa9bce94eacda50800000000000000
+      internalID: 6547299590817294874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plate
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1244
+        width: 1712
+        height: 284
+      alignment: 9
+      pivot: {x: 0.79672897, y: 1.2359155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1527948c30922800800000000000000
+      internalID: 586189491108521247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen_overlay
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1
+        width: 2012
+        height: 1043
+      alignment: 9
+      pivot: {x: 0.77932405, y: 0.40268457}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c297eb646bb97a00800000000000000
+      internalID: 754840452542730952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

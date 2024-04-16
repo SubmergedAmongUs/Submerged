@@ -1,0 +1,396 @@
+fileFormatVersion: 2
+guid: 0c7b86223f725834388699e7609238bc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8469204400738329757
+    second: bomb_1
+  - first:
+      213: -8473030879600491941
+    second: bomb_1_explode
+  - first:
+      213: 8114985772114671235
+    second: bomb_2
+  - first:
+      213: -6930748378351952690
+    second: bomb_2_explode
+  - first:
+      213: -4975520578640395922
+    second: bomb_3
+  - first:
+      213: 1841706412604498413
+    second: bomb_3_explode
+  - first:
+      213: 1843372830317561357
+    second: bomb_4
+  - first:
+      213: -5440765731622900249
+    second: bomb_4_explode
+  - first:
+      213: 7300683173602600807
+    second: shoot_deoth_charges_screen
+  - first:
+      213: 5412998741472576095
+    second: shoot_depth_charges_crosshair
+  - first:
+      213: -778573862820947965
+    second: shoot_depth_charges_explosion
+  - first:
+      213: 7347210790889060441
+    second: shoot_depth_charges_frame
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bomb_1
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 551
+        width: 403
+        height: 500
+      alignment: 9
+      pivot: {x: 0.5012407, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b11d32877577a80800000000000000
+      internalID: -8469204400738329757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_1_explode
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 1439
+        width: 514
+        height: 612
+      alignment: 9
+      pivot: {x: 0.5077821, y: 0.498366}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b524f7a9e4fb96a80800000000000000
+      internalID: -8473030879600491941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_2
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 936
+        width: 403
+        height: 500
+      alignment: 9
+      pivot: {x: 0.5012407, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3867e3090983e9070800000000000000
+      internalID: 8114985772114671235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_2_explode
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 173
+        width: 493
+        height: 601
+      alignment: 9
+      pivot: {x: 0.4989858, y: 0.48752078}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc97b0121901df90800000000000000
+      internalID: -6930748378351952690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_3
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 114
+        width: 403
+        height: 500
+      alignment: 9
+      pivot: {x: 0.5012407, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e614e79256663fab0800000000000000
+      internalID: -4975520578640395922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_3_explode
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 917
+        width: 572
+        height: 709
+      alignment: 9
+      pivot: {x: 0.48251748, y: 0.50211567}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1a9d7793e0f8910800000000000000
+      internalID: 1841706412604498413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_4
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 113
+        width: 403
+        height: 723
+      alignment: 9
+      pivot: {x: 0.5012407, y: 0.49377593}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d064fa392d9f49910800000000000000
+      internalID: 1843372830317561357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_4_explode
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 113
+        width: 497
+        height: 789
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7edaf7cb4648e74b0800000000000000
+      internalID: -5440765731622900249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot_deoth_charges_screen
+      rect:
+        serializedVersion: 2
+        x: 2165
+        y: 233
+        width: 1930
+        height: 1930
+      alignment: 9
+      pivot: {x: 0.49948186, y: 0.50051814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 767214c6aac315560800000000000000
+      internalID: 7300683173602600807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot_depth_charges_crosshair
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 784
+        width: 223
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f520c131da5de1b40800000000000000
+      internalID: 5412998741472576095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot_depth_charges_explosion
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1014
+        width: 1125
+        height: 1037
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30857236233f135f0800000000000000
+      internalID: -778573862820947965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot_depth_charges_frame
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 2162
+        height: 2160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 958fbd0894986f560800000000000000
+      internalID: 7347210790889060441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

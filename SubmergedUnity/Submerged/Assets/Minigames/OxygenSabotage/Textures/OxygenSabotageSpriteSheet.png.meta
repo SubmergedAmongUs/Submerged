@@ -1,0 +1,252 @@
+fileFormatVersion: 2
+guid: 7a1ab483c09c9ac48a7d3f12305e9b48
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1049025427561787
+    second: OxygenBorder
+  - first:
+      213: 2713261539646714166
+    second: OxygenBox
+  - first:
+      213: 3182267969326919888
+    second: OxygenDrawing
+  - first:
+      213: 6492039697305254711
+    second: OxygenHook
+  - first:
+      213: 2000207512990251199
+    second: OxygenMask
+  - first:
+      213: -1077204897836241716
+    second: OxygenWindow
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OxygenBorder
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2888
+        width: 1779
+        height: 2139
+      alignment: 9
+      pivot: {x: 0.60005623, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c2a70cbae54cfff0800000000000000
+      internalID: -1049025427561787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OxygenBox
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1358
+        width: 1367
+        height: 1528
+      alignment: 9
+      pivot: {x: 0.6587418, y: 0.53959423}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6313f5daef077a520800000000000000
+      internalID: 2713261539646714166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OxygenDrawing
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 3228
+        width: 635
+        height: 737
+      alignment: 9
+      pivot: {x: -0.68110234, y: 0.17842606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0b5d39bdfa92c20800000000000000
+      internalID: 3182267969326919888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OxygenHook
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 3228
+        width: 91
+        height: 160
+      alignment: 9
+      pivot: {x: 2.1923077, y: -1.365625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b3d9955bb581a50800000000000000
+      internalID: 6492039697305254711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OxygenMask
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 3228
+        width: 510
+        height: 915
+      alignment: 9
+      pivot: {x: 0.78137255, y: 0.63442624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb8f9d0b22a22cb10800000000000000
+      internalID: 2000207512990251199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OxygenWindow
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3
+        width: 1172
+        height: 1370
+      alignment: 9
+      pivot: {x: 0.5006314, y: 0.10027737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccce82a4adffc01f0800000000000000
+      internalID: -1077204897836241716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

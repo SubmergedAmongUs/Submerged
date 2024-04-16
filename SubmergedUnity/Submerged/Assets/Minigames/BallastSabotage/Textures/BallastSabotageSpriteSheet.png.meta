@@ -1,0 +1,324 @@
+fileFormatVersion: 2
+guid: cc95bbab2ba0b07498812a0185945927
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2504170125896549414
+    second: Background
+  - first:
+      213: -8141407305535123508
+    second: Bar_Lines
+  - first:
+      213: 7497130265081580285
+    second: Blank_Bar+Lines
+  - first:
+      213: -4397111944667401460
+    second: Blank_Bar
+  - first:
+      213: -45987598856036630
+    second: Blank_Bar2
+  - first:
+      213: 3753491680628763912
+    second: Blue_Bar
+  - first:
+      213: 3120425123844490332
+    second: Down_Button
+  - first:
+      213: 7944845075434221998
+    second: Highlighted_Bar_(Lighten Mode)
+  - first:
+      213: -6186293244006965078
+    second: Up_Button
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 440
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Background
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 1790
+        height: 2104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624853b367990c220800000000000000
+      internalID: 2504170125896549414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bar_Lines
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 124
+        width: 118
+        height: 722
+      alignment: 9
+      pivot: {x: 1.5508474, y: 0.48199445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf0fcdc039e30f80800000000000000
+      internalID: -8141407305535123508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blank_Bar
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 848
+        width: 442
+        height: 1259
+      alignment: 9
+      pivot: {x: 0.49773756, y: 0.49086577}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c03f874bbf15af2c0800000000000000
+      internalID: -4397111944667401460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blank_Bar+Lines
+      rect:
+        serializedVersion: 2
+        x: 2237
+        y: 848
+        width: 442
+        height: 1259
+      alignment: 9
+      pivot: {x: 0.49773756, y: 0.49086577}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa840d21482b0860800000000000000
+      internalID: 7497130265081580285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blank_Bar2
+      rect:
+        serializedVersion: 2
+        x: 2681
+        y: 884
+        width: 401
+        height: 1223
+      alignment: 9
+      pivot: {x: 0.49875313, y: 0.49141455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeedc12c58e9c5ff0800000000000000
+      internalID: -45987598856036630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_Bar
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 878
+        width: 353
+        height: 1169
+      alignment: 9
+      pivot: {x: 0.49858356, y: 0.49187338}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80de243fbc4171430800000000000000
+      internalID: 3753491680628763912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Down_Button
+      rect:
+        serializedVersion: 2
+        x: 2341
+        y: 612
+        width: 426
+        height: 234
+      alignment: 9
+      pivot: {x: 0.49530515, y: 3.8760684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5484fe0e1afd4b20800000000000000
+      internalID: 3120425123844490332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Highlighted_Bar_(Lighten Mode)
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 489
+        width: 361
+        height: 121
+      alignment: 9
+      pivot: {x: 0.50138503, y: 0.38016528}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1b4c4a082c14e60800000000000000
+      internalID: 7944845075434221998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Up_Button
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 612
+        width: 426
+        height: 234
+      alignment: 9
+      pivot: {x: 0.49530515, y: -2.9273505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa0e09a221fd52aa0800000000000000
+      internalID: -6186293244006965078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c4b22672edf3ee408f8b26fb81b5f9f, type: 3}
+  m_Name: MetalStep
+  m_EditorClassIdentifier: 
+  Clips:
+  - {fileID: 8300000, guid: ce5759d6eb6fcda43bce0a800601cdb9, type: 3}
+  - {fileID: 8300000, guid: 63647bb37785b2947b63d15ac0c71d0a, type: 3}
+  - {fileID: 8300000, guid: 24e42e03f30054a479d66cbea7177008, type: 3}
+  - {fileID: 8300000, guid: 2043c20bb46f98f41942172bbe860230, type: 3}
+  - {fileID: 8300000, guid: b5ef7edcc85f12841983f06ce3d46aa5, type: 3}
+  - {fileID: 8300000, guid: b25f83b7063c8d44d96b71d03bdc11b6, type: 3}
+  - {fileID: 8300000, guid: 090ee11df28b78a42a90646b046e6c0c, type: 3}
+  - {fileID: 8300000, guid: 8c3d8e5dc4207c34a9b2a0cfc7fd236e, type: 3}

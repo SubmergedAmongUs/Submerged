@@ -1,0 +1,639 @@
+fileFormatVersion: 2
+guid: 0d25f01f2451a324ab9317db6eda89cd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8528553128873044056
+    second: board
+  - first:
+      213: 6587758831544789272
+    second: bottle
+  - first:
+      213: 8636877481111216802
+    second: button
+  - first:
+      213: 289380581595770655
+    second: cap
+  - first:
+      213: 3496921770934414464
+    second: green_button
+  - first:
+      213: -3577706003054347015
+    second: polusnode
+  - first:
+      213: -4837718387389563259
+    second: sub1
+  - first:
+      213: -6083887856592087137
+    second: sub2
+  - first:
+      213: 8253991993545854664
+    second: Dispense Water Background
+  - first:
+      213: 9168342557160216783
+    second: Dispense Water F1
+  - first:
+      213: -8503173303653004132
+    second: Dispense Water F2
+  - first:
+      213: 7943492988416038808
+    second: Dispense Water F3
+  - first:
+      213: -912755471213662675
+    second: Dispense Water F4
+  - first:
+      213: 8548394577676694280
+    second: Dispense Water F5
+  - first:
+      213: -7862267500943128293
+    second: Dispense Water F6
+  - first:
+      213: 8490581442140254107
+    second: Dispense Water F7
+  - first:
+      213: -4509417311905647326
+    second: Dispense Water F8x
+  - first:
+      213: -3113161118448539320
+    second: Dispense Water F9x
+  - first:
+      213: 3473410793954541567
+    second: Dispense Water F10
+  - first:
+      213: 3360612119891053315
+    second: Dispense Water F11
+  - first:
+      213: -4428875223126142312
+    second: Dispense Water F12
+  - first:
+      213: -5925002283204181685
+    second: Dispense Water F13
+  - first:
+      213: -337480500739870530
+    second: Dispenser
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bottle
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 84
+        width: 804
+        height: 916
+      alignment: 9
+      pivot: {x: 0.50248754, y: 1.1233624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8196b2cf0cb6c6b50800000000000000
+      internalID: 6587758831544789272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 301
+        width: 383
+        height: 383
+      alignment: 9
+      pivot: {x: 0.50130546, y: -1.0548303}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a264361f4a5cd770800000000000000
+      internalID: 8636877481111216802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cap
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 678
+        width: 532
+        height: 315
+      alignment: 9
+      pivot: {x: 0.4868421, y: 0.33333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f69e21b16140400800000000000000
+      internalID: 289380581595770655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispense Water Background
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1713
+        width: 1760
+        height: 2058
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ce08329cf11c8270800000000000000
+      internalID: 8253991993545854664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispense Water F1
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 714
+        width: 135
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5037037, y: -1.0634921}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc891a2dafe7c3f70800000000000000
+      internalID: 9168342557160216783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispense Water F10
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 543
+        width: 148
+        height: 411
+      alignment: 9
+      pivot: {x: 0.4662162, y: 0.48175183}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffffaa4d6b8043030800000000000000
+      internalID: 3473410793954541567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispense Water F11
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1010
+        width: 94
+        height: 241
+      alignment: 9
+      pivot: {x: 0.3723404, y: 0.84647304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b8af1faea43ae20800000000000000
+      internalID: 3360612119891053315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispense Water F12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 797
+        width: 77
+        height: 168
+      alignment: 9
+      pivot: {x: 0.46753246, y: 1.2261904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892990323797982c0800000000000000
+      internalID: -4428875223126142312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispense Water F13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1699
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 36.57143, y: -16.714285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b418c30c0d926cda0800000000000000
+      internalID: -5925002283204181685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispense Water F2
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 211
+        width: 109
+        height: 187
+      alignment: 9
+      pivot: {x: 0.43119267, y: -0.42780748}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9c8d2c9ee8aef980800000000000000
+      internalID: -8503173303653004132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispense Water F3
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 1012
+        width: 106
+        height: 238
+      alignment: 9
+      pivot: {x: 0.46226415, y: -0.09243698}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897185a59c4fc3e60800000000000000
+      internalID: 7943492988416038808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispense Water F4
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 10
+        width: 127
+        height: 304
+      alignment: 9
+      pivot: {x: 0.44094488, y: 0.13815789}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ee3832cbd3553f0800000000000000
+      internalID: -912755471213662675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispense Water F5
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 888
+        width: 127
+        height: 362
+      alignment: 9
+      pivot: {x: 0.48031497, y: 0.2762431}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8037b4ab39ff1a670800000000000000
+      internalID: 8548394577676694280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispense Water F6
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 116
+        width: 150
+        height: 425
+      alignment: 9
+      pivot: {x: 0.44666666, y: 0.3882353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b19cf2d2d5d93e290800000000000000
+      internalID: -7862267500943128293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispense Water F7
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 316
+        width: 154
+        height: 458
+      alignment: 9
+      pivot: {x: 0.5194805, y: 0.4344978}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f2b4b26da94d570800000000000000
+      internalID: 8490581442140254107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispense Water F8x
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 227
+        width: 156
+        height: 459
+      alignment: 9
+      pivot: {x: 0.4551282, y: 0.43137255}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 225fdd3c8d45b61c0800000000000000
+      internalID: -4509417311905647326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispense Water F9x
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 227
+        width: 161
+        height: 458
+      alignment: 9
+      pivot: {x: 0.5031056, y: 0.4323144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849215ef474dbc4d0800000000000000
+      internalID: -3113161118448539320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispenser
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 842
+        width: 1760
+        height: 869
+      alignment: 9
+      pivot: {x: 0.5, y: -0.18411967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb077cac547015bf0800000000000000
+      internalID: -337480500739870530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green_button
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 866
+        width: 383
+        height: 383
+      alignment: 9
+      pivot: {x: 0.50130546, y: -1.0548303}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c20ebb2df878030800000000000000
+      internalID: 3496921770934414464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polusnode
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 3
+        width: 292
+        height: 306
+      alignment: 9
+      pivot: {x: 1.2602739, y: 3.362745}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fcb921885f695ec0800000000000000
+      internalID: -3577706003054347015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sub1
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1051
+        width: 201
+        height: 198
+      alignment: 9
+      pivot: {x: -0.9502488, y: 2.89899}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ef44c02c8fcdcb0800000000000000
+      internalID: -4837718387389563259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sub2
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 45
+        width: 202
+        height: 180
+      alignment: 9
+      pivot: {x: 1.569307, y: 2.6666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f97148e6a30b19ba0800000000000000
+      internalID: -6083887856592087137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

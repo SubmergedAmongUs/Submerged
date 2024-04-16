@@ -1,0 +1,2484 @@
+fileFormatVersion: 2
+guid: 4bf1b3948a9d7e34d96c5727e92d7855
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3491150386883928107
+    second: acorn3
+  - first:
+      213: -9115283423704387869
+    second: Ballast_0000_BallastFloor
+  - first:
+      213: -6405091228157470277
+    second: BallastLights_0000_Open
+  - first:
+      213: 3942928154286592805
+    second: BallastLights_0001_Closed
+  - first:
+      213: -5565553956869476983
+    second: C-Vent Frame 01
+  - first:
+      213: -8679025160136781793
+    second: C-Vent Frame 02
+  - first:
+      213: 8910510464208769903
+    second: C-Vent Frame 03
+  - first:
+      213: 8309499034091738747
+    second: C-Vent Frame 04
+  - first:
+      213: 5363072510838931417
+    second: C-Vent Frame 05
+  - first:
+      213: 809672767495819709
+    second: C-Vent Frame 06
+  - first:
+      213: 2989584579055090753
+    second: C-Vent Frame 07
+  - first:
+      213: -1198044565637034582
+    second: C-Vent Frame 08
+  - first:
+      213: 3132675025755480221
+    second: C-Vent Frame 09
+  - first:
+      213: -8658205064191480193
+    second: CatBox
+  - first:
+      213: -8678152047205594732
+    second: Central_1000_LowerCentral
+  - first:
+      213: -4320964394121123144
+    second: Central_Vent_Overlay
+  - first:
+      213: 2347447591226521794
+    second: Central_Vent_Overlay_2
+  - first:
+      213: 6808396693443108838
+    second: Diagonse_Elevator_UD_Lobby
+  - first:
+      213: 284334890709750349
+    second: ElevatorDoorsInside_0000_Door8
+  - first:
+      213: -4090343435662082077
+    second: ElevatorDoorsInside_0001_Door7
+  - first:
+      213: -708355348423683940
+    second: ElevatorDoorsInside_0002_Door6
+  - first:
+      213: 1923429182064113018
+    second: ElevatorDoorsInside_0003_Door5
+  - first:
+      213: 7554179788937733629
+    second: ElevatorDoorsInside_0004_Door4
+  - first:
+      213: -3779859592766745092
+    second: ElevatorDoorsInside_0005_Door3
+  - first:
+      213: -5820348468101169102
+    second: ElevatorDoorsInside_0006_Door2
+  - first:
+      213: 1898450445236784900
+    second: ElevatorDoorsInside_0007_Door1
+  - first:
+      213: 8475945375164894894
+    second: ElevatorDoorsOutside_0000_Door0008
+  - first:
+      213: -5336792470322366024
+    second: ElevatorDoorsOutside_0001_Door0007
+  - first:
+      213: 8236627270553917350
+    second: ElevatorDoorsOutside_0002_Door0006
+  - first:
+      213: 5773278147916048817
+    second: ElevatorDoorsOutside_0003_Door0005
+  - first:
+      213: 2065486253572166245
+    second: ElevatorDoorsOutside_0004_Door0004
+  - first:
+      213: -8596387699239500991
+    second: ElevatorDoorsOutside_0005_Door0003
+  - first:
+      213: -5744942130405309948
+    second: ElevatorDoorsOutside_0006_Door0002
+  - first:
+      213: -7464228544104086868
+    second: ElevatorDoorsOutside_0007_Door0001
+  - first:
+      213: -4679123077698588587
+    second: ElevatorLight_0000_UpLightOn
+  - first:
+      213: 8859213537862326561
+    second: ElevatorLight_0001_UpLightOff
+  - first:
+      213: 4731651044463736449
+    second: ElevatorLight_0002_FrontLightOn
+  - first:
+      213: -2259264484523263549
+    second: ElevatorLight_0003_FrontLightOff
+  - first:
+      213: -8958656705291922699
+    second: Engines_Vent_Overlay
+  - first:
+      213: -827599029937021552
+    second: Engines_Vent_Overlay_2
+  - first:
+      213: -3949894384718801443
+    second: EnginesAndSecurityHall_0000_Engines
+  - first:
+      213: -6501362305123712135
+    second: FullElevator
+  - first:
+      213: 9139115041975581582
+    second: GeneralDoor_0000_HozDoorOpen0008
+  - first:
+      213: -439363577931309512
+    second: GeneralDoor_0001_HozDoorOpen0007
+  - first:
+      213: 8529226860791859893
+    second: GeneralDoor_0002_HozDoorOpen0006
+  - first:
+      213: -4189372452900883182
+    second: GeneralDoor_0003_HozDoorOpen0005
+  - first:
+      213: -8272852212832487074
+    second: GeneralDoor_0004_HozDoorOpen0004
+  - first:
+      213: -6922120861399479178
+    second: GeneralDoor_0005_HozDoorOpen0003
+  - first:
+      213: -3857094845151986399
+    second: GeneralDoor_0006_HozDoorOpen0002
+  - first:
+      213: -8237262796459107336
+    second: GeneralDoor_0007_HozDoorOpen0001
+  - first:
+      213: 1516955617110600875
+    second: Observatory_Frame_1
+  - first:
+      213: -571962269947817462
+    second: Observatory_Frame_2
+  - first:
+      213: 4730131550802710527
+    second: Observatory_Frame_3
+  - first:
+      213: 3522681846077334518
+    second: Observatory_Frame_4
+  - first:
+      213: -280923562488565476
+    second: Observatory_Frame_5
+  - first:
+      213: 8527990420048026995
+    second: Observatory_Frame_6
+  - first:
+      213: -5991502796376062997
+    second: SubmarineDoorH_0
+  - first:
+      213: 3085595817340646321
+    second: SubmarineDoorH_2
+  - first:
+      213: -8171710481324902435
+    second: SubmarineDoorH_4
+  - first:
+      213: -8106843808364111243
+    second: SubmarineDoorH_6
+  - first:
+      213: -2322035661782848767
+    second: SubmarineDoorH_8
+  - first:
+      213: -145729699322703373
+    second: SubmarineDoorH_10
+  - first:
+      213: -949103756141807094
+    second: SubmarineDoorH_12
+  - first:
+      213: 2214575412585867040
+    second: SubmarineDoorH_14
+  - first:
+      213: 1654573479798327108
+    second: SubmarineDoorH_16
+  - first:
+      213: 7603348762882163396
+    second: SubmarineDoorH_18
+  - first:
+      213: 4741881669601266643
+    second: SubmarineDoorH_19
+  - first:
+      213: 7269432408912673823
+    second: SubmarineDoorH_20
+  - first:
+      213: 7244389525789728775
+    second: SubmarineDoorV_0
+  - first:
+      213: -7888782089109913717
+    second: SubmarineDoorV_1
+  - first:
+      213: 6773259908116149047
+    second: SubmarineDoorV_2
+  - first:
+      213: 2647339886535139003
+    second: SubmarineDoorV_3
+  - first:
+      213: 7689418208536129768
+    second: SubmarineDoorV_4
+  - first:
+      213: 7163604232165625528
+    second: SubmarineDoorV_5
+  - first:
+      213: -5260687261948477600
+    second: SubmarineDoorV_6
+  - first:
+      213: -2970021773458124217
+    second: UpperVentBG
+  - first:
+      213: -241254796486619852
+    second: Vent Frame 1
+  - first:
+      213: -6173924911553203006
+    second: Vent Frame 2
+  - first:
+      213: 8559958797506759823
+    second: Vent Frame 3
+  - first:
+      213: -994618872007427518
+    second: Vent Frame 4
+  - first:
+      213: -866247742035034873
+    second: Vent Frame 5
+  - first:
+      213: -6355533261083067039
+    second: Vent Frame 6
+  - first:
+      213: 1806808069700347009
+    second: Vent Frame 7
+  - first:
+      213: 2296222095080588286
+    second: Vent Frame 8
+  - first:
+      213: 4587129904996866662
+    second: Vent Frame 9
+  - first:
+      213: -7955563771421327746
+    second: Vent Frame 10
+  - first:
+      213: 2510814130568203000
+    second: Vent Frame 11
+  - first:
+      213: -3752151865033084052
+    second: VerticalDoor_0000_DoorOpen08
+  - first:
+      213: -6428833713851140185
+    second: VerticalDoor_0001_DoorOpen07
+  - first:
+      213: 6650858818598746538
+    second: VerticalDoor_0002_DoorOpen06
+  - first:
+      213: -7102972631387322761
+    second: VerticalDoor_0003_DoorOpen05
+  - first:
+      213: -7953342643540699523
+    second: VerticalDoor_0004_DoorOpen04
+  - first:
+      213: 7580145400278915
+    second: VerticalDoor_0005_DoorOpen03
+  - first:
+      213: 820753753795828634
+    second: VerticalDoor_0006_DoorOpen02
+  - first:
+      213: 7315685629176500549
+    second: VerticalDoor_0007_DoorOpen01
+  - first:
+      213: -325697137877594973
+    second: WestHallway_0000_RightPart
+  - first:
+      213: -1424170813119082716
+    second: WestHallway_0001_SecurityHallway
+  - first:
+      213: -8556147132495918629
+    second: WestHallway_0002_LeftHallway
+  - first:
+      213: 1204632474144746718
+    second: Cat_body
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 240
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: acorn3
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 2482
+        width: 64
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b202faba7ce037030800000000000000
+      internalID: 3491150386883928107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ballast_0000_BallastFloor
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 2335
+        width: 3020
+        height: 3830
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eee71f5502008180800000000000000
+      internalID: -9115283423704387869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BallastLights_0000_Open
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 792
+        width: 40
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb914bfa67b8c17a0800000000000000
+      internalID: -6405091228157470277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BallastLights_0001_Closed
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 800
+        width: 40
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 523932b044818b630800000000000000
+      internalID: 3942928154286592805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat_body
+      rect:
+        serializedVersion: 2
+        x: 4551
+        y: 1910
+        width: 165
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc2c425ad6b7b010800000000000000
+      internalID: 1204632474144746718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CatBox
+      rect:
+        serializedVersion: 2
+        x: 5015
+        y: 1644
+        width: 169
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ee0640e50e7d780800000000000000
+      internalID: -8658205064191480193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Central_1000_LowerCentral
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 13
+        width: 2697
+        height: 2310
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8969697}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4994b7f11b2019780800000000000000
+      internalID: -8678152047205594732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Central_Vent_Overlay
+      rect:
+        serializedVersion: 2
+        x: 2283
+        y: 5355
+        width: 317
+        height: 368
+      alignment: 9
+      pivot: {x: -1.5283911, y: 1.7228261}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8baac49e6c9d804c0800000000000000
+      internalID: -4320964394121123144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Central_Vent_Overlay_2
+      rect:
+        serializedVersion: 2
+        x: 2413
+        y: 613
+        width: 228
+        height: 174
+      alignment: 9
+      pivot: {x: 0.5, y: 1.3448275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c837eb952fc39020800000000000000
+      internalID: 2347447591226521794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: C-Vent Frame 01
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4480
+        width: 239
+        height: 180
+      alignment: 9
+      pivot: {x: 0.5, y: 0.69166666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d668ee92e23c2b0800000000000000
+      internalID: -5565553956869476983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: C-Vent Frame 02
+      rect:
+        serializedVersion: 2
+        x: 2353
+        y: 5774
+        width: 247
+        height: 99
+      alignment: 9
+      pivot: {x: 0.5, y: -0.2979798}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f109e5da998ed8780800000000000000
+      internalID: -8679025160136781793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: C-Vent Frame 03
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 6096
+        width: 238
+        height: 69
+      alignment: 9
+      pivot: {x: 0.51890755, y: -0.51449275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f63909aae0e78ab70800000000000000
+      internalID: 8910510464208769903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: C-Vent Frame 04
+      rect:
+        serializedVersion: 2
+        x: 4306
+        y: 3386
+        width: 244
+        height: 154
+      alignment: 9
+      pivot: {x: 0.49385247, y: 0.8149351}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b765d7c8855415370800000000000000
+      internalID: 8309499034091738747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: C-Vent Frame 05
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 5811
+        width: 258
+        height: 148
+      alignment: 9
+      pivot: {x: 0.498062, y: 0.847973}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df7739a8067d6a40800000000000000
+      internalID: 5363072510838931417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: C-Vent Frame 06
+      rect:
+        serializedVersion: 2
+        x: 4306
+        y: 3386
+        width: 244
+        height: 154
+      alignment: 9
+      pivot: {x: 0.49385247, y: 0.8149351}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db155ea97198c3b00800000000000000
+      internalID: 809672767495819709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: C-Vent Frame 07
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 5987
+        width: 247
+        height: 178
+      alignment: 9
+      pivot: {x: 0.5040486, y: 0.73876405}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c709cc5532d7920800000000000000
+      internalID: 2989584579055090753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: C-Vent Frame 08
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 5970
+        width: 245
+        height: 195
+      alignment: 9
+      pivot: {x: 0.5040816, y: 0.63846153}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad0e18a0d0bf5fe0800000000000000
+      internalID: -1198044565637034582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: C-Vent Frame 09
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4480
+        width: 239
+        height: 180
+      alignment: 9
+      pivot: {x: 0.5, y: 0.69166666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90a4ea965f797b20800000000000000
+      internalID: 3132675025755480221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Diagonse_Elevator_UD_Lobby
+      rect:
+        serializedVersion: 2
+        x: 2372
+        y: 3927
+        width: 33
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6efde9268b84c7e50800000000000000
+      internalID: 6808396693443108838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElevatorDoorsInside_0000_Door8
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 29
+        width: 383
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d42110e931922f300800000000000000
+      internalID: 284334890709750349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElevatorDoorsInside_0001_Door7
+      rect:
+        serializedVersion: 2
+        x: 4938
+        y: 5884
+        width: 383
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3efb20c115e2c37c0800000000000000
+      internalID: -4090343435662082077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElevatorDoorsInside_0002_Door6
+      rect:
+        serializedVersion: 2
+        x: 3911
+        y: 3488
+        width: 383
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90557a409a6b26f0800000000000000
+      internalID: -708355348423683940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElevatorDoorsInside_0003_Door5
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 29
+        width: 383
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a753d8b76a461ba10800000000000000
+      internalID: 1923429182064113018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElevatorDoorsInside_0004_Door4
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 29
+        width: 383
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df5a1198e76d5d860800000000000000
+      internalID: 7554179788937733629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElevatorDoorsInside_0005_Door3
+      rect:
+        serializedVersion: 2
+        x: 4543
+        y: 5355
+        width: 383
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf519481abd3b8bc0800000000000000
+      internalID: -3779859592766745092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElevatorDoorsInside_0006_Door2
+      rect:
+        serializedVersion: 2
+        x: 3911
+        y: 3195
+        width: 383
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23047d1e7e7f93fa0800000000000000
+      internalID: -5820348468101169102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElevatorDoorsInside_0007_Door1
+      rect:
+        serializedVersion: 2
+        x: 4543
+        y: 5884
+        width: 383
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f450c1f96a85a10800000000000000
+      internalID: 1898450445236784900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElevatorDoorsOutside_0000_Door0008
+      rect:
+        serializedVersion: 2
+        x: 3911
+        y: 3781
+        width: 383
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae8156496b90a570800000000000000
+      internalID: 8475945375164894894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElevatorDoorsOutside_0001_Door0007
+      rect:
+        serializedVersion: 2
+        x: 4623
+        y: 4264
+        width: 383
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b9b4761687efe5b0800000000000000
+      internalID: -5336792470322366024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElevatorDoorsOutside_0002_Door0006
+      rect:
+        serializedVersion: 2
+        x: 4228
+        y: 4264
+        width: 383
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a759a0fcd06e4270800000000000000
+      internalID: 8236627270553917350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElevatorDoorsOutside_0003_Door0005
+      rect:
+        serializedVersion: 2
+        x: 3833
+        y: 4263
+        width: 383
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b9af0c23edce1050800000000000000
+      internalID: 5773278147916048817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElevatorDoorsOutside_0004_Door0004
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 30
+        width: 383
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5621f90edc41aac10800000000000000
+      internalID: 2065486253572166245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElevatorDoorsOutside_0005_Door0003
+      rect:
+        serializedVersion: 2
+        x: 3438
+        y: 4214
+        width: 383
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 143ca43eeee73b880800000000000000
+      internalID: -8596387699239500991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElevatorDoorsOutside_0006_Door0002
+      rect:
+        serializedVersion: 2
+        x: 3043
+        y: 4214
+        width: 383
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4020406029dd540b0800000000000000
+      internalID: -5744942130405309948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElevatorDoorsOutside_0007_Door0001
+      rect:
+        serializedVersion: 2
+        x: 2325
+        y: 322
+        width: 383
+        height: 279
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca24852bfabb96890800000000000000
+      internalID: -7464228544104086868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElevatorLight_0000_UpLightOn
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 5813
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55071751a5a601fb0800000000000000
+      internalID: -4679123077698588587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElevatorLight_0001_UpLightOff
+      rect:
+        serializedVersion: 2
+        x: 4551
+        y: 1871
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1299d9946cf32fa70800000000000000
+      internalID: 8859213537862326561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElevatorLight_0002_FrontLightOn
+      rect:
+        serializedVersion: 2
+        x: 2329
+        y: 5884
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186fd5a3e833aa140800000000000000
+      internalID: 4731651044463736449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElevatorLight_0003_FrontLightOff
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 267
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9b552ebea75a0e0800000000000000
+      internalID: -2259264484523263549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Engines_Vent_Overlay
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 55
+        width: 407
+        height: 255
+      alignment: 9
+      pivot: {x: 2.6289926, y: 5.87451}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2576801357ca380800000000000000
+      internalID: -8958656705291922699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Engines_Vent_Overlay_2
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 2090
+        width: 150
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50333333, y: 0.55288464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d552c2117c384f0800000000000000
+      internalID: -827599029937021552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnginesAndSecurityHall_0000_Engines
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 271
+        width: 1819
+        height: 2912
+      alignment: 9
+      pivot: {x: 1.3347993, y: 0.53125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5968a0cf72f29c0800000000000000
+      internalID: -3949894384718801443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FullElevator
+      rect:
+        serializedVersion: 2
+        x: 3043
+        y: 3195
+        width: 856
+        height: 1007
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9738cfedd6586c5a0800000000000000
+      internalID: -6501362305123712135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeneralDoor_0000_HozDoorOpen0008
+      rect:
+        serializedVersion: 2
+        x: 2324
+        y: 623
+        width: 384
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b3266a5b8a4de70800000000000000
+      internalID: 9139115041975581582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeneralDoor_0001_HozDoorOpen0007
+      rect:
+        serializedVersion: 2
+        x: 2292
+        y: 2090
+        width: 384
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.41666666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ed82a572117e9f0800000000000000
+      internalID: -439363577931309512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeneralDoor_0002_HozDoorOpen0006
+      rect:
+        serializedVersion: 2
+        x: 2292
+        y: 2090
+        width: 384
+        height: 240
+      alignment: 9
+      pivot: {x: 0.5, y: 0.41666666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba083ed3a6ed5670800000000000000
+      internalID: 8529226860791859893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeneralDoor_0003_HozDoorOpen0005
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 5520
+        width: 384
+        height: 281
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5017794}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215390943fb5cd5c0800000000000000
+      internalID: -4189372452900883182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeneralDoor_0004_HozDoorOpen0004
+      rect:
+        serializedVersion: 2
+        x: 2324
+        y: 854
+        width: 384
+        height: 281
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5017794}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59b0de6ebce03d80800000000000000
+      internalID: -8272852212832487074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeneralDoor_0005_HozDoorOpen0003
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 5355
+        width: 384
+        height: 281
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5017794}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c86f360cfafef90800000000000000
+      internalID: -6922120861399479178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeneralDoor_0006_HozDoorOpen0002
+      rect:
+        serializedVersion: 2
+        x: 2157
+        y: 5884
+        width: 384
+        height: 281
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5017794}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12db9b19ca8d87ac0800000000000000
+      internalID: -3857094845151986399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeneralDoor_0007_HozDoorOpen0001
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 5884
+        width: 384
+        height: 281
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5017794}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb9387212d5fad80800000000000000
+      internalID: -8237262796459107336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Observatory_Frame_1
+      rect:
+        serializedVersion: 2
+        x: 5070
+        y: 4277
+        width: 431
+        height: 1563
+      alignment: 9
+      pivot: {x: 0.5174014, y: 0.50991684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac29e9b81f4d0510800000000000000
+      internalID: 1516955617110600875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Observatory_Frame_2
+      rect:
+        serializedVersion: 2
+        x: 4990
+        y: 141
+        width: 431
+        height: 1563
+      alignment: 9
+      pivot: {x: 0.5174014, y: 0.50991684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0295da885bff08f0800000000000000
+      internalID: -571962269947817462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Observatory_Frame_3
+      rect:
+        serializedVersion: 2
+        x: 4986
+        y: 1716
+        width: 431
+        height: 1563
+      alignment: 9
+      pivot: {x: 0.5174014, y: 0.50991684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff867a859dc4a140800000000000000
+      internalID: 4730131550802710527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Observatory_Frame_4
+      rect:
+        serializedVersion: 2
+        x: 4551
+        y: 427
+        width: 431
+        height: 1563
+      alignment: 9
+      pivot: {x: 0.5174014, y: 0.50991684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f3282c997413e030800000000000000
+      internalID: 3522681846077334518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Observatory_Frame_5
+      rect:
+        serializedVersion: 2
+        x: 4547
+        y: 2002
+        width: 431
+        height: 1563
+      alignment: 9
+      pivot: {x: 0.5174014, y: 0.50991684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11f4d02285f91cf0800000000000000
+      internalID: -280923562488565476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Observatory_Frame_6
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 4480
+        width: 431
+        height: 1563
+      alignment: 9
+      pivot: {x: 0.5174014, y: 0.50991684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d95e29a12895670800000000000000
+      internalID: 8527990420048026995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubmarineDoorH_0
+      rect:
+        serializedVersion: 2
+        x: 2519
+        y: 2142
+        width: 189
+        height: 138
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48550725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be3ce3773f7e9dca0800000000000000
+      internalID: -5991502796376062997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubmarineDoorH_10
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 14
+        width: 189
+        height: 141
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4964539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f155ae4c934afdf0800000000000000
+      internalID: -145729699322703373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubmarineDoorH_12
+      rect:
+        serializedVersion: 2
+        x: 4543
+        y: 5730
+        width: 189
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0abd20992b14d2f0800000000000000
+      internalID: -949103756141807094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubmarineDoorH_14
+      rect:
+        serializedVersion: 2
+        x: 2878
+        y: 119
+        width: 189
+        height: 140
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027ae7bba90cbbe10800000000000000
+      internalID: 2214575412585867040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubmarineDoorH_16
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 168
+        width: 189
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 447492640d936f610800000000000000
+      internalID: 1654573479798327108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubmarineDoorH_18
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 4969
+        width: 189
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c24ff26a65848960800000000000000
+      internalID: 7603348762882163396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubmarineDoorH_19
+      rect:
+        serializedVersion: 2
+        x: 5091
+        y: 6024
+        width: 189
+        height: 141
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4964539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db0583414c8ec140800000000000000
+      internalID: 4741881669601266643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubmarineDoorH_2
+      rect:
+        serializedVersion: 2
+        x: 2148
+        y: 5733
+        width: 189
+        height: 139
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48920864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b335053c0d32da20800000000000000
+      internalID: 3085595817340646321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubmarineDoorH_20
+      rect:
+        serializedVersion: 2
+        x: 4776
+        y: 4403
+        width: 189
+        height: 141
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4964539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1cb3f3c24632e460800000000000000
+      internalID: 7269432408912673823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubmarineDoorH_4
+      rect:
+        serializedVersion: 2
+        x: 4383
+        y: 4403
+        width: 189
+        height: 141
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4964539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd7fa41ec90489e80800000000000000
+      internalID: -8171710481324902435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubmarineDoorH_6
+      rect:
+        serializedVersion: 2
+        x: 2677
+        y: 119
+        width: 189
+        height: 140
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ad1e81284be7f80800000000000000
+      internalID: -8106843808364111243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubmarineDoorH_8
+      rect:
+        serializedVersion: 2
+        x: 4744
+        y: 5731
+        width: 189
+        height: 141
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4964539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10be4a74ed876cfd0800000000000000
+      internalID: -2322035661782848767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubmarineDoorV_0
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 5513
+        width: 62
+        height: 622
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700e14b24ed398460800000000000000
+      internalID: 7244389525789728775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubmarineDoorV_1
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 4879
+        width: 62
+        height: 622
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8fb32c8c7a658290800000000000000
+      internalID: -7888782089109913717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubmarineDoorV_2
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 4631
+        width: 62
+        height: 622
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73378aa00047ffd50800000000000000
+      internalID: 6773259908116149047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubmarineDoorV_3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 5543
+        width: 62
+        height: 622
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe56a0c99d3db420800000000000000
+      internalID: 2647339886535139003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubmarineDoorV_4
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 5039
+        width: 62
+        height: 622
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e07731de1d46ba60800000000000000
+      internalID: 7689418208536129768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubmarineDoorV_5
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4722
+        width: 62
+        height: 622
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be87b1481c3a6360800000000000000
+      internalID: 7163604232165625528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SubmarineDoorV_6
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 902
+        width: 62
+        height: 622
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f732dbec84ef6b0800000000000000
+      internalID: -5260687261948477600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperVentBG
+      rect:
+        serializedVersion: 2
+        x: 4306
+        y: 3195
+        width: 235
+        height: 180
+      alignment: 9
+      pivot: {x: 0.49787235, y: 0.5138889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7425ad1deec58c6d0800000000000000
+      internalID: -2970021773458124217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vent Frame 1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 186
+        width: 163
+        height: 124
+      alignment: 9
+      pivot: {x: 0.5184049, y: 0.7016129}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d4e037a04e6acf0800000000000000
+      internalID: -241254796486619852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vent Frame 10
+      rect:
+        serializedVersion: 2
+        x: 3261
+        y: 146
+        width: 176
+        height: 113
+      alignment: 9
+      pivot: {x: 0.51420456, y: 0.7787611}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ef67876e8289190800000000000000
+      internalID: -7955563771421327746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vent Frame 11
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 186
+        width: 163
+        height: 124
+      alignment: 9
+      pivot: {x: 0.5184049, y: 0.7016129}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa8c8d162438d220800000000000000
+      internalID: 2510814130568203000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vent Frame 2
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 5690
+        width: 186
+        height: 182
+      alignment: 9
+      pivot: {x: 0.51344085, y: 0.489011}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c4bfe8f000d15aa0800000000000000
+      internalID: -6173924911553203006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vent Frame 3
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 149
+        width: 186
+        height: 161
+      alignment: 9
+      pivot: {x: 0.5080645, y: 0.55279505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8cce597c251bc670800000000000000
+      internalID: 8559958797506759823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vent Frame 4
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 6066
+        width: 170
+        height: 99
+      alignment: 9
+      pivot: {x: 0.5147059, y: 0.8888889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24af817d7676232f0800000000000000
+      internalID: -994618872007427518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vent Frame 5
+      rect:
+        serializedVersion: 2
+        x: 3631
+        y: 160
+        width: 188
+        height: 99
+      alignment: 9
+      pivot: {x: 0.51329786, y: 0.8888889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d7488a4487af3f0800000000000000
+      internalID: -866247742035034873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vent Frame 6
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 6066
+        width: 170
+        height: 99
+      alignment: 9
+      pivot: {x: 0.5147059, y: 0.8888889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16db6fe0c2c9cc7a0800000000000000
+      internalID: -6355533261083067039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vent Frame 7
+      rect:
+        serializedVersion: 2
+        x: 3449
+        y: 142
+        width: 170
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5147059, y: 0.75213677}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1846cc3dd52131910800000000000000
+      internalID: 1806808069700347009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vent Frame 8
+      rect:
+        serializedVersion: 2
+        x: 3079
+        y: 129
+        width: 170
+        height: 130
+      alignment: 9
+      pivot: {x: 0.5147059, y: 0.6769231}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef38eae54d1dddf10800000000000000
+      internalID: 2296222095080588286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vent Frame 9
+      rect:
+        serializedVersion: 2
+        x: 3449
+        y: 142
+        width: 170
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5147059, y: 0.75213677}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ad8ed4852c8af30800000000000000
+      internalID: 4587129904996866662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VerticalDoor_0000_DoorOpen08
+      rect:
+        serializedVersion: 2
+        x: 2482
+        y: 718
+        width: 40
+        height: 417
+      alignment: 9
+      pivot: {x: 0.5375, y: 0.02997602}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c63326d22cdadebc0800000000000000
+      internalID: -3752151865033084052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VerticalDoor_0001_DoorOpen07
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 734
+        width: 40
+        height: 401
+      alignment: 9
+      pivot: {x: 0.5375, y: -0.008728179}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7f8d57cc138c6a0800000000000000
+      internalID: -6428833713851140185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VerticalDoor_0002_DoorOpen06
+      rect:
+        serializedVersion: 2
+        x: 2407
+        y: 2172
+        width: 40
+        height: 389
+      alignment: 9
+      pivot: {x: 0.5375, y: -0.039845757}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa93ad59bd89c4c50800000000000000
+      internalID: 6650858818598746538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VerticalDoor_0003_DoorOpen05
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 5356
+        width: 40
+        height: 809
+      alignment: 9
+      pivot: {x: 0.5375, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77646d0660c2d6d90800000000000000
+      internalID: -7102972631387322761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VerticalDoor_0004_DoorOpen04
+      rect:
+        serializedVersion: 2
+        x: 2512
+        y: 2374
+        width: 40
+        height: 809
+      alignment: 9
+      pivot: {x: 0.5375, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d765aca110d00a190800000000000000
+      internalID: -7953342643540699523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VerticalDoor_0005_DoorOpen03
+      rect:
+        serializedVersion: 2
+        x: 2564
+        y: 2374
+        width: 40
+        height: 809
+      alignment: 9
+      pivot: {x: 0.5375, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38fede12a1eea1000800000000000000
+      internalID: 7580145400278915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VerticalDoor_0006_DoorOpen02
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 2374
+        width: 40
+        height: 809
+      alignment: 9
+      pivot: {x: 0.5375, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b9117c037e36b00800000000000000
+      internalID: 820753753795828634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VerticalDoor_0007_DoorOpen01
+      rect:
+        serializedVersion: 2
+        x: 2668
+        y: 2374
+        width: 40
+        height: 809
+      alignment: 9
+      pivot: {x: 0.5375, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 541de7fc159868560800000000000000
+      internalID: 7315685629176500549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WestHallway_0000_RightPart
+      rect:
+        serializedVersion: 2
+        x: 3694
+        y: 4555
+        width: 1368
+        height: 1610
+      alignment: 9
+      pivot: {x: -0.7748538, y: -0.062111802}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3acc170cd24ea7bf0800000000000000
+      internalID: -325697137877594973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WestHallway_0001_SecurityHallway
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 2344
+        width: 536
+        height: 839
+      alignment: 9
+      pivot: {x: 0.47014925, y: 0.8784267}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42fce88e0345c3ce0800000000000000
+      internalID: -1424170813119082716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WestHallway_0002_LeftHallway
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 4555
+        width: 1673
+        height: 1610
+      alignment: 9
+      pivot: {x: 0.3652122, y: -0.062111802}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd98a91f385724980800000000000000
+      internalID: -8556147132495918629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

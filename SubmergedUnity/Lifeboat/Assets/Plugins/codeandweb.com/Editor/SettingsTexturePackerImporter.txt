@@ -1,0 +1,6 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+textureFileNames:
+normalmapFileNames:
+enableDebugOutput: 0

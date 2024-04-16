@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: df3fff7a4552ad84ab1320a471440892
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2504170125896549414
+    second: Background
+  - first:
+      213: -2899643205691146210
+    second: Coral1
+  - first:
+      213: -7252777416408589876
+    second: Coral2
+  - first:
+      213: -343216023190630068
+    second: Coral3
+  - first:
+      213: 3625887988084286973
+    second: Coral4
+  - first:
+      213: -2564246992603645817
+    second: Coral5
+  - first:
+      213: -7898340051818262967
+    second: Coral6
+  - first:
+      213: 2918791816090377115
+    second: Coral7
+  - first:
+      213: -3824077676791309801
+    second: Fish_Tank_Border
+  - first:
+      213: -2922959606744580417
+    second: food_adorabilis
+  - first:
+      213: 1697847577519342747
+    second: food_alien
+  - first:
+      213: 7177831271013337256
+    second: food_cuttlefish
+  - first:
+      213: 7484117282818981389
+    second: food_puffer
+  - first:
+      213: 4190482606033771521
+    second: food_seahorse
+  - first:
+      213: -3109591011376492478
+    second: pet_adorabilis
+  - first:
+      213: 3533539831494831376
+    second: pet_alien
+  - first:
+      213: -3625744003804793667
+    second: pet_cuttlefish1
+  - first:
+      213: 815932580072638991
+    second: pet_cuttlefish2
+  - first:
+      213: 1286808096194613562
+    second: pet_puffer
+  - first:
+      213: 6320777637106954402
+    second: pet_seahorse
+  - first:
+      213: 6420217812981636162
+    second: pellets_0
+  - first:
+      213: -1216135137466171601
+    second: pellets_1
+  - first:
+      213: -696812247203677383
+    second: pellets_2
+  - first:
+      213: -132293140373863899
+    second: pellets_3
+  - first:
+      213: 8390847624714261377
+    second: pellets_4
+  - first:
+      213: 8411219054850860440
+    second: pellets_5
+  - first:
+      213: -7395648560644144910
+    second: pellets_6
+  - first:
+      213: -7916417403202975446
+    second: pellets_7
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 440
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Background
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1519
+        width: 2162
+        height: 2160
+      alignment: 9
+      pivot: {x: 0.49907494, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624853b367990c220800000000000000
+      internalID: 2504170125896549414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coral1
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 532
+        width: 804
+        height: 373
+      alignment: 9
+      pivot: {x: 1.1840796, y: 0.8310992}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e10876d0ed562c7d0800000000000000
+      internalID: -2899643205691146210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coral2
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 530
+        width: 766
+        height: 859
+      alignment: 9
+      pivot: {x: 1.3720627, y: 0.45983702}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc99dfbdd55f85b90800000000000000
+      internalID: -7252777416408589876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coral3
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 448
+        width: 459
+        height: 725
+      alignment: 9
+      pivot: {x: 0.1764706, y: 0.45517242}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41108868d6ac3bf0800000000000000
+      internalID: -343216023190630068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coral4
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 1025
+        width: 304
+        height: 492
+      alignment: 9
+      pivot: {x: 1.8980263, y: 0.66056913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df5ae151aedb15230800000000000000
+      internalID: 3625887988084286973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coral5
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 385
+        width: 470
+        height: 483
+      alignment: 9
+      pivot: {x: -0.5489362, y: 0.63146996}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 788fe7932f6f96cd0800000000000000
+      internalID: -2564246992603645817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coral6
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 309
+        width: 301
+        height: 336
+      alignment: 9
+      pivot: {x: 2.6810632, y: 1.0863096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ec120f195736290800000000000000
+      internalID: -7898340051818262967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coral7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 951
+        width: 567
+        height: 438
+      alignment: 9
+      pivot: {x: 0.04409171, y: 0.8515982}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9b526b31b1a18820800000000000000
+      internalID: 2918791816090377115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fish_Tank_Border
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 384
+        width: 1852
+        height: 1133
+      alignment: 9
+      pivot: {x: 0.57829374, y: 0.38658428}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a5a512d952eeac0800000000000000
+      internalID: -3824077676791309801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_adorabilis
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 165
+        width: 266
+        height: 366
+      alignment: 9
+      pivot: {x: 0.48421052, y: 0.49125683}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe7c2369bf8f67d0800000000000000
+      internalID: -2922959606744580417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_alien
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 22
+        width: 266
+        height: 363
+      alignment: 9
+      pivot: {x: 0.5541353, y: 0.48705235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b944ccc4067ff8710800000000000000
+      internalID: 1697847577519342747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_cuttlefish
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 165
+        width: 266
+        height: 363
+      alignment: 9
+      pivot: {x: 0.5285714, y: 0.48705235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a8c07ed287cc9360800000000000000
+      internalID: 7177831271013337256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_puffer
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 167
+        width: 266
+        height: 363
+      alignment: 9
+      pivot: {x: 0.501203, y: 0.48705235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e79c3240decd760800000000000000
+      internalID: 7484117282818981389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: food_seahorse
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 171
+        width: 266
+        height: 366
+      alignment: 9
+      pivot: {x: 0.5045113, y: 0.49125683}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c98126ab5972a30800000000000000
+      internalID: 4190482606033771521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pellets_0
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 1372
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24cd76bc512391950800000000000000
+      internalID: 6420217812981636162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pellets_1
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 614
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f357c298b6f1fe0800000000000000
+      internalID: -1216135137466171601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pellets_2
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 1329
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b784af3fc6456f0800000000000000
+      internalID: -696812247203677383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pellets_3
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 599
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5228bc9f6100a2ef0800000000000000
+      internalID: -132293140373863899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pellets_4
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1376
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18316834577427470800000000000000
+      internalID: 8390847624714261377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pellets_5
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 618
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895e1647a27aab470800000000000000
+      internalID: 8411219054850860440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pellets_6
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 613
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f04d2361d06d5990800000000000000
+      internalID: -7395648560644144910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pellets_7
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 1378
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29cd54905c332290800000000000000
+      internalID: -7916417403202975446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet_adorabilis
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1268
+        width: 186
+        height: 121
+      alignment: 9
+      pivot: {x: 7.5860214, y: -5.8842974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2401822537388d4d0800000000000000
+      internalID: -3109591011376492478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet_alien
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 36
+        width: 319
+        height: 293
+      alignment: 9
+      pivot: {x: 5.7147336, y: -2.2730374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d61f751c7a90130800000000000000
+      internalID: 3533539831494831376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet_cuttlefish1
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1108
+        width: 395
+        height: 281
+      alignment: 9
+      pivot: {x: 4.683544, y: 0.26334518}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db476bed905ceadc0800000000000000
+      internalID: -3625744003804793667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet_cuttlefish2
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 3
+        width: 350
+        height: 196
+      alignment: 9
+      pivot: {x: 4.4657145, y: 0.8316327}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ac5ebcb56c25b00800000000000000
+      internalID: 815932580072638991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet_puffer
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 771
+        width: 298
+        height: 257
+      alignment: 9
+      pivot: {x: 6.1375837, y: -1.3618677}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a31d6cb4529abd110800000000000000
+      internalID: 1286808096194613562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pet_seahorse
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 623
+        width: 371
+        height: 413
+      alignment: 9
+      pivot: {x: 4.0808625, y: -0.3874092}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a03ef3a5c9e7b750800000000000000
+      internalID: 6320777637106954402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
