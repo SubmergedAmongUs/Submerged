@@ -261,5 +261,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: CreditsScreen
       objectReference: {fileID: 0}
+    - target: {fileID: 8102256026475260760, guid: 22ebc8975b3f166418b317a9a167e517, type: 3}
+      propertyPath: m_fontSize
+      value: 2.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22ebc8975b3f166418b317a9a167e517, type: 3}

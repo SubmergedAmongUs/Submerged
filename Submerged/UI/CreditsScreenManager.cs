@@ -32,9 +32,5 @@ public sealed class CreditsScreenManager(nint ptr) : MonoBehaviour(ptr)
         textParent.Find("Technical Support").GetComponent<TextMeshPro>().text = General.Credits_TechnicalSupport;
         textParent.Find("Additional Art").GetComponent<TextMeshPro>().text = General.Credits_AdditionalArt;
         transform.Find("Translators/Text").GetComponent<TextMeshPro>().text = $"<u><b>{General.Credits_Translators}:</b></u> {TRANSLATORS}";
-
-        TextMeshPro devText = textParent.Find("Developers/Subtext").GetComponent<TextMeshPro>();
-        // TODO: Rebuild this asset
-        devText.text = devText.text.Replace("AlexejheroYTB", "Alexejhero").Replace("associatedlogos", "probablyadnf");
     }
 }
