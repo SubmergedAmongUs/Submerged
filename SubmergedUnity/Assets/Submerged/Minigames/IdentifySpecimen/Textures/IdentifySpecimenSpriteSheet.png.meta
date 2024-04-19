@@ -1,0 +1,492 @@
+fileFormatVersion: 2
+guid: dc5c9a1268e172749a8ceeb4ed31c645
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2800095543024830292
+    second: Adorabilis
+  - first:
+      213: -5170173403294790541
+    second: adorabilis_clipboard
+  - first:
+      213: 350688425205415953
+    second: Clipboard_Blank
+  - first:
+      213: -6003806029119341572
+    second: Cuttlefish_clipboard
+  - first:
+      213: 4353530699513520699
+    second: Eel
+  - first:
+      213: -1078832268928138792
+    second: Eel_clipboard
+  - first:
+      213: 7458148105255658039
+    second: Jellyfish
+  - first:
+      213: 1381310551970725062
+    second: jellyfish_clipboard
+  - first:
+      213: -1445924745908804321
+    second: NewBackground
+  - first:
+      213: -4085504982912277256
+    second: Octopus
+  - first:
+      213: -1298618930966669848
+    second: octopus_clipboard
+  - first:
+      213: -3150148568284958815
+    second: puffer_clipboard
+  - first:
+      213: -6831546850801438773
+    second: Puffer_Urchin
+  - first:
+      213: -2526030202549907469
+    second: Sea_Cucumber_thing
+  - first:
+      213: -6535967726246633289
+    second: Seacucumber_clipboard
+  - first:
+      213: 8132272295465562854
+    second: Squid
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 420
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Adorabilis
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 754
+        width: 243
+        height: 261
+      alignment: 9
+      pivot: {x: 1.4691358, y: -1.7662835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45746239f00fbd620800000000000000
+      internalID: 2800095543024830292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adorabilis_clipboard
+      rect:
+        serializedVersion: 2
+        x: 2960
+        y: 1109
+        width: 174
+        height: 141
+      alignment: 9
+      pivot: {x: -2.0229886, y: 4.4042554}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c0175beaadf38b0800000000000000
+      internalID: -5170173403294790541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clipboard_Blank
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 623
+        width: 736
+        height: 848
+      alignment: 9
+      pivot: {x: -0.10461956, y: 1.2158018}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 110c533c345edd400800000000000000
+      internalID: 350688425205415953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cuttlefish_clipboard
+      rect:
+        serializedVersion: 2
+        x: 3430
+        y: 881
+        width: 326
+        height: 295
+      alignment: 9
+      pivot: {x: -0.77607363, y: 2.3728814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb3efdd9323eaca0800000000000000
+      internalID: -6003806029119341572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eel
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 2
+        width: 664
+        height: 550
+      alignment: 9
+      pivot: {x: 0.09638554, y: -0.8290909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b32e24fea19da6c30800000000000000
+      internalID: 4353530699513520699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eel_clipboard
+      rect:
+        serializedVersion: 2
+        x: 3233
+        y: 1109
+        width: 408
+        height: 311
+      alignment: 9
+      pivot: {x: -0.5735294, y: 2.2797427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d14f4e64c73701f0800000000000000
+      internalID: -1078832268928138792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jellyfish
+      rect:
+        serializedVersion: 2
+        x: 2431
+        y: 550
+        width: 421
+        height: 921
+      alignment: 9
+      pivot: {x: -1.5225654, y: 0.20412596}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7322400df2aa08760800000000000000
+      internalID: 7458148105255658039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jellyfish_clipboard
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 217
+        width: 298
+        height: 391
+      alignment: 9
+      pivot: {x: -0.97315437, y: 1.9309464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ccb6b6e0a66b2310800000000000000
+      internalID: 1381310551970725062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewBackground
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 97
+        width: 2202
+        height: 1374
+      alignment: 9
+      pivot: {x: 0.4918256, y: 0.44395924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f15a82cba1b0febe0800000000000000
+      internalID: -1445924745908804321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Octopus
+      rect:
+        serializedVersion: 2
+        x: 2850
+        y: 549
+        width: 582
+        height: 562
+      alignment: 9
+      pivot: {x: 1.7182131, y: -0.797153}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f4ec6d2dde5d47c0800000000000000
+      internalID: -4085504982912277256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: octopus_clipboard
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 537
+        width: 421
+        height: 402
+      alignment: 9
+      pivot: {x: -0.5391924, y: 1.9079602}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5522176f06afde0800000000000000
+      internalID: -1298618930966669848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puffer_clipboard
+      rect:
+        serializedVersion: 2
+        x: 3425
+        y: 519
+        width: 323
+        height: 337
+      alignment: 9
+      pivot: {x: -0.8235294, y: 2.1780415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af6bad319c6844d0800000000000000
+      internalID: -3150148568284958815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puffer_Urchin
+      rect:
+        serializedVersion: 2
+        x: 3611
+        y: 274
+        width: 293
+        height: 326
+      alignment: 9
+      pivot: {x: 3.221843, y: 0.5797546}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcfaa8395587131a0800000000000000
+      internalID: -6831546850801438773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sea_Cucumber_thing
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 577
+        width: 610
+        height: 496
+      alignment: 9
+      pivot: {x: 1.0278689, y: 0.37096775}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ffca1d0aecb1fcd0800000000000000
+      internalID: -2526030202549907469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seacucumber_clipboard
+      rect:
+        serializedVersion: 2
+        x: 2850
+        y: 1135
+        width: 392
+        height: 336
+      alignment: 9
+      pivot: {x: -0.5867347, y: 2.2559524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0e6a56bf39b45a0800000000000000
+      internalID: -6535967726246633289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Squid
+      rect:
+        serializedVersion: 2
+        x: 2885
+        y: 150
+        width: 444
+        height: 409
+      alignment: 9
+      pivot: {x: -0.06531531, y: 0.4596577}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2b9fbe092abd070800000000000000
+      internalID: 8132272295465562854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

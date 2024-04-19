@@ -1,0 +1,252 @@
+fileFormatVersion: 2
+guid: e38a49ae3a33ecd4e9a74dc692b52f5d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5508232270269952508
+    second: comms_dial
+  - first:
+      213: -4171294389892937006
+    second: comms_light_green
+  - first:
+      213: 2748191870597364059
+    second: comms_light_red
+  - first:
+      213: -7859427531180017450
+    second: comms_panel
+  - first:
+      213: 5044270562019501079
+    second: comms_reflection
+  - first:
+      213: -1722502989187939081
+    second: comms_screen
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 440
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: comms_dial
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1632
+        width: 379
+        height: 448
+      alignment: 9
+      pivot: {x: 0.49379948, y: 0.41227677}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e473e1fe3de83b0800000000000000
+      internalID: -5508232270269952508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: comms_light_green
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 2230
+        width: 107
+        height: 98
+      alignment: 9
+      pivot: {x: -6.495327, y: 3.0714285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da0ad45ad59c16c0800000000000000
+      internalID: -4171294389892937006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: comms_light_red
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 2230
+        width: 107
+        height: 98
+      alignment: 9
+      pivot: {x: -5.5140185, y: 3.0816326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b59729d12f9832620800000000000000
+      internalID: 2748191870597364059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: comms_panel
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 916
+        width: 2136
+        height: 1795
+      alignment: 9
+      pivot: {x: 0.56226593, y: 0.50640666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8f61a2d44bde290800000000000000
+      internalID: -7859427531180017450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: comms_reflection
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1
+        width: 1573
+        height: 445
+      alignment: 9
+      pivot: {x: 0.5003179, y: 0.41573033}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 714e128b959d00640800000000000000
+      internalID: 5044270562019501079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: comms_screen
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 446
+        width: 1601
+        height: 468
+      alignment: 9
+      pivot: {x: 0.4996877, y: 0.42094016}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f487e458a07818e0800000000000000
+      internalID: -1722502989187939081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

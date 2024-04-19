@@ -1,0 +1,1461 @@
+fileFormatVersion: 2
+guid: 8ad37d0898ae7ee419ec25e31026e56f
+timeCreated: 1614007712
+licenseType: Free
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: doorlogMIRA
+  - first:
+      213: 21300002
+    second: mapAdminMIRA
+  - first:
+      213: 21300004
+    second: mapAdminPolus
+  - first:
+      213: 21300006
+    second: closeButton
+  - first:
+      213: 21300008
+    second: sabotage_comms
+  - first:
+      213: 21300010
+    second: sabotage_Doors
+  - first:
+      213: 21300012
+    second: sabotage_electricity
+  - first:
+      213: 21300014
+    second: sabotage_O2
+  - first:
+      213: 21300016
+    second: sabotage_reactor
+  - first:
+      213: 21300018
+    second: task
+  - first:
+      213: 21300020
+    second: mapAdmin
+  - first:
+      213: 21300022
+    second: security
+  - first:
+      213: 21300024
+    second: customize
+  - first:
+      213: 21300026
+    second: buttonClick
+  - first:
+      213: 21300028
+    second: buttonEnterText
+  - first:
+      213: 21300030
+    second: statsButton
+  - first:
+      213: 21300032
+    second: vitalsPolus
+  - first:
+      213: 21300034
+    second: killButton
+  - first:
+      213: 21300036
+    second: mapButtonDark
+  - first:
+      213: 21300038
+    second: reportButton
+  - first:
+      213: 21300040
+    second: sabotage
+  - first:
+      213: 21300042
+    second: settingsButton
+  - first:
+      213: 21300044
+    second: startButton
+  - first:
+      213: 21300046
+    second: useButton
+  - first:
+      213: 21300048
+    second: vent
+  - first:
+      213: 21300050
+    second: privateGame
+  - first:
+      213: 21300052
+    second: publicGame
+  - first:
+      213: 21300054
+    second: progress_bar
+  - first:
+      213: 21300056
+    second: help
+  - first:
+      213: 21300058
+    second: playAgain
+  - first:
+      213: 21300060
+    second: quit
+  externalObjects: {}
+  usedFileIDs: []
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 25
+  maxTextureSize: 1652
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: doorlogMIRA
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 138
+        width: 112
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56, y: -55}
+        - {x: -56, y: 55}
+        - {x: 56, y: 55}
+        - {x: 56, y: -55}
+      physicsShape:
+      - - {x: 48, y: 15}
+        - {x: 20, y: 24}
+        - {x: 16, y: 51}
+        - {x: 12, y: 55}
+        - {x: -15, y: 55}
+        - {x: -46, y: 30}
+        - {x: -51, y: 18}
+        - {x: -43, y: 14}
+        - {x: -20, y: 14}
+        - {x: -40, y: -6}
+        - {x: -53, y: -6}
+        - {x: -56, y: -7}
+        - {x: -56, y: -39}
+        - {x: -52, y: -50}
+        - {x: -47, y: -55}
+        - {x: 48, y: -55}
+        - {x: 54, y: -46}
+        - {x: 56, y: -39}
+        - {x: 56, y: 3}
+      - - {x: -6, y: -16}
+        - {x: 1, y: -9.999999}
+        - {x: 7, y: -16}
+        - {x: 2, y: -16}
+        - {x: 1, y: -15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e51aa0640254eebacd36e1b64e7a67a
+      internalID: 21300000
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapAdminMIRA
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 133
+        width: 100
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50, y: -57.5}
+        - {x: -50, y: 57.5}
+        - {x: 50, y: 57.5}
+        - {x: 50, y: -57.5}
+      physicsShape:
+      - - {x: 50, y: -18.5}
+        - {x: 50, y: 18.5}
+        - {x: 34, y: 21.5}
+        - {x: 40, y: 30.5}
+        - {x: 37, y: 57.5}
+        - {x: 4, y: 57.5}
+        - {x: -5, y: 39.5}
+        - {x: -21, y: 41.5}
+        - {x: -25, y: 35.5}
+        - {x: -25, y: 20.5}
+        - {x: -46, y: 20.5}
+        - {x: -50, y: 16.5}
+        - {x: -50, y: -8.5}
+        - {x: -39, y: -16.5}
+        - {x: -41, y: -29.5}
+        - {x: -43, y: -55.5}
+        - {x: -39, y: -57.5}
+        - {x: 37, y: -57.5}
+        - {x: 42, y: -53.5}
+        - {x: 47, y: -24.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0dec53449e495aa4ac7b47223bd3af
+      internalID: 21300002
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapAdminPolus
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 134
+        width: 110
+        height: 114
+      alignment: 9
+      pivot: {x: 0.5, y: 0.495614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55, y: -57}
+        - {x: -55, y: 57}
+        - {x: 55, y: 57}
+        - {x: 55, y: -57}
+      physicsShape:
+      - - {x: 52, y: -8}
+        - {x: 55, y: 7}
+        - {x: 55, y: 35}
+        - {x: 53, y: 39}
+        - {x: 28, y: 43}
+        - {x: 5, y: 50}
+        - {x: -2, y: 57}
+        - {x: -20, y: 57}
+        - {x: -30, y: 39}
+        - {x: -35, y: 46}
+        - {x: -43, y: 47}
+        - {x: -54, y: 31}
+        - {x: -55, y: 26}
+        - {x: -55, y: -16}
+        - {x: -51, y: -20}
+        - {x: -39, y: -24}
+        - {x: -45, y: -56}
+        - {x: -41, y: -57}
+        - {x: 37, y: -57}
+        - {x: 44, y: -51}
+        - {x: 42, y: -22}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c31ad86c39f4a5b813e446614352bc6
+      internalID: 21300004
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: closeButton
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 183
+        width: 65
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -32.5}
+        - {x: -32.5, y: 32.5}
+        - {x: 32.5, y: 32.5}
+        - {x: 32.5, y: -32.5}
+      physicsShape:
+      - - {x: 15.5, y: 32.5}
+        - {x: -20.5, y: 32.5}
+        - {x: -32.5, y: 26.5}
+        - {x: -32.5, y: -31.5}
+        - {x: -30.5, y: -32.5}
+        - {x: 20.5, y: -32.5}
+        - {x: 32.5, y: -28.5}
+        - {x: 32.5, y: 15.5}
+        - {x: 22.5, y: 31.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e20692dc554f739fdda98730a6a709
+      internalID: 21300006
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabotage_comms
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 43
+        width: 65
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -32.5}
+        - {x: -32.5, y: 32.5}
+        - {x: 32.5, y: 32.5}
+        - {x: 32.5, y: -32.5}
+      physicsShape:
+      - - {x: 15.5, y: 32.5}
+        - {x: -20.5, y: 32.5}
+        - {x: -32.5, y: 26.5}
+        - {x: -32.5, y: -31.5}
+        - {x: -30.5, y: -32.5}
+        - {x: 20.5, y: -32.5}
+        - {x: 32.5, y: -28.5}
+        - {x: 32.5, y: 15.5}
+        - {x: 22.5, y: 31.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c11896396349afb5d35d8a7ff8b74b
+      internalID: 21300008
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabotage_Doors
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 113
+        width: 65
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -32.5}
+        - {x: -32.5, y: 32.5}
+        - {x: 32.5, y: 32.5}
+        - {x: 32.5, y: -32.5}
+      physicsShape:
+      - - {x: 15.5, y: 32.5}
+        - {x: -20.5, y: 32.5}
+        - {x: -32.5, y: 26.5}
+        - {x: -32.5, y: -31.5}
+        - {x: -30.5, y: -32.5}
+        - {x: 20.5, y: -32.5}
+        - {x: 32.5, y: -28.5}
+        - {x: 32.5, y: 15.5}
+        - {x: 22.5, y: 31.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cefc509fcbd5472e81b99b4f91b1c185
+      internalID: 21300010
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabotage_electricity
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 113
+        width: 65
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -32.5}
+        - {x: -32.5, y: 32.5}
+        - {x: 32.5, y: 32.5}
+        - {x: 32.5, y: -32.5}
+      physicsShape:
+      - - {x: 15.5, y: 32.5}
+        - {x: -20.5, y: 32.5}
+        - {x: -32.5, y: 26.5}
+        - {x: -32.5, y: -31.5}
+        - {x: -30.5, y: -32.5}
+        - {x: 20.5, y: -32.5}
+        - {x: 32.5, y: -28.5}
+        - {x: 32.5, y: 15.5}
+        - {x: 22.5, y: 31.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15f311f9622449daf528fd144065dbf
+      internalID: 21300012
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabotage_O2
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 183
+        width: 65
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -32.5}
+        - {x: -32.5, y: 32.5}
+        - {x: 32.5, y: 32.5}
+        - {x: 32.5, y: -32.5}
+      physicsShape:
+      - - {x: 15.5, y: 32.5}
+        - {x: -20.5, y: 32.5}
+        - {x: -32.5, y: 26.5}
+        - {x: -32.5, y: -31.5}
+        - {x: -30.5, y: -32.5}
+        - {x: 20.5, y: -32.5}
+        - {x: 32.5, y: -28.5}
+        - {x: 32.5, y: 15.5}
+        - {x: 22.5, y: 31.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf6900ef35f40829367d5105d4db413
+      internalID: 21300014
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabotage_reactor
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 183
+        width: 65
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -32.5}
+        - {x: -32.5, y: 32.5}
+        - {x: 32.5, y: 32.5}
+        - {x: 32.5, y: -32.5}
+      physicsShape:
+      - - {x: 15.5, y: 32.5}
+        - {x: -20.5, y: 32.5}
+        - {x: -32.5, y: 26.5}
+        - {x: -32.5, y: -31.5}
+        - {x: -30.5, y: -32.5}
+        - {x: 20.5, y: -32.5}
+        - {x: 32.5, y: -28.5}
+        - {x: 32.5, y: 15.5}
+        - {x: 22.5, y: 31.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a5be82a1e94baca06d08312721ce32
+      internalID: 21300016
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: task
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 79
+        width: 49
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: -24.5}
+        - {x: -24.5, y: 24.5}
+        - {x: 24.5, y: 24.5}
+        - {x: 24.5, y: -24.5}
+      physicsShape:
+      - - {x: -24.5, y: 17.5}
+        - {x: -24.5, y: -19.5}
+        - {x: -18.5, y: -24.5}
+        - {x: 12.5, y: -24.5}
+        - {x: 24.5, y: -18.5}
+        - {x: 24.5, y: 13.5}
+        - {x: 23.5, y: 16.5}
+        - {x: 12.5, y: 24.5}
+        - {x: -8.5, y: 24.5}
+        - {x: -15.5, y: 23.5}
+      - - {x: -9.5, y: -15.5}
+        - {x: -13.5, y: -11.5}
+        - {x: -17.5, y: -4.5}
+        - {x: -17.5, y: 4.5}
+        - {x: -16.5, y: 5.5}
+        - {x: -15.5, y: 9.5}
+        - {x: -7.5, y: 16.5}
+        - {x: -7.5, y: -16.5}
+        - {x: -5.5, y: -17.5}
+        - {x: -6.5, y: -16.5}
+      - - {x: 7.5, y: -16.5}
+        - {x: 8.5, y: -12.5}
+        - {x: 7.5, y: 16.5}
+        - {x: 17.5, y: 5.5}
+        - {x: 10.5, y: -14.5}
+        - {x: 5.5, y: -17.5}
+        - {x: 6.5, y: -18.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53685c6d4e4944d8899ab24796c5ad19
+      internalID: 21300018
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapAdmin
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 138
+        width: 110
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55, y: -55}
+        - {x: -55, y: 55}
+        - {x: 55, y: 55}
+        - {x: 55, y: -55}
+      physicsShape:
+      - - {x: 31, y: -12}
+        - {x: 55, y: 17}
+        - {x: 55, y: 30}
+        - {x: 49, y: 37}
+        - {x: 38, y: 41}
+        - {x: 29, y: 50}
+        - {x: 17, y: 55}
+        - {x: -11, y: 55}
+        - {x: -16, y: 47}
+        - {x: -29, y: 49}
+        - {x: -38, y: 50}
+        - {x: -47, y: 43}
+        - {x: -55, y: 32}
+        - {x: -55, y: 9.999999}
+        - {x: -48, y: 1}
+        - {x: -33, y: -14}
+        - {x: -41, y: -27}
+        - {x: -42, y: -52}
+        - {x: -38, y: -55}
+        - {x: 38, y: -55}
+        - {x: 44, y: -48}
+        - {x: 43, y: -19}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9106ff2a794994ac5660dc055cded1
+      internalID: 21300020
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: security
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 138
+        width: 113
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5044248, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.5, y: -55}
+        - {x: -56.5, y: 55}
+        - {x: 56.5, y: 55}
+        - {x: 56.5, y: -55}
+      physicsShape:
+      - - {x: 51.5, y: -16}
+        - {x: 44.5, y: -16}
+        - {x: 35.5, y: -15}
+        - {x: 51.5, y: -15}
+        - {x: 56.5, y: -9.999999}
+        - {x: 56.5, y: 46}
+        - {x: 53.49999, y: 52}
+        - {x: 29.5, y: 55}
+        - {x: -6.500004, y: 55}
+        - {x: -49.5, y: 52}
+        - {x: -55.5, y: 50}
+        - {x: -56.5, y: 2}
+        - {x: -56.5, y: -50}
+        - {x: -53.5, y: -55}
+        - {x: 50.5, y: -55}
+        - {x: 56.5, y: -52}
+        - {x: 56.5, y: -17}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2d97d839f74bd48e651853b9bec848
+      internalID: 21300022
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: customize
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 24
+        width: 110
+        height: 109
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5045872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55, y: -54.5}
+        - {x: -55, y: 54.5}
+        - {x: 55, y: 54.5}
+        - {x: 55, y: -54.5}
+      physicsShape:
+      - - {x: 35, y: 0.5}
+        - {x: 33, y: 17.5}
+        - {x: 27, y: 49.5}
+        - {x: 23, y: 54.5}
+        - {x: -51, y: 54.5}
+        - {x: -55, y: 52.5}
+        - {x: -55, y: 36.5}
+        - {x: -47, y: -18.5}
+        - {x: -55, y: -24.5}
+        - {x: -55, y: -48.5}
+        - {x: -50, y: -54.5}
+        - {x: 52, y: -54.5}
+        - {x: 55, y: -52.5}
+        - {x: 55, y: -21.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7562fb448142daa44b9ce595965f6d
+      internalID: 21300024
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonClick
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 80
+        width: 48
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 12, y: 12, z: 12, w: 12}
+      outline:
+      - - {x: -24, y: -24}
+        - {x: -24, y: 24}
+        - {x: 24, y: 24}
+        - {x: 24, y: -24}
+      physicsShape:
+      - - {x: -24, y: 24}
+        - {x: -24, y: -24}
+        - {x: 24, y: -24}
+        - {x: 24, y: 24}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1efedc2e634325a3ba74785af553a4
+      internalID: 21300026
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buttonEnterText
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 39
+        width: 100
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 25, y: 25, z: 25, w: 25}
+      outline:
+      - - {x: -50, y: -50}
+        - {x: -50, y: 50}
+        - {x: 50, y: 50}
+        - {x: 50, y: -50}
+      physicsShape:
+      - - {x: -48, y: 50}
+        - {x: -50, y: 49}
+        - {x: -50, y: -50}
+        - {x: 47, y: -50}
+        - {x: 50, y: -47}
+        - {x: 50, y: 50}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438ce7dff9204b9fa721b0f34456d82e
+      internalID: 21300028
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: statsButton
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 113
+        width: 65
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -32.5}
+        - {x: -32.5, y: 32.5}
+        - {x: 32.5, y: 32.5}
+        - {x: 32.5, y: -32.5}
+      physicsShape:
+      - - {x: 15.5, y: 32.5}
+        - {x: -20.5, y: 32.5}
+        - {x: -32.5, y: 26.5}
+        - {x: -32.5, y: -31.5}
+        - {x: -30.5, y: -32.5}
+        - {x: 20.5, y: -32.5}
+        - {x: 32.5, y: -28.5}
+        - {x: 32.5, y: 15.5}
+        - {x: 22.5, y: 31.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7759b152f34db992df7987439533d8
+      internalID: 21300030
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vitalsPolus
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 23
+        width: 113
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.5, y: -55}
+        - {x: -56.5, y: 55}
+        - {x: 56.5, y: 55}
+        - {x: 56.5, y: -55}
+      physicsShape:
+      - - {x: -55.5, y: 55}
+        - {x: -56.5, y: 53}
+        - {x: -56.5, y: -28}
+        - {x: -54.5, y: -41}
+        - {x: -45.5, y: -55}
+        - {x: 50.5, y: -55}
+        - {x: 56.5, y: -52}
+        - {x: 56.5, y: 55}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0836693eeab4dc9bbfd73821c6598c5
+      internalID: 21300032
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killButton
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 23
+        width: 110
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55, y: -55}
+        - {x: -55, y: 55}
+        - {x: 55, y: 55}
+        - {x: 55, y: -55}
+      physicsShape:
+      - - {x: 55, y: -22}
+        - {x: 55, y: -6}
+        - {x: 52, y: 27}
+        - {x: 45, y: 36}
+        - {x: 35, y: 47}
+        - {x: 19, y: 55}
+        - {x: -23, y: 55}
+        - {x: -44, y: 47}
+        - {x: -52, y: 42}
+        - {x: -55, y: 24}
+        - {x: -55, y: -28}
+        - {x: -51, y: -42}
+        - {x: -42, y: -51}
+        - {x: -31, y: -47}
+        - {x: -18, y: -55}
+        - {x: 3, y: -55}
+        - {x: 9, y: -54}
+        - {x: 28, y: -54}
+        - {x: 36, y: -44}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9c95765d22447c85e6033197950449
+      internalID: 21300034
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapButtonDark
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 43
+        width: 65
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -32.5}
+        - {x: -32.5, y: 32.5}
+        - {x: 32.5, y: 32.5}
+        - {x: 32.5, y: -32.5}
+      physicsShape:
+      - - {x: 15.5, y: 32.5}
+        - {x: -20.5, y: 32.5}
+        - {x: -32.5, y: 26.5}
+        - {x: -32.5, y: -31.5}
+        - {x: -30.5, y: -32.5}
+        - {x: 20.5, y: -32.5}
+        - {x: 32.5, y: -28.5}
+        - {x: 32.5, y: 15.5}
+        - {x: 22.5, y: 31.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04196dba2601473da878d9d773194859
+      internalID: 21300036
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reportButton
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 138
+        width: 113
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.5, y: -55}
+        - {x: -56.5, y: 55}
+        - {x: 56.5, y: 55}
+        - {x: 56.5, y: -55}
+      physicsShape:
+      - - {x: 56.5, y: -12}
+        - {x: 46.5, y: 5}
+        - {x: 56.5, y: 17}
+        - {x: 56.5, y: 25}
+        - {x: 53.5, y: 29}
+        - {x: 38.5, y: 30}
+        - {x: 42.5, y: 45}
+        - {x: 40.5, y: 55}
+        - {x: 29.5, y: 55}
+        - {x: 5.5, y: 39}
+        - {x: 5.5, y: 49}
+        - {x: 2.5, y: 54}
+        - {x: 1.5, y: 55}
+        - {x: -28.5, y: 55}
+        - {x: -31.5, y: 54}
+        - {x: -35.5, y: 47}
+        - {x: -48.5, y: 55}
+        - {x: -55.5, y: 55}
+        - {x: -56.5, y: 52}
+        - {x: -56.5, y: 37}
+        - {x: -44.5, y: 16}
+        - {x: -53.5, y: 18}
+        - {x: -56.5, y: 12}
+        - {x: -56.5, y: 0}
+        - {x: -50.5, y: -4}
+        - {x: -56.5, y: -21}
+        - {x: -49.5, y: -30}
+        - {x: -48.5, y: -52}
+        - {x: -44.5, y: -55}
+        - {x: 41.5, y: -55}
+        - {x: 45.5, y: -49}
+        - {x: 47.5, y: -35}
+        - {x: 56.5, y: -25}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d942a68c9f644d378be4cc4e0d279e13
+      internalID: 21300038
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabotage
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 136
+        width: 112
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56, y: -56}
+        - {x: -56, y: 56}
+        - {x: 56, y: 56}
+        - {x: 56, y: -56}
+      physicsShape:
+      - - {x: 56, y: -54}
+        - {x: 56, y: -22}
+        - {x: 50, y: -17}
+        - {x: 54, y: -8}
+        - {x: 53, y: 24}
+        - {x: 50, y: 27}
+        - {x: 51, y: 52}
+        - {x: 47, y: 56}
+        - {x: 7, y: 56}
+        - {x: -12, y: 52}
+        - {x: -26, y: 52}
+        - {x: -39, y: 44}
+        - {x: -50, y: 26}
+        - {x: -55, y: 1}
+        - {x: -56, y: -15}
+        - {x: -56, y: -50}
+        - {x: -55, y: -52}
+        - {x: -50, y: -56}
+        - {x: 53, y: -56}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0146f0250e754741bdd1d978a1d30e9d
+      internalID: 21300040
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: settingsButton
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 43
+        width: 65
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -32.5}
+        - {x: -32.5, y: 32.5}
+        - {x: 32.5, y: 32.5}
+        - {x: 32.5, y: -32.5}
+      physicsShape:
+      - - {x: 15.5, y: 32.5}
+        - {x: -20.5, y: 32.5}
+        - {x: -32.5, y: 26.5}
+        - {x: -32.5, y: -31.5}
+        - {x: -30.5, y: -32.5}
+        - {x: 20.5, y: -32.5}
+        - {x: 32.5, y: -28.5}
+        - {x: 32.5, y: 15.5}
+        - {x: 22.5, y: 31.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e0ff4965ec48dda0b2ad26fdae88bf
+      internalID: 21300042
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: startButton
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 141
+        width: 185
+        height: 107
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5046729}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -92.5, y: -53.5}
+        - {x: -92.5, y: 53.5}
+        - {x: 92.5, y: 53.5}
+        - {x: 92.5, y: -53.5}
+      physicsShape:
+      - - {x: 30.5, y: -27.5}
+        - {x: 38.5, y: -39.5}
+        - {x: 48.5, y: -37.5}
+        - {x: 54.5, y: -32.5}
+        - {x: 57.5, y: -36.5}
+        - {x: 63.5, y: -38.5}
+        - {x: 71.5, y: -32.5}
+        - {x: 76.5, y: -12.5}
+        - {x: 92.49999, y: -6.5}
+        - {x: 92.49999, y: 5.5}
+        - {x: 73.49999, y: 13.5}
+        - {x: 86.5, y: 27.5}
+        - {x: 85.49999, y: 35.5}
+        - {x: 79.49999, y: 39.5}
+        - {x: 13.5, y: 38.5}
+        - {x: -6.5, y: 41.5}
+        - {x: -26.5, y: 41.5}
+        - {x: -60.5, y: 51.5}
+        - {x: -67.5, y: 53.5}
+        - {x: -74.5, y: 53.5}
+        - {x: -79.49999, y: 48.5}
+        - {x: -91.5, y: 27.5}
+        - {x: -92.49999, y: 22.5}
+        - {x: -92.49999, y: 7.5}
+        - {x: -85.49999, y: -0.5}
+        - {x: -78.5, y: -1.5}
+        - {x: -78.5, y: -14.5}
+        - {x: -78.5, y: -12.5}
+        - {x: -81.5, y: -7.5}
+        - {x: -92.49999, y: -10.5}
+        - {x: -92.49999, y: -30.5}
+        - {x: -80.5, y: -49.5}
+        - {x: -75.5, y: -53.5}
+        - {x: -61.5, y: -53.5}
+        - {x: -15.5, y: -38.5}
+        - {x: 4.5, y: -38.5}
+        - {x: 23.5, y: -39.5}
+      - - {x: 49.5, y: 19.5}
+        - {x: 49.5, y: 21.5}
+        - {x: 53.5, y: 21.5}
+        - {x: 54.5, y: 17.5}
+        - {x: 53.5, y: 18.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ddee5ee4de41269051adb89cdff345
+      internalID: 21300044
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: useButton
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 29
+        width: 107
+        height: 107
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53.5, y: -53.5}
+        - {x: -53.5, y: 53.5}
+        - {x: 53.5, y: 53.5}
+        - {x: 53.5, y: -53.5}
+      physicsShape:
+      - - {x: -52.5, y: 53.5}
+        - {x: -53.5, y: 51.5}
+        - {x: -53.5, y: 36.5}
+        - {x: -42.5, y: -9.5}
+        - {x: -8.5, y: -53.5}
+        - {x: 4.5, y: -53.5}
+        - {x: 8.5, y: -51.5}
+        - {x: 53.5, y: -20.5}
+        - {x: 53.5, y: 53.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8651af51e98b4bd8a187a7a48f35806f
+      internalID: 21300046
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vent
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 144
+        width: 110
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5048077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55, y: -52}
+        - {x: -55, y: 52}
+        - {x: 55, y: 52}
+        - {x: 55, y: -52}
+      physicsShape:
+      - - {x: 37, y: -45}
+        - {x: 46, y: -19}
+        - {x: 38, y: -12}
+        - {x: 55, y: 6}
+        - {x: 55, y: 17}
+        - {x: 50, y: 24}
+        - {x: 42, y: 35}
+        - {x: 29, y: 52}
+        - {x: -53, y: 52}
+        - {x: -55, y: 50}
+        - {x: -55, y: 39}
+        - {x: -34, y: 10}
+        - {x: -39, y: 8}
+        - {x: -55, y: -10}
+        - {x: -55, y: -17}
+        - {x: -35, y: -52}
+        - {x: 33, y: -52}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffa782afe1c4cc68988164909b72a6d
+      internalID: 21300048
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: privateGame
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 89
+        width: 112
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56, y: -20}
+        - {x: -56, y: 20}
+        - {x: 56, y: 20}
+        - {x: 56, y: -20}
+      physicsShape:
+      - - {x: -56, y: 20}
+        - {x: -56, y: -20}
+        - {x: 53, y: -20}
+        - {x: 56, y: -18}
+        - {x: 56, y: 18}
+        - {x: 55, y: 20}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387ef8c8b6c841509bff053639b376a2
+      internalID: 21300050
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: publicGame
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 91
+        width: 112
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56, y: -20}
+        - {x: -56, y: 20}
+        - {x: 56, y: 20}
+        - {x: 56, y: -20}
+      physicsShape:
+      - - {x: -56, y: 20}
+        - {x: -56, y: -20}
+        - {x: 53, y: -20}
+        - {x: 56, y: -18}
+        - {x: 56, y: 18}
+        - {x: 55, y: 20}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf339ba222f941e3af9500c12110aa94
+      internalID: 21300052
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: progress_bar
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 6
+        width: 796
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -398, y: -34}
+        - {x: -398, y: 34}
+        - {x: 398, y: 34}
+        - {x: 398, y: -34}
+      physicsShape:
+      - - {x: -398, y: 34}
+        - {x: -398, y: -34}
+        - {x: 398, y: -34}
+        - {x: 398, y: 34}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3609efeb38d74915a1a1d85f17b16ca9
+      internalID: 21300054
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: help
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 113
+        width: 65
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: -32.5}
+        - {x: -32.5, y: 32.5}
+        - {x: 32.5, y: 32.5}
+        - {x: 32.5, y: -32.5}
+      physicsShape:
+      - - {x: 15.5, y: 32.5}
+        - {x: -20.5, y: 32.5}
+        - {x: -32.5, y: 26.5}
+        - {x: -32.5, y: -31.5}
+        - {x: -30.5, y: -32.5}
+        - {x: 20.5, y: -32.5}
+        - {x: 32.5, y: -28.5}
+        - {x: 32.5, y: 15.5}
+        - {x: 22.5, y: 31.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153a234df4d543a79357747ac569b1e8
+      internalID: 21300056
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playAgain
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 79
+        width: 115
+        height: 169
+      alignment: 9
+      pivot: {x: 0.5043478, y: 0.5029586}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57.5, y: -84.5}
+        - {x: -57.5, y: 84.5}
+        - {x: 57.5, y: 84.5}
+        - {x: 57.5, y: -84.5}
+      physicsShape:
+      - - {x: 57.5, y: -82.5}
+        - {x: 57.5, y: -42.5}
+        - {x: 53.5, y: -39.5}
+        - {x: 35.5, y: -39.5}
+        - {x: 35.5, y: -30.5}
+        - {x: 46.5, y: -20.5}
+        - {x: 52.5, y: -9.499999}
+        - {x: 57.5, y: 5.5}
+        - {x: 56.5, y: 23.5}
+        - {x: 51.5, y: 33.5}
+        - {x: 46.5, y: 41.5}
+        - {x: 37.5, y: 49.5}
+        - {x: 28.5, y: 53.5}
+        - {x: 22.5, y: 55.5}
+        - {x: 6.5, y: 58.5}
+        - {x: 9.5, y: 79.5}
+        - {x: 3.5, y: 84.5}
+        - {x: -2.5, y: 84.5}
+        - {x: -13.5, y: 75.5}
+        - {x: -34.5, y: 50.5}
+        - {x: -54.5, y: 29.5}
+        - {x: -56.5, y: 21.5}
+        - {x: -51.5, y: 16.5}
+        - {x: -23.5, y: 7.5}
+        - {x: 0.5, y: -0.5}
+        - {x: -24.5, y: -0.5}
+        - {x: -38.5, y: -3.5}
+        - {x: -43.5, y: -9.499999}
+        - {x: -46.5, y: -39.5}
+        - {x: -52.5, y: -47.5}
+        - {x: -57.5, y: -69.5}
+        - {x: -57.5, y: -81.5}
+        - {x: -55.5, y: -84.5}
+        - {x: -45.5, y: -84.5}
+        - {x: -42.5, y: -83.5}
+        - {x: -39.5, y: -84.5}
+        - {x: 54.5, y: -84.5}
+      - - {x: 10.5, y: -56.5}
+        - {x: 11.5, y: -56.5}
+        - {x: 12.5, y: -68.5}
+        - {x: 13.5, y: -67.5}
+      - - {x: -21.5, y: -39.5}
+        - {x: -24.5, y: -38.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b356fe038f408b8f0f610e7536d79e
+      internalID: 21300058
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quit
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 104
+        width: 125
+        height: 144
+      alignment: 9
+      pivot: {x: 0.504, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62.5, y: -72}
+        - {x: -62.5, y: 72}
+        - {x: 62.5, y: 72}
+        - {x: 62.5, y: -72}
+      physicsShape:
+      - - {x: 35.5, y: -40}
+        - {x: 35.5, y: -66}
+        - {x: 36.5, y: -69}
+        - {x: 38.5, y: -72}
+        - {x: 49.5, y: -72}
+        - {x: 56.5, y: -68}
+        - {x: 62.5, y: -40}
+        - {x: 62.5, y: -12}
+        - {x: 40.5, y: 15}
+        - {x: 62.5, y: 46}
+        - {x: 62.5, y: 52}
+        - {x: 41.5, y: 72}
+        - {x: 21.5, y: 72}
+        - {x: 0.5, y: 59}
+        - {x: -23.5, y: 72}
+        - {x: -39.5, y: 72}
+        - {x: -62.5, y: 51}
+        - {x: -62.5, y: 48}
+        - {x: -40.5, y: 15}
+        - {x: -60.5, y: -8}
+        - {x: -62.5, y: -22}
+        - {x: -62.5, y: -66.99999}
+        - {x: -58.5, y: -72}
+        - {x: 33.5, y: -72}
+        - {x: 34.5, y: -70}
+        - {x: 35.5, y: -61}
+        - {x: 31.5, y: -57}
+      - - {x: -13.5, y: -51}
+        - {x: -14.5, y: -50}
+        - {x: -14.5, y: -41}
+        - {x: -15.5, y: -40}
+        - {x: -15.5, y: -35}
+        - {x: -10.5, y: -30}
+        - {x: -11.5, y: -51}
+        - {x: -12.5, y: -52}
+        - {x: -12.5, y: -55}
+      - - {x: 6.5, y: -29}
+        - {x: 5.5, y: -29}
+        - {x: 5.5, y: -56}
+        - {x: 6.5, y: -55}
+      - - {x: -45.5, y: -35}
+        - {x: -44.5, y: -34}
+        - {x: -44.5, y: -30}
+        - {x: -42.5, y: -36}
+        - {x: -41.5, y: -45}
+        - {x: -42.5, y: -45}
+        - {x: -45.5, y: -48}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e7eae1c2e946c9a5f29f46e38f1fc5
+      internalID: 21300060
+      vertices: []
+      indices:
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID:
+    internalID: 0
+    vertices: []
+    indices:
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag:
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

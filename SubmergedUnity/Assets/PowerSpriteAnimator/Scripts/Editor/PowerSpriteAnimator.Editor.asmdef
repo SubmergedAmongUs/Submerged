@@ -1,0 +1,24 @@
+{
+    "name": "PowerSpriteAnimator.Editor",
+    "rootNamespace": "",
+    "references": [
+        "PowerSpriteAnimator"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.ugui",
+            "expression": "0",
+            "define": "USE_UNITY_UI"
+        }
+    ],
+    "noEngineReferences": false
+}

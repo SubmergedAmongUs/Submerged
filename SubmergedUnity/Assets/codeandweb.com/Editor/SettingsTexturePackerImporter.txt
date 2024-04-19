@@ -1,0 +1,110 @@
+version: 2
+tpsheetFileNames:
+- Assets/Submerged/Map/Textures/Background/Extras.tpsheet
+- Assets/Submerged/Map/Textures/SpriteSheets/TexturePack1.tpsheet
+- Assets/Submerged/Map/Textures/SpriteSheets/TexturePack2.tpsheet
+- Assets/Submerged/Minigames/AlignTelescope/Textures/AlignTelescopeSpriteSheet.tpsheet
+- Assets/Submerged/Minigames/BallastSabotage/Textures/BallastSabotageSpriteSheet.tpsheet
+- Assets/Submerged/Minigames/CamsSabotage/Textures/CamsSabotageSpriteSheet.tpsheet
+- Assets/Submerged/Minigames/CleanGlass/Textures/CleanGlassSpriteSheet.tpsheet
+- Assets/Submerged/Minigames/ClearUrchins/Textures/ClearUrchinsSpriteSheet.tpsheet
+- Assets/Submerged/Minigames/CommsSabotage/Textures/CommsSabotageSpriteSheet.tpsheet
+- Assets/Submerged/Minigames/CycleReactor/Textures/CycleReactorSpriteSheet.tpsheet
+- Assets/Submerged/Minigames/DiagnoseElevators/Textures/DiagnoseElevatorsSpriteSheet.tpsheet
+- Assets/Submerged/Minigames/DispenseWater/Textures/DispenseWaterSpriteSheet.tpsheet
+- Assets/Submerged/Minigames/DoorSabotage/Textures/DoorSabotageSpriteSheet.tpsheet
+- Assets/Submerged/Minigames/FeedPetFish/Textures/FeedPetFishSpriteSheet.tpsheet
+- Assets/Submerged/Minigames/IdentifySpecimen/Textures/IdentifySpecimenSpriteSheet.tpsheet
+- Assets/Submerged/Minigames/LocateVolcanicActivity/Textures/LocateVolcanicActivitySpriteSheet.tpsheet
+- Assets/Submerged/Minigames/MicowaveLunch/Textures/MicrowaveLunchSpriteSheet.tpsheet
+- Assets/Submerged/Minigames/MopPuddles/Textures/MopPuddlesSpriteSheet.tpsheet
+- Assets/Submerged/Minigames/OxygenateSeaPlants/Textures/OxygenateSeaPlantsSpriteSheet.tpsheet
+- Assets/Submerged/Minigames/OxygenSabotage/Textures/OxygenSabotageSpriteSheet.tpsheet
+- Assets/Submerged/Minigames/PlugLeaks/Textures/PlugLeaksSpriteSheet.tpsheet
+- Assets/Submerged/Minigames/PurchaseBreakfast/Textures/PurchaseBreakfastSpriteSheet.tpsheet
+- Assets/Submerged/Minigames/ReconnectPiping/Textures/ReconnectPipingSpriteSheet.tpsheet
+- Assets/Submerged/Minigames/ResetBreakers/Textures/ResetBreakersSpriteSheet.tpsheet
+- Assets/Submerged/Minigames/ReshelveBooks/Textures/ReshelveBooksSpriteSheet.tpsheet
+- Assets/Submerged/Minigames/SetNavigationBeacon/Textures/SetNavigationBeaconSpriteSheet.tpsheet
+- Assets/Submerged/Minigames/ShootDepthCharges/Textures/ShootDepthChargesSpriteSheet.tpsheet
+- Assets/Submerged/Minigames/SortScubaGear/Textures/SortScubaGearSpriteSheet.tpsheet
+- Assets/Submerged/Minigames/SpawnIn/Textures/SpawnInSpriteSheet.tpsheet
+- Assets/Submerged/Minigames/SpotWhaleShark/Textures/SpotWhaleSharkSpriteSheet.tpsheet
+- Assets/Submerged/Minigames/StartSubmersible/Textures/StartSubmersibleSpriteSheet.tpsheet
+- Assets/Submerged/Minigames/SteadyHeartbeat/Textures/SteadyHeartbeatSpriteSheet.tpsheet
+- Assets/Submerged/Minigames/Surveillance/Textures/SurveillanceSpriteSheet.tpsheet
+- Assets/Submerged/Minigames/TrackMantaRay/Textures/TrackMantaRaySpriteSheet.tpsheet
+- Assets/Submerged/Minigames/UnlockManifolds/Textures/UnlockManifoldsSpriteSheet.tpsheet
+textureFileNames:
+- Assets/Submerged/Map/Textures/Background/Extras.png
+- Assets/Submerged/Map/Textures/SpriteSheets/TexturePack1.png
+- Assets/Submerged/Map/Textures/SpriteSheets/TexturePack2.png
+- Assets/Submerged/Minigames/AlignTelescope/Textures/AlignTelescopeSpriteSheet.png
+- Assets/Submerged/Minigames/BallastSabotage/Textures/BallastSabotageSpriteSheet.png
+- Assets/Submerged/Minigames/CamsSabotage/Textures/CamsSabotageSpriteSheet.png
+- Assets/Submerged/Minigames/CleanGlass/Textures/CleanGlassSpriteSheet.png
+- Assets/Submerged/Minigames/ClearUrchins/Textures/ClearUrchinsSpriteSheet.png
+- Assets/Submerged/Minigames/CommsSabotage/Textures/CommsSabotageSpriteSheet.png
+- Assets/Submerged/Minigames/CycleReactor/Textures/CycleReactorSpriteSheet.png
+- Assets/Submerged/Minigames/DiagnoseElevators/Textures/DiagnoseElevatorsSpriteSheet.png
+- Assets/Submerged/Minigames/DispenseWater/Textures/DispenseWaterSpriteSheet.png
+- Assets/Submerged/Minigames/DoorSabotage/Textures/DoorSabotageSpriteSheet.png
+- Assets/Submerged/Minigames/FeedPetFish/Textures/FeedPetFishSpriteSheet.png
+- Assets/Submerged/Minigames/IdentifySpecimen/Textures/IdentifySpecimenSpriteSheet.png
+- Assets/Submerged/Minigames/LocateVolcanicActivity/Textures/LocateVolcanicActivitySpriteSheet.png
+- Assets/Submerged/Minigames/MicowaveLunch/Textures/MicrowaveLunchSpriteSheet.png
+- Assets/Submerged/Minigames/MopPuddles/Textures/MopPuddlesSpriteSheet.png
+- Assets/Submerged/Minigames/OxygenateSeaPlants/Textures/OxygenateSeaPlantsSpriteSheet.png
+- Assets/Submerged/Minigames/OxygenSabotage/Textures/OxygenSabotageSpriteSheet.png
+- Assets/Submerged/Minigames/PlugLeaks/Textures/PlugLeaksSpriteSheet.png
+- Assets/Submerged/Minigames/PurchaseBreakfast/Textures/PurchaseBreakfastSpriteSheet.png
+- Assets/Submerged/Minigames/ReconnectPiping/Textures/ReconnectPipingSpriteSheet.png
+- Assets/Submerged/Minigames/ResetBreakers/Textures/ResetBreakersSpriteSheet.png
+- Assets/Submerged/Minigames/ReshelveBooks/Textures/ReshelveBooksSpriteSheet.png
+- Assets/Submerged/Minigames/SetNavigationBeacon/Textures/SetNavigationBeaconSpriteSheet.png
+- Assets/Submerged/Minigames/ShootDepthCharges/Textures/ShootDepthChargesSpriteSheet.png
+- Assets/Submerged/Minigames/SortScubaGear/Textures/SortScubaGearSpriteSheet.png
+- Assets/Submerged/Minigames/SpawnIn/Textures/SpawnInSpriteSheet.png
+- Assets/Submerged/Minigames/SpotWhaleShark/Textures/SpotWhaleSharkSpriteSheet.png
+- Assets/Submerged/Minigames/StartSubmersible/Textures/StartSubmersibleSpriteSheet.png
+- Assets/Submerged/Minigames/SteadyHeartbeat/Textures/SteadyHeartbeatSpriteSheet.png
+- Assets/Submerged/Minigames/Surveillance/Textures/SurveillanceSpriteSheet.png
+- Assets/Submerged/Minigames/TrackMantaRay/Textures/TrackMantaRaySpriteSheet.png
+- Assets/Submerged/Minigames/UnlockManifolds/Textures/UnlockManifoldsSpriteSheet.png
+normalmapFileNames:
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+enableDebugOutput: 0

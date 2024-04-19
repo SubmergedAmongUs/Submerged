@@ -1,0 +1,603 @@
+fileFormatVersion: 2
+guid: 21f0a7d3870d0344cba280b8553e3bb8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -268480552333197661
+    second: animated-ruby_sparkle0001
+  - first:
+      213: -975748568325775735
+    second: animated-ruby_sparkle0002
+  - first:
+      213: 4632275834067673094
+    second: animated-ruby_sparkle0003
+  - first:
+      213: 9040219373186783447
+    second: animated-ruby_sparkle0004
+  - first:
+      213: 1723848395785938919
+    second: animated-ruby_sparkle0005
+  - first:
+      213: -6942391397441351108
+    second: animated-ruby_sparkle0006
+  - first:
+      213: 6520054924881894740
+    second: animated-ruby_sparkle0007
+  - first:
+      213: -1551319244248397133
+    second: animated-ruby_sparkle0008
+  - first:
+      213: 2479019740241603784
+    second: animated-ruby_sparkle0009
+  - first:
+      213: -5869640958435759060
+    second: animated-ruby_sparkle0010
+  - first:
+      213: -9132028556791094773
+    second: animated-ruby_sparkle0011
+  - first:
+      213: 988546402864236648
+    second: animated-ruby_sparkle0012
+  - first:
+      213: 3585075094346165510
+    second: Background2
+  - first:
+      213: -4095400071365676399
+    second: Border
+  - first:
+      213: -8156673925844777607
+    second: Cloth
+  - first:
+      213: -5159151613712771947
+    second: Stain1
+  - first:
+      213: 8376325004759897596
+    second: Stain2
+  - first:
+      213: -8635609086559005891
+    second: Stain3
+  - first:
+      213: -2154746395134500023
+    second: Stain4
+  - first:
+      213: 2767036777377281617
+    second: Stain5
+  - first:
+      213: 6003722786290671677
+    second: Stain1_0
+  - first:
+      213: -2320338087101750056
+    second: Stain2_0
+  - first:
+      213: -8671519084324188144
+    second: Stain3_0
+  - first:
+      213: -2812595812300712113
+    second: Stain4_0
+  - first:
+      213: -1068678752406259797
+    second: Stain5_0
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: animated-ruby_sparkle0001
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 2561
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae34113c5a264cf0800000000000000
+      internalID: -268480552333197661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ruby_sparkle0002
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 2561
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e98dac8d17572f0800000000000000
+      internalID: -975748568325775735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ruby_sparkle0003
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 2579
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 600ea370456294040800000000000000
+      internalID: 4632275834067673094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ruby_sparkle0004
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 2579
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d8176e6f9f457d70800000000000000
+      internalID: 9040219373186783447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ruby_sparkle0005
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 4078
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7a27d8bf65ce710800000000000000
+      internalID: 1723848395785938919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ruby_sparkle0006
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 4078
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32d7cf6ecba7af90800000000000000
+      internalID: -6942391397441351108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ruby_sparkle0007
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 4085
+        width: 35
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d1f91d863eb7a50800000000000000
+      internalID: 6520054924881894740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ruby_sparkle0008
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 4085
+        width: 35
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bac859dd5b987ae0800000000000000
+      internalID: -1551319244248397133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ruby_sparkle0009
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 4066
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc2840c15f376220800000000000000
+      internalID: 2479019740241603784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ruby_sparkle0010
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 4066
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c6a51a5a8da8ea0800000000000000
+      internalID: -5869640958435759060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ruby_sparkle0011
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 2566
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b026eb14964844180800000000000000
+      internalID: -9132028556791094773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ruby_sparkle0012
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 2566
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86886b247b508bd00800000000000000
+      internalID: 988546402864236648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 2094
+        height: 2060
+      alignment: 9
+      pivot: {x: 0.5009551, y: 0.49660194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d6a93cdceb0c130800000000000000
+      internalID: 3585075094346165510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Border
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2063
+        width: 2094
+        height: 2060
+      alignment: 9
+      pivot: {x: 0.5009551, y: 0.49660194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192b32d55573a27c0800000000000000
+      internalID: -4095400071365676399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cloth
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 3666
+        width: 472
+        height: 431
+      alignment: 9
+      pivot: {x: 0.47987288, y: 0.4988399}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975c455c74cadce80800000000000000
+      internalID: -8156673925844777607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stain1
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 2280
+        width: 667
+        height: 466
+      alignment: 9
+      pivot: {x: 0.49475262, y: 0.5139485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 594544211f20768b0800000000000000
+      internalID: -5159151613712771947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stain2
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 3535
+        width: 698
+        height: 562
+      alignment: 9
+      pivot: {x: 0.5028653, y: 0.49377224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf59fef463fae3470800000000000000
+      internalID: 8376325004759897596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stain3
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 2089
+        width: 642
+        height: 539
+      alignment: 9
+      pivot: {x: 0.50934577, y: 0.49814472}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d33d3880a47282880800000000000000
+      internalID: -8635609086559005891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stain4
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 3537
+        width: 714
+        height: 560
+      alignment: 9
+      pivot: {x: 0.4922969, y: 0.5098214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94364f8e19dc812e0800000000000000
+      internalID: -2154746395134500023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stain5
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 2089
+        width: 636
+        height: 783
+      alignment: 9
+      pivot: {x: 0.495283, y: 0.41762453}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156b304e94d766620800000000000000
+      internalID: 2767036777377281617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

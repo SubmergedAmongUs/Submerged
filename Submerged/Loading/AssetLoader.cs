@@ -8,6 +8,7 @@ using Reactor.Utilities.Attributes;
 using Reactor.Utilities.Extensions;
 using Submerged.Resources;
 using Submerged.Localization.Strings;
+using Submerged.UI;
 using UnityEngine;
 
 namespace Submerged.Loading;
@@ -15,12 +16,36 @@ namespace Submerged.Loading;
 [RegisterInIl2Cpp]
 public sealed class AssetLoader(nint ptr) : MonoBehaviour(ptr)
 {
+    private class Result<T>
+    {
+        private T _value;
+        private Exception _error;
+
+        public void SetValue(T value)
+        {
+            _value = value;
+            _error = null;
+        }
+
+        public void SetError(Exception error)
+        {
+            _value = default;
+            _error = error;
+        }
+
+        public static implicit operator T(Result<T> result)
+        {
+            if (result._error != null) throw result._error;
+            return result._value;
+        }
+    }
+
     private static AssetLoader _instance;
 
     private bool _errored;
-    private GameObject _submerged;
 
-    public static GameObject Submerged => _instance._submerged;
+    public static GameObject Submerged { get; private set; }
+    public static GameObject Credits { get; private set; }
 
     public static bool Errored => _instance._errored;
 
@@ -33,7 +58,7 @@ public sealed class AssetLoader(nint ptr) : MonoBehaviour(ptr)
     }
 
     [HideFromIl2Cpp]
-    private void Error(Exception e)
+    private void ShowDialogFromException(Exception e)
     {
         _errored = true;
         Fatal(e);
@@ -43,41 +68,72 @@ public sealed class AssetLoader(nint ptr) : MonoBehaviour(ptr)
     [HideFromIl2Cpp]
     private IEnumerator Load()
     {
-        while (!AmongUsClient.Instance)
-        {
-            yield return null;
-        }
+        while (!AmongUsClient.Instance) yield return null;
 
         AssetBundleCreateRequest req;
-
         try
         {
             req = AssetBundle.LoadFromMemoryAsync(ResourceManager.GetEmbeddedBytes("submerged"));
-
             if (req == null) throw new NullReferenceException();
         }
         catch (Exception e)
         {
-            Error(e);
-
+            ShowDialogFromException(e);
             yield break;
         }
 
         while (!req.WasCollected && !req.isDone) yield return null;
 
+        AssetBundle bundle = req.assetBundle;
+
+        Result<GameObject> submerged = new();
+        yield return LoadAsset(bundle, "Submerged", submerged);
+
+        try
+        {
+            Submerged = submerged;
+
+            List<InnerNetObject> nonAddrList = AmongUsClient.Instance.NonAddressableSpawnableObjects.ToList();
+            nonAddrList.Add(Submerged.GetComponent<ShipStatus>());
+            AmongUsClient.Instance.NonAddressableSpawnableObjects = nonAddrList.ToArray();
+        }
+        catch (Exception e)
+        {
+            ShowDialogFromException(e);
+            yield break;
+        }
+
+        Result<GameObject> credits = new();
+        yield return LoadAsset(bundle, "CreditsScreen", credits);
+
+        try
+        {
+            Credits = credits;
+            Credits.SetActive(false);
+            Credits.AddComponent<CreditsScreenManager>();
+        }
+        catch (Exception e)
+        {
+            ShowDialogFromException(e);
+            yield break;
+        }
+
+        LoadingManager.DoneLoading(nameof(AssetLoader));
+    }
+
+    [HideFromIl2Cpp]
+    private static IEnumerator LoadAsset<T>(AssetBundle bundle, string objectName, Result<T> result) where T : UnityObject
+    {
         AssetBundleRequest bundleReq;
 
         try
         {
-            AssetBundle bundle = req.assetBundle;
-            bundleReq = bundle.LoadAssetAsync<GameObject>("Submerged.prefab");
-
+            bundleReq = bundle.LoadAssetAsync<T>(objectName);
             if (bundleReq == null) throw new NullReferenceException();
         }
         catch (Exception e)
         {
-            Error(e);
-
+            result.SetError(e);
             yield break;
         }
 
@@ -85,17 +141,11 @@ public sealed class AssetLoader(nint ptr) : MonoBehaviour(ptr)
 
         try
         {
-            _submerged = bundleReq.asset.TryCast<GameObject>()!.DontDestroy().DontUnload();
-
-            List<InnerNetObject> nonAddrList = AmongUsClient.Instance.NonAddressableSpawnableObjects.ToList();
-            nonAddrList.Add(Submerged.GetComponent<ShipStatus>());
-            AmongUsClient.Instance.NonAddressableSpawnableObjects = nonAddrList.ToArray();
-
-            LoadingManager.DoneLoading(nameof(AssetLoader));
+            result.SetValue(bundleReq.asset.TryCast<T>()!.DontDestroy().DontUnload());
         }
         catch (Exception e)
         {
-            Error(e);
+            result.SetError(e);
         }
     }
 

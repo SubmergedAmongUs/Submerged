@@ -1,0 +1,20 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:27f9c32ee75e4b7fc72b989dd2250595:d01fc44c44c9c91ff4d0fb72f6cae241:fca042c81ed27c7934f3842a1d32347c$
+#
+:format=40300
+:texture=ReconnectPipingSpriteSheet.png
+:size=2408x2164
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+needle;2163;1306;17;176; 0.5;0.5; 0;0;0;0; 4;17;0;0;0;0;176;17;176; 2;1;2;3;0;1;3
+pipe_elbow;2163;1642;242;245; 0.43388429752066116;0.5591836734693878; 0;0;0;0; 11;242;35;208;30;208;0;0;0;2;36;13;47;12;172;47;228;197;238;212;245;242;245; 9;8;9;10;6;7;8;0;8;10;6;1;5;6;8;1;5;2;3;5;1;2;3;4;5;0;1;8
+pipe_straight;2163;1889;216;274; 0.49074074074074076;0.5; 0;0;0;0; 11;208;243;194;232;194;82;215;0;1;0;3;36;15;49;12;195;0;244;0;274;216;274; 9;1;9;10;1;8;9;1;7;8;4;5;6;2;7;1;6;2;3;2;6;7;6;3;4;0;1;10
+reconnect_piping_background;1;3;2160;2160; 0.5;0.5; 0;0;0;0; 4;2160;0;0;0;0;2160;2160;2160; 2;1;2;3;0;1;3
+valve;2163;1400;240;240; 0.5;0.5; 0;0;0;0; 11;178;192;240;137;240;104;136;0;105;0;1;101;0;106;0;131;1;138;106;240;136;240; 9;0;9;10;0;2;3;7;5;6;7;8;0;7;0;5;0;3;4;5;0;4;0;1;2;0;8;9

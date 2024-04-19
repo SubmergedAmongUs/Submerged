@@ -1,0 +1,1788 @@
+fileFormatVersion: 2
+guid: b0011dec8af175e4f8156fde30a3f923
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9138734998784888664
+    second: cliff
+  - first:
+      213: 7065981543880154126
+    second: coral
+  - first:
+      213: -3395484740664569501
+    second: coral2
+  - first:
+      213: -6656399485861357518
+    second: mantaray00
+  - first:
+      213: 7513537372266410224
+    second: mantaray01
+  - first:
+      213: -4927654452589378532
+    second: mantaray02
+  - first:
+      213: -4033921132725026004
+    second: mantaray03
+  - first:
+      213: 3576297951091937126
+    second: mantaray04
+  - first:
+      213: -3912190792710844824
+    second: mantaray05
+  - first:
+      213: 1996385184646451948
+    second: mantaray06
+  - first:
+      213: 1223890478592822779
+    second: mantaray07
+  - first:
+      213: -2001558840866048021
+    second: mantaray08
+  - first:
+      213: 5093951324680783314
+    second: mantaray09
+  - first:
+      213: 3483928158430788564
+    second: mantaray10
+  - first:
+      213: -8643938053228685342
+    second: mantaray11
+  - first:
+      213: -8193709935820129132
+    second: mantaray12
+  - first:
+      213: -1090556797388655461
+    second: mantaray13
+  - first:
+      213: -6125229477949209519
+    second: mantaray14
+  - first:
+      213: 2177243473245752379
+    second: mantaray15
+  - first:
+      213: -8778601889995227598
+    second: mantaray16
+  - first:
+      213: -2869727326583918341
+    second: mantaray17
+  - first:
+      213: -206523911591709308
+    second: mantaray18
+  - first:
+      213: -4362435018504204753
+    second: mantaray19
+  - first:
+      213: 2842128865755531092
+    second: mantaray20
+  - first:
+      213: -6742001794135635641
+    second: mantaray21
+  - first:
+      213: 6013491729575627504
+    second: mantaray22
+  - first:
+      213: -2130840176442101525
+    second: mantaray23
+  - first:
+      213: -2001967922183110295
+    second: mantaray24
+  - first:
+      213: 5566851081897838791
+    second: mantaray25
+  - first:
+      213: -8542491480641166245
+    second: mantaray26
+  - first:
+      213: 4066964427868389178
+    second: mantaray27
+  - first:
+      213: 5733003025422048989
+    second: mantaray28
+  - first:
+      213: -4468977229838413942
+    second: mantaray29
+  - first:
+      213: -8698846546955778625
+    second: mantaray30
+  - first:
+      213: -6747760937558743558
+    second: mantaray31
+  - first:
+      213: -5176242721415581376
+    second: mantaray32
+  - first:
+      213: 5453382022557777187
+    second: mantaray33
+  - first:
+      213: -4741791036522035684
+    second: mantaray34
+  - first:
+      213: 2042266434404974454
+    second: mantaray35
+  - first:
+      213: 2866689250139771229
+    second: mantaray36
+  - first:
+      213: 9179957730282712684
+    second: mantaray37
+  - first:
+      213: -7651328455969362250
+    second: mantaray38
+  - first:
+      213: 4086917472122932627
+    second: mantaray39
+  - first:
+      213: 6993323749264088642
+    second: mantaray40
+  - first:
+      213: -3827515259644231389
+    second: mantaray41
+  - first:
+      213: -3756248061000625488
+    second: mantaray42
+  - first:
+      213: -6533278042392897873
+    second: mantaray43
+  - first:
+      213: 3123801497746039048
+    second: mantaray44
+  - first:
+      213: 4082399317866784292
+    second: mantaray45
+  - first:
+      213: -6304763275656103021
+    second: mantaray46
+  - first:
+      213: 6633843552886104479
+    second: mantaray47
+  - first:
+      213: -5370426956264657862
+    second: mantaray48
+  - first:
+      213: -8649007863007751352
+    second: mantaray49
+  - first:
+      213: 764536186460953220
+    second: mantaray50
+  - first:
+      213: -8934344484660098863
+    second: mantaray51
+  - first:
+      213: -5733472727981305874
+    second: mantaray52
+  - first:
+      213: -617089820706076627
+    second: mantaray53
+  - first:
+      213: 5138879267642615423
+    second: mantaray54
+  - first:
+      213: 2639274204261710231
+    second: mantaray55
+  - first:
+      213: 3585873799015234286
+    second: mantaray56
+  - first:
+      213: -2475890181961918058
+    second: mantaray57
+  - first:
+      213: -4526106669811593736
+    second: mantaray58
+  - first:
+      213: -1260953900861879462
+    second: mantaray59
+  - first:
+      213: 5722273103388049256
+    second: mantaray60
+  - first:
+      213: 3757502889456977922
+    second: mantaray61
+  - first:
+      213: 7974025486862566620
+    second: seaweed1
+  - first:
+      213: -3925131752087648364
+    second: seaweed2
+  - first:
+      213: 201314548720837722
+    second: seaweed3
+  - first:
+      213: -4943500877959812476
+    second: seaweed4
+  - first:
+      213: 568444412337348473
+    second: background1
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: background1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1020
+        width: 3000
+        height: 2875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f5ce76e2583e700800000000000000
+      internalID: 568444412337348473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 211
+        width: 2234
+        height: 807
+      alignment: 9
+      pivot: {x: 0.6714414, y: 1.7812887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85fc003ff0f43de70800000000000000
+      internalID: 9138734998784888664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coral
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 371
+        width: 583
+        height: 647
+      alignment: 9
+      pivot: {x: 1.7650086, y: 1.7287481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c5178e6c86f0260800000000000000
+      internalID: 7065981543880154126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coral2
+      rect:
+        serializedVersion: 2
+        x: 2961
+        y: 561
+        width: 364
+        height: 683
+      alignment: 9
+      pivot: {x: 0.96428573, y: 1.8762811}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 361dd605e90d0e0d0800000000000000
+      internalID: -3395484740664569501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray00
+      rect:
+        serializedVersion: 2
+        x: 4558
+        y: 3183
+        width: 443
+        height: 426
+      alignment: 9
+      pivot: {x: 0.489842, y: 0.5387324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238142a4fe7bf93a0800000000000000
+      internalID: -6656399485861357518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray01
+      rect:
+        serializedVersion: 2
+        x: 4642
+        y: 2819
+        width: 439
+        height: 417
+      alignment: 9
+      pivot: {x: 0.49430525, y: 0.5215827}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0bf808e62754860800000000000000
+      internalID: 7513537372266410224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray02
+      rect:
+        serializedVersion: 2
+        x: 4119
+        y: 1550
+        width: 457
+        height: 422
+      alignment: 9
+      pivot: {x: 0.49452955, y: 0.52488154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14c98912647d9bb0800000000000000
+      internalID: -4927654452589378532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray03
+      rect:
+        serializedVersion: 2
+        x: 3473
+        y: 1224
+        width: 480
+        height: 424
+      alignment: 9
+      pivot: {x: 0.51458335, y: 0.5247642}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c23cbf73a12a408c0800000000000000
+      internalID: -4033921132725026004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray04
+      rect:
+        serializedVersion: 2
+        x: 2309
+        y: 433
+        width: 475
+        height: 443
+      alignment: 9
+      pivot: {x: 0.48842105, y: 0.5428894}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66fcac9d90091a130800000000000000
+      internalID: 3576297951091937126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray05
+      rect:
+        serializedVersion: 2
+        x: 3423
+        y: 1570
+        width: 490
+        height: 417
+      alignment: 9
+      pivot: {x: 0.4877551, y: 0.5311751}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e8ae2a33b15b9c0800000000000000
+      internalID: -3912190792710844824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray06
+      rect:
+        serializedVersion: 2
+        x: 2979
+        y: 110
+        width: 469
+        height: 425
+      alignment: 9
+      pivot: {x: 0.4968017, y: 0.5235294}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce254b58fb594bb10800000000000000
+      internalID: 1996385184646451948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray07
+      rect:
+        serializedVersion: 2
+        x: 2667
+        y: 210
+        width: 485
+        height: 454
+      alignment: 9
+      pivot: {x: 0.49072164, y: 0.56718063}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd0284e7e12cf010800000000000000
+      internalID: 1223890478592822779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray08
+      rect:
+        serializedVersion: 2
+        x: 2383
+        y: 81
+        width: 481
+        height: 454
+      alignment: 9
+      pivot: {x: 0.47817048, y: 0.56938326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be7f225c6d80934e0800000000000000
+      internalID: -2001558840866048021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray09
+      rect:
+        serializedVersion: 2
+        x: 3709
+        y: 1749
+        width: 441
+        height: 450
+      alignment: 9
+      pivot: {x: 0.48072562, y: 0.57222223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d58abaadb951b640800000000000000
+      internalID: 5093951324680783314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray10
+      rect:
+        serializedVersion: 2
+        x: 3816
+        y: 2630
+        width: 433
+        height: 453
+      alignment: 9
+      pivot: {x: 0.4803695, y: 0.5684327}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db7f329336695030800000000000000
+      internalID: 3483928158430788564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray11
+      rect:
+        serializedVersion: 2
+        x: 4121
+        y: 749
+        width: 426
+        height: 454
+      alignment: 9
+      pivot: {x: 0.49295774, y: 0.56718063}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e792dc53209a0880800000000000000
+      internalID: -8643938053228685342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray12
+      rect:
+        serializedVersion: 2
+        x: 4266
+        y: 426
+        width: 426
+        height: 451
+      alignment: 9
+      pivot: {x: 0.49295774, y: 0.5487805}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49c3adab9381a4e80800000000000000
+      internalID: -8193709935820129132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray13
+      rect:
+        serializedVersion: 2
+        x: 4975
+        y: 2971
+        width: 383
+        height: 446
+      alignment: 9
+      pivot: {x: 0.47519583, y: 0.55717486}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b94f24cee509dd0f0800000000000000
+      internalID: -1090556797388655461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray14
+      rect:
+        serializedVersion: 2
+        x: 4870
+        y: 476
+        width: 384
+        height: 454
+      alignment: 9
+      pivot: {x: 0.48177084, y: 0.56718063}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154061f1e30defaa0800000000000000
+      internalID: -6125229477949209519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray15
+      rect:
+        serializedVersion: 2
+        x: 5007
+        y: 921
+        width: 371
+        height: 445
+      alignment: 9
+      pivot: {x: 0.46361187, y: 0.558427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3cc954476f173e10800000000000000
+      internalID: 2177243473245752379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray16
+      rect:
+        serializedVersion: 2
+        x: 4941
+        y: 2017
+        width: 376
+        height: 461
+      alignment: 9
+      pivot: {x: 0.46276596, y: 0.56073755}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ef24297142c2680800000000000000
+      internalID: -8778601889995227598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray17
+      rect:
+        serializedVersion: 2
+        x: 4308
+        y: 3442
+        width: 430
+        height: 445
+      alignment: 9
+      pivot: {x: 0.4883721, y: 0.56067413}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0fbb0733eac28d0800000000000000
+      internalID: -2869727326583918341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray18
+      rect:
+        serializedVersion: 2
+        x: 4046
+        y: 3259
+        width: 431
+        height: 449
+      alignment: 9
+      pivot: {x: 0.48723897, y: 0.55122495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485b3fbb897422df0800000000000000
+      internalID: -206523911591709308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray19
+      rect:
+        serializedVersion: 2
+        x: 4410
+        y: 926
+        width: 430
+        height: 442
+      alignment: 9
+      pivot: {x: 0.4883721, y: 0.56447965}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e055eb6748573c0800000000000000
+      internalID: -4362435018504204753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray20
+      rect:
+        serializedVersion: 2
+        x: 3984
+        y: 1885
+        width: 430
+        height: 452
+      alignment: 9
+      pivot: {x: 0.4883721, y: 0.55199116}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4570e392525417720800000000000000
+      internalID: 2842128865755531092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray21
+      rect:
+        serializedVersion: 2
+        x: 4366
+        y: 2615
+        width: 430
+        height: 442
+      alignment: 9
+      pivot: {x: 0.4883721, y: 0.56447965}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749cf71c6199f62a0800000000000000
+      internalID: -6742001794135635641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray22
+      rect:
+        serializedVersion: 2
+        x: 4130
+        y: 14
+        width: 430
+        height: 448
+      alignment: 9
+      pivot: {x: 0.4883721, y: 0.5613839}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0faca110ed6347350800000000000000
+      internalID: 6013491729575627504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray23
+      rect:
+        serializedVersion: 2
+        x: 5213
+        y: 1310
+        width: 331
+        height: 441
+      alignment: 9
+      pivot: {x: 0.4833837, y: 0.5544218}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be0b902362cbd62e0800000000000000
+      internalID: -2130840176442101525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray24
+      rect:
+        serializedVersion: 2
+        x: 5207
+        y: 3344
+        width: 331
+        height: 449
+      alignment: 9
+      pivot: {x: 0.47734138, y: 0.54454345}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9618c8a18c49734e0800000000000000
+      internalID: -2001967922183110295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray25
+      rect:
+        serializedVersion: 2
+        x: 5251
+        y: 2
+        width: 322
+        height: 443
+      alignment: 9
+      pivot: {x: 0.49068323, y: 0.5541761}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c80506809d614d40800000000000000
+      internalID: 5566851081897838791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray26
+      rect:
+        serializedVersion: 2
+        x: 5306
+        y: 2768
+        width: 329
+        height: 434
+      alignment: 9
+      pivot: {x: 0.4893617, y: 0.5656682}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5425972249f27980800000000000000
+      internalID: -8542491480641166245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray27
+      rect:
+        serializedVersion: 2
+        x: 5335
+        y: 1863
+        width: 331
+        height: 431
+      alignment: 9
+      pivot: {x: 0.48640484, y: 0.54176337}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3fbe357992c07830800000000000000
+      internalID: 4066964427868389178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray28
+      rect:
+        serializedVersion: 2
+        x: 5173
+        y: 609
+        width: 344
+        height: 448
+      alignment: 9
+      pivot: {x: 0.48255813, y: 0.55022323}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde558a70e7bf8f40800000000000000
+      internalID: 5733003025422048989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray29
+      rect:
+        serializedVersion: 2
+        x: 5149
+        y: 2208
+        width: 368
+        height: 432
+      alignment: 9
+      pivot: {x: 0.48641303, y: 0.5451389}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f0c2a13e00bf1c0800000000000000
+      internalID: -4468977229838413942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray30
+      rect:
+        serializedVersion: 2
+        x: 5101
+        y: 1689
+        width: 369
+        height: 431
+      alignment: 9
+      pivot: {x: 0.4878049, y: 0.5464037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb5411d672d774780800000000000000
+      internalID: -8698846546955778625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray31
+      rect:
+        serializedVersion: 2
+        x: 5070
+        y: 2605
+        width: 370
+        height: 433
+      alignment: 9
+      pivot: {x: 0.48918918, y: 0.5438799}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af5ed8fad232b52a0800000000000000
+      internalID: -6747760937558743558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray32
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 1078
+        width: 440
+        height: 459
+      alignment: 9
+      pivot: {x: 0.48863637, y: 0.56971675}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 041b2d67baa4a28b0800000000000000
+      internalID: -5176242721415581376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray33
+      rect:
+        serializedVersion: 2
+        x: 4533
+        y: 2247
+        width: 420
+        height: 450
+      alignment: 9
+      pivot: {x: 0.4547619, y: 0.56333333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32dbe076e0e4eab40800000000000000
+      internalID: 5453382022557777187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray34
+      rect:
+        serializedVersion: 2
+        x: 3313
+        y: 202
+        width: 440
+        height: 453
+      alignment: 9
+      pivot: {x: 0.48636365, y: 0.56401765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1609f4ec26c13eb0800000000000000
+      internalID: -4741791036522035684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray35
+      rect:
+        serializedVersion: 2
+        x: 4125
+        y: 2419
+        width: 425
+        height: 453
+      alignment: 9
+      pivot: {x: 0.46823528, y: 0.56181014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67f796f6086975c10800000000000000
+      internalID: 2042266434404974454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray36
+      rect:
+        serializedVersion: 2
+        x: 4266
+        y: 2054
+        width: 433
+        height: 444
+      alignment: 9
+      pivot: {x: 0.4595843, y: 0.5731982}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5113044fa688c720800000000000000
+      internalID: 2866689250139771229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray37
+      rect:
+        serializedVersion: 2
+        x: 4772
+        y: 23
+        width: 391
+        height: 457
+      alignment: 9
+      pivot: {x: 0.48337597, y: 0.5722101}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e2a9e0be2c56f70800000000000000
+      internalID: 9179957730282712684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray38
+      rect:
+        serializedVersion: 2
+        x: 4533
+        y: 1370
+        width: 416
+        height: 451
+      alignment: 9
+      pivot: {x: 0.4783654, y: 0.56430155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6beab1ace4501d590800000000000000
+      internalID: -7651328455969362250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray39
+      rect:
+        serializedVersion: 2
+        x: 3846
+        y: 609
+        width: 434
+        height: 450
+      alignment: 9
+      pivot: {x: 0.50230414, y: 0.5655556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d893899c5a7b830800000000000000
+      internalID: 4086917472122932627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray40
+      rect:
+        serializedVersion: 2
+        x: 3636
+        y: 3437
+        width: 493
+        height: 458
+      alignment: 9
+      pivot: {x: 0.4989858, y: 0.5709607}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e5032d5e64d0160800000000000000
+      internalID: 6993323749264088642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray41
+      rect:
+        serializedVersion: 2
+        x: 4254
+        y: 1234
+        width: 462
+        height: 415
+      alignment: 9
+      pivot: {x: 0.48701298, y: 0.526506}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 321c480862fe1eac0800000000000000
+      internalID: -3827515259644231389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray42
+      rect:
+        serializedVersion: 2
+        x: 4725
+        y: 1116
+        width: 432
+        height: 416
+      alignment: 9
+      pivot: {x: 0.48842594, y: 0.52524036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b2decb3a402fdbc0800000000000000
+      internalID: -3756248061000625488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray43
+      rect:
+        serializedVersion: 2
+        x: 4839
+        y: 1526
+        width: 428
+        height: 410
+      alignment: 9
+      pivot: {x: 0.48598132, y: 0.5402439}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa6df483c322555a0800000000000000
+      internalID: -6533278042392897873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray44
+      rect:
+        serializedVersion: 2
+        x: 4479
+        y: 195
+        width: 457
+        height: 414
+      alignment: 9
+      pivot: {x: 0.4857768, y: 0.5277778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8016cfd59e8f95b20800000000000000
+      internalID: 3123801497746039048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray45
+      rect:
+        serializedVersion: 2
+        x: 4424
+        y: 1723
+        width: 449
+        height: 422
+      alignment: 9
+      pivot: {x: 0.48329622, y: 0.51540285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4262fb4dc8897a830800000000000000
+      internalID: 4082399317866784292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray46
+      rect:
+        serializedVersion: 2
+        x: 4043
+        y: 2797
+        width: 433
+        height: 447
+      alignment: 9
+      pivot: {x: 0.4896074, y: 0.5604027}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39bf691743bf088a0800000000000000
+      internalID: -6304763275656103021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray47
+      rect:
+        serializedVersion: 2
+        x: 3959
+        y: 1037
+        width: 433
+        height: 449
+      alignment: 9
+      pivot: {x: 0.4896074, y: 0.55790645}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f91aa415095201c50800000000000000
+      internalID: 6633843552886104479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray48
+      rect:
+        serializedVersion: 2
+        x: 3941
+        y: 224
+        width: 433
+        height: 449
+      alignment: 9
+      pivot: {x: 0.4896074, y: 0.55790645}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ca9a313296875b0800000000000000
+      internalID: -5370426956264657862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray49
+      rect:
+        serializedVersion: 2
+        x: 5041
+        y: 199
+        width: 367
+        height: 446
+      alignment: 9
+      pivot: {x: 0.5013624, y: 0.5549327}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843dcd94c2d88f780800000000000000
+      internalID: -8649007863007751352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray50
+      rect:
+        serializedVersion: 2
+        x: 4664
+        y: 1854
+        width: 404
+        height: 458
+      alignment: 9
+      pivot: {x: 0.5321782, y: 0.5665939}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48adfe36c9d2c9a00800000000000000
+      internalID: 764536186460953220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray51
+      rect:
+        serializedVersion: 2
+        x: 3782
+        y: 3076
+        width: 441
+        height: 445
+      alignment: 9
+      pivot: {x: 0.48979592, y: 0.55617976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d84dd20705d20480800000000000000
+      internalID: -8934344484660098863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray52
+      rect:
+        serializedVersion: 2
+        x: 3761
+        y: 1381
+        width: 441
+        height: 445
+      alignment: 9
+      pivot: {x: 0.48979592, y: 0.55617976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eefc84f5eec9e60b0800000000000000
+      internalID: -5733472727981305874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray53
+      rect:
+        serializedVersion: 2
+        x: 3571
+        y: 858
+        width: 449
+        height: 450
+      alignment: 9
+      pivot: {x: 0.48329622, y: 0.55222225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d280e4ad318af67f0800000000000000
+      internalID: -617089820706076627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray54
+      rect:
+        serializedVersion: 2
+        x: 3288
+        y: 691
+        width: 449
+        height: 448
+      alignment: 9
+      pivot: {x: 0.48329622, y: 0.5546875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f76257b8777f05740800000000000000
+      internalID: 5138879267642615423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray55
+      rect:
+        serializedVersion: 2
+        x: 4872
+        y: 3449
+        width: 391
+        height: 446
+      alignment: 9
+      pivot: {x: 0.48337597, y: 0.5616592}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799fed1c7e590a420800000000000000
+      internalID: 2639274204261710231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray56
+      rect:
+        serializedVersion: 2
+        x: 4777
+        y: 2444
+        width: 403
+        height: 439
+      alignment: 9
+      pivot: {x: 0.48635235, y: 0.57061505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeafeafa83593c130800000000000000
+      internalID: 3585873799015234286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray57
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 632
+        width: 404
+        height: 458
+      alignment: 9
+      pivot: {x: 0.4950495, y: 0.5600437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69958415ffed3add0800000000000000
+      internalID: -2475890181961918058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray58
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 2250
+        width: 432
+        height: 453
+      alignment: 9
+      pivot: {x: 0.49305555, y: 0.5684327}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fd8a52d6f90031c0800000000000000
+      internalID: -4526106669811593736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray59
+      rect:
+        serializedVersion: 2
+        x: 3677
+        y: 42
+        width: 430
+        height: 457
+      alignment: 9
+      pivot: {x: 0.48604652, y: 0.5678337}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b0cf4ab11308ee0800000000000000
+      internalID: -1260953900861879462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray60
+      rect:
+        serializedVersion: 2
+        x: 3608
+        y: 417
+        width: 441
+        height: 450
+      alignment: 9
+      pivot: {x: 0.48752835, y: 0.5655556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f7733d119996f40800000000000000
+      internalID: 5722273103388049256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mantaray61
+      rect:
+        serializedVersion: 2
+        x: 4292
+        y: 3011
+        width: 457
+        height: 416
+      alignment: 9
+      pivot: {x: 0.49015316, y: 0.52524036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 208469848f4552430800000000000000
+      internalID: 3757502889456977922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seaweed1
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 481
+        width: 541
+        height: 478
+      alignment: 9
+      pivot: {x: -0.4085028, y: 3.007322}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4ca5e9eed69ae60800000000000000
+      internalID: 7974025486862566620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seaweed2
+      rect:
+        serializedVersion: 2
+        x: 3003
+        y: 2221
+        width: 465
+        height: 1674
+      alignment: 9
+      pivot: {x: 3.2258065, y: 0.7565711}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497853cb7712789c0800000000000000
+      internalID: -3925131752087648364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seaweed3
+      rect:
+        serializedVersion: 2
+        x: 3003
+        y: 1242
+        width: 634
+        height: 1408
+      alignment: 9
+      pivot: {x: 2.3659306, y: 1.0131392}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a54af94f3863bc200800000000000000
+      internalID: 201314548720837722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seaweed4
+      rect:
+        serializedVersion: 2
+        x: 3295
+        y: 2205
+        width: 570
+        height: 1514
+      alignment: 9
+      pivot: {x: -1.6315789, y: 0.9494716}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48aaf5ea428256bb0800000000000000
+      internalID: -4943500877959812476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,588 @@
+fileFormatVersion: 2
+guid: 1e951b291de782848a6532d47adf380e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8486776931064369311
+    second: Background-JUSTBorder
+  - first:
+      213: -1669156557132070265
+    second: Ballast
+  - first:
+      213: -4470525988378299583
+    second: Electrical
+  - first:
+      213: -6897654208278604644
+    second: Engines
+  - first:
+      213: 5426812559106013986
+    second: isthiswhatumeanbytopcrack
+  - first:
+      213: -4103351566956501863
+    second: LD South Hallway
+  - first:
+      213: 1220062032025483318
+    second: Research
+  - first:
+      213: 7108897272497411001
+    second: Ripped_Wallpaper
+  - first:
+      213: 4684778295006514797
+    second: Tape
+  - first:
+      213: -2916854021560296640
+    second: Tape_strip2
+  - first:
+      213: -3313281168457070402
+    second: The_Crack
+  - first:
+      213: 3031728488696427385
+    second: The_Leak_Itself
+  - first:
+      213: -5885106487477733295
+    second: UpperLobby
+  - first:
+      213: -6310003752929285919
+    second: Wallpaper_Shading
+  - first:
+      213: -797182689435518436
+    second: nose water
+  - first:
+      213: 9137607433057736077
+    second: nose water2
+  - first:
+      213: -6133640425006083553
+    second: nose water3
+  - first:
+      213: 119485140497193659
+    second: othersidewater
+  - first:
+      213: -7792869140584401967
+    second: side water1
+  - first:
+      213: -1090456798525440410
+    second: side water2
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Background-JUSTBorder
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 4295
+        width: 2162
+        height: 2160
+      alignment: 9
+      pivot: {x: 0.49907494, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16fade79859e83a80800000000000000
+      internalID: -8486776931064369311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ballast
+      rect:
+        serializedVersion: 2
+        x: 4293
+        y: 2165
+        width: 2144
+        height: 2144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78201a174f6f5d8e0800000000000000
+      internalID: -1669156557132070265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electrical
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 3
+        width: 2144
+        height: 2144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1433f87ac4085f1c0800000000000000
+      internalID: -4470525988378299583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Engines
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 2149
+        width: 2144
+        height: 2144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c94531cfa0c9640a0800000000000000
+      internalID: -6897654208278604644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isthiswhatumeanbytopcrack
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 5662
+        width: 1561
+        height: 770
+      alignment: 9
+      pivot: {x: 0.49839845, y: 0.058441557}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b74202549ef4b40800000000000000
+      internalID: 5426812559106013986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LD South Hallway
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 2144
+        height: 2144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994e3078d77fd07c0800000000000000
+      internalID: -4103351566956501863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nose water
+      rect:
+        serializedVersion: 2
+        x: 4564
+        y: 6349
+        width: 155
+        height: 106
+      alignment: 9
+      pivot: {x: 0.6967742, y: -1.2169812}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1afa1f4196dfe4f0800000000000000
+      internalID: -797182689435518436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nose water2
+      rect:
+        serializedVersion: 2
+        x: 4311
+        y: 6354
+        width: 62
+        height: 101
+      alignment: 9
+      pivot: {x: 0.983871, y: -0.00990099}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8510681c8d4fce70800000000000000
+      internalID: 9137607433057736077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nose water3
+      rect:
+        serializedVersion: 2
+        x: 5264
+        y: 1257
+        width: 44
+        height: 52
+      alignment: 9
+      pivot: {x: 1.4090909, y: 5.4423075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f125987e78ee0eaa0800000000000000
+      internalID: -6133640425006083553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: othersidewater
+      rect:
+        serializedVersion: 2
+        x: 4871
+        y: 6413
+        width: 77
+        height: 42
+      alignment: 9
+      pivot: {x: 3.909091, y: -6.142857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbad54b2a1f78a100800000000000000
+      internalID: 119485140497193659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Research
+      rect:
+        serializedVersion: 2
+        x: 2165
+        y: 4311
+        width: 2144
+        height: 2144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638f1d634f78ee010800000000000000
+      internalID: 1220062032025483318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ripped_Wallpaper
+      rect:
+        serializedVersion: 2
+        x: 4293
+        y: 652
+        width: 1908
+        height: 1511
+      alignment: 9
+      pivot: {x: 0.5099581, y: 0.5062872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b393ff9760e7a260800000000000000
+      internalID: 7108897272497411001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: side water1
+      rect:
+        serializedVersion: 2
+        x: 5172
+        y: 1317
+        width: 67
+        height: 65
+      alignment: 9
+      pivot: {x: -3.2985075, y: 0.93846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d3fc561eca2ad390800000000000000
+      internalID: -7792869140584401967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: side water2
+      rect:
+        serializedVersion: 2
+        x: 4311
+        y: 6249
+        width: 57
+        height: 103
+      alignment: 9
+      pivot: {x: -3.9473684, y: 2.1359224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e3bf8b15bedd0f0800000000000000
+      internalID: -1090456798525440410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tape
+      rect:
+        serializedVersion: 2
+        x: 4965
+        y: 1408
+        width: 842
+        height: 674
+      alignment: 9
+      pivot: {x: 0.5023753, y: 0.50074184}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ec25dc90da30140800000000000000
+      internalID: 4684778295006514797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tape_strip2
+      rect:
+        serializedVersion: 2
+        x: 4311
+        y: 4311
+        width: 2032
+        height: 335
+      alignment: 9
+      pivot: {x: 0.04824803, y: 0.49701494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b9a37b8b04587d0800000000000000
+      internalID: -2916854021560296640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Crack
+      rect:
+        serializedVersion: 2
+        x: 4554
+        y: 1173
+        width: 1316
+        height: 519
+      alignment: 9
+      pivot: {x: 0.49924013, y: 0.08477842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb80021f45cd402d0800000000000000
+      internalID: -3313281168457070402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The_Leak_Itself
+      rect:
+        serializedVersion: 2
+        x: 4311
+        y: 5191
+        width: 1607
+        height: 1264
+      alignment: 9
+      pivot: {x: 0.5127567, y: 0.42642406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 973be286ffcd21a20800000000000000
+      internalID: 3031728488696427385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpperLobby
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2149
+        width: 2144
+        height: 2144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158fa8c84d6e35ea0800000000000000
+      internalID: -5885106487477733295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wallpaper_Shading
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 4367
+        width: 1807
+        height: 2065
+      alignment: 9
+      pivot: {x: 0.53680134, y: 0.49394673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8a44fb40d5e68a0800000000000000
+      internalID: -6310003752929285919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

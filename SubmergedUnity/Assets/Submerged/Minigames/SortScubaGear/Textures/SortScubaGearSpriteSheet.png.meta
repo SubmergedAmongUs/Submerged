@@ -1,0 +1,348 @@
+fileFormatVersion: 2
+guid: b976737496fba0d4990f78127702ba02
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2504170125896549414
+    second: Background
+  - first:
+      213: -5497048124762190385
+    second: Boxes
+  - first:
+      213: -9030465465696017327
+    second: Flippers
+  - first:
+      213: 5909792758099300141
+    second: FrontBox_flippers
+  - first:
+      213: 8372912305488865789
+    second: FrontBox_mask
+  - first:
+      213: 4810979688197693250
+    second: FrontBox_tank
+  - first:
+      213: -7786752099850022059
+    second: FrontBox_wetsuit
+  - first:
+      213: 7577328287588368852
+    second: Mask
+  - first:
+      213: 5612364612687388212
+    second: Tank
+  - first:
+      213: -240830441881277121
+    second: Wetsuit
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Background
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 2021
+        width: 1865
+        height: 2136
+      alignment: 9
+      pivot: {x: 0.45951742, y: 0.49438202}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624853b367990c220800000000000000
+      internalID: 2504170125896549414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boxes
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 746
+        width: 1537
+        height: 1463
+      alignment: 9
+      pivot: {x: 0.4534808, y: 0.4401914}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcd825aeadf86b3b0800000000000000
+      internalID: -5497048124762190385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flippers
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 14
+        width: 413
+        height: 571
+      alignment: 9
+      pivot: {x: 0.47820824, y: 0.45446584}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154a1c021875da280800000000000000
+      internalID: -9030465465696017327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontBox_flippers
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 468
+        width: 765
+        height: 256
+      alignment: 9
+      pivot: {x: -0.103267975, y: -0.9453125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f4faab33dc30250800000000000000
+      internalID: 5909792758099300141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontBox_mask
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 468
+        width: 765
+        height: 256
+      alignment: 9
+      pivot: {x: 0.91764706, y: 2.515625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df92928516f823470800000000000000
+      internalID: 8372912305488865789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontBox_tank
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 1354
+        width: 765
+        height: 256
+      alignment: 9
+      pivot: {x: -0.09150327, y: 2.515625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f94a8698804c240800000000000000
+      internalID: 4810979688197693250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrontBox_wetsuit
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1354
+        width: 765
+        height: 256
+      alignment: 9
+      pivot: {x: 0.90588236, y: -0.9453125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553996e9836efe390800000000000000
+      internalID: -7786752099850022059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mask
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 142
+        width: 443
+        height: 304
+      alignment: 9
+      pivot: {x: 0.506772, y: 0.48848686}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d149306ee3182960800000000000000
+      internalID: 7577328287588368852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1215
+        width: 256
+        height: 586
+      alignment: 9
+      pivot: {x: 0.51171875, y: 0.47696245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e543131ef13ed40800000000000000
+      internalID: 5612364612687388212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wetsuit
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 95
+        width: 359
+        height: 351
+      alignment: 9
+      pivot: {x: 0.4958217, y: 0.502849}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3de0943df568acf0800000000000000
+      internalID: -240830441881277121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

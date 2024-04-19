@@ -1,0 +1,303 @@
+fileFormatVersion: 2
+guid: f302bc92e7234a24cba9654bf4ee91b5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4481603066149591591
+    second: Seismic_Frame
+  - first:
+      213: 4212884957037177903
+    second: Seismic_Lava
+  - first:
+      213: 4327931496171104996
+    second: Seismic_Lineart_On
+  - first:
+      213: -4853138122553668193
+    second: Seismic_Overlay
+  - first:
+      213: 8945749697819543335
+    second: Seismic_Target
+  - first:
+      213: -6673891225312091035
+    second: Seismic_Text_Off
+  - first:
+      213: 4744317355138237201
+    second: Seismic_Text_On
+  - first:
+      213: -1755439789366368543
+    second: Seismic_Volcano
+  - first:
+      213: 4982491731180491307
+    second: Seismic_Volcano Overlay
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Seismic_Frame
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 4281
+        width: 2421
+        height: 1622
+      alignment: 9
+      pivot: {x: 0.50020653, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d52ad181c52ec1c0800000000000000
+      internalID: -4481603066149591591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seismic_Lava
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 4665
+        width: 1661
+        height: 1095
+      alignment: 9
+      pivot: {x: 0.5502709, y: 0.67488587}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ca9cf2c8c277a30800000000000000
+      internalID: 4212884957037177903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seismic_Lineart_On
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 4904
+        width: 470
+        height: 262
+      alignment: 9
+      pivot: {x: 0.27234042, y: -0.21374045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eae081f3c6ef0c30800000000000000
+      internalID: 4327931496171104996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seismic_Overlay
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1270
+        width: 2344
+        height: 1489
+      alignment: 9
+      pivot: {x: 0.49530718, y: 0.48690397}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9d484f279036acb0800000000000000
+      internalID: -4853138122553668193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seismic_Target
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 4463
+        width: 395
+        height: 378
+      alignment: 9
+      pivot: {x: 0.5012658, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727871c14ffa52c70800000000000000
+      internalID: 8945749697819543335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seismic_Text_Off
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 2086
+        height: 1267
+      alignment: 9
+      pivot: {x: 0.5052732, y: 0.50197315}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5642da55a439163a0800000000000000
+      internalID: -6673891225312091035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seismic_Text_On
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 4431
+        width: 2086
+        height: 1281
+      alignment: 9
+      pivot: {x: 0.5052732, y: 0.4964871}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1134cbe7f7337d140800000000000000
+      internalID: 4744317355138237201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seismic_Volcano
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2752
+        width: 2326
+        height: 1528
+      alignment: 9
+      pivot: {x: 0.4961307, y: 0.4947644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e62b32ffcc63a7e0800000000000000
+      internalID: -1755439789366368543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

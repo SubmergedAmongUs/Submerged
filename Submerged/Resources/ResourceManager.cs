@@ -32,17 +32,6 @@ public static class ResourceManager
         return array;
     }
 
-    public static AssetBundle GetAssetBundle(string name)
-    {
-        Il2CppStructArray<byte> buffer = GetEmbeddedBytes(name);
-
-        if (buffer == null) return null;
-
-        AssetBundle assetBundle = AssetBundle.LoadFromMemory(buffer);
-
-        return assetBundle;
-    }
-
     public static Texture2D GetTexture(string name)
     {
         Il2CppStructArray<byte> buffer = GetEmbeddedBytes(name);
