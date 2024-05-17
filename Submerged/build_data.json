@@ -1,0 +1,16 @@
+{
+    "build": {
+        "path": "BepInEx/plugins"
+    },
+    "dependencies": {
+        "BepInEx": {
+            "download": "https://builds.bepinex.dev/projects/bepinex_be/688/BepInEx-Unity.IL2CPP-win-x86-6.0.0-be.688%2B4901521.zip",
+            "path": ".",
+            "unarchive": true
+        },
+        "Reactor": {
+            "download": "https://github.com/NuclearPowered/Reactor/releases/download/2.2.0/Reactor.dll",
+            "path": "BepInEx/plugins"
+        }
+    }
+}
