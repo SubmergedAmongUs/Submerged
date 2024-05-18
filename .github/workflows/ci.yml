@@ -35,4 +35,29 @@ jobs:
           path: Submerged/bin/Release/net6.0/Submerged.dll
       - name: Setup Draft Release
         if: github.ref == 'refs/heads/main'
-        run: echo "Draft release steps to be implemented"
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.run_number }}
+          draft: true
+          prerelease: false
+      - name: Upload Debug Artifact to Release
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./Submerged/bin/Debug/net6.0/Submerged.dll
+          asset_name: submerged-debug.dll
+          asset_content_type: application/octet-stream
+      - name: Upload Release Artifact to Release
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./Submerged/bin/Release/net6.0/Submerged.dll
+          asset_name: submerged-release.dll
+          asset_content_type: application/octet-stream
