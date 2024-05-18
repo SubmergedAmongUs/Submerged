@@ -17,29 +17,13 @@ jobs:
         uses: actions/setup-dotnet@v1
         with:
           dotnet-version: '6.0.x'
-      - name: Setup environment variables
-        run: |
-          echo "DOTNET_CLI_TELEMETRY_OPTOUT=1" >> $GITHUB_ENV
-          echo "DOTNET_SKIP_FIRST_TIME_EXPERIENCE=1" >> $GITHUB_ENV
       - name: Restore dependencies
-        run: dotnet restore
+        run: dotnet restore Submerged/Submerged.csproj
       - name: Build Debug
-        run: |
-          dotnet build --configuration Debug --no-restore || exit 0
-          echo "Debug build succeeded" >> build.log
+        run: dotnet build --configuration Debug 
       - name: Build Release
-        run: |
-          dotnet build --configuration Release --no-restore || exit 0
-          echo "Release build succeeded" >> build.log
-      - name: Check for untracked files
-        run: |
-          if [ -s build.log ]; then
-            echo "Build completed with potential warnings."
-          else
-            echo "Build failed due to errors."
-            exit 1
-          fi
-      - name: Upload Debug Artifact
+        run: dotnet build --configuration Release
+      - name: Upload Debug Artifact 
         uses: actions/upload-artifact@v2
         with:
           name: submerged-debug
