@@ -174,6 +174,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 713146691}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 5
 --- !u!1 &928237433
@@ -350,6 +351,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 928237436}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 5
 --- !u!1 &1618483735
@@ -5376,7 +5378,6 @@ GameObject:
   m_Component:
   - component: {fileID: 9114180647770318977}
   - component: {fileID: 3210679726149034139}
-  - component: {fileID: 5030703070074679297}
   - component: {fileID: 6922376792161099574}
   - component: {fileID: 979159711046266505}
   - component: {fileID: 5006474717981235358}
@@ -5424,27 +5425,9 @@ MonoBehaviour:
   pickupGun: {fileID: 0}
   placeGun: {fileID: 0}
   GunColliders: []
-  GunsSlots: []
   pickupRifle: {fileID: 0}
   placeRifle: {fileID: 0}
   RifleColliders: []
-  RifleSlots: []
---- !u!114 &5030703070074679297
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7869757675555999786}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b025578dbe5ab84781068ccfb02f29a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AllItems: []
-  YStart: 0
-  YOffset: 0
-  HideForOnline: []
 --- !u!114 &6922376792161099574
 MonoBehaviour:
   m_ObjectHideFlags: 0

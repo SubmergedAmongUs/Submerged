@@ -938,7 +938,7 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 --- !u!95 &8966743021699448124
 Animator:
-  serializedVersion: 3
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -951,10 +951,11 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &8966743021767529460
 GameObject:
   m_ObjectHideFlags: 0
@@ -1868,7 +1869,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8966743022428293777}
   - component: {fileID: 8966743022428293776}
-  - component: {fileID: 8966743022428293779}
   - component: {fileID: 8966743022428293778}
   - component: {fileID: 8966743022428293805}
   - component: {fileID: 8966743022428293804}
@@ -1916,27 +1916,9 @@ MonoBehaviour:
   pickupGun: {fileID: 0}
   placeGun: {fileID: 0}
   GunColliders: []
-  GunsSlots: []
   pickupRifle: {fileID: 0}
   placeRifle: {fileID: 0}
   RifleColliders: []
-  RifleSlots: []
---- !u!114 &8966743022428293779
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8966743022428293807}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b025578dbe5ab84781068ccfb02f29a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AllItems: []
-  YStart: 0
-  YOffset: 0
-  HideForOnline: []
 --- !u!114 &8966743022428293778
 MonoBehaviour:
   m_ObjectHideFlags: 0

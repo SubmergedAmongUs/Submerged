@@ -8,7 +8,6 @@ public class MinigameProperties : MonoBehaviour
 {
     public GameObject _gameObject;
     public StowArms _stowArms;
-    public GameSettingMenu _gameSettingMenu;
     public PolishRubyGame _polishRubyGame;
     public TextLink _textLink;
     public Tilemap2 _tilemap2;
@@ -19,7 +18,6 @@ public class MinigameProperties : MonoBehaviour
         _gameObject = transform.Find("MinigameProperties").gameObject;
 
         _stowArms = _gameObject.GetComponent<StowArms>();
-        _gameSettingMenu = _gameObject.GetComponent<GameSettingMenu>();
         _polishRubyGame = _gameObject.GetComponent<PolishRubyGame>();
         _textLink = _gameObject.GetComponent<TextLink>();
         _tilemap2 = _gameObject.GetComponent<Tilemap2>();
@@ -33,7 +31,6 @@ public class MinigameProperties : MonoBehaviour
         _gameObject.SetActive(false);
 
         _stowArms = _gameObject.AddComponent<StowArms>();
-        _gameSettingMenu = _gameObject.AddComponent<GameSettingMenu>();
         _polishRubyGame = _gameObject.AddComponent<PolishRubyGame>();
         _textLink = _gameObject.AddComponent<TextLink>();
         _tilemap2 = _gameObject.AddComponent<Tilemap2>();

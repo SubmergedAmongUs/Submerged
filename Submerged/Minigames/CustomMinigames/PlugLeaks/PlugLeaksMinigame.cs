@@ -126,9 +126,9 @@ public sealed class PlugLeaksMinigame(nint ptr) : Minigame(ptr)
 
         if (UnityRandom.RandomRangeInt(0, 2) == 0)
         {
-            foreach (Transform t in _minigameProperties.transforms)
+            foreach (GameObject obj in _minigameProperties.gameObjects)
             {
-                t.SetXScale(-1);
+                obj.transform.SetXScale(-1);
             }
         }
     }
@@ -182,10 +182,11 @@ public sealed class PlugLeaksMinigame(nint ptr) : Minigame(ptr)
         tapeDraggable.forceStop = true;
         PlugLeaksTask customTask = MyNormTask.Cast<PlugLeaksTask>();
         customTask.validConsoleIds.Remove(ConsoleId);
-        MyNormTask!?.NextStep();
+        if (MyNormTask) MyNormTask.NextStep();
         StartCoroutine(CoStartClose());
     }
 
+    [UsedImplicitly]
     private void TryClose()
     {
         if (!_blockClose)

@@ -256,7 +256,7 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
     }
 
     [HideFromIl2Cpp]
-    public float CalculateLightRadius(GameData.PlayerInfo player, bool neutral = false, bool neutralImpostor = false)
+    public float CalculateLightRadius(NetworkedPlayerInfo player, bool neutral = false, bool neutralImpostor = false)
     {
         if (switchSystem.ActualSwitches != switchSystem.ExpectedSwitches)
         {

@@ -15,7 +15,7 @@ public sealed class AlignTelescopeMinigame(nint ptr) : Minigame(ptr)
 
     private readonly Controller _controller = new();
 
-    private Transform _background;
+    private Collider2D _background;
     private Coroutine _blinky;
     private AudioClip _blipSound;
 
@@ -33,7 +33,7 @@ public sealed class AlignTelescopeMinigame(nint ptr) : Minigame(ptr)
         _minigameProperties = GetComponent<MinigameProperties>();
         _items = _minigameProperties.colliders.Take(7).ToArray();
         _blipSound = _minigameProperties.audioClips[0];
-        _background = _minigameProperties.transforms[0];
+        _background = _minigameProperties.colliders[8];
         _reticle = _minigameProperties.colliders[7];
         _reticleImage = _reticle.GetComponent<SpriteRenderer>();
         _itemDisplay = transform.Find("TargetDisplay/TargetItem").GetComponent<SpriteRenderer>();
@@ -46,7 +46,7 @@ public sealed class AlignTelescopeMinigame(nint ptr) : Minigame(ptr)
     public void Update()
     {
         _controller.Update();
-        DragState dragState = _controller.CheckDrag(_background.GetComponent<BoxCollider2D>());
+        DragState dragState = _controller.CheckDrag(_background);
 
         if (dragState is DragState.Dragging or DragState.Holding)
         {
@@ -108,7 +108,7 @@ public sealed class AlignTelescopeMinigame(nint ptr) : Minigame(ptr)
 
         if (amClosing == CloseState.None)
         {
-            MyNormTask!?.NextStep();
+            if (MyNormTask) MyNormTask.NextStep();
             StartCoroutine(CoStartClose());
         }
     }

@@ -167,6 +167,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 698660711}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
 --- !u!1 &1082349182
@@ -336,6 +337,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 1082349185}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
 --- !u!1 &1296809489
@@ -505,6 +507,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 1296809493}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
 --- !u!1 &1941938634
@@ -674,6 +677,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 1941938637}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
 --- !u!1 &2115663097
@@ -843,6 +847,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 2115663101}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
 --- !u!1 &549887897580903437
@@ -2125,6 +2130,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 2245870060322355735}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
 --- !u!1 &2245870060359179492
@@ -2757,7 +2763,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.503125, y: 0.50879765}
-    oldSize: {x: 1.5999999, y: 3.411774}
+    oldSize: {x: 1.6, y: 3.4102054}
     newSize: {x: 1.97, y: 5.29}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3111,7 +3117,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2245870061243005589}
   - component: {fileID: 2245870061243005588}
-  - component: {fileID: 2245870061243005591}
   - component: {fileID: 2245870061243005590}
   - component: {fileID: 2245870061243005593}
   - component: {fileID: 2245870061243005592}
@@ -3159,27 +3164,9 @@ MonoBehaviour:
   pickupGun: {fileID: 0}
   placeGun: {fileID: 0}
   GunColliders: []
-  GunsSlots: []
   pickupRifle: {fileID: 0}
   placeRifle: {fileID: 0}
   RifleColliders: []
-  RifleSlots: []
---- !u!114 &2245870061243005591
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2245870061243005595}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b025578dbe5ab84781068ccfb02f29a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AllItems: []
-  YStart: 0
-  YOffset: 0
-  HideForOnline: []
 --- !u!114 &2245870061243005590
 MonoBehaviour:
   m_ObjectHideFlags: 0

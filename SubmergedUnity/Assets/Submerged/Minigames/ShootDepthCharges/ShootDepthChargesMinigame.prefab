@@ -92,7 +92,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7171178990064574342}
   - component: {fileID: 7171178990064574341}
-  - component: {fileID: 7171178990064574340}
   - component: {fileID: 7171178990064574347}
   - component: {fileID: 7171178990064574346}
   - component: {fileID: 7171178990064574345}
@@ -144,27 +143,9 @@ MonoBehaviour:
   pickupGun: {fileID: 0}
   placeGun: {fileID: 0}
   GunColliders: []
-  GunsSlots: []
   pickupRifle: {fileID: 0}
   placeRifle: {fileID: 0}
   RifleColliders: []
-  RifleSlots: []
---- !u!114 &7171178990064574340
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7171178990064574344}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b025578dbe5ab84781068ccfb02f29a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AllItems: []
-  YStart: 0
-  YOffset: 0
-  HideForOnline: []
 --- !u!114 &7171178990064574347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1068,6 +1049,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 7171178990574836096}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
 --- !u!1 &7171178990683356123

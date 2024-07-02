@@ -97,7 +97,7 @@ public sealed class SubmarineSurvillanceMinigame(nint ptr) : Minigame(ptr)
         lowerRecording = _lowerWindow.Find("Text/RecordingDot").gameObject;
         upperRecording = _upperWindow.Find("Text/RecordingDot").gameObject;
 
-        tabs = _minigameProperties.transforms;
+        tabs = _minigameProperties.gameObjects.Select(o => o.transform).ToArray();
         tabButtons = new ClickableSprite[tabs.Length];
         selectedTabs = tabs.ToList();
 

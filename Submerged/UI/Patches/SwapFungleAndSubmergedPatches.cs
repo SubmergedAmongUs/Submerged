@@ -10,7 +10,9 @@ namespace Submerged.UI.Patches;
 [HarmonyPatch]
 public static class SwapFungleAndSubmergedPatches
 {
-    [HarmonyPatch(typeof(KeyValueOption), nameof(KeyValueOption.OnEnable))]
+    // TODO
+
+    /*[HarmonyPatch(typeof(KeyValueOption), nameof(KeyValueOption.OnEnable))]
     [HarmonyPostfix]
     public static void RerouteSavedValuePatch(KeyValueOption __instance)
     {
@@ -42,7 +44,7 @@ public static class SwapFungleAndSubmergedPatches
         {
             (option.Values._items[submergedIndex], option.Values._items[fungleIndex]) = (option.Values._items[fungleIndex], option.Values._items[submergedIndex]);
         }
-    }
+    }*/
 
     private static int FindIndexOfMap(this ICG.List<ICG.KeyValuePair<string, int>> self, MapNames target)
     {

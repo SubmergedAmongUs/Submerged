@@ -511,7 +511,7 @@ public sealed class SubmarineElevator(nint ptr) : MonoBehaviour(ptr)
     {
         players.Clear();
 
-        foreach (GameData.PlayerInfo playerInfo in GameData.Instance.AllPlayers.GetFastEnumerator())
+        foreach (NetworkedPlayerInfo playerInfo in GameData.Instance.AllPlayers.GetFastEnumerator())
         {
             if (playerInfo.IsDead || playerInfo.Disconnected) continue;
             PlayerControl player = playerInfo.Object;

@@ -19,7 +19,7 @@ public static class HidePlayerPatches
         PlayerControl myPlayer = __instance.myPlayer;
         if (!myPlayer) return;
 
-        GameData.PlayerInfo myData = myPlayer.Data;
+        NetworkedPlayerInfo myData = myPlayer.Data;
         if (myData == null) return;
 
         Transform transform = __instance.transform;

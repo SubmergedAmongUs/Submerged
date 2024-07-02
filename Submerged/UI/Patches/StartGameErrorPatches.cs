@@ -104,7 +104,8 @@ public static class StartGameErrorPatches
 
         Color startColor = wasError || gameStartManager.LastPlayerCount < gameStartManager.MinPlayers ? Palette.DisabledClear : Palette.EnabledColor;
 
-        gameStartManager.StartButton.color = startColor;
-        gameStartManager.startLabelText.color = startColor;
+        // TODO
+        // gameStartManager.StartButton.color = startColor;
+        // gameStartManager.startLabelText.color = startColor;
     }
 }

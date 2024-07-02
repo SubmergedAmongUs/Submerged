@@ -388,8 +388,8 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5056561, y: 0.49131945}
-    oldSize: {x: 4.4199996, y: 2.8803203}
+    pivot: {x: 0.506772, y: 0.48848686}
+    oldSize: {x: 4.4314666, y: 3.04}
     newSize: {x: 5.9, y: 5.9}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -896,8 +896,8 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5056561, y: 0.49131945}
-    oldSize: {x: 4.4199996, y: 2.8803203}
+    pivot: {x: 0.506772, y: 0.48848686}
+    oldSize: {x: 4.4314666, y: 3.04}
     newSize: {x: 5.9, y: 5.9}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1284,8 +1284,8 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.49295774, y: 0.5028986}
-    oldSize: {x: 3.55, y: 3.4503834}
+    pivot: {x: 0.4958217, y: 0.502849}
+    oldSize: {x: 3.5911884, y: 3.5099998}
     newSize: {x: 3.57, y: 3.45}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1463,8 +1463,8 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.48399016, y: 0.45250896}
-    oldSize: {x: 4.06, y: 5.5806203}
+    pivot: {x: 0.47820824, y: 0.45446584}
+    oldSize: {x: 4.131367, y: 5.71}
     newSize: {x: 4.03, y: 5.58}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1661,8 +1661,8 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.48399016, y: 0.45250896}
-    oldSize: {x: 4.06, y: 5.5806203}
+    pivot: {x: 0.47820824, y: 0.45446584}
+    oldSize: {x: 4.131367, y: 5.71}
     newSize: {x: 4.03, y: 5.58}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2451,8 +2451,8 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.516129, y: 0.4775475}
-    oldSize: {x: 2.48, y: 5.7906437}
+    pivot: {x: 0.51171875, y: 0.47696245}
+    oldSize: {x: 2.5608475, y: 5.8599997}
     newSize: {x: 15.48, y: 21.6}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2680,7 +2680,6 @@ GameObject:
   m_Component:
   - component: {fileID: 538565619558411656}
   - component: {fileID: 538565619558411657}
-  - component: {fileID: 538565619558411658}
   - component: {fileID: 538565619558411659}
   - component: {fileID: 538565619558411660}
   - component: {fileID: 538565619558411661}
@@ -2728,27 +2727,9 @@ MonoBehaviour:
   pickupGun: {fileID: 0}
   placeGun: {fileID: 0}
   GunColliders: []
-  GunsSlots: []
   pickupRifle: {fileID: 0}
   placeRifle: {fileID: 0}
   RifleColliders: []
-  RifleSlots: []
---- !u!114 &538565619558411658
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 538565619558411662}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b025578dbe5ab84781068ccfb02f29a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AllItems: []
-  YStart: 0
-  YOffset: 0
-  HideForOnline: []
 --- !u!114 &538565619558411659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2996,8 +2977,8 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.516129, y: 0.4775475}
-    oldSize: {x: 2.48, y: 5.7906437}
+    pivot: {x: 0.51171875, y: 0.47696245}
+    oldSize: {x: 2.5608475, y: 5.8599997}
     newSize: {x: 15.48, y: 21.6}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3519,8 +3500,8 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.49295774, y: 0.5028986}
-    oldSize: {x: 3.55, y: 3.4503834}
+    pivot: {x: 0.4958217, y: 0.502849}
+    oldSize: {x: 3.5911884, y: 3.5099998}
     newSize: {x: 3.57, y: 3.45}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

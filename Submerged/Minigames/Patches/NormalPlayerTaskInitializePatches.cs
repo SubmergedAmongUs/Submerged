@@ -5,7 +5,7 @@ using Submerged.Enums;
 namespace Submerged.Minigames.Patches;
 
 [HarmonyPatch(typeof(NormalPlayerTask), nameof(NormalPlayerTask.Initialize))]
-public static class NormalPlayerTaskInitializePatch
+public static class NormalPlayerTaskInitializePatches
 {
     [HarmonyPrefix]
     public static bool Prefix(NormalPlayerTask __instance)

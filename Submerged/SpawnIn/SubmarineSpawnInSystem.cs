@@ -34,7 +34,7 @@ public sealed class SubmarineSpawnInSystem(nint ptr) : CppObject(ptr), AU.ISyste
             timer = Mathf.Max(0, timer - deltaTime);
         }
 
-        foreach (GameData.PlayerInfo instanceAllPlayer in GameData.Instance.AllPlayers.GetFastEnumerator())
+        foreach (NetworkedPlayerInfo instanceAllPlayer in GameData.Instance.AllPlayers.GetFastEnumerator())
         {
             if (instanceAllPlayer.IsDead || instanceAllPlayer.Disconnected || instanceAllPlayer.Object.isDummy) continue;
             if (players.Contains(instanceAllPlayer.PlayerId)) continue;
@@ -75,7 +75,7 @@ public sealed class SubmarineSpawnInSystem(nint ptr) : CppObject(ptr), AU.ISyste
     {
         int count = 0;
 
-        foreach (GameData.PlayerInfo instanceAllPlayer in GameData.Instance.AllPlayers)
+        foreach (NetworkedPlayerInfo instanceAllPlayer in GameData.Instance.AllPlayers)
         {
             if (instanceAllPlayer.IsDead || instanceAllPlayer.Disconnected || instanceAllPlayer.Object.isDummy) continue;
             count++;

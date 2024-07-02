@@ -5841,7 +5841,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5541353, y: 0.48705235}
-    oldSize: {x: 0.6045455, y: 0.825}
+    oldSize: {x: 0.6045454, y: 0.8252344}
     newSize: {x: 8.727273, y: 4.909091}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -6227,7 +6227,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.501203, y: 0.48705235}
-    oldSize: {x: 0.6045455, y: 0.825}
+    oldSize: {x: 0.6045454, y: 0.8252344}
     newSize: {x: 8.727273, y: 4.909091}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -6501,7 +6501,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5045113, y: 0.49125683}
-    oldSize: {x: 0.6045455, y: 0.83181816}
+    oldSize: {x: 0.6045454, y: 0.83205456}
     newSize: {x: 8.727273, y: 4.909091}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -7219,7 +7219,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.49907494, y: 0.5}
-    oldSize: {x: 4.913636, y: 4.909091}
+    oldSize: {x: 4.913636, y: 4.9104857}
     newSize: {x: 8.727273, y: 4.909091}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -7330,7 +7330,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.48421052, y: 0.49125683}
-    oldSize: {x: 0.6045455, y: 0.83181816}
+    oldSize: {x: 0.6045454, y: 0.83205456}
     newSize: {x: 8.727273, y: 4.909091}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -7356,7 +7356,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.48421052, y: 0.49125683}
-    oldSize: {x: 0.6045455, y: 0.83181816}
+    oldSize: {x: 0.6045454, y: 0.83205456}
     newSize: {x: 8.727273, y: 4.909091}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -7456,7 +7456,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2538278815463460265}
   - component: {fileID: 2538278815463460264}
-  - component: {fileID: 2538278815463460267}
   - component: {fileID: 2538278815463460266}
   - component: {fileID: 2538278815463460269}
   - component: {fileID: 2538278815463460268}
@@ -7504,27 +7503,9 @@ MonoBehaviour:
   pickupGun: {fileID: 0}
   placeGun: {fileID: 0}
   GunColliders: []
-  GunsSlots: []
   pickupRifle: {fileID: 0}
   placeRifle: {fileID: 0}
   RifleColliders: []
-  RifleSlots: []
---- !u!114 &2538278815463460267
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2538278815463460271}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b025578dbe5ab84781068ccfb02f29a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AllItems: []
-  YStart: 0
-  YOffset: 0
-  HideForOnline: []
 --- !u!114 &2538278815463460266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7750,7 +7731,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5285714, y: 0.48705235}
-    oldSize: {x: 0.6045455, y: 0.825}
+    oldSize: {x: 0.6045454, y: 0.8252344}
     newSize: {x: 8.727273, y: 4.909091}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

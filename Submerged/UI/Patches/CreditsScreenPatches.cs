@@ -35,7 +35,7 @@ public static class CreditsScreenPatches
     {
         DoNotPressButton doNotPressButton = __instance.GetComponentInChildren<DoNotPressButton>(true);
 
-        _texture ??= ResourceManager.GetTexture(MAIN_MENU_SPRITES_TEX_NAME).DontUnload();
+        if (!_texture) _texture = ResourceManager.GetTexture(MAIN_MENU_SPRITES_TEX_NAME).DontUnload();
 
         SpriteRenderer pedestalSprite = doNotPressButton.GetComponent<SpriteRenderer>();
         SpriteRenderer pressedSprite = doNotPressButton.transform.GetChild(0).GetComponent<SpriteRenderer>();

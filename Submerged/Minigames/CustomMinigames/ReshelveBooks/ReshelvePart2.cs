@@ -141,6 +141,7 @@ public sealed class ReshelvePart2(nint ptr) : MonoBehaviour(ptr)
         }
     }
 
+    [UsedImplicitly]
     private void TryClose()
     {
         if (_stopClose) return;

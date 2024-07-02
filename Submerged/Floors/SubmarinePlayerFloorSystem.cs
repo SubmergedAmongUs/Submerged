@@ -30,7 +30,7 @@ public sealed class SubmarinePlayerFloorSystem(nint ptr) : CppObject(ptr), AU.IS
     {
         if (playerFloorStates.Count == GameData.Instance.AllPlayers.Count) return;
 
-        foreach (GameData.PlayerInfo player in GameData.Instance.AllPlayers.GetFastEnumerator())
+        foreach (NetworkedPlayerInfo player in GameData.Instance.AllPlayers.GetFastEnumerator())
         {
             playerFloorStates[player.PlayerId] = false;
         }

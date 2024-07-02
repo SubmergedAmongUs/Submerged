@@ -63,6 +63,7 @@ public static class ArrowBehaviourUpdatePositionPatch
     }
 
     [HarmonyPrefix]
+    [UsedImplicitly]
     public static bool Prefix(ArrowBehaviour __instance)
     {
         if (!ShipStatus.Instance.IsSubmerged()) return true;
