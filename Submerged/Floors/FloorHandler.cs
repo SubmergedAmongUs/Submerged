@@ -73,6 +73,7 @@ public sealed class FloorHandler(nint ptr) : MonoBehaviour(ptr)
 
     public void LateUpdate()
     {
+        if (!PlayerControl.LocalPlayer) return;
         if (!ShipStatus.Instance || !SubmarineStatus.instance) return;
         if (disable) return;
 

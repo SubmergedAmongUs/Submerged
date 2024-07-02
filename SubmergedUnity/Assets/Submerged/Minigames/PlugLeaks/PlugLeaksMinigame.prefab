@@ -365,7 +365,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1206689871894794745}
   - component: {fileID: 1206689871894794750}
-  - component: {fileID: 156670775019634467}
   m_Layer: 5
   m_Name: PlugLeaksMinigame
   m_TagString: Untagged
@@ -411,23 +410,6 @@ MonoBehaviour:
   CloseSound: {fileID: 8300000, guid: f8383c61b88527e4ea51b78952224f10, type: 3}
   DistributePrefab: {fileID: 0}
   ReceivePrefab: {fileID: 0}
---- !u!114 &156670775019634467
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1206689871894794746}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d95c5c45397e4a948c4d1bef1b173fea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _gameObject: {fileID: 1206689872277334352}
-  _stowArms: {fileID: 1206689872277334363}
-  _polishRubyGame: {fileID: 1206689872277334357}
-  _textLink: {fileID: 1206689872277334358}
-  _tilemap2: {fileID: 1206689872277334359}
 --- !u!1 &1206689871940075866
 GameObject:
   m_ObjectHideFlags: 0

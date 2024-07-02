@@ -451,6 +451,8 @@ public sealed class SubmarineElevator(nint ptr) : MonoBehaviour(ptr)
     [HideFromIl2Cpp]
     public bool GetInElevator(PlayerControl player)
     {
+        if (!player || !player.NetTransform) return false;
+
         Vector3 pos;
 
         if (player.AmOwner)
