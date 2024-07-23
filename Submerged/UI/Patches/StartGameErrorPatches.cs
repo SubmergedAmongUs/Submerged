@@ -9,7 +9,7 @@ using UnityEngine;
 
 namespace Submerged.UI.Patches;
 
-[HarmonyPatch]
+// [HarmonyPatch]
 public static class StartGameErrorPatches
 {
     private static TextMeshPro _lobbyInfoText;

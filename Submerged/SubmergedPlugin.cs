@@ -42,6 +42,8 @@ public sealed partial class SubmergedPlugin : BasePlugin
         ResourceManager.CacheSprite("FloorDown");
         ResourceManager.CacheSprite("FloorUp");
         ResourceManager.CacheSprite("Logo", 400);
+        ResourceManager.CacheSprite("Logo", 250, "OptionsLogo");
+        ResourceManager.CacheSprite("OptionsIcon", 90);
 
         LoadingManager.RegisterLoading(nameof(AssetLoader));
         LoadingManager.RegisterLoading(nameof(MapLoader));

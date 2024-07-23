@@ -8,6 +8,7 @@ namespace Submerged.Minigames.Patches;
 public static class NormalPlayerTaskInitializePatches
 {
     [HarmonyPrefix]
+    [UsedImplicitly]
     public static bool Prefix(NormalPlayerTask __instance)
     {
         __instance.Arrow = __instance.gameObject.GetComponentInChildren<ArrowBehaviour>(true);
@@ -16,6 +17,7 @@ public static class NormalPlayerTaskInitializePatches
     }
 
     [HarmonyPostfix]
+    [UsedImplicitly]
     public static void Postfix(NormalPlayerTask __instance)
     {
         if (__instance.TaskType == CustomTaskTypes.OxygenateSeaPlants)
