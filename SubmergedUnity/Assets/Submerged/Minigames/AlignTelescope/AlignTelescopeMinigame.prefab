@@ -955,7 +955,6 @@ GameObject:
   m_Component:
   - component: {fileID: 537689098373882798}
   - component: {fileID: 537689098373882797}
-  - component: {fileID: 537689098373882796}
   - component: {fileID: 537689098373882787}
   - component: {fileID: 537689098373882786}
   - component: {fileID: 537689098373882785}
@@ -1011,26 +1010,10 @@ MonoBehaviour:
   - {fileID: 9080287853707816999}
   - {fileID: 5419461180732018279}
   - {fileID: 553658739230814640}
+  - {fileID: 552963400015117003}
   pickupRifle: {fileID: 0}
   placeRifle: {fileID: 0}
   RifleColliders: []
---- !u!114 &537689098373882796
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 537689098373882784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b025578dbe5ab84781068ccfb02f29a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AllItems:
-  - {fileID: 538485887058474630}
-  YStart: 0
-  YOffset: 0
-  HideForOnline: []
 --- !u!114 &537689098373882787
 MonoBehaviour:
   m_ObjectHideFlags: 0

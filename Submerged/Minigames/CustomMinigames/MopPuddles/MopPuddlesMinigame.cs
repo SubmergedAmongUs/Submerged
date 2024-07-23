@@ -133,8 +133,11 @@ public sealed class MopPuddlesMinigame(nint ptr) : Minigame(ptr)
     [HideFromIl2Cpp]
     private IEnumerator FinishTasks()
     {
-        MyNormTask.GetComponent<MopPuddlesTask>().validConsoleIds.Remove(Console.ConsoleId);
-        MyNormTask!?.NextStep();
+        if (MyNormTask)
+        {
+            MyNormTask.GetComponent<MopPuddlesTask>().validConsoleIds.Remove(Console.ConsoleId);
+            MyNormTask.NextStep();
+        }
         StartCoroutine(CoStartClose(1f));
 
         Animator anim = transform.Find("MopAnimation").GetComponent<Animator>();
@@ -146,6 +149,7 @@ public sealed class MopPuddlesMinigame(nint ptr) : Minigame(ptr)
         yield return anim.PlayAndWaitForAnimation("MopAnim");
     }
 
+    [UsedImplicitly]
     private void TryClose()
     {
         if (!_blockClose)

@@ -256,7 +256,7 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
     }
 
     [HideFromIl2Cpp]
-    public float CalculateLightRadius(GameData.PlayerInfo player, bool neutral = false, bool neutralImpostor = false)
+    public float CalculateLightRadius(NetworkedPlayerInfo player, bool neutral = false, bool neutralImpostor = false)
     {
         if (switchSystem.ActualSwitches != switchSystem.ExpectedSwitches)
         {
@@ -418,8 +418,9 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
             PlayerTask task = tasks[i];
 
             Minigame minigame = task.MinigamePrefab;
-            GameObject propertiesObj = minigame!?.GetComponentInChildren<GameSettingMenu>(true)?.gameObject;
+            if (!minigame) continue;
 
+            StowArms propertiesObj = minigame.GetComponentInChildren<StowArms>(true);
             if (!propertiesObj || minigame.GetComponentInChildren<MinigameProperties>()) continue;
 
             (string playerTaskName, string minigameName) = minigame.gameObject.AddComponent<MinigameProperties>().GetCustomTypes();
@@ -517,11 +518,9 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
         SubmergedExileController newExile = exile.AddComponent<SubmergedExileController>();
 
         StowArms data = exile.transform.GetChild(0).GetComponent<StowArms>();
-        data.selectorObject.gameObject.SetActive(false); // ExilePoolablePlayer
 
         newExile.ImpostorText = data.GunContent.GetComponent<TextMeshPro>(); // ImpostorText
         newExile.Text = data.RifleContent.GetComponent<TextMeshPro>(); // MainText
-        // newExile.Player = exile.Player;
         newExile.TextSound = data.OpenSound; // ExileSound
         newExile.Duration = 6; // Can't serialize this, hardcoded
 

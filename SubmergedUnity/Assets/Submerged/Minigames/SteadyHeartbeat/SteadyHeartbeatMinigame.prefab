@@ -1046,7 +1046,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6121649158730755897}
   - component: {fileID: 6121649158730755896}
-  - component: {fileID: 6121649158730755899}
   - component: {fileID: 6121649158730755898}
   - component: {fileID: 6121649158730755893}
   - component: {fileID: 6121649158730755892}
@@ -1094,27 +1093,9 @@ MonoBehaviour:
   pickupGun: {fileID: 0}
   placeGun: {fileID: 0}
   GunColliders: []
-  GunsSlots: []
   pickupRifle: {fileID: 0}
   placeRifle: {fileID: 0}
   RifleColliders: []
-  RifleSlots: []
---- !u!114 &6121649158730755899
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6121649158730755895}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b025578dbe5ab84781068ccfb02f29a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AllItems: []
-  YStart: 0
-  YOffset: 0
-  HideForOnline: []
 --- !u!114 &6121649158730755898
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -16,7 +16,7 @@ tpsheetFileNames:
 - Assets/Submerged/Minigames/FeedPetFish/Textures/FeedPetFishSpriteSheet.tpsheet
 - Assets/Submerged/Minigames/IdentifySpecimen/Textures/IdentifySpecimenSpriteSheet.tpsheet
 - Assets/Submerged/Minigames/LocateVolcanicActivity/Textures/LocateVolcanicActivitySpriteSheet.tpsheet
-- Assets/Submerged/Minigames/MicowaveLunch/Textures/MicrowaveLunchSpriteSheet.tpsheet
+- Assets/Submerged/Minigames/MicrowaveLunch/Textures/MicrowaveLunchSpriteSheet.tpsheet
 - Assets/Submerged/Minigames/MopPuddles/Textures/MopPuddlesSpriteSheet.tpsheet
 - Assets/Submerged/Minigames/OxygenateSeaPlants/Textures/OxygenateSeaPlantsSpriteSheet.tpsheet
 - Assets/Submerged/Minigames/OxygenSabotage/Textures/OxygenSabotageSpriteSheet.tpsheet
@@ -52,7 +52,7 @@ textureFileNames:
 - Assets/Submerged/Minigames/FeedPetFish/Textures/FeedPetFishSpriteSheet.png
 - Assets/Submerged/Minigames/IdentifySpecimen/Textures/IdentifySpecimenSpriteSheet.png
 - Assets/Submerged/Minigames/LocateVolcanicActivity/Textures/LocateVolcanicActivitySpriteSheet.png
-- Assets/Submerged/Minigames/MicowaveLunch/Textures/MicrowaveLunchSpriteSheet.png
+- Assets/Submerged/Minigames/MicrowaveLunch/Textures/MicrowaveLunchSpriteSheet.png
 - Assets/Submerged/Minigames/MopPuddles/Textures/MopPuddlesSpriteSheet.png
 - Assets/Submerged/Minigames/OxygenateSeaPlants/Textures/OxygenateSeaPlantsSpriteSheet.png
 - Assets/Submerged/Minigames/OxygenSabotage/Textures/OxygenSabotageSpriteSheet.png

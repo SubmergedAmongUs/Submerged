@@ -11,7 +11,7 @@ namespace Submerged.Vents.Patches;
 [HarmonyPatch]
 public static class EngineVentPatches
 {
-    private static VentilationSystem VentSystem => ShipStatus.Instance!?.Systems[SystemTypes.Ventilation].Cast<VentilationSystem>();
+    private static VentilationSystem VentSystem => ShipStatus.Instance ? ShipStatus.Instance.Systems[SystemTypes.Ventilation].Cast<VentilationSystem>() : null;
 
     [HarmonyPatch(typeof(VentilationSystem), nameof(VentilationSystem.IsVentCurrentlyBeingCleaned))]
     [HarmonyPostfix]
@@ -22,7 +22,7 @@ public static class EngineVentPatches
         if (id != ENGINE_ROOM_VENT_ID) return;
 
         if ((!PlayerControl.LocalPlayer.inVent && !FloorHandler.LocalPlayer.onUpper) || // Prevent entering directly
-            (Vent.currentVent!?.Id != id && IsAlivePersonInsideVent(id))) // Prevent moving if another player is inside
+            (Vent.currentVent && Vent.currentVent.Id != id && IsAlivePersonInsideVent(id))) // Prevent moving if another player is inside
         {
             __result = true;
         }
@@ -34,7 +34,7 @@ public static class EngineVentPatches
         {
             if (kvp.Value == targetVent)
             {
-                GameData.PlayerInfo player = GameData.Instance.GetPlayerById(kvp.Key);
+                NetworkedPlayerInfo player = GameData.Instance.GetPlayerById(kvp.Key);
                 if (!player.IsDead && !player.Disconnected) return true;
             }
         }

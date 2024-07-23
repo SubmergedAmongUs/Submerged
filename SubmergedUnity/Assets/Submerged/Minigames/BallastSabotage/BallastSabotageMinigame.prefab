@@ -567,7 +567,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.49530515, y: 3.8760684}
-    oldSize: {x: 0.9681818, y: 0.5318182}
+    oldSize: {x: 0.9685337, y: 0.5318182}
     newSize: {x: 8.727273, y: 4.909091}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -715,8 +715,8 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.4997205, y: 0.49976224}
-    oldSize: {x: 4.065909, y: 4.7795453}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 4.06966, y: 4.7818184}
     newSize: {x: 38.399998, y: 21.599998}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -990,7 +990,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.49530515, y: -2.9273505}
-    oldSize: {x: 0.9681818, y: 0.5318182}
+    oldSize: {x: 0.9685337, y: 0.5318182}
     newSize: {x: 8.727273, y: 4.909091}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1127,7 +1127,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6608310213668348425}
   - component: {fileID: 2150477787069972541}
-  - component: {fileID: 2526564504981446278}
   - component: {fileID: 3477669660761651580}
   - component: {fileID: 2676159152321034525}
   - component: {fileID: 6717778061932123980}
@@ -1175,27 +1174,9 @@ MonoBehaviour:
   pickupGun: {fileID: 0}
   placeGun: {fileID: 0}
   GunColliders: []
-  GunsSlots: []
   pickupRifle: {fileID: 0}
   placeRifle: {fileID: 0}
   RifleColliders: []
-  RifleSlots: []
---- !u!114 &2526564504981446278
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4297741855605793152}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b025578dbe5ab84781068ccfb02f29a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AllItems: []
-  YStart: 0
-  YOffset: 0
-  HideForOnline: []
 --- !u!114 &3477669660761651580
 MonoBehaviour:
   m_ObjectHideFlags: 0

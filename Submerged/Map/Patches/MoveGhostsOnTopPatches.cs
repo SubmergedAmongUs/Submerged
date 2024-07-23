@@ -15,7 +15,7 @@ public static class MoveGhostsOnTopPatches
         if (!PlayerControl.LocalPlayer || PlayerControl.LocalPlayer.Data is not { IsDead: false }) return;
 
         PlayerControl otherPlayer = __instance.myPlayer;
-        GameData.PlayerInfo otherPlayerData = otherPlayer.Data;
+        NetworkedPlayerInfo otherPlayerData = otherPlayer.Data;
 
         if (otherPlayerData is not { IsDead: true }) return;
 

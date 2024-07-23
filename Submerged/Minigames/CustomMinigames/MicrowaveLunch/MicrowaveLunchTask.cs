@@ -35,7 +35,7 @@ public sealed class MicrowaveLunchTask(nint ptr) : NormalPlayerTask(ptr)
         if (TimerStarted == TimerState.Started)
         {
             sb.Append(" (");
-            sb.Append(string.Format(Tasks.MicrowaveLunch_TaskTimer, (int) TaskTimer / 60, $"{(int) TaskTimer % 60:00}"));
+            sb.AppendFormat(Tasks.MicrowaveLunch_TaskTimer, (int) TaskTimer / 60, $"{(int) TaskTimer % 60:00}");
             sb.Append(")");
         }
 

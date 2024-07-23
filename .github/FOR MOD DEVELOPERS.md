@@ -1,6 +1,6 @@
 # NOTICE
 
-This document was written for Submerged version `v2022.5.1` and hasn't been updated since. Some information might be outdated, but most of it should be ok.
+Some information in this document might be outdated, but most of it should be ok.
 
 If you have any doubts check the source code or contact me on discord: `@alexejhero`
 
@@ -34,29 +34,25 @@ Submerged tries to patch as little as possible in order to allow other mods to b
   - `143` - SubmarineSpawnInSystem
   - `144` - SubmarineBoxCatSystem
 
-# Commonly Conflicting Classes
+# Important Classes
 
-## `SubmergedDeadBody`
+## `ElevatorMover`
 
-<u>When playing on Submerged</u>, if a player dies their dead body receives a `SubmergedDeadBody` component. This component handles the shadow of the dead body as seen in Lower Central, and moving the dead body between floors if it is in an elevator.
+<u>When playing on Submerged</u>, this component is added to dead bodies and shapeshifter evidences in order to allow them to be moved by elevators.
 
-This system might conflict with mods that change the position of dead bodies (for example, an Undertaker role). 
+This system might conflict with mods that change the position of dead bodies (for example, an Undertaker role).
 
-Location: `Submerged.Map.MonoBehaviours.SubmergedDeadBody`
+Location: `Submerged.Elevators.Objects.ElevatorMover`
+
+## GenericShadowBehaviour
+
+This compnent can be added to objects in order to make them cast a shadow from upper deck to lower deck. You might need to create custom shadow renderers to describe how the shadow needs to be drawn. These classes extend `RelativeShadowRenderer`
+
+Location: `Submerged.Floors.Objects.GenericShadowBehaviour`
 
 <br>
 
 # Commonly Conflicting Patches
-
-## `float PlatformConsole.CanUse(GameData.PlayerInfo pc, out bool canUse, out bool couldUse)`
-
-<u>When playing on Submerged</u>, this method is comptetely overwritten by the mod, as PlatformConsole is used for elevators. 
-
-This patch may conflict with mods that patch consoles in order to modify who can use them.
-
-Location: `Submerged.Systems.CustomSystems.Elevator.Patches.PlatformConsole_CanUse_Patch`
-
-<br>
 
 ## `float ShipStatus.CalculateLightRadius(GameData.PlayerInfo player)`
 
@@ -68,7 +64,7 @@ Location: `Submerged.Map.Patches.ShipStatus_CalculateLightRadius_Patch`
 
 <br>
 
-## `void ArrowBehaviour.Update()`
+## `void ArrowBehaviour.UpdatePosition()`
 
 <u>When playing on Submerged</u>, this method is completely overwritten by the mod to make arrows point to the nearest elevator if their target is on the other floor.
 
@@ -88,26 +84,6 @@ Location: `Submerged.Minigames.CustomMinigames.FixWiring.Patches.Console_Use_Pat
 
 <br>
 
-## `void ExileController.Begin(GameData.PlayerInfo exiled, bool tie)`
-
-<u>When playing on Submerged</u>, this method is completely overwritten by the mod. Most of the code is the same, but there are some Submerged-specific calls which are added to the method.
-
-This patch may conflict with mods that patch the exile cutscene in order to show the role name of the person who died.
-
-Location: `Submerged.ExileCutscene.Patches.ExileController_Begin_Patch`
-
-<br>
-
-## `void PlatformConsole.Use()`
-
-<u>When playing on Submerged</u>, this method is comptetely overwritten by the mod, as PlatformConsole is used for elevators. 
-
-This patch may conflict with mods that patch consoles in order to modify who can use them.
-
-Location: `Submerged.Systems.CustomSystems.Elevator.Patches.PlatformConsole_Use_Patch`
-
-<br>
-
 ## `void Vent.CanUse(GameData.PlayerInfo pc, out bool canUse, out bool couldUse)`
 
 <u>When playing on Submerged</u>, this patch ensures that players cannot enter the one-way vent in Engines, and cannot exit the Central vents during the venting transition.
@@ -117,13 +93,3 @@ This patch may conflict with mods that patch consoles in order to modify who can
 Location: `Submerged.Map.Patches.Vent_CanUse_Patch`
 
 <br>
-
-## `void Vent.MoveToVent(Vent otherVent)`
-
-<u>When playing on Submerged</u>, this patch handles changing the floor when venting and offsetting the player camera when using either the Admin-Engines vents or the Central vents.
-
-This patch may conflict with mods that have custom actions when venting.
-
-**SUBMERGED AUTOMATICALLY HANDLES ANY CROSS-FLOOR VENTS, EVEN CUSTOM ONES!**
-
-Location: `Submerged.Map.Patches.Vent_MoveToVent_Patch`

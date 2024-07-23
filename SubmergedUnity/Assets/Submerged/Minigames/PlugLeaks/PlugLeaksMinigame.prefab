@@ -264,7 +264,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.04824803, y: 0.49701494}
-    oldSize: {x: 20.32, y: 3.35}
+    oldSize: {x: 20.320751, y: 3.3500001}
     newSize: {x: 38.399998, y: 21.599998}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -510,7 +510,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.49924013, y: 0.08477842}
-    oldSize: {x: 13.16, y: 5.19}
+    oldSize: {x: 13.160487, y: 5.19}
     newSize: {x: 38.399998, y: 21.599998}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -968,7 +968,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1206689872277334362}
   - component: {fileID: 1206689872277334363}
-  - component: {fileID: 1206689872277334356}
   - component: {fileID: 1206689872277334357}
   - component: {fileID: 1206689872277334358}
   - component: {fileID: 1206689872277334359}
@@ -1011,34 +1010,16 @@ MonoBehaviour:
   GunContent: {fileID: 0}
   RifleContent: {fileID: 0}
   selectorObject: {fileID: 0}
-  selectorSubobjects: []
+  selectorSubobjects:
+  - {fileID: 1206689873639916021}
+  - {fileID: 1206689872184806901}
   handSprites: []
   pickupGun: {fileID: 0}
   placeGun: {fileID: 0}
   GunColliders: []
-  GunsSlots: []
   pickupRifle: {fileID: 0}
   placeRifle: {fileID: 0}
   RifleColliders: []
-  RifleSlots: []
---- !u!114 &1206689872277334356
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1206689872277334352}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b025578dbe5ab84781068ccfb02f29a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AllItems:
-  - {fileID: 1206689873639916020}
-  - {fileID: 1206689872184806900}
-  YStart: 0
-  YOffset: 0
-  HideForOnline: []
 --- !u!114 &1206689872277334357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1346,7 +1327,7 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 --- !u!95 &2630572595646550019
 Animator:
-  serializedVersion: 3
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1359,10 +1340,11 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!114 &2511981544157949931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1559,7 +1541,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5023753, y: 0.50074184}
-    oldSize: {x: 8.42, y: 6.74}
+    oldSize: {x: 8.420311, y: 6.74}
     newSize: {x: 8.38, y: 6.6299996}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2096,7 +2078,7 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 --- !u!95 &2123144989246344767
 Animator:
-  serializedVersion: 3
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2109,10 +2091,11 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!114 &7884118332847836620
 MonoBehaviour:
   m_ObjectHideFlags: 0

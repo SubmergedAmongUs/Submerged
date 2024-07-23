@@ -10,6 +10,7 @@ public class MapBehaviour : MonoBehaviour
 
 	public AlphaPulse ColorControl;
 	public SpriteRenderer HerePoint;
+    public SpriteRenderer TrackedHerePoint;
 	public MapCountOverlay countOverlay;
 	public InfectedOverlay infectedOverlay;
 	public MapTaskOverlay taskOverlay;

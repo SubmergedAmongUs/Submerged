@@ -58,7 +58,7 @@ public sealed class CycleReactorMinigame(nint ptr) : Minigame(ptr)
 
         if (_totalAngle >= 9000)
         {
-            MyNormTask!?.NextStep();
+            if (MyNormTask) MyNormTask.NextStep();
             StartCoroutine(CoStartClose());
 
             return;

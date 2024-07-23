@@ -35,6 +35,8 @@ public class RelativeShadowRenderer(nint ptr) : MonoBehaviour(ptr)
 
     protected virtual void LateUpdate()
     {
+        if (!ShipStatus.Instance) return;
+
         if (isRoot)
         {
             transform.localPosition = new Vector3(-0.04f, 0, 0); // slight offset in the shadow idk why

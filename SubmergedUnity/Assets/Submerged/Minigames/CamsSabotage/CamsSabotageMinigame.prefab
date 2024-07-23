@@ -900,7 +900,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5036765, y: 0.50252527}
-    oldSize: {x: 0.37777779, y: 0.55}
+    oldSize: {x: 0.37777776, y: 0.5502552}
     newSize: {x: 0.38055557, y: 0.55277777}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1035,7 +1035,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8178412214270607995}
   - component: {fileID: 8178412214270607994}
-  - component: {fileID: 8178412214270607993}
   - component: {fileID: 8178412214270607992}
   - component: {fileID: 8178412214270607991}
   - component: {fileID: 8178412214270607990}
@@ -1083,27 +1082,9 @@ MonoBehaviour:
   pickupGun: {fileID: 0}
   placeGun: {fileID: 0}
   GunColliders: []
-  GunsSlots: []
   pickupRifle: {fileID: 0}
   placeRifle: {fileID: 0}
   RifleColliders: []
-  RifleSlots: []
---- !u!114 &8178412214270607993
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8178412214270607989}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b025578dbe5ab84781068ccfb02f29a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AllItems: []
-  YStart: 0
-  YOffset: 0
-  HideForOnline: []
 --- !u!114 &8178412214270607992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1260,7 +1241,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.53326905, y: 0.4725552}
-    oldSize: {x: 5.7611113, y: 4.4027777}
+    oldSize: {x: 5.761111, y: 4.4048204}
     newSize: {x: 38.399998, y: 21.599998}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1436,5 +1417,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 9213447536275450387}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0

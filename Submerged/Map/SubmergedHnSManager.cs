@@ -44,7 +44,7 @@ public static class SubmergedHnSManager
                 (forUpper ? CustomTaskTypes.Floor.UpperDeck : CustomTaskTypes.Floor.LowerDeck))
             .ToList();
 
-        foreach (GameData.TaskInfo task in player.Data.Tasks)
+        foreach (NetworkedPlayerInfo.TaskInfo task in player.Data.Tasks)
         {
             NormalPlayerTask originalTask = ShipStatus.Instance.GetTaskById(task.TypeId);
             List<CustomTaskTypes> possibleTasks = tasksToChooseFrom
@@ -105,7 +105,7 @@ public static class SubmergedHnSManager
             newTasks.Add((byte) actualTask.Index);
         }
 
-        GameData.Instance.RpcSetTasks(player.PlayerId, newTasks.ToArray());
+        player.Data.RpcSetTasks(newTasks.ToArray());
     }
 
     private static bool AdditionalReplacementChecks(NormalPlayerTask replacement)

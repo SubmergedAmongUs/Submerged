@@ -48,7 +48,7 @@ public sealed class WhaleSharkTask(nint ptr) : NormalPlayerTask(ptr)
         }
     }
 
-    [BaseGameCode(LastChecked.v2024_3_5, "Part of this method comes from NormalPlayerTask.AppendTaskText")]
+    [BaseGameCode(LastChecked.v2024_6_18, "Part of this method comes from NormalPlayerTask.AppendTaskText")]
     public override void AppendTaskText(StringBuilder sb)
     {
         bool canComplete = CanComplete(PlayerControl.LocalPlayer);

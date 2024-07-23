@@ -167,6 +167,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 7473097686294794760}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
 --- !u!1 &380752808458387932
@@ -337,6 +338,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 7801046997925262684}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
 --- !u!114 &4220114435144717603
@@ -523,6 +525,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 6807395375834765312}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
 --- !u!114 &4941400167665726799
@@ -709,6 +712,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 4840582406171257934}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
 --- !u!114 &5714293435965251489
@@ -894,6 +898,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 1086405994694037835}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
 --- !u!1 &3146600026604642130
@@ -940,7 +945,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3146600026735040627}
   - component: {fileID: 3146600026735040626}
-  - component: {fileID: 3146600026735040637}
   - component: {fileID: 3146600026735040636}
   - component: {fileID: 3146600026735040639}
   - component: {fileID: 3146600026735040638}
@@ -983,39 +987,21 @@ MonoBehaviour:
   GunContent: {fileID: 0}
   RifleContent: {fileID: 0}
   selectorObject: {fileID: 0}
-  selectorSubobjects: []
+  selectorSubobjects:
+  - {fileID: 3146600027730294289}
+  - {fileID: 3146600027820965727}
+  - {fileID: 3146600027085363699}
+  - {fileID: 3146600027531956793}
+  - {fileID: 3146600027439533920}
+  - {fileID: 3146600027412457176}
+  - {fileID: 3146600027749302224}
   handSprites: []
   pickupGun: {fileID: 0}
   placeGun: {fileID: 0}
   GunColliders: []
-  GunsSlots: []
   pickupRifle: {fileID: 0}
   placeRifle: {fileID: 0}
   RifleColliders: []
-  RifleSlots: []
---- !u!114 &3146600026735040637
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3146600026735040633}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b025578dbe5ab84781068ccfb02f29a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AllItems:
-  - {fileID: 3146600027730294294}
-  - {fileID: 3146600027820965724}
-  - {fileID: 3146600027085363696}
-  - {fileID: 3146600027531956798}
-  - {fileID: 3146600027439533921}
-  - {fileID: 3146600027412457177}
-  - {fileID: 3146600027749302225}
-  YStart: 0
-  YOffset: 0
-  HideForOnline: []
 --- !u!114 &3146600026735040636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1205,7 +1191,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.6630124, y: 0.40073755}
-    oldSize: {x: 20.981878, y: 16.27}
+    oldSize: {x: 20.98, y: 16.275043}
     newSize: {x: 38.399998, y: 21.599998}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1393,6 +1379,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 3146600027094049811}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
 --- !u!1 &3146600027195674338
@@ -1744,6 +1731,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 3146600027280368627}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
 --- !u!1 &3146600027298553581
@@ -1913,6 +1901,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 3146600027298553568}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
 --- !u!1 &3146600027310269903
@@ -2220,6 +2209,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 3146600027324456920}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
 --- !u!1 &3146600027339613289
@@ -2405,7 +2395,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.18303145, y: 0.39950982}
-    oldSize: {x: 20.981878, y: 16.32}
+    oldSize: {x: 20.98, y: 16.32506}
     newSize: {x: 38.399998, y: 21.599998}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2527,7 +2517,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.18303145, y: 0.4}
-    oldSize: {x: 20.981878, y: 16.3}
+    oldSize: {x: 20.98, y: 16.305052}
     newSize: {x: 38.399998, y: 21.599998}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2649,7 +2639,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.184198, y: 0.40073755}
-    oldSize: {x: 21.01188, y: 16.27}
+    oldSize: {x: 21.01, y: 16.275043}
     newSize: {x: 38.399998, y: 21.599998}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2827,7 +2817,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.66333336, y: 0.40073755}
-    oldSize: {x: 21.00188, y: 16.27}
+    oldSize: {x: 21, y: 16.275043}
     newSize: {x: 38.399998, y: 21.599998}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2949,7 +2939,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.1827701, y: 0.4}
-    oldSize: {x: 21.01188, y: 16.3}
+    oldSize: {x: 21.01, y: 16.305052}
     newSize: {x: 38.399998, y: 21.599998}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3262,7 +3252,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.6630124, y: 0.39950982}
-    oldSize: {x: 20.981878, y: 16.32}
+    oldSize: {x: 20.98, y: 16.32506}
     newSize: {x: 38.399998, y: 21.599998}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3648,6 +3638,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 3146600028151517321}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
 --- !u!1 &3146600028381933730
@@ -4010,6 +4001,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 1483146352574453617}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0
 --- !u!114 &3199611041126855144
@@ -4195,5 +4187,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 4044879128263286316}
   m_maskType: 0
+  _SortingLayer: 0
   _SortingLayerID: 0
   _SortingOrder: 0

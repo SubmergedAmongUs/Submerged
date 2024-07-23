@@ -207,8 +207,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0, y: -0.4049}
-  m_SizeDelta: {x: 1.0317, y: 0.4694}
+  m_AnchoredPosition: {x: -0, y: -0.5293}
+  m_SizeDelta: {x: 1.0317, y: 0.7181}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &1096869682448749523
 MeshRenderer:
@@ -302,7 +302,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 1.35
+  m_fontSize: 1.5
   m_fontSizeBase: 1.5
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3128,8 +3128,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -0.2991}
-  m_SizeDelta: {x: 0.6591, y: 0.2577}
+  m_AnchoredPosition: {x: 0, y: -0.4052}
+  m_SizeDelta: {x: 0.6591, y: 0.4699}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &7421363239016222383
 MeshRenderer:
@@ -3192,7 +3192,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: acronmd
+  m_text: 'acronmd
+
+    queenpb'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 978a5647ae677d04fa04daa6f54236d6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: c985344c7a831254ca6674f051c41d48, type: 2}
