@@ -16,7 +16,7 @@ public static class MapOptionsButtonPatches
         {
             Name = CustomMapNames.Submerged,
             MapIcon = ResourceManager.spriteCache["OptionsIcon"],
-            // MapImage = ResourceManager.spriteCache["CreateGameBG"],
+            MapImage = ResourceManager.spriteCache["OptionsBG"],
             NameImage = ResourceManager.spriteCache["OptionsLogo"]
         });
     }

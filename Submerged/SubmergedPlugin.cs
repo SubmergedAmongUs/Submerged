@@ -43,6 +43,7 @@ public sealed partial class SubmergedPlugin : BasePlugin
         ResourceManager.CacheSprite("FloorUp");
         ResourceManager.CacheSprite("Logo", 400);
         ResourceManager.CacheSprite("Logo", 250, "OptionsLogo");
+        ResourceManager.CacheSprite("OptionsBG");
         ResourceManager.CacheSprite("OptionsIcon", 90);
 
         LoadingManager.RegisterLoading(nameof(AssetLoader));
