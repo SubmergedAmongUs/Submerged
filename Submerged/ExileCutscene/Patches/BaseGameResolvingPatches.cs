@@ -13,7 +13,6 @@ public static class BaseGameResolvingPatches
     public static void GetTextPatch(ExileController __instance)
     {
         LastExileText = __instance.completeString;
-        Message("Grabbing " + __instance + " from ExileController");
     }
 
     [HarmonyPatch(typeof(ExileController), nameof(ExileController.Begin))]
