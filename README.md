@@ -40,7 +40,8 @@ The table below lists the most recent Submerged release for each Among Us versio
 
 |                                       Among Us Version                                        | Submerged Version |                                        Links                                        |
 |:---------------------------------------------------------------------------------------------:|:-----------------:|:-----------------------------------------------------------------------------------:|
-|                                          `v2024.3.5`                                          |   `v2024.3.25`    | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2024.3.25/)  |
+|                                         `v2024.6.18`                                          |   `v2024.7.23`    | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2024.7.23/)  |
+|                                  `v2024.3.5`<br>`v2024.6.4`                                   |   `v2024.3.25`    | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2024.3.25/)  |
 |                                         `v2023.11.28`                                         |   `v2023.11.29`   | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2023.11.29/) |
 |                                         `v2023.10.24`                                         |   `v2023.11.2`    | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2023.11.2/)  |
 |                                 `v2023.7.12`<br>`v2023.7.11`                                  |    `v2023.8.2`    |  [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2023.8.2/)  |
@@ -151,15 +152,16 @@ For business inquiries, please contact us at `submergedamongus@gmail.com`.
   - [Sanae6](https://twitter.com/Sanae6k/)
 - Additional Art
   - [acronmd](https://twitter.com/acronmd/)
+  - [queenpb](https://twitter.com/QueenTamandua/)
 - Translators
-  - [Dekokiyo](https://twitter.com/DekoKiyomori) - 日本語
-  - [ItsNiceCraft](https://bento.me/itsnicecraft) - Deutsch
-  - [MissJukebox](https://www.twitch.tv/missjukebox/) - Español
+  - Dekokiyo - 日本語
+  - ItsNiceCraft - Deutsch
+  - MissJukebox - Español
   - Monid73 - Русский
-  - [PENGUN](https://youtube.com/@PENGUINWITHGUN) - Italiano
-  - [RevoLou](https://twitter.com/Psyco_Lou/) - Português do Brasil
+  - PENGUN - Italiano
+  - RevoLou - Português do Brasil
   - RobinRMC - Nederlands
-  - [SPRLC](https://twitter.com/SuperLanceur) - Français
-  - [ねろちゃん](https://www.twitch.tv/zackdnerrr/) - 日本語
+  - SPRLC - Français
+  - ねろちゃん - 日本語
   - 阿龍DragonTw - 繁體中文
-  - [黑客Hecker](https://www.twitch.tv/heckertv/) - 简体中文
+  - 黑客Hecker - 简体中文
