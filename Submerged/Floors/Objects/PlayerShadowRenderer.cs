@@ -13,5 +13,5 @@ public class PlayerShadowRenderer(nint ptr) : RelativeShadowRenderer(ptr)
         player = GetComponentInParent<PlayerControl>();
     }
 
-    public override bool EnableShadow => player && (player.isDummy || (!player.Data.IsDead && !player.Data.Disconnected));
+    public override bool EnableShadow => player && player.Data && (player.isDummy || (!player.Data.IsDead && !player.Data.Disconnected));
 }

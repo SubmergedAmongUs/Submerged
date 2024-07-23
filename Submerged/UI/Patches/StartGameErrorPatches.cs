@@ -1,39 +1,18 @@
 using System.Text;
 using HarmonyLib;
+using Submerged.BaseGame;
 using Submerged.Enums;
 using Submerged.Extensions;
 using Submerged.Loading;
 using Submerged.Localization.Strings;
 using TMPro;
-using UnityEngine;
 
 namespace Submerged.UI.Patches;
 
-// [HarmonyPatch]
+[HarmonyPatch]
 public static class StartGameErrorPatches
 {
-    private static TextMeshPro _lobbyInfoText;
-
-    private static TextMeshPro LobbyInfoText
-    {
-        get
-        {
-            if (_lobbyInfoText) return _lobbyInfoText;
-
-            GameObject playerCounterObj = GameObject.FindObjectOfType<GameStartManager>().PlayerCounter.gameObject;
-            GameObject messageObj = UnityObject.Instantiate(playerCounterObj, playerCounterObj.transform.parent);
-            TextMeshPro messageText = messageObj.GetComponent<TextMeshPro>();
-
-            messageObj.name = "SubLobbyInfoText";
-            messageObj.transform.GetChild(0).gameObject.SetActive(false);
-            messageObj.transform.localPosition = new Vector3(0.02f, 0.5f, 0);
-            messageText.fontSize = 2.3f;
-            messageText.alignment = TextAlignmentOptions.Center;
-            messageText.text = "";
-
-            return _lobbyInfoText = messageText;
-        }
-    }
+    private static string _lastErrorMessage;
 
     [HarmonyPatch(typeof(GameStartManager), nameof(GameStartManager.Update))]
     [HarmonyPriority(Priority.Last)]
@@ -44,7 +23,7 @@ public static class StartGameErrorPatches
 
         if (!AmongUsClient.Instance.AmHost || GameManager.Instance.LogicOptions.MapId != (byte) CustomMapTypes.Submerged)
         {
-            UpdateErrorMessage(__instance, false);
+            UpdateErrorMessage(__instance);
             return;
         }
 
@@ -57,7 +36,7 @@ public static class StartGameErrorPatches
 
             if (sb == null)
             {
-                sb = new StringBuilder("<color=#00AAFFFF>");
+                sb = new StringBuilder();
                 sb.Append(General.Error_PlayersMissingSubmerged);
                 sb.Append(' ');
             }
@@ -69,20 +48,7 @@ public static class StartGameErrorPatches
             sb.Append(playerControl.name);
         }
 
-        UpdateErrorMessage(__instance, sb != null, sb?.ToString());
-    }
-
-    [HarmonyPatch(typeof(GameStartManager), nameof(GameStartManager.BeginGame))]
-    [HarmonyPatch(typeof(GameStartManager), nameof(GameStartManager.ReallyBegin))]
-    [HarmonyPriority(Priority.First)]
-    [HarmonyPrefix]
-    public static bool PreventBeginGamePatch(GameStartManager __instance)
-    {
-        if (LobbyInfoText.text.IsNullOrWhiteSpace()) return true;
-
-        __instance.StartCoroutine(Effects.SwayX(LobbyInfoText.transform));
-
-        return false;
+        UpdateErrorMessage(__instance, sb?.ToString());
     }
 
     [HarmonyPatch(typeof(GameStartManager), nameof(GameStartManager.Update))]
@@ -91,21 +57,45 @@ public static class StartGameErrorPatches
     {
         if (!AmongUsClient.Instance.AmHost) return;
         if (__instance.startState != GameStartManager.StartingStates.Countdown) return;
-        if (LobbyInfoText.text.IsNullOrWhiteSpace()) return; // Take care, as updating the error message with text but without wasError will break this
+        if (_lastErrorMessage.IsNullOrWhiteSpace()) return; // Take care, as updating the error message with text but without wasError will break this
 
         __instance.ResetStartState();
     }
 
-    private static void UpdateErrorMessage(GameStartManager gameStartManager, bool wasError, string text = "")
+    private static void UpdateErrorMessage(GameStartManager gameStartManager, string text = "")
     {
-        LobbyInfoText.autoSizeTextContainer = false;
-        LobbyInfoText.text = text;
-        LobbyInfoText.autoSizeTextContainer = true;
+        if (_lastErrorMessage == text) return;
+        _lastErrorMessage = text;
 
-        Color startColor = wasError || gameStartManager.LastPlayerCount < gameStartManager.MinPlayers ? Palette.DisabledClear : Palette.EnabledColor;
+        if (text.IsNullOrWhiteSpace())
+        {
+            UpdateStartButtonBasedOnPlayerCount(gameStartManager);
+            return;
+        }
 
-        // TODO
-        // gameStartManager.StartButton.color = startColor;
-        // gameStartManager.startLabelText.color = startColor;
+        gameStartManager.StartButton.SetButtonEnableState(false);
+        if (gameStartManager.StartButtonGlyph != null) gameStartManager.StartButtonGlyph.SetColor(Palette.DisabledClear);
+        gameStartManager.StartButton.buttonText.enableWordWrapping = true;
+        gameStartManager.StartButton.buttonText.alignment = TextAlignmentOptions.Center;
+        gameStartManager.StartButton.ChangeButtonText(text);
+    }
+
+    [BaseGameCode(LastChecked.v2024_6_18, "This code is taken from GameStartManager.Update")]
+    private static void UpdateStartButtonBasedOnPlayerCount(GameStartManager gameStartManager)
+    {
+        gameStartManager.StartButton.SetButtonEnableState(gameStartManager.LastPlayerCount >= gameStartManager.MinPlayers);
+        ActionMapGlyphDisplay startButtonGlyph = gameStartManager.StartButtonGlyph;
+        if (startButtonGlyph != null)
+        {
+            startButtonGlyph.SetColor(gameStartManager.LastPlayerCount >= gameStartManager.MinPlayers ? Palette.EnabledColor : Palette.DisabledClear);
+        }
+        if (gameStartManager.LastPlayerCount >= gameStartManager.MinPlayers)
+        {
+            gameStartManager.StartButton.ChangeButtonText(DestroyableSingleton<TranslationController>.Instance.GetString(StringNames.StartLabel));
+        }
+        else
+        {
+            gameStartManager.StartButton.ChangeButtonText(DestroyableSingleton<TranslationController>.Instance.GetString(StringNames.WaitingForPlayers));
+        }
     }
 }
