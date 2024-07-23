@@ -152,7 +152,7 @@ For business inquiries, please contact us at `submergedamongus@gmail.com`.
   - [Sanae6](https://twitter.com/Sanae6k/)
 - Additional Art
   - [acronmd](https://twitter.com/acronmd/)
-  - [queenpb](https://twitter.com/QueenTamandua/)
+  - [pb](https://twitter.com/QueenTamandua/)
 - Translators
   - Dekokiyo - 日本語
   - ItsNiceCraft - Deutsch

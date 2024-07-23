@@ -3194,7 +3194,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'acronmd
 
-    queenpb'
+    pb'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 978a5647ae677d04fa04daa6f54236d6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: c985344c7a831254ca6674f051c41d48, type: 2}
