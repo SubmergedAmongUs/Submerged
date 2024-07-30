@@ -12,12 +12,15 @@ Submerged is a mod for Among Us which adds a new map into the game.
 - New mechanics
 - Works on official servers
 
-## Screenshots and Videos
+## Images and Videos
 
 <details>
 <summary>Click to expand</summary>
 
 [![Submerged Trailer](http://img.youtube.com/vi/gAX_mDOX4Pc/0.jpg)](http://www.youtube.com/watch?v=gAX_mDOX4Pc "Submerged Trailer")
+
+![Upper Deck Layout](./.github/Images/Layout-UpperDeck.png)
+![Lower Deck Layout](./.github/Images/Layout-LowerDeck.png)
 
 [See the trailer on YouTube](http://www.youtube.com/watch?v=gAX_mDOX4Pc)
 
