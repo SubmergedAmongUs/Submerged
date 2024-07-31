@@ -17,12 +17,18 @@ Submerged is a mod for Among Us which adds a new map into the game.
 <details>
 <summary>Click to expand</summary>
 
-[![Submerged Trailer](http://img.youtube.com/vi/gAX_mDOX4Pc/0.jpg)](http://www.youtube.com/watch?v=gAX_mDOX4Pc "Submerged Trailer")
+### Map Guide
 
 ![Upper Deck Layout](./.github/Images/Layout-UpperDeck.png)
 ![Lower Deck Layout](./.github/Images/Layout-LowerDeck.png)
 
+### Trailer
+
+[![Submerged Trailer](http://img.youtube.com/vi/gAX_mDOX4Pc/0.jpg)](http://www.youtube.com/watch?v=gAX_mDOX4Pc "Submerged Trailer")
+
 [See the trailer on YouTube](http://www.youtube.com/watch?v=gAX_mDOX4Pc)
+
+### Screenshots
 
 ![Screenshot 1](./.github/Images/Screenshot-1.png)
 ![Screenshot 2](./.github/Images/Screenshot-2.png)
@@ -70,7 +76,7 @@ Submerged depends on the following mods and modding tools in order to function p
 
 This mod is only guaranteed to work on Windows operating systems. We have no plans on ensuring compatibility with Linux-based operating systems or Mac.
 
-This mod has been tested and works with the Steam, Epic and itch.io versions of Among Us. We do not support or endorse using a pirated version of Among Us with Submerged.
+This mod has been tested and works with the Steam, Epic, itch.io and Microsoft Store versions of Among Us. We do not support or endorse using a pirated version of Among Us with Submerged.
 
 ## Installation Steps
 
