@@ -29,7 +29,7 @@ public static class CreditsScreenPatches
 
     // TODO: Move part of this into update
     [HarmonyPatch(typeof(MainMenuManager), nameof(MainMenuManager.Awake))]
-    // [HarmonyPatch(typeof(MainMenuManager), nameof(MainMenuManager.ActivateMainMenuUI))]
+    [HarmonyPatch(typeof(MainMenuManager), nameof(MainMenuManager.ActivateMainMenuUI))]
     [HarmonyPostfix]
     public static void CreateCreditsButtonPatch(MainMenuManager __instance)
     {
