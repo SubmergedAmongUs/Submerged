@@ -12,14 +12,23 @@ Submerged is a mod for Among Us which adds a new map into the game.
 - New mechanics
 - Works on official servers
 
-## Screenshots and Videos
+## Images and Videos
 
 <details>
 <summary>Click to expand</summary>
 
+### Map Guide
+
+![Upper Deck Layout](./.github/Images/Layout-UpperDeck.png)
+![Lower Deck Layout](./.github/Images/Layout-LowerDeck.png)
+
+### Trailer
+
 [![Submerged Trailer](http://img.youtube.com/vi/gAX_mDOX4Pc/0.jpg)](http://www.youtube.com/watch?v=gAX_mDOX4Pc "Submerged Trailer")
 
 [See the trailer on YouTube](http://www.youtube.com/watch?v=gAX_mDOX4Pc)
+
+### Screenshots
 
 ![Screenshot 1](./.github/Images/Screenshot-1.png)
 ![Screenshot 2](./.github/Images/Screenshot-2.png)
@@ -40,7 +49,8 @@ The table below lists the most recent Submerged release for each Among Us versio
 
 |                                       Among Us Version                                        | Submerged Version |                                        Links                                        |
 |:---------------------------------------------------------------------------------------------:|:-----------------:|:-----------------------------------------------------------------------------------:|
-|                                          `v2024.3.5`                                          |   `v2024.3.25`    | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2024.3.25/)  |
+|                                         `v2024.6.18`                                          |   `v2024.7.23`    | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2024.7.23/)  |
+|                                  `v2024.3.5`<br>`v2024.6.4`                                   |   `v2024.3.25`    | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2024.3.25/)  |
 |                                         `v2023.11.28`                                         |   `v2023.11.29`   | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2023.11.29/) |
 |                                         `v2023.10.24`                                         |   `v2023.11.2`    | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2023.11.2/)  |
 |                                 `v2023.7.12`<br>`v2023.7.11`                                  |    `v2023.8.2`    |  [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2023.8.2/)  |
@@ -55,10 +65,13 @@ The table below lists the most recent Submerged release for each Among Us versio
 
 Submerged depends on the following mods and modding tools in order to function properly:
 
-| Mod                                                                        |     Version     |
-|----------------------------------------------------------------------------|:---------------:|
-| [BepInEx](https://builds.bepinex.dev/projects/bepinex_be) (IL2CPP-win-x86) | `v6.0.0-be.688` |
-| [Reactor](https://github.com/nuclearpowered/reactor)                       |    `v2.2.0`     |
+| Mod                                                       | Version                  |
+|-----------------------------------------------------------|--------------------------|
+| [BepInEx](https://builds.bepinex.dev/projects/bepinex_be) | `v6.0.0-be.692` or later |
+| [Reactor](https://github.com/nuclearpowered/reactor)      | `v2.3.0` or later        |
+
+> [!Note]
+> If you are using the Microsoft Store version of Among Us, you will need to download the `Unity (IL2CPP) for Windows (x64) games` version of BepInEx. Otherwise, you will need to download the `Unity (IL2CPP) for Windows (x86) games` version.
 
 # Installation
 
@@ -66,7 +79,7 @@ Submerged depends on the following mods and modding tools in order to function p
 
 This mod is only guaranteed to work on Windows operating systems. We have no plans on ensuring compatibility with Linux-based operating systems or Mac.
 
-This mod has been tested and works with the Steam, Epic and itch.io versions of Among Us. We do not support or endorse using a pirated version of Among Us with Submerged.
+This mod has been tested and works with the Steam, Epic, itch.io and Microsoft Store versions of Among Us. We do not support or endorse using a pirated version of Among Us with Submerged.
 
 ## Installation Steps
 
@@ -151,15 +164,16 @@ For business inquiries, please contact us at `submergedamongus@gmail.com`.
   - [Sanae6](https://twitter.com/Sanae6k/)
 - Additional Art
   - [acronmd](https://twitter.com/acronmd/)
+  - [pb](https://twitter.com/QueenTamandua/)
 - Translators
-  - [Dekokiyo](https://twitter.com/DekoKiyomori) - 日本語
-  - [ItsNiceCraft](https://bento.me/itsnicecraft) - Deutsch
-  - [MissJukebox](https://www.twitch.tv/missjukebox/) - Español
+  - Dekokiyo - 日本語
+  - ItsNiceCraft - Deutsch
+  - MissJukebox - Español
   - Monid73 - Русский
-  - [PENGUN](https://youtube.com/@PENGUINWITHGUN) - Italiano
-  - [RevoLou](https://twitter.com/Psyco_Lou/) - Português do Brasil
+  - PENGUN - Italiano
+  - RevoLou - Português do Brasil
   - RobinRMC - Nederlands
-  - [SPRLC](https://twitter.com/SuperLanceur) - Français
-  - [ねろちゃん](https://www.twitch.tv/zackdnerrr/) - 日本語
+  - SPRLC - Français
+  - ねろちゃん - 日本語
   - 阿龍DragonTw - 繁體中文
-  - [黑客Hecker](https://www.twitch.tv/heckertv/) - 简体中文
+  - 黑客Hecker - 简体中文

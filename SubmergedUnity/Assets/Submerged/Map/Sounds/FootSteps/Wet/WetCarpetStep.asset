@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c4b22672edf3ee408f8b26fb81b5f9f, type: 3}
+  m_Name: WetCarpetStep
+  m_EditorClassIdentifier: 
+  Clips:
+  - {fileID: 8300000, guid: 9e1b6f558e7ac3a4ab650d934ac9eac0, type: 3}
+  - {fileID: 8300000, guid: 5206aaa99e9945444801a0a8dfb54362, type: 3}
+  - {fileID: 8300000, guid: 0238bb3651978b041b8a2f1919875f24, type: 3}
+  - {fileID: 8300000, guid: f1ff3121532486f4fa7e821e45dabf73, type: 3}

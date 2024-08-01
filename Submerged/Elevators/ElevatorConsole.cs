@@ -26,7 +26,7 @@ public sealed class ElevatorConsole(nint ptr) : MonoBehaviour(ptr), AU.IUsable
 
     public ImageNames UseIcon => ImageNames.UseButton;
 
-    public float CanUse(GameData.PlayerInfo pc, out bool canUse, out bool couldUse)
+    public float CanUse(NetworkedPlayerInfo pc, out bool canUse, out bool couldUse)
     {
         float distance = float.MaxValue;
         PlayerControl player = pc.Object;

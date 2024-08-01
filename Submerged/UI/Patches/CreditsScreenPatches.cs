@@ -2,6 +2,7 @@
 using Il2CppInterop.Runtime.InteropTypes.Arrays;
 using Reactor.Utilities.Extensions;
 using Submerged.Extensions;
+using Submerged.Loading;
 using Submerged.Resources;
 using UnityEngine;
 
@@ -13,17 +14,17 @@ public static class CreditsScreenPatches
     private const string MAIN_MENU_SPRITES_TEX_NAME = "MainMenuSprites";
 
     private static Texture2D _texture;
-    private static CreditsScreenManager _creditsScreenManagerPrefab;
     private static GameObject _creditsScreen;
 
-    private static CreditsScreenManager GetCreditsScreen()
+    private static GameObject GetCreditsScreen()
     {
-        if (_creditsScreenManagerPrefab) return _creditsScreenManagerPrefab;
-        GameObject creditsMenuPrefab = ResourceManager.GetAssetBundle("credits").LoadAsset<GameObject>("CreditsScreen")!;
-        creditsMenuPrefab.DontDestroy();
-        creditsMenuPrefab.SetActive(false);
+        if (_creditsScreen) return _creditsScreen;
 
-        return _creditsScreenManagerPrefab = creditsMenuPrefab.AddComponent<CreditsScreenManager>();
+        _creditsScreen = UnityObject.Instantiate(AssetLoader.Credits).gameObject;
+        _creditsScreen.name = "SubmergedCreditsMenu";
+        _creditsScreen.AddComponent<CreditsScreenManager>();
+
+        return _creditsScreen;
     }
 
     // TODO: Move part of this into update
@@ -32,12 +33,9 @@ public static class CreditsScreenPatches
     [HarmonyPostfix]
     public static void CreateCreditsButtonPatch(MainMenuManager __instance)
     {
-        if (!_creditsScreen) _creditsScreen = UnityObject.Instantiate(GetCreditsScreen()).gameObject;
-        _creditsScreen.name = "SubmergedCreditsMenu";
-
         DoNotPressButton doNotPressButton = __instance.GetComponentInChildren<DoNotPressButton>(true);
 
-        _texture ??= ResourceManager.GetTexture(MAIN_MENU_SPRITES_TEX_NAME).DontUnload();
+        if (!_texture) _texture = ResourceManager.GetTexture(MAIN_MENU_SPRITES_TEX_NAME).DontUnload();
 
         SpriteRenderer pedestalSprite = doNotPressButton.GetComponent<SpriteRenderer>();
         SpriteRenderer pressedSprite = doNotPressButton.transform.GetChild(0).GetComponent<SpriteRenderer>();
@@ -80,7 +78,7 @@ public static class CreditsScreenPatches
             unpressedSprite.enabled = true;
         });
 
-        creditsButton.OnClick.AddListener(() => { _creditsScreen.SetActive(true); });
+        creditsButton.OnClick.AddListener(() => { GetCreditsScreen().gameObject.SetActive(true); });
 
         creditsButton.transform.localScale = 0.9f * Vector3.one;
     }

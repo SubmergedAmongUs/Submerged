@@ -1,0 +1,300 @@
+fileFormatVersion: 2
+guid: b0ebc735b02d00e4f99921c2d670c095
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8568005151626139212
+    second: bar
+  - first:
+      213: 3479998388286868954
+    second: bolts
+  - first:
+      213: 1428192632310400388
+    second: cyclereactor_fullbar
+  - first:
+      213: -4998690010817512396
+    second: dial
+  - first:
+      213: 6806459649046229578
+    second: handle 1
+  - first:
+      213: 6565020959317433364
+    second: inner ring
+  - first:
+      213: -8467484130404442509
+    second: out_ring_flat
+  - first:
+      213: -4072674430978728918
+    second: out_ring_highlight_shadow
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bar
+      rect:
+        serializedVersion: 2
+        x: 5915
+        y: 31
+        width: 231
+        height: 1876
+      alignment: 9
+      pivot: {x: -6.17316, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b96b97b5b4581980800000000000000
+      internalID: -8568005151626139212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bolts
+      rect:
+        serializedVersion: 2
+        x: 3857
+        y: 96
+        width: 1775
+        height: 1780
+      alignment: 9
+      pivot: {x: 0.4997183, y: 0.49775282}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add45c8a8107b4030800000000000000
+      internalID: 3479998388286868954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyclereactor_fullbar
+      rect:
+        serializedVersion: 2
+        x: 5682
+        y: 31
+        width: 231
+        height: 1876
+      alignment: 9
+      pivot: {x: -6.17316, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48501b7d1a5f1d310800000000000000
+      internalID: 1428192632310400388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dial
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 598
+        width: 223
+        height: 852
+      alignment: 9
+      pivot: {x: 0.50672644, y: 0.85915494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43cbdea5be511aab0800000000000000
+      internalID: -4998690010817512396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: handle 1
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1006
+        width: 347
+        height: 660
+      alignment: 9
+      pivot: {x: 0.27244955, y: 0.07360606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a423e671df6657e50800000000000000
+      internalID: 6806459649046229578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inner ring
+      rect:
+        serializedVersion: 2
+        x: 3797
+        y: 23
+        width: 1883
+        height: 1884
+      alignment: 9
+      pivot: {x: 0.4976102, y: 0.50265396}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c1c1f87c3ab1b50800000000000000
+      internalID: 6565020959317433364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: out_ring_flat
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 1906
+        height: 1906
+      alignment: 9
+      pivot: {x: 0.50104934, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e5cf9cb047d7a80800000000000000
+      internalID: -8467484130404442509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: out_ring_highlight_shadow
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 1
+        width: 1891
+        height: 1906
+      alignment: 9
+      pivot: {x: 0.5007932, y: 0.50052464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c52b7de24fa77c0800000000000000
+      internalID: -4072674430978728918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

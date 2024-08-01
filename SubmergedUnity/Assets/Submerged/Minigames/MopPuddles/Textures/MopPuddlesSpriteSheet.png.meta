@@ -1,0 +1,636 @@
+fileFormatVersion: 2
+guid: 79ba2e8049a402743b574c8aed683300
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2374222918679686493
+    second: 1
+  - first:
+      213: -761933863725385812
+    second: 2
+  - first:
+      213: -5906598218874874896
+    second: 3
+  - first:
+      213: -1816755548282093316
+    second: 4
+  - first:
+      213: 2122068693196875397
+    second: bucket shadow
+  - first:
+      213: 949185140388405158
+    second: Bucket_1
+  - first:
+      213: -6256017313231689475
+    second: Bucket_2
+  - first:
+      213: -581647557964234878
+    second: Bucket_water_sorryugottamask
+  - first:
+      213: -1752381820872662760
+    second: Mop Puddle LD Filtration
+  - first:
+      213: 8025427438337525227
+    second: Mop Puddle LD Halls
+  - first:
+      213: 3642733526074406515
+    second: Mop Puddle LD Storage
+  - first:
+      213: -8100960167944144491
+    second: Mop Puddle UD Admin
+  - first:
+      213: 3529356234137455610
+    second: Mop Puddle UD Comms
+  - first:
+      213: 4246452032700133501
+    second: mop
+  - first:
+      213: 5559365761576847822
+    second: mop_soaked
+  - first:
+      213: 5232941047700551359
+    second: puddle1
+  - first:
+      213: -972795382094903561
+    second: puddle2
+  - first:
+      213: -1633790777925783273
+    second: puddle3
+  - first:
+      213: 2938264369100021353
+    second: puddle4
+  - first:
+      213: -8462323282813097764
+    second: puddle5
+  - first:
+      213: -4776148068956320770
+    second: puddle6
+  - first:
+      213: -1101192720393940257
+    second: puddle7
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1
+      rect:
+        serializedVersion: 2
+        x: 5506
+        y: 1238
+        width: 710
+        height: 1627
+      alignment: 9
+      pivot: {x: -0.7704225, y: 0.3362016}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2918aa5d01d0fd0800000000000000
+      internalID: -2374222918679686493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2
+      rect:
+        serializedVersion: 2
+        x: 4454
+        y: 224
+        width: 712
+        height: 1627
+      alignment: 9
+      pivot: {x: -0.76544946, y: 0.3362016}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7be4610311d65f0800000000000000
+      internalID: -761933863725385812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3
+      rect:
+        serializedVersion: 2
+        x: 3743
+        y: 224
+        width: 712
+        height: 1627
+      alignment: 9
+      pivot: {x: -0.76544946, y: 0.3362016}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f31205e63c870ea0800000000000000
+      internalID: -5906598218874874896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4
+      rect:
+        serializedVersion: 2
+        x: 5166
+        y: 224
+        width: 710
+        height: 1627
+      alignment: 9
+      pivot: {x: -0.7704225, y: 0.3362016}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf00de4547699c6e0800000000000000
+      internalID: -1816755548282093316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bucket shadow
+      rect:
+        serializedVersion: 2
+        x: 5884
+        y: 2221
+        width: 608
+        height: 606
+      alignment: 9
+      pivot: {x: -0.9736842, y: 1.0264026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5862af6bb3a137d10800000000000000
+      internalID: 2122068693196875397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bucket_1
+      rect:
+        serializedVersion: 2
+        x: 5546
+        y: 4093
+        width: 711
+        height: 818
+      alignment: 9
+      pivot: {x: -0.7679325, y: 0.66870415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af1eee2bde2c2d00800000000000000
+      internalID: 949185140388405158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bucket_2
+      rect:
+        serializedVersion: 2
+        x: 5546
+        y: 4913
+        width: 711
+        height: 818
+      alignment: 9
+      pivot: {x: -0.7679325, y: 0.66870415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df8a12046692e29a0800000000000000
+      internalID: -6256017313231689475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bucket_water_sorryugottamask
+      rect:
+        serializedVersion: 2
+        x: 4115
+        y: 1484
+        width: 574
+        height: 367
+      alignment: 9
+      pivot: {x: -1.0418118, y: 1.0054495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f7113b0a29de7f0800000000000000
+      internalID: -581647557964234878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mop
+      rect:
+        serializedVersion: 2
+        x: 3323
+        y: 30
+        width: 596
+        height: 1821
+      alignment: 9
+      pivot: {x: 0.49328858, y: 0.50082374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70b3d400ad6eea30800000000000000
+      internalID: 4246452032700133501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mop Puddle LD Filtration
+      rect:
+        serializedVersion: 2
+        x: 2758
+        y: 1841
+        width: 2782
+        height: 1946
+      alignment: 9
+      pivot: {x: 0.49928108, y: 0.48715314}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8116808b40a4ea7e0800000000000000
+      internalID: -1752381820872662760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mop Puddle LD Halls
+      rect:
+        serializedVersion: 2
+        x: 2771
+        y: 3772
+        width: 2782
+        height: 1946
+      alignment: 9
+      pivot: {x: 0.49928108, y: 0.48715314}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be508c01cbb006f60800000000000000
+      internalID: 8025427438337525227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mop Puddle LD Storage
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3785
+        width: 2782
+        height: 1946
+      alignment: 9
+      pivot: {x: 0.49928108, y: 0.48715314}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 376321987d69d8230800000000000000
+      internalID: 3642733526074406515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mop Puddle UD Admin
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 21
+        width: 2722
+        height: 1882
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599b912e5ab939f80800000000000000
+      internalID: -8100960167944144491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mop Puddle UD Comms
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1905
+        width: 2722
+        height: 1882
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afbc29dabcacaf030800000000000000
+      internalID: 3529356234137455610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mop_soaked
+      rect:
+        serializedVersion: 2
+        x: 2725
+        y: 30
+        width: 596
+        height: 1821
+      alignment: 9
+      pivot: {x: 0.49328858, y: 0.50082374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec9c14394b5d62d40800000000000000
+      internalID: 5559365761576847822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puddle1
+      rect:
+        serializedVersion: 2
+        x: 5547
+        y: 3695
+        width: 791
+        height: 396
+      alignment: 9
+      pivot: {x: 0.4993679, y: 0.49368685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb670c658242f9840800000000000000
+      internalID: 5232941047700551359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puddle2
+      rect:
+        serializedVersion: 2
+        x: 5861
+        y: 688
+        width: 729
+        height: 574
+      alignment: 9
+      pivot: {x: 0.50342935, y: 0.49738675}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6c71b01cfef72f0800000000000000
+      internalID: -972795382094903561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puddle3
+      rect:
+        serializedVersion: 2
+        x: 6126
+        y: 4750
+        width: 617
+        height: 429
+      alignment: 9
+      pivot: {x: 0.5008104, y: 0.504662}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 711bc6491fb9359e0800000000000000
+      internalID: -1633790777925783273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puddle4
+      rect:
+        serializedVersion: 2
+        x: 3579
+        y: 1624
+        width: 424
+        height: 227
+      alignment: 9
+      pivot: {x: 0.5058962, y: 0.50220263}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ed46840efc6c820800000000000000
+      internalID: 2938264369100021353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puddle5
+      rect:
+        serializedVersion: 2
+        x: 4158
+        y: 1167
+        width: 577
+        height: 315
+      alignment: 9
+      pivot: {x: 0.5086655, y: 0.4952381}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd868614fc9cf8a80800000000000000
+      internalID: -8462323282813097764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puddle6
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 3
+        width: 829
+        height: 534
+      alignment: 9
+      pivot: {x: 0.49577805, y: 0.49906367}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efbc03be2a6b7bdb0800000000000000
+      internalID: -4776148068956320770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: puddle7
+      rect:
+        serializedVersion: 2
+        x: 5533
+        y: 2829
+        width: 808
+        height: 832
+      alignment: 9
+      pivot: {x: 0.5030941, y: 0.50240386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd25caf1e07c7b0f0800000000000000
+      internalID: -1101192720393940257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

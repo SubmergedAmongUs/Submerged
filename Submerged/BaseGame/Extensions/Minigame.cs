@@ -4,7 +4,7 @@ namespace Submerged.BaseGame.Extensions;
 
 public static class MinigameExtensions
 {
-    [BaseGameCode(LastChecked.v2024_3_5, "Entire method is copied from base game because we can't call it from the base pointer since that causes an infinite loop.")]
+    [BaseGameCode(LastChecked.v2024_6_18, "Entire method is copied from base game because we can't call it from the base pointer since that causes an infinite loop.")]
     public static void BaseClose(this Minigame self)
     {
         bool isComplete;
@@ -28,7 +28,7 @@ public static class MinigameExtensions
         self.amClosing = Minigame.CloseState.Closing;
         self.logger.Info(string.Concat("Closing minigame ", self.GetType().Name));
         IAnalyticsReporter analytics = DestroyableSingleton<DebugAnalytics>.Instance.Analytics;
-        GameData.PlayerInfo data = PlayerControl.LocalPlayer.Data;
+        NetworkedPlayerInfo data = PlayerControl.LocalPlayer.Data;
         TaskTypes taskType = self.TaskType;
         float realtimeSinceStartup = Time.realtimeSinceStartup - self.timeOpened;
         PlayerTask myTask = self.MyTask;

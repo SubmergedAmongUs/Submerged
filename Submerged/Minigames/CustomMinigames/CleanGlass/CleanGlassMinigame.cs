@@ -82,12 +82,13 @@ public sealed class CleanGlassMinigame(nint ptr) : Minigame(ptr)
         return true;
     }
 
-    public void PlaySparkle()
+    private void PlaySparkle()
     {
         this.StartCoroutine(Sparkle());
     }
 
-    public void TryClose()
+    [UsedImplicitly]
+    private void TryClose()
     {
         if (!_hovering) _minigameProperties.CloseTask();
     }

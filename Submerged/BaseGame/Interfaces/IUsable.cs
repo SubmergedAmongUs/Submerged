@@ -3,7 +3,7 @@
 // ReSharper disable once InconsistentNaming
 public sealed partial class AU
 {
-    [BaseGameCode(LastChecked.v2024_3_5)]
+    [BaseGameCode(LastChecked.v2024_6_18)]
     public interface IUsable
     {
         [UsedImplicitly]
@@ -19,7 +19,7 @@ public sealed partial class AU
         void SetOutline(bool on, bool mainTarget);
 
         [UsedImplicitly]
-        float CanUse(GameData.PlayerInfo pc, out bool canUse, out bool couldUse);
+        float CanUse(NetworkedPlayerInfo pc, out bool canUse, out bool couldUse);
 
         [UsedImplicitly]
         void Use();

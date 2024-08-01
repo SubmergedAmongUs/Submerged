@@ -40,8 +40,14 @@ public sealed partial class SubmergedPlugin : BasePlugin
         ResourceManager.CacheSprite("CreateGameBG");
         ResourceManager.CacheSprite("FilterIcon");
         ResourceManager.CacheSprite("FloorDown");
+        ResourceManager.CacheSprite("FloorDownHover");
         ResourceManager.CacheSprite("FloorUp");
+        ResourceManager.CacheSprite("FloorUpHover");
         ResourceManager.CacheSprite("Logo", 400);
+        ResourceManager.CacheSprite("Logo", 250, "OptionsLogo");
+        ResourceManager.CacheSprite("OptionsBG");
+        ResourceManager.CacheSprite("OptionsIcon", 90);
+        ResourceManager.CacheSprite("ReportDisabled");
 
         LoadingManager.RegisterLoading(nameof(AssetLoader));
         LoadingManager.RegisterLoading(nameof(MapLoader));

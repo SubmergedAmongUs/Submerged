@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6763523975266740144
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4234361488084804619}
+  - component: {fileID: 340447816995014353}
+  m_Layer: 0
+  m_Name: DiagnoseElevatorsTask
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4234361488084804619
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6763523975266740144}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &340447816995014353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6763523975266740144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6bd1f34b1ad3f84db93c7cfa0692e31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartAt: 0
+  TaskType: 137
+  MinigamePrefab: {fileID: 5868964742018206097, guid: d6d728a92c46d2644ac5a91975030fb4, type: 3}
+  HasLocation: 0
+  LocationDirty: 1
+  taskStep: 0
+  MaxStep: 3
+  ShowTaskStep: 1
+  ShowTaskTimer: 0
+  TimerStarted: 0
+  TaskTimer: 0
+  Data: 
+  Arrow: {fileID: 0}

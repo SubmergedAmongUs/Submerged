@@ -4,6 +4,7 @@ using System.Linq;
 using System.Reflection;
 using BepInEx;
 using BepInEx.Unity.IL2CPP;
+using Submerged.Extensions;
 using Submerged.KillAnimation.Patches;
 using Submerged.Loading;
 using Submerged.Map;
@@ -81,5 +82,24 @@ public class ModdingTab : IDebugTab
 
         if (GUILayout.Button("Kill Dummy")) PlayerControl.LocalPlayer.RpcMurderPlayer(PlayerControl.AllPlayerControls.ToArray().First(p => p.isDummy), true);
         if (GUILayout.Button("Dummy Kill Me")) PlayerControl.AllPlayerControls.ToArray().First(p => p.isDummy).RpcMurderPlayer(PlayerControl.LocalPlayer, true);
+
+        if (GUILayout.Button("Extract Map Sprites"))
+        {
+            string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "Map Sprites");
+            Directory.CreateDirectory(Path.GetFullPath(path));
+
+            Message("Saving to " + path);
+
+            SCG.HashSet<Texture2D> textures = [];
+
+            foreach (SpriteRenderer rend in ShipStatus.Instance.gameObject.GetComponentsInChildren<SpriteRenderer>())
+            {
+                if (rend.sprite && rend.sprite.texture && textures.Add(rend.sprite.texture))
+                {
+                    byte[] bytes = rend.sprite.texture.GetReadable().EncodeToPNG();
+                    File.WriteAllBytes(Path.Combine(path, rend.sprite.texture.name + ".png"), bytes);
+                }
+            }
+        }
     }
 }

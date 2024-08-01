@@ -14,7 +14,6 @@ public sealed class MinigameProperties(nint ptr) : MonoBehaviour(ptr)
     public GameObject[] gameObjects;
     public int[] integers;
     public Sprite[] sprites;
-    public Transform[] transforms;
     public Vector2[] vector2S;
 
     public string playerTaskName = "";
@@ -27,7 +26,6 @@ public sealed class MinigameProperties(nint ptr) : MonoBehaviour(ptr)
         Transform propObj = transform.Find("MinigameProperties");
 
         StowArms stowArms = propObj.GetComponent<StowArms>();
-        GameSettingMenu gameSettingMenu = propObj.GetComponent<GameSettingMenu>();
         PolishRubyGame polishRubyGame = propObj.GetComponent<PolishRubyGame>();
         TextLink textLink = propObj.GetComponent<TextLink>();
         Tilemap2 tilemap2 = propObj.GetComponent<Tilemap2>();
@@ -38,7 +36,6 @@ public sealed class MinigameProperties(nint ptr) : MonoBehaviour(ptr)
         gameObjects = stowArms.selectorSubobjects;
         integers = polishRubyGame.swipes;
         sprites = tilemap2.sprites;
-        transforms = gameSettingMenu.AllItems;
         vector2S = polishRubyGame.directions;
 
         string[] splits = @string.Split([';'], 2);

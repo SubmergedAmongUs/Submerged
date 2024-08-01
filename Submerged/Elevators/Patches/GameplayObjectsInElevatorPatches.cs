@@ -32,7 +32,6 @@ public static class GameplayObjectsInElevatorPatches
     {
         if (!ShipStatus.Instance.IsSubmerged()) return;
 
-        // ReSharper disable once ForeachCanBePartlyConvertedToQueryUsingAnotherGetEnumerator
         foreach (SubmarineElevator elevator in SubmarineStatus.instance.elevators)
         {
             Vector3 position = __instance.transform.position;

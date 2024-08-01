@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c4b22672edf3ee408f8b26fb81b5f9f, type: 3}
+  m_Name: CarpetStep
+  m_EditorClassIdentifier: 
+  Clips:
+  - {fileID: 8300000, guid: bd6ecb395350f7d41bcfef33739b39e1, type: 3}
+  - {fileID: 8300000, guid: 95d0a7079b5e93f4e887629c1cb3c4f2, type: 3}
+  - {fileID: 8300000, guid: 550b843bc21038f459abe392d5a10c1c, type: 3}
+  - {fileID: 8300000, guid: 8d1b071dfcc84be45b5d5e5c0be284e4, type: 3}
+  - {fileID: 8300000, guid: 98ad64ce6db60a943956a89bf9a72d5f, type: 3}
+  - {fileID: 8300000, guid: d0e320809f3f9014f9aa84fcddcf1eae, type: 3}
+  - {fileID: 8300000, guid: 6729b110d2903da43943dca197b8ca60, type: 3}

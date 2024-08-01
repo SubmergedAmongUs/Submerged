@@ -1,0 +1,2076 @@
+fileFormatVersion: 2
+guid: c2aec1f55e61b1940963a4a6fb1646ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5529005188688555329
+    second: fg_kelp00
+  - first:
+      213: -7335661932239116195
+    second: fg_kelp01
+  - first:
+      213: 3865468161485274849
+    second: fg_kelp02
+  - first:
+      213: 9115480164847922346
+    second: fg_kelp03
+  - first:
+      213: -9048828635923914856
+    second: fg_kelp04
+  - first:
+      213: 6159370509013567851
+    second: fg_kelp05
+  - first:
+      213: -1481257572962721657
+    second: fg_kelp06
+  - first:
+      213: -164701362144016984
+    second: fg_kelp07
+  - first:
+      213: -7921403273562634836
+    second: fg_kelp08
+  - first:
+      213: -5796124839482508021
+    second: fg_kelp09
+  - first:
+      213: -6841741109617215829
+    second: fg_kelp10
+  - first:
+      213: -4245233869312495292
+    second: fg_kelp11
+  - first:
+      213: 646720547921743222
+    second: fg_kelp12
+  - first:
+      213: -5902607140487666791
+    second: fg_kelp13
+  - first:
+      213: -6966109890485953455
+    second: fg_kelp14
+  - first:
+      213: -1909535622509300423
+    second: fg_kelp15
+  - first:
+      213: 427467461565527772
+    second: fg_kelp16
+  - first:
+      213: -6710693352327551366
+    second: fg_kelp17
+  - first:
+      213: 2161511095919718798
+    second: fg_kelp18
+  - first:
+      213: -9173599225288266764
+    second: fg_kelp19
+  - first:
+      213: -4516172574088550540
+    second: fg_kelp20
+  - first:
+      213: -7534567512408792973
+    second: fg_kelp21
+  - first:
+      213: 3579063979847380877
+    second: fg_kelp22
+  - first:
+      213: -8214468133855372691
+    second: fg_kelp23
+  - first:
+      213: 360514819273798784
+    second: fg_kelp24
+  - first:
+      213: 2794604983656057106
+    second: fg_kelp25
+  - first:
+      213: 4627546972231018264
+    second: fg_kelp26
+  - first:
+      213: -2827460158443052723
+    second: fg_kelp27
+  - first:
+      213: 2892788942097434787
+    second: fg_kelp28
+  - first:
+      213: -8150284214542151110
+    second: fg_kelp29
+  - first:
+      213: 1906614857722307503
+    second: fg_kelp30
+  - first:
+      213: -1077160493190418685
+    second: fg_kelp31
+  - first:
+      213: -1991614659639772595
+    second: fg_kelp32
+  - first:
+      213: -1226396280292411994
+    second: fg_kelp33
+  - first:
+      213: 8587248246000350082
+    second: fg_kelp34
+  - first:
+      213: 9083447579009001349
+    second: fg_kelp35
+  - first:
+      213: 976537139413535315
+    second: fg_kelp36
+  - first:
+      213: 4220625963879615623
+    second: fg_kelp37
+  - first:
+      213: -3045560684128481517
+    second: fg_kelp38
+  - first:
+      213: 3198311549020857844
+    second: fg_kelp39
+  - first:
+      213: 2003662423675440559
+    second: fg_kelp40
+  - first:
+      213: -6922325929785389939
+    second: fg_kelp41
+  - first:
+      213: -4820023901109519334
+    second: fg_kelp42
+  - first:
+      213: -4783781363933578184
+    second: fg_kelp43
+  - first:
+      213: 1252229274789851618
+    second: fg_kelp44
+  - first:
+      213: -5849230608539841613
+    second: fg_kelp45
+  - first:
+      213: -6721222695622502558
+    second: fg_kelp46
+  - first:
+      213: 7451745022114837739
+    second: fg_kelp47
+  - first:
+      213: 602186801318038514
+    second: Whale_Shark100
+  - first:
+      213: 4785485274542528703
+    second: Whale_Shark101
+  - first:
+      213: 5854910114630229779
+    second: Whale_Shark102
+  - first:
+      213: -1816580248527202776
+    second: Whale_Shark103
+  - first:
+      213: -1026017552510389738
+    second: Whale_Shark104
+  - first:
+      213: 1030270055730183913
+    second: Whale_Shark105
+  - first:
+      213: -3794891096487024156
+    second: Whale_Shark106
+  - first:
+      213: 2328919231549007008
+    second: Whale_Shark107
+  - first:
+      213: 1759751023597102548
+    second: Whale_Shark108
+  - first:
+      213: -4038648354711554642
+    second: Whale_Shark109
+  - first:
+      213: 4893337911556568971
+    second: Whale_Shark110
+  - first:
+      213: -5796160726730356467
+    second: Whale_Shark111
+  - first:
+      213: -2654654661688874569
+    second: Whale_Shark112
+  - first:
+      213: 2882358299681959755
+    second: Whale_Shark113
+  - first:
+      213: 4116310874317212654
+    second: Whale_Shark114
+  - first:
+      213: -5220956017614385428
+    second: Whale_Shark115
+  - first:
+      213: -3183278202117402270
+    second: Whale_Shark116
+  - first:
+      213: 650161875815784785
+    second: Whale_Shark117
+  - first:
+      213: -6164867964257170264
+    second: Whale_Shark118
+  - first:
+      213: -6548148903132122594
+    second: Whale_Shark119
+  - first:
+      213: 7235860190934425682
+    second: Whale_Shark120
+  - first:
+      213: -6633398905425896047
+    second: Whale_Shark121
+  - first:
+      213: -8004347987863971423
+    second: Whale_Shark122
+  - first:
+      213: -6156008675527747079
+    second: Whale_Shark123
+  - first:
+      213: -6229918818923573502
+    second: Whale_Shark124
+  - first:
+      213: -5949060236820403105
+    second: Whale_Shark125
+  - first:
+      213: 8480549272168929017
+    second: Whale_Shark126
+  - first:
+      213: -10015792402654520
+    second: Whale_Shark127
+  - first:
+      213: 8935406043807557058
+    second: Whale_Shark128
+  - first:
+      213: 6713199162787086839
+    second: Whale_Shark129
+  - first:
+      213: -2101164008950248391
+    second: Whale_Shark130
+  - first:
+      213: -4021922119373519458
+    second: Whale_Shark131
+  - first:
+      213: 5152631908324570036
+    second: whale_shark_background
+  - first:
+      213: 2297548251440133554
+    second: Whale_Shark_FG
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fg_kelp00
+      rect:
+        serializedVersion: 2
+        x: 5445
+        y: 2319
+        width: 332
+        height: 791
+      alignment: 9
+      pivot: {x: -0.563253, y: 0.664981}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14da219dce8fabc40800000000000000
+      internalID: 5529005188688555329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp01
+      rect:
+        serializedVersion: 2
+        x: 5383
+        y: 942
+        width: 335
+        height: 789
+      alignment: 9
+      pivot: {x: -0.5522388, y: 0.6603295}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d582880b65e723a90800000000000000
+      internalID: -7335661932239116195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp02
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 2706
+        width: 347
+        height: 799
+      alignment: 9
+      pivot: {x: -0.50432277, y: 0.67083853}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee79ef00d6e4a530800000000000000
+      internalID: 3865468161485274849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp03
+      rect:
+        serializedVersion: 2
+        x: 6342
+        y: 1496
+        width: 321
+        height: 793
+      alignment: 9
+      pivot: {x: -0.6168224, y: 0.667087}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac21eef9e0b08e70800000000000000
+      internalID: 9115480164847922346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp04
+      rect:
+        serializedVersion: 2
+        x: 6039
+        y: 1524
+        width: 324
+        height: 791
+      alignment: 9
+      pivot: {x: -0.6111111, y: 0.6662453}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f5f526c4a1c6280800000000000000
+      internalID: -9048828635923914856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp05
+      rect:
+        serializedVersion: 2
+        x: 5303
+        y: 1663
+        width: 333
+        height: 793
+      alignment: 9
+      pivot: {x: -0.5645646, y: 0.667087}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6945cd18da7a7550800000000000000
+      internalID: 6159370509013567851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp06
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 2310
+        width: 335
+        height: 792
+      alignment: 9
+      pivot: {x: -0.561194, y: 0.6679293}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78023bed514817be0800000000000000
+      internalID: -1481257572962721657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp07
+      rect:
+        serializedVersion: 2
+        x: 5981
+        y: 175
+        width: 326
+        height: 789
+      alignment: 9
+      pivot: {x: -0.607362, y: 0.66539925}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a50267dbfcd6bdf0800000000000000
+      internalID: -164701362144016984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp08
+      rect:
+        serializedVersion: 2
+        x: 5137
+        y: 1016
+        width: 326
+        height: 801
+      alignment: 9
+      pivot: {x: -0.61042947, y: 0.6616729}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca5ceac21b5811290800000000000000
+      internalID: -7921403273562634836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp09
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 101
+        width: 345
+        height: 794
+      alignment: 9
+      pivot: {x: -0.51594204, y: 0.6624685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0db3dcea27009fa0800000000000000
+      internalID: -5796124839482508021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp10
+      rect:
+        serializedVersion: 2
+        x: 4651
+        y: 2219
+        width: 338
+        height: 793
+      alignment: 9
+      pivot: {x: -0.5532544, y: 0.667087}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6341cb5b04d01a0800000000000000
+      internalID: -6841741109617215829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp11
+      rect:
+        serializedVersion: 2
+        x: 4782
+        y: 175
+        width: 335
+        height: 795
+      alignment: 9
+      pivot: {x: -0.5671642, y: 0.6679245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 441fb2fb946e515c0800000000000000
+      internalID: -4245233869312495292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp12
+      rect:
+        serializedVersion: 2
+        x: 6424
+        y: 289
+        width: 323
+        height: 787
+      alignment: 9
+      pivot: {x: -0.61919504, y: 0.66454893}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d42df69ec99f800800000000000000
+      internalID: 646720547921743222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp13
+      rect:
+        serializedVersion: 2
+        x: 5214
+        y: 291
+        width: 333
+        height: 793
+      alignment: 9
+      pivot: {x: -0.5795796, y: 0.667087}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9936c8e341ab51ea0800000000000000
+      internalID: -5902607140487666791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp14
+      rect:
+        serializedVersion: 2
+        x: 5763
+        y: 1381
+        width: 322
+        height: 796
+      alignment: 9
+      pivot: {x: -0.6273292, y: 0.6633166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15cdf3f66f7635f90800000000000000
+      internalID: -6966109890485953455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp15
+      rect:
+        serializedVersion: 2
+        x: 4669
+        y: 910
+        width: 326
+        height: 805
+      alignment: 9
+      pivot: {x: -0.6196319, y: 0.6583851}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 935f06ee777ff75e0800000000000000
+      internalID: -1909535622509300423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp16
+      rect:
+        serializedVersion: 2
+        x: 4112
+        y: 11
+        width: 339
+        height: 799
+      alignment: 9
+      pivot: {x: -0.5516224, y: 0.65707135}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd6b6a7346baee500800000000000000
+      internalID: 427467461565527772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp17
+      rect:
+        serializedVersion: 2
+        x: 4567
+        y: 123
+        width: 334
+        height: 797
+      alignment: 9
+      pivot: {x: -0.5778443, y: 0.663739}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76e0f963f3ded2a0800000000000000
+      internalID: -6710693352327551366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp18
+      rect:
+        serializedVersion: 2
+        x: 6375
+        y: 2892
+        width: 321
+        height: 792
+      alignment: 9
+      pivot: {x: -0.63862926, y: 0.6666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e813c5ab3ea3ffd10800000000000000
+      internalID: 2161511095919718798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp19
+      rect:
+        serializedVersion: 2
+        x: 5105
+        y: 2980
+        width: 337
+        height: 791
+      alignment: 9
+      pivot: {x: -0.5727003, y: 0.664981}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fbe4e0cb14d0b080800000000000000
+      internalID: -9173599225288266764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp20
+      rect:
+        serializedVersion: 2
+        x: 5349
+        y: 2981
+        width: 334
+        height: 790
+      alignment: 9
+      pivot: {x: -0.5778443, y: 0.6658228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4772719b8f45351c0800000000000000
+      internalID: -4516172574088550540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp21
+      rect:
+        serializedVersion: 2
+        x: 4783
+        y: 1611
+        width: 342
+        height: 788
+      alignment: 9
+      pivot: {x: -0.5467836, y: 0.6637056}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 370ecae64c6df6790800000000000000
+      internalID: -7534567512408792973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp22
+      rect:
+        serializedVersion: 2
+        x: 5916
+        y: 2978
+        width: 324
+        height: 793
+      alignment: 9
+      pivot: {x: -0.63580245, y: 0.667087}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8fe23b1ab36ba130800000000000000
+      internalID: 3579063979847380877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp23
+      rect:
+        serializedVersion: 2
+        x: 4184
+        y: 2111
+        width: 344
+        height: 794
+      alignment: 9
+      pivot: {x: -0.5377907, y: 0.66372794}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ad8ce11c8500e80800000000000000
+      internalID: -8214468133855372691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp24
+      rect:
+        serializedVersion: 2
+        x: 6252
+        y: 2157
+        width: 327
+        height: 787
+      alignment: 9
+      pivot: {x: -0.6238532, y: 0.66709024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 084341b615ec00500800000000000000
+      internalID: 360514819273798784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp25
+      rect:
+        serializedVersion: 2
+        x: 4342
+        y: 61
+        width: 346
+        height: 790
+      alignment: 9
+      pivot: {x: -0.5346821, y: 0.6670886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2190b5a1d6e68c620800000000000000
+      internalID: 2794604983656057106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp26
+      rect:
+        serializedVersion: 2
+        x: 5749
+        y: 140
+        width: 327
+        height: 791
+      alignment: 9
+      pivot: {x: -0.6299694, y: 0.6687737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 817a3451479583040800000000000000
+      internalID: 4627546972231018264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp27
+      rect:
+        serializedVersion: 2
+        x: 5907
+        y: 2056
+        width: 327
+        height: 790
+      alignment: 9
+      pivot: {x: -0.62079513, y: 0.66202533}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41ae6767f7d2c8d0800000000000000
+      internalID: -2827460158443052723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp28
+      rect:
+        serializedVersion: 2
+        x: 4911
+        y: 2359
+        width: 340
+        height: 789
+      alignment: 9
+      pivot: {x: -0.56764704, y: 0.6666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a845e75730452820800000000000000
+      internalID: 2892788942097434787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp29
+      rect:
+        serializedVersion: 2
+        x: 4894
+        y: 968
+        width: 341
+        height: 788
+      alignment: 9
+      pivot: {x: -0.5659824, y: 0.6675127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a32ddbd50bf54ee80800000000000000
+      internalID: -8150284214542151110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp30
+      rect:
+        serializedVersion: 2
+        x: 5710
+        y: 2356
+        width: 329
+        height: 789
+      alignment: 9
+      pivot: {x: -0.6231003, y: 0.6692015}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa325068c18a57a10800000000000000
+      internalID: 1906614857722307503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp31
+      rect:
+        serializedVersion: 2
+        x: 5022
+        y: 1677
+        width: 338
+        height: 790
+      alignment: 9
+      pivot: {x: -0.57100594, y: 0.6696203}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30fec4d0d382d01f0800000000000000
+      internalID: -1077160493190418685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp32
+      rect:
+        serializedVersion: 2
+        x: 4799
+        y: 2986
+        width: 344
+        height: 785
+      alignment: 9
+      pivot: {x: -0.5436047, y: 0.6687898}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4af5b2e40d5c54e0800000000000000
+      internalID: -1991614659639772595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp33
+      rect:
+        serializedVersion: 2
+        x: 5618
+        y: 648
+        width: 328
+        height: 790
+      alignment: 9
+      pivot: {x: -0.61585367, y: 0.6708861}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a57f4fa417fafee0800000000000000
+      internalID: -1226396280292411994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp34
+      rect:
+        serializedVersion: 2
+        x: 5557
+        y: 1691
+        width: 333
+        height: 788
+      alignment: 9
+      pivot: {x: -0.6066066, y: 0.67005074}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28372f458c80c2770800000000000000
+      internalID: 8587248246000350082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp35
+      rect:
+        serializedVersion: 2
+        x: 4560
+        y: 2981
+        width: 341
+        height: 790
+      alignment: 9
+      pivot: {x: -0.5659824, y: 0.6696203}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 587a6ba6273ee0e70800000000000000
+      internalID: 9083447579009001349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp36
+      rect:
+        serializedVersion: 2
+        x: 6218
+        y: 228
+        width: 333
+        height: 781
+      alignment: 9
+      pivot: {x: -0.6006006, y: 0.6696543}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a48b8ba5b5d8d00800000000000000
+      internalID: 976537139413535315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp37
+      rect:
+        serializedVersion: 2
+        x: 4319
+        y: 876
+        width: 344
+        height: 793
+      alignment: 9
+      pivot: {x: -0.5523256, y: 0.66960907}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78cc5dac3fca29a30800000000000000
+      internalID: 4220625963879615623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp38
+      rect:
+        serializedVersion: 2
+        x: 4422
+        y: 2158
+        width: 345
+        height: 790
+      alignment: 9
+      pivot: {x: -0.54202896, y: 0.6696203}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f40a0a1befbb5d0800000000000000
+      internalID: -3045560684128481517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp39
+      rect:
+        serializedVersion: 2
+        x: 4174
+        y: 1356
+        width: 351
+        height: 787
+      alignment: 9
+      pivot: {x: -0.5071225, y: 0.6683609}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f5ea60986fa26c20800000000000000
+      internalID: 3198311549020857844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp40
+      rect:
+        serializedVersion: 2
+        x: 5599
+        y: 2972
+        width: 328
+        height: 790
+      alignment: 9
+      pivot: {x: -0.6097561, y: 0.6708861}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fad09f4cb507ecb10800000000000000
+      internalID: 2003662423675440559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp41
+      rect:
+        serializedVersion: 2
+        x: 6134
+        y: 879
+        width: 329
+        height: 785
+      alignment: 9
+      pivot: {x: -0.6018237, y: 0.6687898}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c8aaf2e35feef90800000000000000
+      internalID: -6922325929785389939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp42
+      rect:
+        serializedVersion: 2
+        x: 4528
+        y: 1508
+        width: 342
+        height: 789
+      alignment: 9
+      pivot: {x: -0.55263156, y: 0.6704689}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c797dacc5db1db0800000000000000
+      internalID: -4820023901109519334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp43
+      rect:
+        serializedVersion: 2
+        x: 5002
+        y: 233
+        width: 336
+        height: 792
+      alignment: 9
+      pivot: {x: -0.5595238, y: 0.6679293}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83cfa9fe1389c9db0800000000000000
+      internalID: -4783781363933578184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp44
+      rect:
+        serializedVersion: 2
+        x: 6113
+        y: 2665
+        width: 326
+        height: 788
+      alignment: 9
+      pivot: {x: -0.607362, y: 0.6687817}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e1b13d04efc06110800000000000000
+      internalID: 1252229274789851618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp45
+      rect:
+        serializedVersion: 2
+        x: 5892
+        y: 847
+        width: 324
+        height: 793
+      alignment: 9
+      pivot: {x: -0.6111111, y: 0.667087}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb04a880cb53dea0800000000000000
+      internalID: -5849230608539841613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp46
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 1581
+        width: 345
+        height: 806
+      alignment: 9
+      pivot: {x: -0.5072464, y: 0.6650124}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2679023a19b69b2a0800000000000000
+      internalID: -6721222695622502558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fg_kelp47
+      rect:
+        serializedVersion: 2
+        x: 5413
+        y: 2
+        width: 337
+        height: 786
+      alignment: 9
+      pivot: {x: -0.5489614, y: 0.66284984}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4b0f7dd9ae96760800000000000000
+      internalID: 7451745022114837739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: whale_shark_background
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1635
+        width: 2135
+        height: 2136
+      alignment: 9
+      pivot: {x: 0.50210774, y: 0.49953184}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3770abb63d18740800000000000000
+      internalID: 5152631908324570036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whale_Shark_FG
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1142
+        width: 2160
+        height: 699
+      alignment: 9
+      pivot: {x: 0.5, y: 1.5450643}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b5b86536f782ef10800000000000000
+      internalID: 2297548251440133554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whale_Shark100
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 784
+        width: 957
+        height: 356
+      alignment: 9
+      pivot: {x: 0.54545456, y: 0.46067417}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb8dfc84b56b5800800000000000000
+      internalID: 602186801318038514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whale_Shark101
+      rect:
+        serializedVersion: 2
+        x: 3639
+        y: 3421
+        width: 946
+        height: 350
+      alignment: 9
+      pivot: {x: 0.5401691, y: 0.45714286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb858faa085796240800000000000000
+      internalID: 4785485274542528703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whale_Shark102
+      rect:
+        serializedVersion: 2
+        x: 2703
+        y: 3409
+        width: 934
+        height: 362
+      alignment: 9
+      pivot: {x: 0.5364026, y: 0.46685082}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f50668ab1d04150800000000000000
+      internalID: 5854910114630229779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whale_Shark103
+      rect:
+        serializedVersion: 2
+        x: 2733
+        y: 3121
+        width: 918
+        height: 373
+      alignment: 9
+      pivot: {x: 0.5261438, y: 0.48257372}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8269b8c73e53ac6e0800000000000000
+      internalID: -1816580248527202776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whale_Shark104
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 519
+        width: 892
+        height: 375
+      alignment: 9
+      pivot: {x: 0.514574, y: 0.472}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6127d49d87ad2c1f0800000000000000
+      internalID: -1026017552510389738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whale_Shark105
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 440
+        width: 885
+        height: 383
+      alignment: 9
+      pivot: {x: 0.51073444, y: 0.4856397}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eef48638214c4e00800000000000000
+      internalID: 1030270055730183913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whale_Shark106
+      rect:
+        serializedVersion: 2
+        x: 3239
+        y: 1693
+        width: 863
+        height: 383
+      alignment: 9
+      pivot: {x: 0.49826187, y: 0.4699739}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9299867a6d55bc0800000000000000
+      internalID: -3794891096487024156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whale_Shark107
+      rect:
+        serializedVersion: 2
+        x: 3199
+        y: 2249
+        width: 872
+        height: 380
+      alignment: 9
+      pivot: {x: 0.5034404, y: 0.46578947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a4ed03b3bbf15020800000000000000
+      internalID: 2328919231549007008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whale_Shark108
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 2089
+        width: 847
+        height: 373
+      alignment: 9
+      pivot: {x: 0.48642266, y: 0.46648794}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5a2ae7b34eb6810800000000000000
+      internalID: 1759751023597102548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whale_Shark109
+      rect:
+        serializedVersion: 2
+        x: 2163
+        y: 1434
+        width: 847
+        height: 379
+      alignment: 9
+      pivot: {x: 0.48642266, y: 0.46174142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea5b3b418b6d3f7c0800000000000000
+      internalID: -4038648354711554642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whale_Shark110
+      rect:
+        serializedVersion: 2
+        x: 2241
+        y: 1141
+        width: 847
+        height: 378
+      alignment: 9
+      pivot: {x: 0.48642266, y: 0.46296296}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87f74097e0a8e340800000000000000
+      internalID: 4893337911556568971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whale_Shark111
+      rect:
+        serializedVersion: 2
+        x: 3246
+        y: 601
+        width: 858
+        height: 369
+      alignment: 9
+      pivot: {x: 0.495338, y: 0.44715446}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d09ca264786ef8fa0800000000000000
+      internalID: -5796160726730356467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whale_Shark112
+      rect:
+        serializedVersion: 2
+        x: 2306
+        y: 865
+        width: 867
+        height: 356
+      alignment: 9
+      pivot: {x: 0.4982699, y: 0.4494382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b923b076a5c82bd0800000000000000
+      internalID: -2654654661688874569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whale_Shark113
+      rect:
+        serializedVersion: 2
+        x: 3192
+        y: 889
+        width: 868
+        height: 359
+      alignment: 9
+      pivot: {x: 0.5011521, y: 0.44846797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f21f72a91300820800000000000000
+      internalID: 2882358299681959755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whale_Shark114
+      rect:
+        serializedVersion: 2
+        x: 3650
+        y: 3124
+        width: 909
+        height: 375
+      alignment: 9
+      pivot: {x: 0.5214521, y: 0.488}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb41c85ee2102930800000000000000
+      internalID: 4116310874317212654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whale_Shark115
+      rect:
+        serializedVersion: 2
+        x: 2817
+        y: 2857
+        width: 932
+        height: 348
+      alignment: 9
+      pivot: {x: 0.5332618, y: 0.4597701}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee082ee9207b87b0800000000000000
+      internalID: -5220956017614385428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whale_Shark116
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 784
+        width: 953
+        height: 356
+      alignment: 9
+      pivot: {x: 0.547744, y: 0.46067417}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2615c854759b2d3d0800000000000000
+      internalID: -3183278202117402270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whale_Shark117
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 3417
+        width: 950
+        height: 354
+      alignment: 9
+      pivot: {x: 0.5463158, y: 0.45762712}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 151608608c6d50900800000000000000
+      internalID: 650161875815784785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whale_Shark118
+      rect:
+        serializedVersion: 2
+        x: 3171
+        y: 2549
+        width: 923
+        height: 341
+      alignment: 9
+      pivot: {x: 0.5330444, y: 0.4457478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ac0447df3df17aa0800000000000000
+      internalID: -6164867964257170264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whale_Shark119
+      rect:
+        serializedVersion: 2
+        x: 3749
+        y: 2865
+        width: 914
+        height: 341
+      alignment: 9
+      pivot: {x: 0.5284464, y: 0.4457478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e123274244d4025a0800000000000000
+      internalID: -6548148903132122594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whale_Shark120
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 1788
+        width: 907
+        height: 322
+      alignment: 9
+      pivot: {x: 0.52149945, y: 0.41614908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2506905a180fa6460800000000000000
+      internalID: 7235860190934425682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whale_Shark121
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 2395
+        width: 890
+        height: 329
+      alignment: 9
+      pivot: {x: 0.51348317, y: 0.43161094}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19ddf9c37de61f3a0800000000000000
+      internalID: -6633398905425896047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whale_Shark122
+      rect:
+        serializedVersion: 2
+        x: 2414
+        y: 324
+        width: 872
+        height: 323
+      alignment: 9
+      pivot: {x: 0.50573397, y: 0.4148607}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a951c4f9e7dae090800000000000000
+      internalID: -8004347987863971423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whale_Shark123
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 260
+        width: 860
+        height: 318
+      alignment: 9
+      pivot: {x: 0.49651164, y: 0.42138365}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f912fcb9b6719aa0800000000000000
+      internalID: -6156008675527747079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whale_Shark124
+      rect:
+        serializedVersion: 2
+        x: 3251
+        y: 89
+        width: 842
+        height: 315
+      alignment: 9
+      pivot: {x: 0.4881235, y: 0.41587302}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f0a8a77d1ea89a0800000000000000
+      internalID: -6229918818923573502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whale_Shark125
+      rect:
+        serializedVersion: 2
+        x: 2405
+        y: 58
+        width: 844
+        height: 308
+      alignment: 9
+      pivot: {x: 0.4893365, y: 0.42532468}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c2beceb31b07da0800000000000000
+      internalID: -5949060236820403105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whale_Shark126
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 1
+        width: 837
+        height: 308
+      alignment: 9
+      pivot: {x: 0.4850657, y: 0.42532468}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f693d391a6f0b570800000000000000
+      internalID: 8480549272168929017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whale_Shark127
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 210
+        width: 859
+        height: 318
+      alignment: 9
+      pivot: {x: 0.49708962, y: 0.42138365}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca12bb90ba6cdff0800000000000000
+      internalID: -10015792402654520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whale_Shark128
+      rect:
+        serializedVersion: 2
+        x: 3288
+        y: 344
+        width: 890
+        height: 327
+      alignment: 9
+      pivot: {x: 0.51348317, y: 0.42813456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5270d7470f00c70800000000000000
+      internalID: 8935406043807557058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whale_Shark129
+      rect:
+        serializedVersion: 2
+        x: 3228
+        y: 1183
+        width: 908
+        height: 322
+      alignment: 9
+      pivot: {x: 0.5253304, y: 0.41614908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1cf5c02131a2d50800000000000000
+      internalID: 6713199162787086839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whale_Shark130
+      rect:
+        serializedVersion: 2
+        x: 3290
+        y: 1452
+        width: 914
+        height: 323
+      alignment: 9
+      pivot: {x: 0.5284464, y: 0.4148607}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c4faf577a27d2e0800000000000000
+      internalID: -2101164008950248391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Whale_Shark131
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 2004
+        width: 922
+        height: 328
+      alignment: 9
+      pivot: {x: 0.53253794, y: 0.4237805}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e95847834234f28c0800000000000000
+      internalID: -4021922119373519458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
