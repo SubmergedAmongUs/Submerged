@@ -12,7 +12,7 @@ public static class VersionShowerPatches
     [HarmonyPriority(int.MaxValue)]
     public static void PingTrackerPatch(PingTracker __instance)
     {
-        if (ShipStatus.Instance.IsSubmerged() || (LobbyBehaviour.Instance && GameManager.Instance.LogicOptions.MapId == (byte)CustomMapTypes.Submerged))
+        if (ShipStatus.Instance.IsSubmerged() || (LobbyBehaviour.Instance && GameManager.Instance && GameManager.Instance.LogicOptions?.MapId == (byte)CustomMapTypes.Submerged))
         {
             if (!__instance.text.text.EndsWith("\n")) __instance.text.text += "\n";
             __instance.text.text += $"<size=50%>{SubmergedPlugin.VersionText}</size>";

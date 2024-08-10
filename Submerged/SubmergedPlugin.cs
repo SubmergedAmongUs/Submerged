@@ -28,6 +28,8 @@ public sealed partial class SubmergedPlugin : BasePlugin
 
         Version version = Assembly.GetExecutingAssembly().GetName().Version!;
         _humanReadableVersion = $"{version.Major}.{version.Minor}.{version.Build}";
+
+        if (IsDevBuild) _humanReadableVersion += "-dev";
     }
 
     public override void Load()
@@ -61,12 +63,12 @@ public sealed partial class SubmergedPlugin : BasePlugin
         ReactorVersionShower.TextUpdated += text => text.text += $"\n{VersionText}";
     }
 
-    internal static string VersionText
-    {
-        get
-        {
-            bool isDev = Version.Contains("-dev");
-            return $"{(isDev ? "<color=red>" : "")}Submerged v{_humanReadableVersion}{(isDev ? "</color>" : "")}";
-        }
-    }
+    private static bool IsDevBuild =>
+#if DEBUG
+        true;
+#else
+        false;
+#endif
+
+    internal static string VersionText => $"{(IsDevBuild ? "<color=red>" : "")}Submerged v{_humanReadableVersion}{(IsDevBuild ? "</color>" : "")}";
 }

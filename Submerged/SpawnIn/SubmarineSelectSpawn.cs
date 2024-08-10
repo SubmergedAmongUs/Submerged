@@ -168,7 +168,10 @@ public class SubmarineSelectSpawn(nint ptr) : Minigame(ptr)
     private void OnDestroy()
     {
         Instance = null;
-        if (PlayerControl.LocalPlayer.Data.Role.TeamType == RoleTeamTypes.Crewmate)
+        if (PlayerControl.LocalPlayer &&
+            PlayerControl.LocalPlayer.Data &&
+            PlayerControl.LocalPlayer.Data.Role &&
+            PlayerControl.LocalPlayer.Data.Role.TeamType == RoleTeamTypes.Crewmate)
         {
             GameManager.Instance.LogicMinigame.OnMinigameClose();
         }
