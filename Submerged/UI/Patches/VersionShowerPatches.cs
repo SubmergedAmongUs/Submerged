@@ -9,7 +9,7 @@ public static class VersionShowerPatches
 {
     [HarmonyPatch(typeof(PingTracker), nameof(PingTracker.Update))]
     [HarmonyPostfix]
-    [HarmonyPriority(int.MaxValue)]
+    [HarmonyPriority(int.MinValue)]
     public static void PingTrackerPatch(PingTracker __instance)
     {
         if (ShipStatus.Instance.IsSubmerged() || (LobbyBehaviour.Instance && GameManager.Instance && GameManager.Instance.LogicOptions?.MapId == (byte)CustomMapTypes.Submerged))
