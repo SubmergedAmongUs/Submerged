@@ -35,9 +35,9 @@ public sealed class SubmergedExileController(nint ptr) : ExileController(ptr)
 
     private float _timer;
 
-    private void Start()
+    private new void Awake()
     {
-        SubmarineBoxCatSystem.Instance.MoveCat();
+        base.Awake();
 
         _mainCam = HudManager.Instance.UICamera;
 
@@ -46,30 +46,29 @@ public sealed class SubmergedExileController(nint ptr) : ExileController(ptr)
 
         _leftCliff = transform.Find("Cliffs/LeftCliff");
         _rightCliff = transform.Find("Cliffs/RightCliff");
-        PlaceCliffs();
+
+        float width = _mainCam.orthographicSize * _mainCam.aspect;
+        _leftCliff.transform.localPosition = new Vector3(-width, 3, 0);
+        _rightCliff.transform.localPosition = new Vector3(width, 3, 0);
 
         _darkness = transform.Find("Darkness");
         textTransform = transform.Find("Text");
 
         _bubbles = transform.Find("BubbleSystem");
+    }
+
+    private void Start()
+    {
+        SubmarineBoxCatSystem.Instance.MoveCat();
 
         transform.Find("Sea").gameObject.AddComponent<ExileParallax>();
 
-        if (exiled != null)
-        {
-            fish = transform.Find("Fish").gameObject.AddComponent<FishController>();
-            fish.anim = fish.GetComponent<SpriteAnim>();
-            fish.bubbles = _bubbles.GetComponent<ParticleSystem>();
-            fish.swim = fish.transform.GetComponentInChildren<PetBehaviour>(true).walkClip;
-            fish.bite = fish.transform.GetComponentInChildren<PetBehaviour>(true).scaredClip;
-            fish.targetObj = Player.transform;
-        }
-        else
-        {
-            Player.gameObject.SetActive(false);
-            _bubbles.gameObject.SetActive(false);
-            _timer = 3f;
-        }
+        fish = transform.Find("Fish").gameObject.AddComponent<FishController>();
+        fish.anim = fish.GetComponent<SpriteAnim>();
+        fish.bubbles = _bubbles.GetComponent<ParticleSystem>();
+        fish.swim = fish.transform.GetComponentInChildren<PetBehaviour>(true).walkClip;
+        fish.bite = fish.transform.GetComponentInChildren<PetBehaviour>(true).scaredClip;
+        fish.targetObj = Player.transform;
 
         transform.localPosition = Vector3.Lerp(_originalPosition, _finalPosition, _timer / (2 * Duration));
     }
@@ -87,7 +86,7 @@ public sealed class SubmergedExileController(nint ptr) : ExileController(ptr)
         transform.localPosition = Vector3.Lerp(_originalPosition, _finalPosition, _timer / (2 * Duration));
         MovePlayer();
 
-        float timerAmount = exiled == null ? 4.25f : 6f;
+        float timerAmount = !initData.networkedPlayer ? 4.25f : 6f;
 
         if (_timer > timerAmount && !_textRoutine)
         {
@@ -105,19 +104,20 @@ public sealed class SubmergedExileController(nint ptr) : ExileController(ptr)
     }
 
     [HideFromIl2Cpp]
-    public IEnumerator WaitForFade()
+    private IEnumerator WaitForFadeAndAnimate()
     {
-        yield return HudManager.Instance.CoFadeFullScreen(Color.black, Color.clear);
-        if (fish) fish.started = true;
-        started = true;
-    }
+        bool isPlayerEjected = initData != null && initData.networkedPlayer;
+        if (!isPlayerEjected)
+        {
+            Player.gameObject.SetActive(false);
+            _bubbles.gameObject.SetActive(false);
+            _timer = 3f;
+        }
 
-    private void PlaceCliffs()
-    {
-        float aspect = _mainCam.aspect;
-        float width = _mainCam.orthographicSize * aspect;
-        _leftCliff.transform.localPosition = new Vector3(-width, 3, 0);
-        _rightCliff.transform.localPosition = new Vector3(width, 3, 0);
+        yield return HudManager.Instance.CoFadeFullScreen(Color.black, Color.clear);
+
+        if (isPlayerEjected) fish.started = true;
+        started = true;
     }
 
     private void MovePlayer()
@@ -195,22 +195,22 @@ public sealed class SubmergedExileController(nint ptr) : ExileController(ptr)
 
     // CLeanup this WrapUpAndSpawn method
     [HideFromIl2Cpp]
-    [BaseGameCode(LastChecked.v2024_6_18, "Similar to AirshipExileController.WrapUpAndSpawn")]
+    [BaseGameCode(LastChecked.v2024_8_13, "Similar to AirshipExileController.WrapUpAndSpawn")]
     public IEnumerator WrapUpAndSpawn()
     {
-        if (exiled != null)
+        if (initData != null && initData.networkedPlayer)
         {
-            PlayerControl @object = exiled.Object;
+            PlayerControl @object = initData.networkedPlayer.Object;
 
             if (@object)
             {
                 @object.Exiled();
             }
 
-            exiled.IsDead = true;
+            initData.networkedPlayer.IsDead = true;
         }
 
-        if (TutorialManager.InstanceExists || !GameManager.Instance.LogicFlow.IsGameOverDueToDeath())
+        if (TutorialManager.InstanceExists || (GameManager.Instance && !GameManager.Instance.LogicFlow.IsGameOverDueToDeath()))
         {
             ShipStatus.Instance.StartCoroutine(ShipStatus.Instance.PrespawnStep());
 
@@ -227,5 +227,5 @@ public sealed class SubmergedExileController(nint ptr) : ExileController(ptr)
         yield break;
     }
 
-    public override CppIEnumerator Animate() => WaitForFade().WrapToIl2Cpp();
+    public override CppIEnumerator Animate() => WaitForFadeAndAnimate().WrapToIl2Cpp();
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Il2CppInterop.Runtime.Attributes;
 using Reactor.Utilities.Attributes;
+using Reactor.Utilities.ImGui;
 using Submerged.Debugging.Tabs;
 using UnityEngine;
 
@@ -12,6 +13,7 @@ namespace Submerged.Debugging;
 public sealed class DebugWindow(nint ptr) : MonoBehaviour(ptr)
 {
     private int _activeTabIdx;
+    private readonly int _windowId = Window.NextWindowId();
     private Rect _windowRect = new(20, 20, 100, 100);
 
     public static DebugWindow Instance { get; private set; }
@@ -40,8 +42,13 @@ public sealed class DebugWindow(nint ptr) : MonoBehaviour(ptr)
     public void OnGUI()
     {
         if (!Enabled || !Tabs.Any()) return;
-        _windowRect.height = _windowRect.width = 20;
-        _windowRect = GUILayout.Window(0, _windowRect, (Action<int>) (_ => DrawWindow()), Title);
+
+        if (Event.current.type == EventType.Layout)
+        {
+            _windowRect.height = _windowRect.width = 20;
+        }
+
+        _windowRect = GUILayout.Window(_windowId, _windowRect, (Action<int>) (_ => DrawWindow()), Title);
 
         if ((Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1)) && _windowRect.Contains(new Vector2(Input.mousePosition.x, Screen.height - Input.mousePosition.y)))
         {

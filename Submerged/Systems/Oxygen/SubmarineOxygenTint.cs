@@ -26,9 +26,9 @@ public sealed class SubmarineOxygenTint(nint ptr) : MonoBehaviour(ptr)
 
     private void Start()
     {
-        if (transform.parent != DestroyableSingleton<HudManager>.Instance.transform)
+        if (transform.parent != HudManager.Instance.transform)
         {
-            transform.SetParent(DestroyableSingleton<HudManager>.Instance.transform, false);
+            transform.SetParent(HudManager.Instance.transform, false);
             transform.localPosition = new Vector3(0f, 0f, 10f);
         }
 
