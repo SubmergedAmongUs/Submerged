@@ -168,7 +168,10 @@ public class SubmarineSelectSpawn(nint ptr) : Minigame(ptr)
     private void OnDestroy()
     {
         Instance = null;
-        if (PlayerControl.LocalPlayer.Data.Role.TeamType == RoleTeamTypes.Crewmate)
+        if (PlayerControl.LocalPlayer &&
+            PlayerControl.LocalPlayer.Data &&
+            PlayerControl.LocalPlayer.Data.Role &&
+            PlayerControl.LocalPlayer.Data.Role.TeamType == RoleTeamTypes.Crewmate)
         {
             GameManager.Instance.LogicMinigame.OnMinigameClose();
         }
@@ -404,7 +407,7 @@ public class SubmarineSelectSpawn(nint ptr) : Minigame(ptr)
         yield break;
     }
 
-    [BaseGameCode(LastChecked.v2024_6_18, "Part of this method is from ExileController.ReEnableGameplay")]
+    [BaseGameCode(LastChecked.v2024_8_13, "Part of this method is from ExileController.ReEnableGameplay")]
     private void Cleanup(bool unfade = true)
     {
         if (unfade) HudManager.Instance.StartCoroutine(HudManager.Instance.CoFadeFullScreen(Color.black, Color.clear));

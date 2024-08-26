@@ -5,7 +5,7 @@ namespace Submerged.BaseGame;
 public enum LastChecked
 {
     // ReSharper disable InconsistentNaming
-    v2024_6_18,
+    v2024_8_13,
     // ReSharper restore InconsistentNaming
 }
 

@@ -4,7 +4,7 @@ namespace Submerged.BaseGame.Extensions;
 
 public static class MinigameExtensions
 {
-    [BaseGameCode(LastChecked.v2024_6_18, "Entire method is copied from base game because we can't call it from the base pointer since that causes an infinite loop.")]
+    [BaseGameCode(LastChecked.v2024_8_13, "Entire method is copied from base game because we can't call it from the base pointer since that causes an infinite loop.")]
     public static void BaseClose(this Minigame self)
     {
         bool isComplete;

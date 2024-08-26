@@ -38,7 +38,7 @@ public static class LightFlickerPatches
     [HarmonyPriority(Priority.First)]
     public static bool CantClickReportButtonPatch() => !IsLightFlickerActive;
 
-    [HarmonyPatch(typeof(PlayerControl), nameof(PlayerControl.FixedUpdate))]
+    [HarmonyPatch(typeof(HudManager), nameof(HudManager.Update))]
     [HarmonyPostfix]
     [HarmonyPriority(Priority.Last)]
     public static void DontShowReportButtonPatch()
