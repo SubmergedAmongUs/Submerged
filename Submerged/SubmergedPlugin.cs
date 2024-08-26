@@ -1,13 +1,12 @@
-﻿using System;
-using BepInEx;
+﻿using BepInEx;
 using BepInEx.Unity.IL2CPP;
 using HarmonyLib;
-using System.Reflection;
 using Reactor;
 using Reactor.Localization;
-using Reactor.Patches;
+using Reactor.Utilities;
 using Submerged.Debugging;
 using Submerged.Enums;
+using Submerged.Extensions;
 using Submerged.IL2CPP;
 using Submerged.Loading;
 using Submerged.Localization;
@@ -20,20 +19,18 @@ namespace Submerged;
 [BepInDependency(ReactorPlugin.Id)]
 public sealed partial class SubmergedPlugin : BasePlugin
 {
-    private static string _humanReadableVersion;
-
     public SubmergedPlugin()
     {
         InteropPatches.Initialize();
-
-        Version version = Assembly.GetExecutingAssembly().GetName().Version!;
-        _humanReadableVersion = $"{version.Major}.{version.Minor}.{version.Build}";
-
-        if (IsDevBuild) _humanReadableVersion += "-dev";
     }
 
     public override void Load()
     {
+        ReactorCredits.Register<SubmergedPlugin>(location =>
+            location == ReactorCredits.Location.MainMenu ||
+            ShipStatus.Instance.IsSubmerged() ||
+            (LobbyBehaviour.Instance && GameManager.Instance && GameManager.Instance.LogicOptions?.MapId == (byte) CustomMapTypes.Submerged));
+
         Harmony.CreateAndPatchAll(GetType().Assembly, Id);
 
         DebugMode.Initialize(this);
@@ -59,16 +56,5 @@ public sealed partial class SubmergedPlugin : BasePlugin
         CustomSystemTypes.Initialize();
 
         LocalizationManager.Register(new SubmergedLocalizationProvider());
-
-        ReactorVersionShower.TextUpdated += text => text.text += $"\n{VersionText}";
     }
-
-    private static bool IsDevBuild =>
-#if DEBUG
-        true;
-#else
-        false;
-#endif
-
-    internal static string VersionText => $"{(IsDevBuild ? "<color=red>" : "")}Submerged v{_humanReadableVersion}{(IsDevBuild ? "</color>" : "")}";
 }
