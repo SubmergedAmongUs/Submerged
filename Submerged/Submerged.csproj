@@ -1,4 +1,5 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+
     <PropertyGroup>
         <VersionPrefix>2024.8.26</VersionPrefix>
         <VersionSuffix Condition="'$(Configuration)' == 'Debug'">dev</VersionSuffix>
@@ -56,4 +57,9 @@
             <DependentUpon>Tasks.resx</DependentUpon>
         </EmbeddedResource>
     </ItemGroup>
+
+    <Target Name="Copy" AfterTargets="Build" Condition="'$(AmongUs)' != ''">
+        <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(AmongUs)/BepInEx/plugins/" UseSymboliclinksIfPossible="true" />
+    </Target>
+
 </Project>
