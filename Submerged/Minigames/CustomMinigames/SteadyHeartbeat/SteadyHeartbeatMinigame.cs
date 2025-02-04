@@ -69,7 +69,10 @@ public sealed class SteadyHeartbeatMinigame(nint ptr) : Minigame(ptr)
         {
             Color32 col = new(30, 150, 0, 255);
             _statusText.text = string.Format(Tasks.SteadyHeartbeat_Status, $"<color=#{col.r:X2}{col.g:X2}{col.b:X2}{col.a:X2}>{Tasks.SteadyHeartbeat_Status_Stable}</color>");
-            MyNormTask!?.NextStep();
+            if (MyNormTask != null)
+            {
+                MyNormTask.NextStep();
+            }
             StartCoroutine(CoStartClose());
         }
 

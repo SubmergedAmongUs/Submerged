@@ -79,7 +79,10 @@ public sealed class TrackMantaMinigame(nint ptr) : Minigame(ptr)
         if (percent >= 100)
         {
             if (amClosing != CloseState.None) return;
-            MyNormTask!?.NextStep();
+            if (MyNormTask != null)
+            {
+                MyNormTask.NextStep();
+            }
             StartCoroutine(CoStartClose());
 
             foreach (TextMeshPro t in _textMeshPros)

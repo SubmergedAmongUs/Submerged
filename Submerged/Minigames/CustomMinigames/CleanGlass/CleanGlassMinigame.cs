@@ -56,7 +56,10 @@ public sealed class CleanGlassMinigame(nint ptr) : Minigame(ptr)
     [HideFromIl2Cpp]
     private IEnumerator Sparkle()
     {
-        MyNormTask!?.NextStep();
+        if (MyNormTask != null)
+        {
+            MyNormTask.NextStep();
+        }
         StartCoroutine(CoStartClose());
 
         Animator anim = transform.Find("Sparkle").GetComponent<Animator>();

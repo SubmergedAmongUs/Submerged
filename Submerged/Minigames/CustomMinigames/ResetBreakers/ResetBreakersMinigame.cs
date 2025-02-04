@@ -48,8 +48,10 @@ public sealed class ResetBreakersMinigame(nint ptr) : Minigame(ptr)
             {
                 circutBreaker.enabled = false;
             }
-
-            MyNormTask!?.NextStep();
+            if (MyNormTask != null)
+            {
+                MyNormTask.NextStep();
+            }
             StartCoroutine(CoStartClose());
         }
     }

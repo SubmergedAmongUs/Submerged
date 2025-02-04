@@ -82,7 +82,10 @@ public sealed class ClearUrchinsMinigame(nint ptr) : Minigame(ptr)
             _finished = CheckFinished();
 
             if (!_finished) return;
-            MyNormTask!?.NextStep();
+            if (MyNormTask != null)
+            {
+                MyNormTask.NextStep();
+            }
             StartCoroutine(CoStartClose());
         }
     }

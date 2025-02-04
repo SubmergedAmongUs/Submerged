@@ -33,9 +33,11 @@ public static class ComponentExtensions
         }
     }
 
-    public static T EnsureComponent<T>(this GameObject obj) where T : Component => obj.GetComponent<T>() ?? obj.AddComponent<T>();
+    public static T EnsureComponent<T>(this GameObject obj) where T : Component =>
+        obj.TryGetComponent<T>(out T comp) ? comp : obj.AddComponent<T>();
 
-    public static Component EnsureComponent(this GameObject obj, Type type) => obj.GetComponent(Il2CppType.From(type)) ?? obj.AddComponent(Il2CppType.From(type));
+    public static Component EnsureComponent(this GameObject obj, Type type)
+        => obj.TryGetComponent(Il2CppType.From(type), out Component comp) ? comp : obj.AddComponent(Il2CppType.From(type));
 
     public static Component AddInjectedComponentByName(this GameObject obj, string typeName) => obj.AddComponent(Il2CppType.From(RegisteredTypes[typeName]));
 }

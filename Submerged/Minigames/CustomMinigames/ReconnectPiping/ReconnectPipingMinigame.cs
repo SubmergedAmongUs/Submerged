@@ -124,7 +124,10 @@ public sealed class ReconnectPipingMinigame(nint ptr) : Minigame(ptr)
         needle.movementType = NeedleBehaviour.Movement.RandomBounce;
 
         Transform valve = transform.Find("Valve");
-        MyNormTask!?.NextStep();
+        if (MyNormTask != null)
+        {
+            MyNormTask.NextStep();
+        }
         StartCoroutine(CoStartClose());
         this.StartCoroutine(SpinItem(valve));
     }
