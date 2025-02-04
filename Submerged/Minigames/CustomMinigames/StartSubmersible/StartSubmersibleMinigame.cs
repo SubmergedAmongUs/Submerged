@@ -67,7 +67,10 @@ public sealed class StartSubmersibleMinigame(nint ptr) : Minigame(ptr)
         {
             text.text = Tasks.StartSubmersible_Status_Active;
             _audio.Stop();
-            MyNormTask!?.NextStep();
+            if (MyNormTask != null)
+            {
+                MyNormTask.NextStep();
+            }
             StartCoroutine(CoStartClose());
         }
     }
@@ -181,7 +184,10 @@ public sealed class StartSubmersibleMinigame(nint ptr) : Minigame(ptr)
 
         for (int i = 0; i < 3; i++)
         {
-            switches.GetChild(i).Find("Off/OffSwitch").GetComponent<SpriteRenderer>()?.material.SetFloat("_Outline", 1);
+            if (switches.GetChild(i).Find("Off/OffSwitch").TryGetComponent(out SpriteRenderer rend))
+            {
+                rend.material.SetFloat("_Outline", 1);
+            }
         }
     }
 
