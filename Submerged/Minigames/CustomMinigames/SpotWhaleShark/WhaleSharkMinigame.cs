@@ -32,7 +32,10 @@ public sealed class WhaleSharkMinigame(nint ptr) : Minigame(ptr)
         _button.onDown += () =>
         {
             if (!_task.visible || _finished) return;
-            MyNormTask!?.NextStep();
+            if (MyNormTask != null)
+            {
+                MyNormTask.NextStep();
+            }
             StartCoroutine(CoStartClose(1f));
             _finished = true;
         };
