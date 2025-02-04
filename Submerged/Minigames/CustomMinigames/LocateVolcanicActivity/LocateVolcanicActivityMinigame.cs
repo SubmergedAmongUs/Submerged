@@ -154,7 +154,10 @@ public sealed class LocateVolcanicActivityMinigame(nint ptr) : Minigame(ptr)
     [HideFromIl2Cpp]
     public IEnumerator CoWipeScreen()
     {
-        MyNormTask!?.NextStep();
+        if (MyNormTask != null)
+        {
+            MyNormTask.NextStep();
+        }
         StartCoroutine(CoStartClose());
 
         transform.Find("NewText/EnabledText").gameObject.SetActive(false);
