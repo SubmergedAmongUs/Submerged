@@ -12,24 +12,30 @@ public static class MapOptionsButtonPatches
     [HarmonyPrefix]
     public static void AddToGameOptionsUI(GameOptionsMapPicker __instance)
     {
-        __instance.AllMapIcons.Insert(4, new MapIconByName
+        if (!__instance.AllMapIcons.ToArray().Any(x => x.Name == CustomMapNames.Submerged))
         {
-            Name = CustomMapNames.Submerged,
-            MapIcon = ResourceManager.spriteCache["OptionsIcon"],
-            MapImage = ResourceManager.spriteCache["OptionsBG"],
-            NameImage = ResourceManager.spriteCache["OptionsLogo"]
-        });
+            __instance.AllMapIcons.Insert(4, new MapIconByName
+            {
+                Name = CustomMapNames.Submerged,
+                MapIcon = ResourceManager.spriteCache["OptionsIcon"],
+                MapImage = ResourceManager.spriteCache["OptionsBG"],
+                NameImage = ResourceManager.spriteCache["OptionsLogo"]
+            });
+        }
     }
 
     [HarmonyPatch(typeof(GameStartManager), nameof(GameStartManager.Start))]
     [HarmonyPrefix]
     public static void AddToOptionsDisplay(GameStartManager __instance)
     {
-        __instance.AllMapIcons.Insert(4, new MapIconByName
+        if (!__instance.AllMapIcons.ToArray().Any(x => x.Name == CustomMapNames.Submerged))
         {
-            Name = CustomMapNames.Submerged,
-            MapIcon = ResourceManager.spriteCache["Logo"],
-        });
+            __instance.AllMapIcons.Insert(4, new MapIconByName
+            {
+                Name = CustomMapNames.Submerged,
+                MapIcon = ResourceManager.spriteCache["Logo"],
+            });
+        }
     }
 
     [HarmonyPatch(typeof(MapSelectionGameSetting), nameof(MapSelectionGameSetting.GetValueString))]
