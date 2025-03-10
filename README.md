@@ -49,8 +49,7 @@ The table below lists the most recent Submerged release for each Among Us versio
 
 |                                       Among Us Version                                        | Submerged Version |                                        Links                                        |
 |:---------------------------------------------------------------------------------------------:|:-----------------:|:-----------------------------------------------------------------------------------:|
-|                                         `v2024.11.26`                                         |   `v2025.1.30`    | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2025.1.30/)  |
-|                         `v2024.10.29`<br>`v2024.9.4`<br>`v2024.8.13`                          |   `v2024.8.26`    | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2024.8.26/)  |
+|                                         `v2024.11.26`<br>`v2024.10.29`<br>`v2024.9.4`<br>`v2024.8.13`                                        |   `v2025.1.30`    | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2025.1.30/)  |
 |                                         `v2024.6.18`                                          |    `v2024.8.1`    |  [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2024.8.1/)  |
 |                                  `v2024.6.4`<br>`v2024.3.5`                                   |   `v2024.3.25`    | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2024.3.25/)  |
 |                                         `v2023.11.28`                                         |   `v2023.11.29`   | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2023.11.29/) |
