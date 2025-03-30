@@ -31,7 +31,10 @@ public sealed class IdentifySpecimenMinigame(nint ptr) : Minigame(ptr)
     private void CompleteTask()
     {
         if (amClosing != CloseState.None) return;
-        MyNormTask!?.NextStep();
+        if (MyNormTask != null)
+        {
+            MyNormTask.NextStep();
+        }
         StartCoroutine(CoStartClose());
     }
 }

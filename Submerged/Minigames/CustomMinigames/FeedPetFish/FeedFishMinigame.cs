@@ -74,7 +74,10 @@ public sealed class FeedFishMinigame(nint ptr) : Minigame(ptr)
 
         if (_completedSpecies[0] && _completedSpecies[1] && amClosing == CloseState.None)
         {
-            MyNormTask!?.NextStep();
+            if (MyNormTask != null)
+            {
+                MyNormTask.NextStep();
+            }
             StartCoroutine(CoStartClose());
         }
     }
