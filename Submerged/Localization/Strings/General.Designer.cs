@@ -140,5 +140,15 @@ namespace Submerged.Localization.Strings {
                 return ResourceManager.GetString("Error.PlayersMissingSubmerged", resourceCulture);
             }
         }
+        /// <summary>
+        ///   Looks up a localized string similar to An underwater map with a multi-floor system, elevators, new tasks and sabotages, and more!.
+        /// </summary>
+        internal static string Submerged_ToolTipText
+        {
+            get
+            {
+                return ResourceManager.GetString("Submerged.ToolTipText", resourceCulture);
+            }
+        }
     }
 }

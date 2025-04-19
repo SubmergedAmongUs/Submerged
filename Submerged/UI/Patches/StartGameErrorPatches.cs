@@ -1,4 +1,4 @@
-using System.Text;
+﻿using System.Text;
 using HarmonyLib;
 using Submerged.BaseGame;
 using Submerged.Enums;
@@ -80,7 +80,7 @@ public static class StartGameErrorPatches
         gameStartManager.StartButton.ChangeButtonText(text);
     }
 
-    [BaseGameCode(LastChecked.v2024_8_13, "This code is taken from GameStartManager.Update")]
+    [BaseGameCode(LastChecked.v2025_3_25, "This code is taken from GameStartManager.Update")]
     private static void UpdateStartButtonBasedOnPlayerCount(GameStartManager gameStartManager)
     {
         gameStartManager.StartButton.SetButtonEnableState(gameStartManager.LastPlayerCount >= gameStartManager.MinPlayers);

@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using Submerged.Localization.Strings;
 
@@ -79,6 +79,8 @@ public readonly struct CustomStringNames
     public static readonly CustomStringNames LocateVolcanicActivity = new(555_2_022, () => Tasks.LocateVolcanicActivity);
     public static readonly CustomStringNames RetrieveOxygenMask = new(555_2_023, () => Tasks.RetrieveOxygenMask);
     public static readonly CustomStringNames StabilizeWaterLevels = new(555_2_024, () => Tasks.StabilizeWaterLevels);
+
+    public static readonly CustomStringNames SubmergedTooltipText = new(555_3_001, () => General.Submerged_ToolTipText);
 
     // ReSharper restore InconsistentNaming
 
