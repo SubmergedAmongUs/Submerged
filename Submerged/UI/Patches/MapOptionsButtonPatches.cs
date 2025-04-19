@@ -60,24 +60,27 @@ internal static class CreateOptionsPickerPatch
         [HarmonyPrefix]
         public static void Prefix_CreateOptionsStart(CreateOptionsPicker __instance)
         {
-            if (__instance.MapMenu != null && __instance.MapMenu.MapButtons != null && !__instance.MapMenu.MapButtons.ToArray().Any(x => x.MapId == CustomMapNames.Submerged))
+            if (__instance.MapMenu != null)
             {
-                SpriteRenderer subImage = new GameObject("SubmergedFilterIcon").AddComponent<SpriteRenderer>();
-                subImage.sprite = ResourceManager.spriteCache["OptionsIcon"];
-                __instance.MapMenu.MapButtons.AddItem(new MapFilterButton
+                if (!__instance.MapMenu.MapButtons.ToArray().Any(x => x.MapId == CustomMapNames.Submerged))
                 {
-                    MapId = CustomMapNames.Submerged,
-                    ButtonImage = subImage
-                });
+                    SpriteRenderer subImage = new GameObject("SubmergedFilterIcon").AddComponent<SpriteRenderer>();
+                    subImage.sprite = ResourceManager.spriteCache["OptionsIcon"];
+                    __instance.MapMenu.MapButtons.AddItem(new MapFilterButton
+                    {
+                        MapId = CustomMapNames.Submerged,
+                        ButtonImage = subImage
+                    });
 
+                }
             }
         }
         [HarmonyPatch(typeof(FilterMapPicker), nameof(FilterMapPicker.SetupSelectedIcons))]
         [HarmonyPrefix]
-        public static void Prefix_FilterStart(FilterMapPicker __instance)
+        public static void Prefix_FilterSetupIcons(FilterMapPicker __instance)
         {
-            if (__instance.mapIDs != null && !__instance.mapIDs.Contains(6)) __instance.mapIDs.Add(6);
-            if (__instance.mapStrings != null && !__instance.mapStrings.Contains(CustomStringNames.Submerged))
+            if (!__instance.mapIDs.Contains(6)) __instance.mapIDs.Add(6);
+            if (!__instance.mapStrings.Contains(CustomStringNames.Submerged))
             {
                 StringNames[] newMapStrings = new StringNames[__instance.mapStrings.Length + 1];
                 for (int i = 0; i < __instance.mapStrings.Length; i++)
@@ -90,7 +93,7 @@ internal static class CreateOptionsPickerPatch
         }
         [HarmonyPatch(typeof(CreateGameOptions), nameof(CreateGameOptions.Start))]
         [HarmonyPrefix]
-        public static void Prefix_CGO_MapChanged(CreateGameOptions __instance)
+        public static void Prefix_CGO_Start(CreateGameOptions __instance)
         {
             if (__instance.mapTooltips != null && !__instance.mapTooltips.Contains(CustomStringNames.SubmergedTooltipText))
             {
