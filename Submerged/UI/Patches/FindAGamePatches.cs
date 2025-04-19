@@ -1,4 +1,4 @@
-using System.Linq;
+﻿using System.Linq;
 using HarmonyLib;
 using Il2CppInterop.Runtime.InteropTypes.Arrays;
 using InnerNet;
@@ -26,5 +26,30 @@ public static class FindAGamePatches
         yield return existingIcons[3]; // Airship
         yield return existingIcons[4]; // Fungle
         yield return ResourceManager.spriteCache["FilterIcon"];
+    }
+    [HarmonyPatch(typeof(GameContainer), nameof(GameContainer.SetupGameInfo))]
+    [HarmonyPrefix]
+    public static void AddSubmergedIconAndBG(GameContainer __instance)
+    {
+        if (__instance.mapLogoSprites != null && !__instance.mapLogoSprites.Contains(ResourceManager.spriteCache["OptionsLogo"]))
+        {
+            Sprite[] newLogos = new Sprite[__instance.mapLogoSprites.Length + 1];
+            for (int i = 0; i < __instance.mapLogoSprites.Length; i++)
+            {
+                newLogos[i] = __instance.mapLogoSprites[i];
+            }
+            newLogos[__instance.mapLogoSprites.Length] = ResourceManager.spriteCache["OptionsLogo"];
+            __instance.mapLogoSprites = newLogos;
+        }
+        if (__instance.mapBackgroundSprites != null && !__instance.mapBackgroundSprites.Contains(ResourceManager.spriteCache["OptionsBG"]))
+        {
+            Sprite[] newBanners = new Sprite[__instance.mapBackgroundSprites.Length + 1];
+            for (int i = 0; i < __instance.mapBackgroundSprites.Length; i++)
+            {
+                newBanners[i] = __instance.mapBackgroundSprites[i];
+            }
+            newBanners[__instance.mapBackgroundSprites.Length] = ResourceManager.spriteCache["OptionsBG"];
+            __instance.mapBackgroundSprites = newBanners;
+        }
     }
 }
