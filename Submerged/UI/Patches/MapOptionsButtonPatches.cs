@@ -1,6 +1,7 @@
 ﻿using System.Linq;
 using HarmonyLib;
 using Submerged.Enums;
+using Submerged.Extensions;
 using Submerged.Resources;
 using UnityEngine;
 
@@ -105,15 +106,9 @@ internal static class CreateOptionsPickerPatch
                 newTooltips[__instance.mapTooltips.Length] = CustomStringNames.SubmergedTooltipText;
                 __instance.mapTooltips = newTooltips;
             }
-            if (__instance.mapBanners != null && !__instance.mapBanners.Contains(ResourceManager.spriteCache["OptionsLogo"]))
+            if (ListExtensions.TryAddItemIfNoContains(__instance.mapBanners, ResourceManager.spriteCache["OptionsLogo"], out var newArr))
             {
-                Sprite[] newBanners = new Sprite[__instance.mapBanners.Length + 1];
-                for (int i = 0; i < __instance.mapBanners.Length; i++)
-                {
-                    newBanners[i] = __instance.mapBanners[i];
-                }
-                newBanners[__instance.mapBanners.Length] = ResourceManager.spriteCache["OptionsLogo"];
-                __instance.mapBanners = newBanners;
+                __instance.mapBanners = newArr;
             }
 
             GameObject gameobj = GameObject.Find("MainMenuManager/MainUI/AspectScaler/CreateGameScreen/ParentContent/ConfirmPopUp");
@@ -122,25 +117,13 @@ internal static class CreateOptionsPickerPatch
                 ConfirmCreatePopUp popup = gameobj.GetComponent<ConfirmCreatePopUp>();
                 if (popup != null)
                 {
-                    if (popup.mapLogos != null && !popup.mapLogos.Contains(ResourceManager.spriteCache["OptionsLogo"]))
+                    if (ListExtensions.TryAddItemIfNoContains(popup.mapBanners, ResourceManager.spriteCache["OptionsLogo"], out var newArr1))
                     {
-                        Sprite[] newLogos = new Sprite[popup.mapLogos.Length + 1];
-                        for (int i = 0; i < popup.mapLogos.Length; i++)
-                        {
-                            newLogos[i] = popup.mapLogos[i];
-                        }
-                        newLogos[popup.mapLogos.Length] = ResourceManager.spriteCache["OptionsLogo"];
-                        popup.mapLogos = newLogos;
+                        popup.mapBanners = newArr1;
                     }
-                    if (popup.mapBanners != null && !popup.mapBanners.Contains(ResourceManager.spriteCache["OptionsBG"]))
+                    if (ListExtensions.TryAddItemIfNoContains(popup.mapBanners, ResourceManager.spriteCache["OptionsBG"], out var newArr2))
                     {
-                        Sprite[] newBanners = new Sprite[popup.mapBanners.Length + 1];
-                        for (int i = 0; i < popup.mapBanners.Length; i++)
-                        {
-                            newBanners[i] = popup.mapBanners[i];
-                        }
-                        newBanners[popup.mapBanners.Length] = ResourceManager.spriteCache["OptionsBG"];
-                        popup.mapBanners = newBanners;
+                        popup.mapBanners = newArr2;
                     }
                 }
             }

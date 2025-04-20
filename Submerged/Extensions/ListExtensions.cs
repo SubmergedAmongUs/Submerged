@@ -1,6 +1,10 @@
 ﻿using System.Collections.Generic;
+using Il2CppInterop.Runtime.InteropTypes.Arrays;
+using Il2CppInterop.Runtime.InteropTypes;
 using Submerged.IL2CPP;
 using I = Il2CppSystem.Collections.Generic;
+using HarmonyLib;
+using System.Linq;
 
 namespace Submerged.Extensions;
 
@@ -58,5 +62,16 @@ public static class ListExtensions
         }
 
         return result;
+    }
+
+    public static bool TryAddItemIfNoContains<T>(Il2CppReferenceArray<T>? arr, T checkItem, out T[] newArr) where T : Il2CppObjectBase
+    {
+        if (arr == null || arr.Contains(checkItem))
+        {
+            newArr = [];
+            return false;
+        }
+        newArr = arr.AddItem(checkItem).ToArray();
+        return true;
     }
 }
