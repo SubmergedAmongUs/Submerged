@@ -1,4 +1,5 @@
-﻿using HarmonyLib;
+﻿using AmongUs.Data.Player;
+using HarmonyLib;
 
 namespace Submerged.Debugging.Patches;
 
@@ -12,7 +13,7 @@ public static class GameTestingPatches
         __instance.MinPlayers = 1;
     }
 
-    [HarmonyPatch(typeof(StatsManager), nameof(StatsManager.AmBanned), MethodType.Getter)]
+    [HarmonyPatch(typeof(PlayerBanData), nameof(PlayerBanData.IsBanned), MethodType.Getter)]
     [HarmonyPostfix]
     public static void PreventBanPatch(out bool __result)
     {

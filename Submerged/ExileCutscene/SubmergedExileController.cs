@@ -195,7 +195,7 @@ public sealed class SubmergedExileController(nint ptr) : ExileController(ptr)
 
     // CLeanup this WrapUpAndSpawn method
     [HideFromIl2Cpp]
-    [BaseGameCode(LastChecked.v2024_8_13, "Similar to AirshipExileController.WrapUpAndSpawn")]
+    [BaseGameCode(LastChecked.v2025_3_31, "Similar to AirshipExileController.WrapUpAndSpawn")]
     public IEnumerator WrapUpAndSpawn()
     {
         if (initData != null && initData.networkedPlayer)
@@ -219,6 +219,7 @@ public sealed class SubmergedExileController(nint ptr) : ExileController(ptr)
             ShipStatus.Instance.EmergencyCooldown = GameManager.Instance.LogicOptions.GetEmergencyCooldown();
             Camera.main!.GetComponent<FollowerCamera>().Locked = false;
             DestroyableSingleton<HudManager>.Instance.SetHudActive(true);
+            DestroyableSingleton<HudManager>.Instance.SetMapButtonEnabled(true);
             ControllerManager.Instance.CloseAndResetAll();
         }
 
