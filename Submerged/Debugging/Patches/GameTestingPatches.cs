@@ -1,4 +1,5 @@
 ﻿using AmongUs.Data.Player;
+using BepInEx.Unity.IL2CPP.Utils.Collections;
 using HarmonyLib;
 
 namespace Submerged.Debugging.Patches;
@@ -28,11 +29,10 @@ public static class GameTestingPatches
     [HarmonyPriority(Priority.First)]
     public static bool StopGameEndingPatch() => false;
 
-    [HarmonyPatch(typeof(AprilFoolsMode), nameof(AprilFoolsMode.ShouldShowAprilFoolsToggle))]
-    [HarmonyPrefix]
-    public static bool EnableAprilFoolsTogglePatch(out bool __result)
+    [HarmonyPatch(typeof(CreateGameOptions), nameof(CreateGameOptions.Show))]
+    [HarmonyPostfix]
+    public static void ShowAprilFoolsToggle(CreateGameOptions __instance)
     {
-        __result = true;
-        return false;
+        __instance.AprilFoolsToggle.SetActive(true);
     }
 }
