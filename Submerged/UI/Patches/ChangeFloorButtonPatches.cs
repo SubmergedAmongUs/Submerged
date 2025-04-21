@@ -55,6 +55,8 @@ public static class ChangeFloorButtonPatches
         }
 
         _floorButton.SetActive(true);
+        __instance.MapButton.enabled = true;
+        _floorButton.EnsureComponent<PassiveButton>().enabled = true;
         SetButtonStyle(PlayerControl.LocalPlayer.transform.position.y <= -5);
     }
 
