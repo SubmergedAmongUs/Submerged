@@ -47,76 +47,27 @@ public static class MapSelectButtonPatches
         __instance.buttons = new List<FreeplayPopoverButton>(__instance.buttons) { submergedButton }.ToArray();
     }
 
-    [HarmonyPatch(typeof(CreateOptionsPicker), nameof(CreateOptionsPicker.Awake))]
+    [HarmonyPatch(typeof(CreateGameOptions), nameof(CreateGameOptions.Start))]
     [HarmonyPrefix]
-    public static void AdjustCreateOptionsPatch(CreateOptionsPicker __instance)
+    public static void AddSubmergedToCreateGame(CreateGameOptions __instance)
     {
-        Transform mapPicker = __instance.transform.Find("MapPicker");
-        MapPickerMenu mapPickerMenu = mapPicker.Find("Map Picker Menu").GetComponent<MapPickerMenu>();
-
-        if (__instance.mode == SettingsMode.Host)
+        __instance.mapTooltips = __instance.mapTooltips.AddItem(CustomStringNames.SubmergedTooltip).ToArray();
+        __instance.mapBanners = new List<Sprite>(__instance.mapBanners)
         {
-            mapPickerMenu.transform.localPosition = new Vector3(mapPickerMenu.transform.localPosition.x, 1, mapPickerMenu.transform.localPosition.z);
-        }
+            ResourceManager.spriteCache["OptionsLogo"]
+        }.ToArray();
 
-        Transform fungleButton = mapPickerMenu.transform.Find("Fungle");
-        Transform submergedButton = UnityObject.Instantiate(fungleButton, fungleButton.parent);
-        submergedButton.name = "Submerged";
-        submergedButton.position = new Vector3(fungleButton.position.x,
-            2 * fungleButton.position.y - mapPickerMenu.transform.Find("Airship").transform.position.y,
-            fungleButton.position.z);
+        ConfirmCreatePopUp popUp = __instance.confirmPopUp.GetComponent<ConfirmCreatePopUp>();
 
-        SpriteRenderer submergedButtonRenderer = submergedButton.Find("Image").GetComponent<SpriteRenderer>();
-        submergedButtonRenderer.sprite = ResourceManager.spriteCache["Logo"];
-
-        PassiveButton submergedPassiveButton = submergedButton.GetComponent<PassiveButton>();
-        submergedPassiveButton.OnClick.m_PersistentCalls.m_Calls._items[0].arguments.intArgument = (int) CustomMapTypes.Submerged;
-
-        MapFilterButton fungleIndicator = __instance.MapMenu.MapButtons[4];
-        MapFilterButton submergedIndicator = UnityObject.Instantiate(fungleIndicator, fungleIndicator.transform.parent);
-        submergedIndicator.name = "Submerged";
-        submergedIndicator.transform.localPosition = new Vector3(0.80f, fungleIndicator.transform.localPosition.y, fungleIndicator.transform.localPosition.z);
-        submergedIndicator.MapId = CustomMapNames.Submerged;
-        submergedIndicator.Button = submergedPassiveButton;
-        submergedIndicator.ButtonCheck = submergedButton.Find("selectedCheck").GetComponent<SpriteRenderer>();
-        submergedIndicator.ButtonImage = submergedButtonRenderer;
-        submergedIndicator.ButtonOutline = submergedButtonRenderer.transform.parent.GetComponent<SpriteRenderer>();
-        submergedIndicator.Icon.sprite = ResourceManager.spriteCache["FilterIcon"];
-        __instance.MapMenu.MapButtons = __instance.MapMenu.MapButtons.AddItem(submergedIndicator).ToArray();
-
-        float pos = -1;
-        for (int i = 0; i < 6; i++)
+        popUp.mapLogos = new List<Sprite>(popUp.mapLogos)
         {
-            __instance.MapMenu.MapButtons[i].transform.SetLocalX(pos);
-            pos += 0.34f;
-        }
+            ResourceManager.spriteCache["OptionsLogo"]
+        }.ToArray();
 
-        SwapPositionsTroll(fungleButton, submergedButton);
-        SwapPositionsTroll(fungleIndicator, submergedIndicator);
-
-        if (AssetLoader.Errored)
+        popUp.mapBanners = new List<Sprite>(popUp.mapBanners)
         {
-            submergedPassiveButton.enabled = false;
-            submergedButtonRenderer.color = Palette.DisabledGrey;
-
-            IGameOptions targetOptions = __instance.GetTargetOptions();
-
-            if (targetOptions.MapId == (byte) CustomMapTypes.Submerged)
-            {
-                targetOptions.SetByte(ByteOptionNames.MapId, 0);
-                __instance.SetTargetOptions(targetOptions);
-                __instance.MapMenu.UpdateMapButtons(0);
-            }
-        }
-
-        if (__instance.mode == SettingsMode.Host)
-        {
-            __instance.CrewArea.MapBackgrounds = new List<Sprite>(__instance.CrewArea.MapBackgrounds) { ResourceManager.spriteCache["CreateGameBG"] }.ToArray();
-
-            mapPicker.localScale = new Vector3(0.75f, 0.75f, 1);
-        }
-
-        mapPickerMenu.transform.Find("Backdrop").localScale *= 4;
+            ResourceManager.spriteCache["OptionsBG"]
+        }.ToArray();
     }
 
     private static void SwapPositionsTroll(Component one, Component two)

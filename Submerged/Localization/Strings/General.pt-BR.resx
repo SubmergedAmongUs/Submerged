@@ -43,4 +43,7 @@
         <value>Não foi possível carregar Submerged. Por favor recarregue seu jogo.
 Se o problema persistir, reinstale Submerged ou crie um ticket no GitHub.</value>
     </data>
+    <data name="SubmergedTooltip" xml:space="preserve">
+        <value>Submerged: Um mapa sub-aquático com sistema multi-andar, elevadores, novas tarefas e sabotagens, e mais!</value>
+    </data>
 </root>

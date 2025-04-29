@@ -9,8 +9,8 @@
 
 namespace Submerged.Localization.Strings {
     using System;
-
-
+    
+    
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -22,15 +22,15 @@ namespace Submerged.Localization.Strings {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class General {
-
+        
         private static global::System.Resources.ResourceManager resourceMan;
-
+        
         private static global::System.Globalization.CultureInfo resourceCulture;
-
+        
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
         internal General() {
         }
-
+        
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
@@ -44,7 +44,7 @@ namespace Submerged.Localization.Strings {
                 return resourceMan;
             }
         }
-
+        
         /// <summary>
         ///   Overrides the current thread's CurrentUICulture property for all
         ///   resource lookups using this strongly typed resource class.
@@ -58,7 +58,7 @@ namespace Submerged.Localization.Strings {
                 resourceCulture = value;
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Additional Art.
         /// </summary>
@@ -67,7 +67,7 @@ namespace Submerged.Localization.Strings {
                 return ResourceManager.GetString("Credits.AdditionalArt", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Artists.
         /// </summary>
@@ -76,7 +76,7 @@ namespace Submerged.Localization.Strings {
                 return ResourceManager.GetString("Credits.Artists", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Developers.
         /// </summary>
@@ -85,7 +85,7 @@ namespace Submerged.Localization.Strings {
                 return ResourceManager.GetString("Credits.Developers", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Map Design.
         /// </summary>
@@ -94,7 +94,7 @@ namespace Submerged.Localization.Strings {
                 return ResourceManager.GetString("Credits.MapDesign", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Project Lead.
         /// </summary>
@@ -103,7 +103,7 @@ namespace Submerged.Localization.Strings {
                 return ResourceManager.GetString("Credits.ProjectLead", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Technical Support.
         /// </summary>
@@ -112,7 +112,7 @@ namespace Submerged.Localization.Strings {
                 return ResourceManager.GetString("Credits.TechnicalSupport", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Translators.
         /// </summary>
@@ -121,7 +121,7 @@ namespace Submerged.Localization.Strings {
                 return ResourceManager.GetString("Credits.Translators", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Could not load Submerged assets. Please restart your game.
         ///If this problem persists, please reinstall Submerged or open an issue on GitHub..
@@ -131,13 +131,22 @@ namespace Submerged.Localization.Strings {
                 return ResourceManager.GetString("Error.AssetsNotLoaded", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Cannot start the game as the following players do not have Submerged:.
         /// </summary>
         internal static string Error_PlayersMissingSubmerged {
             get {
                 return ResourceManager.GetString("Error.PlayersMissingSubmerged", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Submerged: An underwater map with a multi-floor system, elevators, new tasks and sabotages, and more!.
+        /// </summary>
+        internal static string SubmergedTooltip {
+            get {
+                return ResourceManager.GetString("SubmergedTooltip", resourceCulture);
             }
         }
     }

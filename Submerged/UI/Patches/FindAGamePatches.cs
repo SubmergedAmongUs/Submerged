@@ -2,6 +2,7 @@ using System.Linq;
 using HarmonyLib;
 using Il2CppInterop.Runtime.InteropTypes.Arrays;
 using InnerNet;
+using Submerged.Enums;
 using Submerged.Resources;
 using UnityEngine;
 
@@ -26,5 +27,27 @@ public static class FindAGamePatches
         yield return existingIcons[3]; // Airship
         yield return existingIcons[4]; // Fungle
         yield return ResourceManager.spriteCache["FilterIcon"];
+    }
+
+    [HarmonyPatch(typeof(FilterMapPicker), nameof(FilterMapPicker.Initialize))]
+    [HarmonyPrefix]
+    public static void AddSubmergedToMapFilter(FilterMapPicker __instance)
+    {
+        __instance.mapStrings = __instance.mapStrings.Append(CustomStringNames.Submerged).ToArray();
+    }
+
+    [HarmonyPatch(typeof(GameContainer), nameof(GameContainer.SetupGameInfo))]
+    [HarmonyPrefix]
+    public static void AddSubmergedSpritesToGameDisplay(GameContainer __instance)
+    {
+        __instance.mapLogoSprites = new SCG.List<Sprite>(__instance.mapLogoSprites)
+        {
+            ResourceManager.spriteCache["OptionsLogo"]
+        }.ToArray();
+
+        __instance.mapBackgroundSprites = new SCG.List<Sprite>(__instance.mapBackgroundSprites)
+        {
+            ResourceManager.spriteCache["OptionsBG"]
+        }.ToArray();
     }
 }

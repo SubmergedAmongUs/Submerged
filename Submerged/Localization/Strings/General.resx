@@ -52,4 +52,7 @@
         <value>Could not load Submerged assets. Please restart your game.
 If this problem persists, please reinstall Submerged or open an issue on GitHub.</value>
     </data>
+    <data name="SubmergedTooltip" xml:space="preserve">
+        <value>Submerged: An underwater map with a multi-floor system, elevators, new tasks and sabotages, and more!</value>
+    </data>
 </root>
