@@ -28,7 +28,7 @@ public static class MapOptionsButtonPatches
     [HarmonyPrefix]
     public static void AddToGameOptionsUI(GameOptionsMapPicker __instance)
     {
-        if (__instance.AllMapIcons.Contains(_optionsIcon.Value)) return;
+        if (__instance.AllMapIcons.ToArray().Any(x => x.Name == CustomMapNames.Submerged)) return;
         __instance.AllMapIcons.Insert(4, _optionsIcon.Value);
     }
 
@@ -36,7 +36,7 @@ public static class MapOptionsButtonPatches
     [HarmonyPrefix]
     public static void AddToOptionsDisplay(GameStartManager __instance)
     {
-        if (__instance.AllMapIcons.Contains(_gameIcon.Value)) return;
+        if (__instance.AllMapIcons.ToArray().Any(x => x.Name == CustomMapNames.Submerged)) return;
         __instance.AllMapIcons.Insert(4, _gameIcon.Value);
     }
 

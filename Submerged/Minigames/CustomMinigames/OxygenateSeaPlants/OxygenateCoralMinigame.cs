@@ -295,7 +295,10 @@ public sealed class OxygenateCoralMinigame(nint ptr) : Minigame(ptr)
     public IEnumerator Oxygenate()
     {
         if (amClosing != CloseState.None) yield break;
-        MyNormTask!?.NextStep();
+        if (MyNormTask != null)
+        {
+            MyNormTask.NextStep();
+        }
         StartCoroutine(CoStartClose());
 
         _bubbleTransform.gameObject.SetActive(false);
