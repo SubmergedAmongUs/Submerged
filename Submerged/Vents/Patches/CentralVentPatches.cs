@@ -2,7 +2,7 @@ using HarmonyLib;
 using Submerged.Extensions;
 using UnityEngine;
 using static Submerged.Vents.VentPatchData;
-using PlayerPhysics_CoExitVent = PlayerPhysics._CoExitVent_d__56;
+using PlayerPhysics_CoExitVent = PlayerPhysics._CoExitVent_d__48;
 
 namespace Submerged.Vents.Patches;
 

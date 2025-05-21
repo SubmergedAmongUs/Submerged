@@ -71,7 +71,7 @@ public sealed class SubmarinePlayerFloorSystem(nint ptr) : CppObject(ptr), AU.IS
 
     public static void RespondToFloorChange(PlayerPhysics physics, int sid)
     {
-        MessageWriter writer = AmongUsClient.Instance.StartRpc(ShipStatus.Instance.NetId, CustomRpcCalls.AcknowledgeChangeFloor);
+        MessageWriter writer = AmongUsClient.Instance.StartRpcImmediately(ShipStatus.Instance.NetId, CustomRpcCalls.AcknowledgeChangeFloor, SendOption.Reliable);
         writer.WriteNetObject(physics);
         writer.Write(sid);
         writer.EndMessage();

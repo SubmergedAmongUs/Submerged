@@ -14,7 +14,7 @@ public static class DebugMode
         DebugWindow.Instance.Tabs.Add(new SubmergedTab());
         DebugWindow.Instance.Tabs.Add(new ModdingTab());
         DebugWindow.Instance.Tabs.Add(new KillAnimEditorTab());
-        GameOptionsData.MaxImpostors = Enumerable.Repeat(3, 16).ToArray();
-        HideNSeekGameOptionsV07.MaxImpostors = Enumerable.Repeat(1, 16).ToArray();
+        NormalGameOptionsV09.MaxImpostors = Enumerable.Repeat(3, 16).ToArray();
+        HideNSeekGameOptionsV09.MaxImpostors = Enumerable.Repeat(1, 16).ToArray();
     }
 }

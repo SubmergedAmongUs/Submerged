@@ -227,7 +227,7 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
     {
         IEnumerable<IActivatable> enumerator()
         {
-            foreach (ISystemType system in systems.values ??= new ICG.Dictionary<SystemTypes, ISystemType>.ValueCollection(systems))
+            foreach (ISystemType system in systems._values ??= new ICG.Dictionary<SystemTypes, ISystemType>.ValueCollection(systems))
             {
                 if (system is Il2CppObjectBase iObj && iObj.TryCast<IActivatable>() is { } activatable)
                 {
