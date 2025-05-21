@@ -48,6 +48,11 @@ public sealed class SubmarinePlayerFloorSystem(nint ptr) : CppObject(ptr), AU.IS
         }
     }
 
+    public void MarkClean()
+    {
+        IsDirty = false;
+    }
+
     public void Serialize(MessageWriter writer, bool initialState)
     {
         writer.Write((byte) playerFloorStates.Count);
