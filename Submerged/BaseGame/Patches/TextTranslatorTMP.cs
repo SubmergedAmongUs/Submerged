@@ -13,7 +13,7 @@ public static class TextTranslatorTMPPatches
     {
         __runOriginal = false;
 
-        if (__instance.ResetOnlyWhenNoDefault) return;
+        if (__instance.ResetOnlyWhenNoDefault && string.IsNullOrEmpty(__instance.defaultStr)) return;
 
         TextMeshPro component = __instance.GetComponent<TextMeshPro>();
         string text = TranslationController.Instance.GetStringWithDefault(__instance.TargetText, __instance.defaultStr);

@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <VersionPrefix>2025.1.30</VersionPrefix>
+        <VersionPrefix>2025.4.29</VersionPrefix>
         <VersionSuffix Condition="'$(Configuration)' == 'Debug'">dev</VersionSuffix>
         <Authors>Submerged Team</Authors>
         <RepositoryType>git</RepositoryType>
@@ -25,8 +25,9 @@
 
         <PackageReference Include="BepInEx.AutoPlugin" Version="1.1.0" PrivateAssets="all" />
         <PackageReference Include="BepInEx.IL2CPP.MSBuild" Version="2.1.0-rc.1" PrivateAssets="all" />
-        <PackageReference Include="JetBrains.Annotations" Version="2024.3.0" Aliases="JetBrains" PrivateAssets="all" />
+        <PackageReference Include="JetBrains.Annotations" Version="2025.1.0-eap1" Aliases="JetBrains" PrivateAssets="all" />
         <PackageReference Include="Submerged.Resource.Embedder" Version="2.2.1.1" PrivateAssets="all" />
+        <PackageReference Include="Microsoft.Unity.Analyzers" Version="1.22.0" PrivateAssets="all" />
     </ItemGroup>
 
     <ItemGroup>

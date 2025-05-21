@@ -95,7 +95,11 @@ public sealed class OxygenSabotageTask(nint ptr) : PlayerTask(ptr)
     {
         isComplete = true;
         PlayerControl.LocalPlayer.RemoveTask(this);
-        FindObjectOfType<OxygenSabotageMinigame>()?.Close();
+        OxygenSabotageMinigame minigame = FindObjectOfType<OxygenSabotageMinigame>();
+        if (minigame != null)
+        {
+            minigame.Close();
+        }
     }
 
     public override void OnRemove() { }

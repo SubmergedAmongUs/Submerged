@@ -66,8 +66,14 @@ public sealed class FishController(nint ptr) : MonoBehaviour(ptr)
 
     public void Closed()
     {
-        targetObj!?.gameObject.SetActive(false);
-        bubbles!?.Stop();
+        if (targetObj != null)
+        {
+            targetObj.gameObject.SetActive(false);
+        }
+        if (bubbles != null)
+        {
+            bubbles.Stop();
+        }
         this.StartCoroutine(LerpSpeed(0.5f, _speed, 25f));
     }
 

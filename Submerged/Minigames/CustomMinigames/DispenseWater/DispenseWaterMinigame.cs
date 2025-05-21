@@ -74,19 +74,28 @@ public sealed class DispenseWaterMinigame(nint ptr) : Minigame(ptr)
     {
         if (_filling)
         {
-            _audioSource!?.UnPause();
+            if (_audioSource != null)
+            {
+                _audioSource.UnPause();
+            }
             _timer += Time.deltaTime;
 
             if (_timer > 5f)
             {
                 button.onUp.Invoke();
-                _audioSource!?.Stop();
+                if (_audioSource != null)
+                {
+                    _audioSource.Stop();
+                }
                 Destroy(button);
             }
         }
         else
         {
-            _audioSource!?.Pause();
+            if (_audioSource != null)
+            {
+                _audioSource.Pause();
+            }
             if (waterAnimation.GetCurrentStateName(0) != "EndWater") waterAnimation.Play("EndWater");
         }
 
@@ -97,7 +106,10 @@ public sealed class DispenseWaterMinigame(nint ptr) : Minigame(ptr)
                 cap.position = capTarget.position;
                 capDraggable.forceStop = true;
                 SoundManager.Instance.PlaySound(minigameProperties.audioClips[1], false);
-                MyNormTask!?.NextStep();
+                if (MyNormTask != null)
+                {
+                    MyNormTask.NextStep();
+                }
                 StartCoroutine(CoStartClose());
             }
         }
