@@ -16,7 +16,7 @@ public static class TextTranslatorTMPPatches
         if (__instance.ResetOnlyWhenNoDefault) return;
 
         TextMeshPro component = __instance.GetComponent<TextMeshPro>();
-        string text = DestroyableSingleton<TranslationController>.Instance.GetStringWithDefault(__instance.TargetText, __instance.defaultStr);
+        string text = TranslationController.Instance.GetStringWithDefault(__instance.TargetText, __instance.defaultStr);
 
         if (__instance.ToUpper)
         {
