@@ -80,7 +80,7 @@ public static class StartGameErrorPatches
         gameStartManager.StartButton.ChangeButtonText(text);
     }
 
-    [BaseGameCode(LastChecked.v2024_8_13, "This code is taken from GameStartManager.Update")]
+    [BaseGameCode(LastChecked.v2025_5_20, "This code is taken from GameStartManager.Update")]
     private static void UpdateStartButtonBasedOnPlayerCount(GameStartManager gameStartManager)
     {
         gameStartManager.StartButton.SetButtonEnableState(gameStartManager.LastPlayerCount >= gameStartManager.MinPlayers);
@@ -91,13 +91,13 @@ public static class StartGameErrorPatches
         }
         if (gameStartManager.LastPlayerCount >= gameStartManager.MinPlayers)
         {
-            gameStartManager.StartButton.ChangeButtonText(TranslationController.Instance.GetString(StringNames.StartLabel));
-            gameStartManager.GameStartTextClient.text = TranslationController.Instance.GetString(StringNames.WaitingForPlayers);
+            gameStartManager.StartButton.ChangeButtonText(TranslationController.Instance.GetString(StringNames.StartLabel, []));
+            gameStartManager.GameStartTextClient.text = TranslationController.Instance.GetString(StringNames.WaitingForHost, []);
         }
         else
         {
-            gameStartManager.StartButton.ChangeButtonText(TranslationController.Instance.GetString(StringNames.WaitingForPlayers));
-            gameStartManager.GameStartTextClient.text = TranslationController.Instance.GetString(StringNames.WaitingForHost);
+            gameStartManager.StartButton.ChangeButtonText(TranslationController.Instance.GetString(StringNames.WaitingForPlayers, []));
+            gameStartManager.GameStartTextClient.text = TranslationController.Instance.GetString(StringNames.WaitingForPlayers, []);
         }
     }
 }
