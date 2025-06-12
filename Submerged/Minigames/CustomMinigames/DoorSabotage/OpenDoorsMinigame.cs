@@ -30,7 +30,7 @@ public class OpenDoorsMinigameNoInterface(nint ptr) : Minigame(ptr)
     private Collider2D _handleCollider;
     private bool _letterSelected;
 
-    private char _targetLetter;
+    private string _targetLetter;
     private float _timer;
 
     protected OpenableDoor myDoor;
@@ -43,7 +43,16 @@ public class OpenDoorsMinigameNoInterface(nint ptr) : Minigame(ptr)
         handle = transform.Find("Rotated/Handle").gameObject;
 
         _targetLetter = SetRandomChar();
-        character.text = _targetLetter.ToString();
+        string txt = _targetLetter.ToString();
+        if (txt.Contains("Alpha"))
+        {
+            txt = txt.Replace("Alpha", "");
+        }
+        else if (txt.Contains("Keypad"))
+        {
+            txt = _targetLetter.Replace("Keypad", "");
+        }
+        character.text = txt;
         _handleCollider = handle.GetComponent<Collider2D>();
     }
 
@@ -66,7 +75,31 @@ public class OpenDoorsMinigameNoInterface(nint ptr) : Minigame(ptr)
 
         _controller.Update();
 
-        if (Input.GetKeyDown(_targetLetter.ToString().ToLower()))
+        
+        bool keyPressed = false;
+        if (System.Enum.TryParse("Alpha" + character.text, out KeyCode alphaKey))
+        {
+            if (Input.GetKeyDown(alphaKey))
+            {
+                keyPressed = true;
+            }
+        }
+
+        if (!keyPressed && System.Enum.TryParse("Keypad" + character.text, out KeyCode keypadKey))
+        {
+            if (Input.GetKeyDown(keypadKey))
+            {
+                keyPressed = true;
+            }
+        }
+        if (!keyPressed && System.Enum.TryParse(character.text, out KeyCode letterKey))
+        {
+            if (Input.GetKeyDown(letterKey))
+            {
+                keyPressed = true;
+            }
+        }
+        if (keyPressed)
         {
             finishedScreen.SetActive(true);
             _letterSelected = true;
@@ -75,9 +108,13 @@ public class OpenDoorsMinigameNoInterface(nint ptr) : Minigame(ptr)
         CheckHandle();
     }
 
-    public char SetRandomChar()
+    public string SetRandomChar()
     {
-        char[] chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789".ToCharArray();
+        string[] chars = {
+            "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z",
+            "Alpha0", "Alpha1", "Alpha2", "Alpha3", "Alpha4", "Alpha5", "Alpha6", "Alpha7", "Alpha8", "Alpha9",
+            "Keypad0", "Keypad1", "Keypad2", "Keypad3", "Keypad4", "Keypad5", "Keypad6", "Keypad7", "Keypad8", "Keypad9"
+        };
 
         return chars.Random();
     }
