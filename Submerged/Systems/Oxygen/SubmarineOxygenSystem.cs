@@ -122,6 +122,11 @@ public sealed class SubmarineOxygenSystem(nint ptr) : CppObject(ptr), AU.ISystem
         doKillCheck = reader.ReadBoolean();
     }
 
+    public void MarkClean()
+    {
+        IsDirty = false;
+    }
+
     public void Serialize(MessageWriter writer, bool initialState)
     {
         writer.Write(countdown);

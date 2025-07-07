@@ -38,6 +38,11 @@ public sealed class SubmarineSecuritySabotageSystem(nint ptr) : CppObject(ptr), 
         fixedCams = reader.ReadBytesAndSize().ToList();
     }
 
+    public void MarkClean()
+    {
+        IsDirty = false;
+    }
+
     public void Serialize(MessageWriter writer, bool initialState)
     {
         writer.WriteBytesAndSize(fixedCams.ToArray());

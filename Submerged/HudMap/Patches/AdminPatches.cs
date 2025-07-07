@@ -21,6 +21,11 @@ public static class AdminPatches
     [HarmonyPrefix]
     public static void AddAdminUseButtonPatch(UseButton __instance)
     {
+        if (__instance.UseSettings.Any(x => x.ButtonType == CustomImageNames.SubmergedAdminButton))
+        {
+            return;
+        }
+
         UseButtonSettings submergedAdminButton = ScriptableObject.CreateInstance<UseButtonSettings>();
         submergedAdminButton.ButtonType = CustomImageNames.SubmergedAdminButton;
         submergedAdminButton.Image = ResourceManager.spriteCache["AdminButton"];

@@ -37,34 +37,35 @@ public class RelativeShadowRenderer(nint ptr) : MonoBehaviour(ptr)
     {
         if (!ShipStatus.Instance) return;
 
+        Transform objTransform = transform;
+
         if (isRoot)
         {
-            transform.localPosition = new Vector3(-0.04f, 0, 0); // slight offset in the shadow idk why
-            transform.localScale = Vector3.one;
-            transform.localRotation = Quaternion.identity;
+            objTransform.localPosition = new Vector3(-0.04f, 0, 0); // slight offset in the shadow idk why
+            objTransform.localScale = Vector3.one;
+            objTransform.localRotation = Quaternion.identity;
         }
         else
         {
-            transform.localPosition = target.transform.localPosition;
-            transform.localScale = target.transform.localScale;
-            transform.localRotation = target.transform.localRotation;
+            objTransform.localPosition = target.transform.localPosition;
+            objTransform.localScale = target.transform.localScale;
+            objTransform.localRotation = target.transform.localRotation;
         }
 
-        if (targetRenderer)
-        {
-            shadowRenderer.enabled = targetRenderer.enabled && targetRenderer.gameObject.activeInHierarchy && EnableShadow;
-            shadowRenderer.sprite = GetReplacementSprite(targetRenderer.sprite);
-            shadowRenderer.SetColorAlpha(targetRenderer.color.a);
-            shadowRenderer.flipX = targetRenderer.flipX;
-            shadowRenderer.flipY = targetRenderer.flipY;
-            shadowRenderer.size = targetRenderer.size;
-            shadowRenderer.drawMode = targetRenderer.drawMode;
-            shadowRenderer.tileMode = targetRenderer.tileMode;
-            shadowRenderer.adaptiveModeThreshold = targetRenderer.adaptiveModeThreshold;
-        }
+        if (!targetRenderer) return;
+
+        shadowRenderer.enabled = targetRenderer.enabled && targetRenderer.gameObject.activeInHierarchy && EnableShadow;
+        shadowRenderer.sprite = GetReplacementSprite(targetRenderer.sprite);
+        shadowRenderer.SetColorAlpha(targetRenderer.color.a);
+        shadowRenderer.flipX = targetRenderer.flipX;
+        shadowRenderer.flipY = targetRenderer.flipY;
+        shadowRenderer.size = targetRenderer.size;
+        shadowRenderer.drawMode = targetRenderer.drawMode;
+        shadowRenderer.tileMode = targetRenderer.tileMode;
+        shadowRenderer.adaptiveModeThreshold = targetRenderer.adaptiveModeThreshold;
     }
 
-    protected virtual Sprite GetReplacementSprite(Sprite spriteToGet)
+    private Sprite GetReplacementSprite(Sprite spriteToGet)
     {
         if (!spriteToGet) return null;
 
@@ -76,13 +77,7 @@ public class RelativeShadowRenderer(nint ptr) : MonoBehaviour(ptr)
         string spriteName = spriteToGet.name;
         Sprite newShadowSprite = replacementSprites.FirstOrDefault(s => s.name == spriteName);
 
-        if (newShadowSprite)
-        {
-            _cachedSprites[spriteToGet] = newShadowSprite;
-            return newShadowSprite;
-        }
-
-        return spriteToGet;
+        return _cachedSprites[spriteToGet] = newShadowSprite ? newShadowSprite : spriteToGet;
     }
 
     [HideFromIl2Cpp]

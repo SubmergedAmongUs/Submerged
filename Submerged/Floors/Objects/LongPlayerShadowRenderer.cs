@@ -15,26 +15,29 @@ public class LongPlayerShadowRenderer(nint ptr) : PlayerShadowRenderer(ptr)
         body.gameObject.layer = LayerMask.NameToLayer("Players");
     }
 
+    private SpriteRenderer _lastRenderer;
+
     protected override void LateUpdate()
     {
         base.LateUpdate();
 
-        if (targetRenderer)
+        if (!targetRenderer || _lastRenderer == targetRenderer) return;
+
+        _lastRenderer = targetRenderer;
+
+        switch (targetRenderer.name)
         {
-            switch (targetRenderer.name)
-            {
-                case "LongNeck":
-                    shadowRenderer.size = new Vector2(targetRenderer.size.x, 1.1f);
-                    break;
+            case "LongNeck":
+                shadowRenderer.size = new Vector2(targetRenderer.size.x, 1.1f);
+                break;
 
-                case "ForegroundNeck":
-                    shadowRenderer.size = new Vector2(targetRenderer.size.x, 1.7f);
-                    break;
+            case "ForegroundNeck":
+                shadowRenderer.size = new Vector2(targetRenderer.size.x, 1.7f);
+                break;
 
-                case "LongHead":
-                    shadowRenderer.transform.localPosition = new Vector3(shadowRenderer.transform.localPosition.x, body.neckSprite.transform.localPosition.y + 2.79f, shadowRenderer.transform.localPosition.z);
-                    break;
-            }
+            case "LongHead":
+                shadowRenderer.transform.localPosition = new Vector3(shadowRenderer.transform.localPosition.x, body.neckSprite.transform.localPosition.y + 2.79f, shadowRenderer.transform.localPosition.z);
+                break;
         }
     }
 }

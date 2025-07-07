@@ -170,7 +170,7 @@ public sealed class FloorHandler(nint ptr) : MonoBehaviour(ptr)
         }
 
         if (!Player.AmOwner) Error("Trying to change the floor of another player will lead to an anticheat ban on official servers and is not supported.");
-        MessageWriter writer = AmongUsClient.Instance.StartRpc(PlayerControl.LocalPlayer.MyPhysics.NetId, CustomRpcCalls.RequestChangeFloor);
+        MessageWriter writer = AmongUsClient.Instance.StartRpcImmediately(PlayerControl.LocalPlayer.MyPhysics.NetId, CustomRpcCalls.RequestChangeFloor, SendOption.Reliable);
         writer.Write(toUpper);
         writer.Write(lastSid++);
         writer.EndMessage();

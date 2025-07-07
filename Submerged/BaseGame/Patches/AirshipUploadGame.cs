@@ -6,9 +6,10 @@ namespace Submerged.BaseGame.Patches;
 [HarmonyPatch]
 public static class AirshipUploadGameUpdatePatches
 {
+    // TODO: This patch may not be needed, and if it is it should be documented why!
     [HarmonyPatch(typeof(AirshipUploadGame), nameof(AirshipUploadGame.Update))]
     [HarmonyPrefix]
-    [BaseGameCode(LastChecked.v2024_8_13, "Patching the method with it's own code because C# > C++")]
+    [BaseGameCode(LastChecked.v2025_5_20, "Patching the method with it's own code because C# > C++")]
     public static void Prefix(AirshipUploadGame __instance, out bool __runOriginal)
     {
         __runOriginal = false;
