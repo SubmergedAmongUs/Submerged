@@ -14,6 +14,7 @@ public static class MapSelectButtonPatches
 {
     private static FreeplayPopover _lastInstance;
 
+    // this is probably inlined, find another way
     [HarmonyPatch(typeof(IGameOptionsExtensions), nameof(IGameOptionsExtensions.ToggleMapFilter))]
     [HarmonyPrefix]
     public static bool AllowSelectingSubmergedMapPatch([HarmonyArgument(0)] IGameOptions gameOptions, [HarmonyArgument(1)] byte newId)

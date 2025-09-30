@@ -14,6 +14,7 @@ public static class DisableReactorWarningPatches
         "Submerged"
     ];
 
+    // This is probably inlined, we should find another way
     [HarmonyPatch(typeof(DisconnectPopup), nameof(DisconnectPopup.ShowCustom))]
     [HarmonyPrefix]
     public static bool PreventReactorPopupPatch([HarmonyArgument(0)] string message)
