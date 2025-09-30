@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using HarmonyLib;
+using Submerged.BaseGame;
 using Submerged.Enums;
 using Submerged.Extensions;
 using Submerged.Floors;
@@ -10,7 +11,8 @@ using UnityEngine;
 
 namespace Submerged.Minigames.Patches;
 
-[HarmonyPatch(typeof(ArrowBehaviour), nameof(ArrowBehaviour.UpdatePosition))]
+[BaseGameCode(LastChecked.v2025_9_9, "UpdatePosition is inlined in IL2CPP, we must check to make sure it is still inlined across versions.")]
+[HarmonyPatch(typeof(ArrowBehaviour), nameof(ArrowBehaviour.Update))]
 public static class ArrowBehaviourUpdatePositionPatch
 {
     private static List<(SubmarineElevator elevator, Vector3 position)> _lowerElevatorPositions;
