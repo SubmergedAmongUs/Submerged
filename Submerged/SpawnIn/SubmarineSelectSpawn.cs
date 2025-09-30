@@ -407,7 +407,7 @@ public class SubmarineSelectSpawn(nint ptr) : Minigame(ptr)
         yield break;
     }
 
-    [BaseGameCode(LastChecked.v2025_5_20, "Part of this method is from ExileController.ReEnableGameplay")]
+    [BaseGameCode(LastChecked.v2025_9_9, "Part of this method is from ExileController.ReEnableGameplay")]
     private void Cleanup(bool unfade = true)
     {
         if (unfade)
