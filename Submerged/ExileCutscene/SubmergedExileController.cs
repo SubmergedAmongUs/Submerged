@@ -195,7 +195,7 @@ public sealed class SubmergedExileController(nint ptr) : ExileController(ptr)
 
     // Cleanup this WrapUpAndSpawn method
     [HideFromIl2Cpp]
-    [BaseGameCode(LastChecked.v2025_5_20, "Similar to AirshipExileController.WrapUpAndSpawn")]
+    [BaseGameCode(LastChecked.v2025_9_9, "Similar to AirshipExileController.WrapUpAndSpawn")]
     public IEnumerator WrapUpAndSpawn()
     {
         if (initData != null && initData.networkedPlayer)
@@ -212,7 +212,7 @@ public sealed class SubmergedExileController(nint ptr) : ExileController(ptr)
 
         if (TutorialManager.InstanceExists || (GameManager.Instance && !GameManager.Instance.LogicFlow.IsGameOverDueToDeath()))
         {
-            ShipStatus.Instance.StartCoroutine(ShipStatus.Instance.PrespawnStep());
+            yield return ShipStatus.Instance.PrespawnStep();
 
             // We can't use ReEnableGameplay because it fades the screen to clear and we don't want that
             PlayerControl.LocalPlayer.SetKillTimer(GameManager.Instance.LogicOptions.GetKillCooldown());
@@ -224,8 +224,6 @@ public sealed class SubmergedExileController(nint ptr) : ExileController(ptr)
         }
 
         Destroy(gameObject);
-
-        yield break;
     }
 
     public override CppIEnumerator Animate() => WaitForFadeAndAnimate().WrapToIl2Cpp();

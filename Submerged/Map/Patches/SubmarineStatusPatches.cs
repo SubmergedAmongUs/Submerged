@@ -8,6 +8,7 @@ namespace Submerged.Map.Patches;
 [HarmonyPatch]
 public static class SubmarineStatusPatches
 {
+    // Could be inlined, find an alternate way
     [HarmonyPatch(typeof(ShipStatus), nameof(ShipStatus.CalculateLightRadius))]
     [HarmonyPrefix]
     [HarmonyPriority(Priority.First)]

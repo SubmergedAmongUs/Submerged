@@ -1,3 +1,4 @@
+using AmongUs.GameOptions;
 using HarmonyLib;
 using Submerged.Elevators.Objects;
 using Submerged.Extensions;
@@ -15,7 +16,7 @@ public static class GameplayObjectsInElevatorPatches
     public static bool MoveShapeshifterEvidencePatch(ShapeshifterRole __instance)
     {
         if (!ShipStatus.Instance.IsSubmerged()) return true;
-        if (!GameManager.Instance.LogicOptions.GetShapeshifterLeaveSkin()) return false;
+        if (!GameManager.Instance.LogicOptions.GetRoleBool(BoolOptionNames.ShapeshifterLeaveSkin)) return false;
 
         ShapeshifterEvidence evidence = UnityObject.Instantiate(__instance.EvidencePrefab);
         Vector3 evidencePosition = __instance.Player.transform.position + __instance.EvidenceOffset * 0.7f;
