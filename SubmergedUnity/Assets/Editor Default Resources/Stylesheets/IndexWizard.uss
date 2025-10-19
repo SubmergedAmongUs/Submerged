@@ -1,0 +1,99 @@
+﻿/*
+컴포넌트 별 세팅
+ */
+
+.label-title {
+    padding-left: 12px;
+    padding-right: 12px;
+    -unity-font-style: bold;
+    font-size: 14px;
+    color: rgb(238, 69, 15);
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.content-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.button-container {
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.root {
+    transition: all 1s;
+    width: 660px;
+    height: 460px;
+    background-color: rgb(221, 160, 160);
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.top-bar {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*
+블렌딩
+ */
+
+.blending {
+    transition: all 1s;
+    opacity: 1;
+}
+
+.blending:disabled {
+    opacity: 0;
+}
+
+.unity-label {
+    color: rgb(75, 69, 83);
+}
+
+.unity-toggle {
+    justify-content: space-between;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.unity-toggle .unity-toggle__input {
+    max-width: 20px;
+}
+
+.unity-text-field {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+#right .unity-button {
+    min-width: 80px;
+    min-height: 24px;
+}
+
+#column-header .unity-label {
+    font-size: 13px;
+    -unity-font-style: bold;
+}
+
+#title {
+    padding-bottom: 0;
+}
+
+@supports (transition: all 1s) {
+    .root {
+        transition: all 1s;
+    }
+}
+
+@supports (transition: all 1s) {
+    .blending {
+        transition: all 1s;
+    }
+}

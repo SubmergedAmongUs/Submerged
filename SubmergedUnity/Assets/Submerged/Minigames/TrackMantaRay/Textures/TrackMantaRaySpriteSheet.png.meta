@@ -213,7 +213,7 @@ TextureImporter:
       213: 568444412337348473
     second: background1
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -230,10 +230,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -242,9 +244,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -272,6 +274,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -283,6 +287,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -295,6 +300,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1780,9 +1786,79 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      background1: 568444412337348473
+      cliff: 9138734998784888664
+      coral: 7065981543880154126
+      coral2: -3395484740664569501
+      mantaray00: -6656399485861357518
+      mantaray01: 7513537372266410224
+      mantaray02: -4927654452589378532
+      mantaray03: -4033921132725026004
+      mantaray04: 3576297951091937126
+      mantaray05: -3912190792710844824
+      mantaray06: 1996385184646451948
+      mantaray07: 1223890478592822779
+      mantaray08: -2001558840866048021
+      mantaray09: 5093951324680783314
+      mantaray10: 3483928158430788564
+      mantaray11: -8643938053228685342
+      mantaray12: -8193709935820129132
+      mantaray13: -1090556797388655461
+      mantaray14: -6125229477949209519
+      mantaray15: 2177243473245752379
+      mantaray16: -8778601889995227598
+      mantaray17: -2869727326583918341
+      mantaray18: -206523911591709308
+      mantaray19: -4362435018504204753
+      mantaray20: 2842128865755531092
+      mantaray21: -6742001794135635641
+      mantaray22: 6013491729575627504
+      mantaray23: -2130840176442101525
+      mantaray24: -2001967922183110295
+      mantaray25: 5566851081897838791
+      mantaray26: -8542491480641166245
+      mantaray27: 4066964427868389178
+      mantaray28: 5733003025422048989
+      mantaray29: -4468977229838413942
+      mantaray30: -8698846546955778625
+      mantaray31: -6747760937558743558
+      mantaray32: -5176242721415581376
+      mantaray33: 5453382022557777187
+      mantaray34: -4741791036522035684
+      mantaray35: 2042266434404974454
+      mantaray36: 2866689250139771229
+      mantaray37: 9179957730282712684
+      mantaray38: -7651328455969362250
+      mantaray39: 4086917472122932627
+      mantaray40: 6993323749264088642
+      mantaray41: -3827515259644231389
+      mantaray42: -3756248061000625488
+      mantaray43: -6533278042392897873
+      mantaray44: 3123801497746039048
+      mantaray45: 4082399317866784292
+      mantaray46: -6304763275656103021
+      mantaray47: 6633843552886104479
+      mantaray48: -5370426956264657862
+      mantaray49: -8649007863007751352
+      mantaray50: 764536186460953220
+      mantaray51: -8934344484660098863
+      mantaray52: -5733472727981305874
+      mantaray53: -617089820706076627
+      mantaray54: 5138879267642615423
+      mantaray55: 2639274204261710231
+      mantaray56: 3585873799015234286
+      mantaray57: -2475890181961918058
+      mantaray58: -4526106669811593736
+      mantaray59: -1260953900861879462
+      mantaray60: 5722273103388049256
+      mantaray61: 3757502889456977922
+      seaweed1: 7974025486862566620
+      seaweed2: -3925131752087648364
+      seaweed3: 201314548720837722
+      seaweed4: -4943500877959812476
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

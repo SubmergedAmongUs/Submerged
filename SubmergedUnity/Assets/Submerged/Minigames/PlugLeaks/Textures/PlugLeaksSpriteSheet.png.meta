@@ -63,7 +63,7 @@ TextureImporter:
       213: -1090456798525440410
     second: side water2
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -80,10 +80,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -92,9 +94,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -122,6 +124,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -133,6 +137,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -145,6 +150,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -580,9 +586,29 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Background-JUSTBorder: -8486776931064369311
+      Ballast: -1669156557132070265
+      Electrical: -4470525988378299583
+      Engines: -6897654208278604644
+      LD South Hallway: -4103351566956501863
+      Research: 1220062032025483318
+      Ripped_Wallpaper: 7108897272497411001
+      Tape: 4684778295006514797
+      Tape_strip2: -2916854021560296640
+      The_Crack: -3313281168457070402
+      The_Leak_Itself: 3031728488696427385
+      UpperLobby: -5885106487477733295
+      Wallpaper_Shading: -6310003752929285919
+      isthiswhatumeanbytopcrack: 5426812559106013986
+      nose water: -797182689435518436
+      nose water2: 9137607433057736077
+      nose water3: -6133640425006083553
+      othersidewater: 119485140497193659
+      side water1: -7792869140584401967
+      side water2: -1090456798525440410
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

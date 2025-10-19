@@ -180,7 +180,7 @@ TextureImporter:
       213: 3379440171204741469
     second: leaves-blue-fourty
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -197,10 +197,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -209,9 +211,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -239,6 +241,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -250,6 +254,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -262,6 +267,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1243,9 +1249,55 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      3: -5906598218874874896
+      Mask: 7577328287588368852
+      large bubble: 5317198810508956700
+      leaves-blue-30: -4976781088351940102
+      leaves-blue-31: 5508728442367249747
+      leaves-blue-33: -1016672183516259596
+      leaves-blue-34: -7734120828906648591
+      leaves-blue-35: 4268719932210616541
+      leaves-blue-36: 613056519741406207
+      leaves-blue-38: -5443816861360658961
+      leaves-blue-39: -7885396918762293290
+      leaves-blue-40: 5981823102217710604
+      leaves-blue-41: 6384549027398600181
+      leaves-blue-42: -6741031469402078177
+      leaves-blue-43: 5583495545414882964
+      leaves-blue-44: -4288968980279944777
+      leaves-blue-45: 5651277298994296907
+      leaves-orange (coral)-29: 4909685460786868887
+      leaves-pink-0: 6060896873289210561
+      leaves-pink-1: -5805833966463038899
+      leaves-pink-3: 8230534248635012929
+      leaves-pink-4: -776827408951699301
+      leaves-pink-5: 1496430503208331175
+      leaves-pink-6: 2679942889745755296
+      leaves-pink-7: -2876653300991915314
+      leaves-pink-8: -1740824974707560542
+      leaves-red-10: 4303074128139079139
+      leaves-red-12: -3068914884961358220
+      leaves-red-13: -3585588636109899944
+      leaves-red-14: -8668793934346031120
+      leaves-red-15: -5442449174220472797
+      leaves-red-16: 935042434882190446
+      leaves-red-17: -2866105519452246384
+      leaves-rocks-20: 8618176085021092083
+      leaves-rocks-22: -8610775606724886917
+      leaves-rocks-23: -2660784063603235896
+      leaves-rocks-24: -5121040252478310317
+      leaves-rocks-25: -7068986478211825606
+      leaves-rocks-26: 681566262939242351
+      slugs-1: -3458164701437699323
+      slugs-2: 6287282234902807395
+      slugs-3: -8782756088585641992
+      slugs-4: 3160919888767973480
+      slugs-5: -953587664869449038
+      slugs-6: -3372607870414496874
+      tank: 7102320439997365052
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

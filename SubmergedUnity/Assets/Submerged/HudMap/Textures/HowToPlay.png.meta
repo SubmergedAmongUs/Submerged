@@ -102,7 +102,7 @@ TextureImporter:
       213: 21300064
     second: htp_host_bottom
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -119,10 +119,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -161,6 +163,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -172,6 +176,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -184,6 +189,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -2516,9 +2522,42 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      CrewBottom: 21300058
+      CrewImage: 21300008
+      CrewTitle: 21300002
+      CrewTop: 21300004
+      ImpBottom: 21300006
+      ImpTop: 21300010
+      htp_PC_arrowKeys: 21300048
+      htp_PC_arrowKeysSelected: 21300050
+      htp_PC_mouseCursor: 21300046
+      htp_arrows: 21300016
+      htp_controlModeBg: 21300014
+      htp_couchBase5People: 21300018
+      htp_host_bottom: 21300064
+      htp_host_left: 21300056
+      htp_host_lower: 21300062
+      htp_host_right: 21300000
+      htp_host_top: 21300060
+      htp_map: 21300040
+      htp_panel1: 21300034
+      htp_panel5.png: 21300038
+      htp_panel6Discussion: 21300042
+      htp_panel6DiscussionChat: 21300044
+      htp_panel7: 21300036
+      htp_panel8: 21300052
+      htp_player1: 21300020
+      htp_player2: 21300022
+      htp_player3: 21300024
+      htp_player4: 21300026
+      htp_player5: 21300028
+      impImage: 21300054
+      impTitle: 21300012
+      tutorial_hand: 21300030
+      tutorial_touchPoint: 21300032
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -87,7 +87,7 @@ TextureImporter:
       213: -7916417403202975446
     second: pellets_7
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -104,10 +104,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -116,9 +118,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -146,6 +148,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -157,6 +161,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -169,6 +174,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -772,9 +778,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Background: 2504170125896549414
+      Coral1: -2899643205691146210
+      Coral2: -7252777416408589876
+      Coral3: -343216023190630068
+      Coral4: 3625887988084286973
+      Coral5: -2564246992603645817
+      Coral6: -7898340051818262967
+      Coral7: 2918791816090377115
+      Fish_Tank_Border: -3824077676791309801
+      food_adorabilis: -2922959606744580417
+      food_alien: 1697847577519342747
+      food_cuttlefish: 7177831271013337256
+      food_puffer: 7484117282818981389
+      food_seahorse: 4190482606033771521
+      pellets_0: 6420217812981636162
+      pellets_1: -1216135137466171601
+      pellets_2: -696812247203677383
+      pellets_3: -132293140373863899
+      pellets_4: 8390847624714261377
+      pellets_5: 8411219054850860440
+      pellets_6: -7395648560644144910
+      pellets_7: -7916417403202975446
+      pet_adorabilis: -3109591011376492478
+      pet_alien: 3533539831494831376
+      pet_cuttlefish1: -3625744003804793667
+      pet_cuttlefish2: 815932580072638991
+      pet_puffer: 1286808096194613562
+      pet_seahorse: 6320777637106954402
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

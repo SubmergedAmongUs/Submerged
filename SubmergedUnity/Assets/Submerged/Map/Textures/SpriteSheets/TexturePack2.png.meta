@@ -300,7 +300,7 @@ TextureImporter:
       213: 1204632474144746718
     second: Cat_body
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -317,10 +317,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -329,9 +331,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -359,6 +361,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -370,6 +374,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -382,6 +387,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -2476,9 +2482,108 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      BallastLights_0000_Open: -6405091228157470277
+      BallastLights_0001_Closed: 3942928154286592805
+      Ballast_0000_BallastFloor: -9115283423704387869
+      C-Vent Frame 01: -5565553956869476983
+      C-Vent Frame 02: -8679025160136781793
+      C-Vent Frame 03: 8910510464208769903
+      C-Vent Frame 04: 8309499034091738747
+      C-Vent Frame 05: 5363072510838931417
+      C-Vent Frame 06: 809672767495819709
+      C-Vent Frame 07: 2989584579055090753
+      C-Vent Frame 08: -1198044565637034582
+      C-Vent Frame 09: 3132675025755480221
+      CatBox: -8658205064191480193
+      Cat_body: 1204632474144746718
+      Central_1000_LowerCentral: -8678152047205594732
+      Central_Vent_Overlay: -4320964394121123144
+      Central_Vent_Overlay_2: 2347447591226521794
+      Diagonse_Elevator_UD_Lobby: 6808396693443108838
+      ElevatorDoorsInside_0000_Door8: 284334890709750349
+      ElevatorDoorsInside_0001_Door7: -4090343435662082077
+      ElevatorDoorsInside_0002_Door6: -708355348423683940
+      ElevatorDoorsInside_0003_Door5: 1923429182064113018
+      ElevatorDoorsInside_0004_Door4: 7554179788937733629
+      ElevatorDoorsInside_0005_Door3: -3779859592766745092
+      ElevatorDoorsInside_0006_Door2: -5820348468101169102
+      ElevatorDoorsInside_0007_Door1: 1898450445236784900
+      ElevatorDoorsOutside_0000_Door0008: 8475945375164894894
+      ElevatorDoorsOutside_0001_Door0007: -5336792470322366024
+      ElevatorDoorsOutside_0002_Door0006: 8236627270553917350
+      ElevatorDoorsOutside_0003_Door0005: 5773278147916048817
+      ElevatorDoorsOutside_0004_Door0004: 2065486253572166245
+      ElevatorDoorsOutside_0005_Door0003: -8596387699239500991
+      ElevatorDoorsOutside_0006_Door0002: -5744942130405309948
+      ElevatorDoorsOutside_0007_Door0001: -7464228544104086868
+      ElevatorLight_0000_UpLightOn: -4679123077698588587
+      ElevatorLight_0001_UpLightOff: 8859213537862326561
+      ElevatorLight_0002_FrontLightOn: 4731651044463736449
+      ElevatorLight_0003_FrontLightOff: -2259264484523263549
+      EnginesAndSecurityHall_0000_Engines: -3949894384718801443
+      Engines_Vent_Overlay: -8958656705291922699
+      Engines_Vent_Overlay_2: -827599029937021552
+      FullElevator: -6501362305123712135
+      GeneralDoor_0000_HozDoorOpen0008: 9139115041975581582
+      GeneralDoor_0001_HozDoorOpen0007: -439363577931309512
+      GeneralDoor_0002_HozDoorOpen0006: 8529226860791859893
+      GeneralDoor_0003_HozDoorOpen0005: -4189372452900883182
+      GeneralDoor_0004_HozDoorOpen0004: -8272852212832487074
+      GeneralDoor_0005_HozDoorOpen0003: -6922120861399479178
+      GeneralDoor_0006_HozDoorOpen0002: -3857094845151986399
+      GeneralDoor_0007_HozDoorOpen0001: -8237262796459107336
+      Observatory_Frame_1: 1516955617110600875
+      Observatory_Frame_2: -571962269947817462
+      Observatory_Frame_3: 4730131550802710527
+      Observatory_Frame_4: 3522681846077334518
+      Observatory_Frame_5: -280923562488565476
+      Observatory_Frame_6: 8527990420048026995
+      SubmarineDoorH_0: -5991502796376062997
+      SubmarineDoorH_10: -145729699322703373
+      SubmarineDoorH_12: -949103756141807094
+      SubmarineDoorH_14: 2214575412585867040
+      SubmarineDoorH_16: 1654573479798327108
+      SubmarineDoorH_18: 7603348762882163396
+      SubmarineDoorH_19: 4741881669601266643
+      SubmarineDoorH_2: 3085595817340646321
+      SubmarineDoorH_20: 7269432408912673823
+      SubmarineDoorH_4: -8171710481324902435
+      SubmarineDoorH_6: -8106843808364111243
+      SubmarineDoorH_8: -2322035661782848767
+      SubmarineDoorV_0: 7244389525789728775
+      SubmarineDoorV_1: -7888782089109913717
+      SubmarineDoorV_2: 6773259908116149047
+      SubmarineDoorV_3: 2647339886535139003
+      SubmarineDoorV_4: 7689418208536129768
+      SubmarineDoorV_5: 7163604232165625528
+      SubmarineDoorV_6: -5260687261948477600
+      UpperVentBG: -2970021773458124217
+      Vent Frame 1: -241254796486619852
+      Vent Frame 10: -7955563771421327746
+      Vent Frame 11: 2510814130568203000
+      Vent Frame 2: -6173924911553203006
+      Vent Frame 3: 8559958797506759823
+      Vent Frame 4: -994618872007427518
+      Vent Frame 5: -866247742035034873
+      Vent Frame 6: -6355533261083067039
+      Vent Frame 7: 1806808069700347009
+      Vent Frame 8: 2296222095080588286
+      Vent Frame 9: 4587129904996866662
+      VerticalDoor_0000_DoorOpen08: -3752151865033084052
+      VerticalDoor_0001_DoorOpen07: -6428833713851140185
+      VerticalDoor_0002_DoorOpen06: 6650858818598746538
+      VerticalDoor_0003_DoorOpen05: -7102972631387322761
+      VerticalDoor_0004_DoorOpen04: -7953342643540699523
+      VerticalDoor_0005_DoorOpen03: 7580145400278915
+      VerticalDoor_0006_DoorOpen02: 820753753795828634
+      VerticalDoor_0007_DoorOpen01: 7315685629176500549
+      WestHallway_0000_RightPart: -325697137877594973
+      WestHallway_0001_SecurityHallway: -1424170813119082716
+      WestHallway_0002_LeftHallway: -8556147132495918629
+      acorn3: 3491150386883928107
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

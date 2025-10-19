@@ -249,7 +249,7 @@ TextureImporter:
       213: 2297548251440133554
     second: Whale_Shark_FG
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -266,10 +266,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -278,9 +280,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -308,6 +310,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -319,6 +323,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -331,6 +336,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -2068,9 +2074,91 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Whale_Shark100: 602186801318038514
+      Whale_Shark101: 4785485274542528703
+      Whale_Shark102: 5854910114630229779
+      Whale_Shark103: -1816580248527202776
+      Whale_Shark104: -1026017552510389738
+      Whale_Shark105: 1030270055730183913
+      Whale_Shark106: -3794891096487024156
+      Whale_Shark107: 2328919231549007008
+      Whale_Shark108: 1759751023597102548
+      Whale_Shark109: -4038648354711554642
+      Whale_Shark110: 4893337911556568971
+      Whale_Shark111: -5796160726730356467
+      Whale_Shark112: -2654654661688874569
+      Whale_Shark113: 2882358299681959755
+      Whale_Shark114: 4116310874317212654
+      Whale_Shark115: -5220956017614385428
+      Whale_Shark116: -3183278202117402270
+      Whale_Shark117: 650161875815784785
+      Whale_Shark118: -6164867964257170264
+      Whale_Shark119: -6548148903132122594
+      Whale_Shark120: 7235860190934425682
+      Whale_Shark121: -6633398905425896047
+      Whale_Shark122: -8004347987863971423
+      Whale_Shark123: -6156008675527747079
+      Whale_Shark124: -6229918818923573502
+      Whale_Shark125: -5949060236820403105
+      Whale_Shark126: 8480549272168929017
+      Whale_Shark127: -10015792402654520
+      Whale_Shark128: 8935406043807557058
+      Whale_Shark129: 6713199162787086839
+      Whale_Shark130: -2101164008950248391
+      Whale_Shark131: -4021922119373519458
+      Whale_Shark_FG: 2297548251440133554
+      fg_kelp00: 5529005188688555329
+      fg_kelp01: -7335661932239116195
+      fg_kelp02: 3865468161485274849
+      fg_kelp03: 9115480164847922346
+      fg_kelp04: -9048828635923914856
+      fg_kelp05: 6159370509013567851
+      fg_kelp06: -1481257572962721657
+      fg_kelp07: -164701362144016984
+      fg_kelp08: -7921403273562634836
+      fg_kelp09: -5796124839482508021
+      fg_kelp10: -6841741109617215829
+      fg_kelp11: -4245233869312495292
+      fg_kelp12: 646720547921743222
+      fg_kelp13: -5902607140487666791
+      fg_kelp14: -6966109890485953455
+      fg_kelp15: -1909535622509300423
+      fg_kelp16: 427467461565527772
+      fg_kelp17: -6710693352327551366
+      fg_kelp18: 2161511095919718798
+      fg_kelp19: -9173599225288266764
+      fg_kelp20: -4516172574088550540
+      fg_kelp21: -7534567512408792973
+      fg_kelp22: 3579063979847380877
+      fg_kelp23: -8214468133855372691
+      fg_kelp24: 360514819273798784
+      fg_kelp25: 2794604983656057106
+      fg_kelp26: 4627546972231018264
+      fg_kelp27: -2827460158443052723
+      fg_kelp28: 2892788942097434787
+      fg_kelp29: -8150284214542151110
+      fg_kelp30: 1906614857722307503
+      fg_kelp31: -1077160493190418685
+      fg_kelp32: -1991614659639772595
+      fg_kelp33: -1226396280292411994
+      fg_kelp34: 8587248246000350082
+      fg_kelp35: 9083447579009001349
+      fg_kelp36: 976537139413535315
+      fg_kelp37: 4220625963879615623
+      fg_kelp38: -3045560684128481517
+      fg_kelp39: 3198311549020857844
+      fg_kelp40: 2003662423675440559
+      fg_kelp41: -6922325929785389939
+      fg_kelp42: -4820023901109519334
+      fg_kelp43: -4783781363933578184
+      fg_kelp44: 1252229274789851618
+      fg_kelp45: -5849230608539841613
+      fg_kelp46: -6721222695622502558
+      fg_kelp47: 7451745022114837739
+      whale_shark_background: 5152631908324570036
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

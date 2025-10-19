@@ -105,7 +105,7 @@ TextureImporter:
       213: -4156861092360618709
     second: Trays_front
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -122,10 +122,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -134,9 +136,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -164,6 +166,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -175,6 +179,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -187,6 +192,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -916,9 +922,43 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      3 cards: 4259662049211489943
+      3 holders: -2362804172835250619
+      Background-no cards: 878604302108316537
+      Bill_1: -6647930735968547094
+      Bill_10: -7316159446545449961
+      Bill_20: -7192196318835403891
+      Bill_5: -8242738594451165317
+      Leafling-1-fork: 2098569757100432506
+      Leafling-2: -6569444433886026930
+      Leafling-3: 4331361383796175435
+      Leafling-4: -2599829655396062324
+      Minus: 5049892332096998598
+      Money_sign: 5018245044114003449
+      Pastries-Bagel: 2889116143424084155
+      Pastries-Bagels: -4373340367274576989
+      Pastries-Danish: 9161776533378679986
+      Pastries-Danishes: 3363016107901244212
+      Pastries-Muffin: -7909916158107125996
+      Pastries-Muffins: -5481807000225736389
+      Pastries-Tarts: 6288661627603470976
+      Pastries-chococroissant: -3740776717818392997
+      Pastries-chococroissants: -3340978534305921950
+      Pastries-cinnamon: 1303813914404328665
+      Pastries-cinnamons: 2405804406452409521
+      Pastries-crabbread: 1366251386277777930
+      Pastries-crabbreads: 2647971044766211029
+      Pastries-rollcake: -6327827296612195106
+      Pastries-rollcakes: -8347381244276217438
+      Pastries-tart: 6544436694207873127
+      Screen: 7873598928253601160
+      Trays: -17618783700799211
+      Trays_front: -4156861092360618709
+      specials card+shadow: -2033128496776165338
+      specials holder: -5847163875439050953
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

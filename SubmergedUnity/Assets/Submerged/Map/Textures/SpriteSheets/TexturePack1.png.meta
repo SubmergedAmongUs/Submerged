@@ -1377,7 +1377,7 @@ TextureImporter:
       213: 8708705709775472104
     second: DK_Easter_Egg
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -1394,10 +1394,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -1407,8 +1409,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 1
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -1436,6 +1438,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -1447,6 +1451,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -1459,6 +1464,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -9664,9 +9670,399 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      AdminAndLounge_0000_LoungeReshelveBooks: 3543522409334862513
+      AdminAndLounge_0001_AdminLoungeFloor: 3727783459613296593
+      AdminAndLounge_0002_TrackMantaRayTelescope: -7868504336689464251
+      AdminAndLounge_0003_FeedFish: -106980617049697146
+      AdminAndLounge_0004_AdminMap: 8570115870018403599
+      AdminAndLounge_0005_EmergencyButton: -8061783263911654275
+      AdminAndLounge_0006_EmergencyButtonText: 2553165960237432767
+      AdminAndLounge_0007_MeetingRoomSetNavBeacon: 7933755668569291266
+      AdminAndLounge_0008_AdminConsole: -5405553642534039148
+      AdminAndLounge_0009_MeetingTable: -2387324887581923499
+      AdminAndLounge_0010_MeetingGrass: -8270688576814857885
+      AdminAndLounge_0011_MeetingWaterDispenser: 6904311943894173577
+      AdminAndLounge_0012_MeetingRailing: 6482577971376126544
+      AdminAndLounge_0013_LocateVolcanicActivity: -7973491741971485899
+      AdminAndLounge_0014_ObservatoryFishFence: 8236104576049161909
+      AdminAndLounge_0015_AlignTelescope: 6742890085132622658
+      AdminAndLounge_0016_WhaleShark: 9078343770395003667
+      AdminAndLounge_0017_DownoadDataFlat: 7993072815952706064
+      Ballast Pipe F1: 6404598799745367112
+      Ballast Pipe F10: 6352778220207948699
+      Ballast Pipe F11: 6649603932030211578
+      Ballast Pipe F12: 8730726438415380417
+      Ballast Pipe F13: -3607899068820952222
+      Ballast Pipe F14: 4194060785700395714
+      Ballast Pipe F15: 563714290464308083
+      Ballast Pipe F2: 8889288068563111159
+      Ballast Pipe F3: -4751342436265254589
+      Ballast Pipe F4: 2624060633075943245
+      Ballast Pipe F5: -240634066992383362
+      Ballast Pipe F6: 907411835506867
+      Ballast Pipe F7: -7165170178452507655
+      Ballast Pipe F8: 4113548865550571244
+      Ballast Pipe F9: -8625009161312009897
+      Ballast Pipe Glass Cover: -4850213718077416997
+      Ballast Pool F1: 5672779407041973864
+      Ballast Pool F2: 1377755046614226864
+      Ballast Pool F3: -4392039115837091846
+      Ballast Pool F4: -241015842072847722
+      Ballast Pool F5: -9116045338281531376
+      Ballast Sink F1: 1928805358757262499
+      Ballast Sink F2: -226959761453871559
+      Ballast Sink F3: 4824251189970136498
+      Ballast Tub F1: -3179644310335983930
+      Ballast Tub F2: -2002836317695468493
+      Ballast Tub F3: -8985079635173636696
+      Ballast Tub F4: -6666053380150657569
+      Ballast Tub F5: -337171208874833009
+      BallastLobbyHallPipe 00: 7752174550945909417
+      BallastLobbyHallPipe 01: 7626496614325881445
+      BallastLobbyHallPipe 02: 413644885583362863
+      BallastLobbyHallPipe 03: 1083595056967090051
+      BallastLobbyHallPipe 04: 8325330971457938302
+      BallastLobbyHallPipe 05: -1705500484248044000
+      BallastLobbyHallPipe 06: 2892969211473253871
+      BallastLobbyHallPipe 07: 1629027408303474214
+      BallastLobbyHallPipe 08: -1443248913373144281
+      BallastLobbyHallPipe 09: -6928996268956145618
+      BallastLobbyHallPipe 10: 8398910595969998595
+      BallastLobbyHallPipe 11: 2011254572127048755
+      BallastLobbyHallPipe 12: 4795165646668688545
+      BallastLobbyHallPipe 13: 8918910215901102666
+      BallastLobbyHallPipe 14: 1515903663147892669
+      BallastLobbyHallPipeBack: -4000170036659246782
+      BallastLobbyHallPipeCover: -3156978210364255887
+      BallastLobby_0000_WallPipe-F1: 792853320997141776
+      BallastLobby_0001_WallPipe-F2: -8059906379842351896
+      Ballast_0001_BallastRailingFloor: -2589465855524765572
+      Ballast_0002_BallastRailing: 9130358074467071616
+      Ballast_0003_BallastRailingDoor: -2821118088986270605
+      Ballast_0004_BallastWallPipe: 6616491676386300279
+      Ballast_0005_StartSubmersible: -1105320671513429877
+      Ballast_0006_RightBallastSabotage: -1079539844227631110
+      Ballast_0007_BallastSabotageLeft: 6549698660899531811
+      Ballast_0008_BallastFanBox: -4039775545678794762
+      Ballast_0009_RustedWires: -3250423618066340930
+      CafeteriaAndResearch_0000_CafeteriaResearchFloor: -2494685696818307120
+      CafeteriaAndResearch_0001_ToastBoard: 3820327267932467397
+      CafeteriaAndResearch_0002_TectonePoster: 396806287231614655
+      CafeteriaAndResearch_0003_FlipsPoster: -379806078968431995
+      CafeteriaAndResearch_0004_PeenerPoster: 8708660379038619851
+      CafeteriaAndResearch_0005_IDKWhosPoster: 7721102998159621596
+      CafeteriaAndResearch_0005_SetNavBeaconResearch: 795770527161985744
+      CafeteriaAndResearch_0006_ResearchWindow: -516330092744977405
+      CafeteriaAndResearch_0007_IdentifySpecimen: 846617097473319755
+      CafeteriaAndResearch_0008_ResearchMainTable: -6798763389646349468
+      CafeteriaAndResearch_0009_ResearchFishTank: -7468141897705311550
+      CafeteriaAndResearch_0010_Medscanner: 8978910075652253392
+      CafeteriaAndResearch_0011_MedicalReshelveBooks: 7421263344112587682
+      CafeteriaAndResearch_0012_MedicalBeds: 5690051008504742234
+      CafeteriaAndResearch_0013_PurchaseBreakfast: -2405544285625357700
+      CafeteriaAndResearch_0014_RightCafeteriaTable: -5661650317151220343
+      CafeteriaAndResearch_0015_LeftCafeteriaTable: -1131670282369029801
+      CafeteriaAndResearch_0016_CornerCafeteriaTable: -4407901099708752806
+      CafeteriaAndResearch_0017_SteadyHeartbeat: -8034504541815281127
+      CafeteriaAndResearch_0018_CafeteriaCups: -4679792745893832596
+      CafeteriaAndResearch_0019_ResearchCornerBench: -822652401291408065
+      CafeteriaAndResearch_0020_Microwave: 1351638192004193990
+      Cams_0000_FrontCamOff: 3281573814502803490
+      Cams_0001_FrontCamOn: 8016733192486985834
+      Cams_0002_SideCamOff: 8086476803747665602
+      Cams_0003_SideCamOn: 2502340281160536701
+      CentralAndFiltration_Pipe A F1: -6367476541337370004
+      CentralAndFiltration_Pipe A F2: 8893378420543269691
+      CentralAndFiltration_Pipe B F1: 8456648634041747733
+      CentralAndFiltration_Pipe B F2: -9056095511773678157
+      Central_0000_UpperCentralGlass: -2978924860248125633
+      Central_0002_LowerCentralTank: -7870435736861493644
+      Central_0003_OxygenateSeaPlants: -9060063465335042689
+      Central_0004_LowerCentralVentBack: -3434009206970582144
+      Central_0005_LowerCentralVentFront: 4489458184771057214
+      Central_0006_UpperCentralTank: -4637850402399930333
+      Central_0007_OxygenSabotage: 2383070991732031242
+      Central_0008_CleanGlass: 8581462213864756018
+      Central_0010_WiresConsoleClean: -5696524047570975447
+      Central_1001_FiltratonHallway: 6531853603896783644
+      Cup Steam F1: 1259174026479824849
+      Cup Steam F2: 2544367479244784094
+      Cup Steam F3: -6118138655717089639
+      Cup Steam F4: 2327271722216828775
+      Cup Steam F5: -5440190960693415097
+      Cup Steam F6: 4433978348412249362
+      Cup Steam F7: -6714673395755546379
+      DK_Easter_Egg: 8708705709775472104
+      EnginesAndSecurityHall_0001_Security: 8734510801490849090
+      EnginesAndSecurity_0001_SubmarineSurveillance: -3813314697122305357
+      EnginesAndSecurity_0002_ShootDepthCharges: 5432431997615632157
+      EnginesAndSecurity_0003_UnlockManifolds: -2717829495417112543
+      EnginesAndSecurity_0004_ClearUrchins: -5789006202928913246
+      EnginesAndSecurity_0005_CycleReactor: 1770270163891527481
+      EnginesAndSecurity_0006_OpenVent: 7713646406827138331
+      EnginesAndSecurity_0007_RustyDiagnoseElevators: 6372868364178909683
+      EnginesAndSecurity_0008_Falcone Egg: 7961773856009469687
+      EnginesCentralHallPipe F01: 1746728570950281060
+      EnginesCentralHallPipe F02: -7756783951051374847
+      EnginesCentralHallPipe F03: 1906232325275353555
+      EnginesCentralHallPipe F04: 136626482657216394
+      EnginesCentralHallPipe F05: 5137277156083276206
+      EnginesCentralHallPipe F06: -4648927200327964163
+      EnginesCentralHallPipe F07: 2089280119573816661
+      EnginesCentralHallPipe F08: 8019622696564181355
+      EnginesCentralHallPipe F09: -8464810246904459282
+      EnginesCentralHallPipe F10: 5271344147761590266
+      EnginesCentralHallPipe F11: 117545153911061032
+      EnginesCentralHallPipe F12: 8414549786218650985
+      EnginesCentralHallPipe F13: -3301614701323913696
+      EnginesCentralHallPipe F14: -6228920018088451787
+      EnginesCentralHallPipe F15: 6794065757754288987
+      EnginesCentralHallPipeBack: 7325137497008848198
+      EnginesCentralHallPipeGague: 699664532717031671
+      EnginesCentralHallPipeGagueNeedle: -4317822282939477117
+      EnginesCentralHallPipeGlassCover: 797012281356242011
+      Falcone Egg: 3094867646739493783
+      FiltrationAndElectrical_0000_ElectricalFiltrationFloor: 6058132720645589345
+      FiltrationAndElectrical_0001_LightsSabotage: 8888227151543935528
+      FiltrationAndElectrical_0002_DispenseWater: 9168677756207004460
+      FiltrationAndElectrical_0003_ReconnectPiping: -74178617778773999
+      FiltrationAndElectrical_0004_ResetBreakers: -2014245884342151031
+      FiltrationAndElectrical_0005_PlugLeaks: 8276778119059507579
+      FiltrationAndElectrical_0006_MopPuddles: -412610582432901711
+      FiltrationAndElectrical_0007_OliveWires: 1464781531857946001
+      FiltrationCams_0000_RightFacingCamOn: -5690251458134389869
+      FiltrationCams_0001_RightFacingCamOff: -3212703070320038703
+      FiltrationCams_0002_FixCamsConsoleSide: -6016771403068576490
+      FiltrationHallwayPipeBack: 9078188489169133296
+      FiltrationHallwayPipeCover: -6970740252426270258
+      FiltrationHallwayPipeH F01: 7801946850339933132
+      FiltrationHallwayPipeH F02: -708152479979560454
+      FiltrationHallwayPipeH F03: 1070445090226454523
+      FiltrationHallwayPipeH F04: 5829491527627159682
+      FiltrationHallwayPipeH F05: -6585274273849499927
+      FiltrationHallwayPipeH F06: -6884399453427288190
+      FiltrationHallwayPipeH F07: 5408324554431449088
+      FiltrationHallwayPipeH F08: 8420622775999304737
+      FiltrationHallwayPipeH F09: -207563267420457702
+      FiltrationHallwayPipeH F10: 3973303280504169071
+      FiltrationHallwayPipeH F11: 7365514735024917000
+      FiltrationHallwayPipeH F12: -5850542088359254524
+      FiltrationHallwayPipeH F13: 868979218090506391
+      FiltrationHallwayPipeH F14: 3961632195314138220
+      FiltrationHallwayPipeH F15: -2303163956800233113
+      FiltrationHallwayPipeV F01: -2126051720498987026
+      FiltrationHallwayPipeV F02: 4346844282981498075
+      FiltrationHallwayPipeV F03: 7997272739175024317
+      FiltrationHallwayPipeV F04: -6728520842458742794
+      FiltrationHallwayPipeV F05: -4496668299060620296
+      FiltrationHallwayPipeV F06: 4388778658971002931
+      FiltrationHallwayPipeV F07: -3604477039808668578
+      FiltrationHallwayPipeV F08: 7527898318530781007
+      FiltrationHallwayPipeV F09: 2173093898048178730
+      FiltrationHallwayPipeV F10: -2495800287964870857
+      FiltrationHallwayPipeV F11: -1017869917047489994
+      FiltrationHallwayPipeV F12: 7601129179089479442
+      FiltrationHallwayPipeV F13: -4661108586853585543
+      FiltrationHallwayPipeV F14: 5581279899850307293
+      FiltrationHallwayPipeV F15: -4905405644779466679
+      FiltrationHallwayPipeVBack: 1562210539873845782
+      FiltrationHallwayPipeVCover: -39810013704620049
+      FiltrationMainTanks F1: -8014405707340751167
+      FiltrationMainTanks F2: 876623076379280722
+      FiltrationTankPipe Back: 989316060599105298
+      FiltrationTankPipe F01: -7406908368650461332
+      FiltrationTankPipe F02: -484823088195908885
+      FiltrationTankPipe F03: -9198528593619080993
+      FiltrationTankPipe F04: -8001060768724767389
+      FiltrationTankPipe F05: -7843347648645299931
+      FiltrationTankPipe F06: -3063112096457977156
+      FiltrationTankPipe F07: -7965916813037090718
+      FiltrationTankPipe F08: 1239082244008445037
+      FiltrationTankPipe F09: -369963086361115394
+      FiltrationTankPipe F10: 3345862427029254195
+      FiltrationTankPipe F11: -7258525134195883194
+      FiltrationTankPipe F12: 2548132253972841924
+      FiltrationTankPipe F13: 6234977871784367864
+      FiltrationTankPipe F14: 3502585795198338264
+      FiltrationTankPipe F15: -6169744002345740963
+      FiltrationTankPipe Front: 8935131822352783154
+      FiltrationWallPipeThicc F1: 327228461795353014
+      FiltrationWallPipeThicc F2: -3390655128638582590
+      FixCamsConsoleLong: 3392681513988345415
+      FixCamsConsoleMedium: -2884239436887166209
+      FixCamsConsoleShort: -2337337611658886115
+      GeneralDoor_0000_HozDoorOpen0008: 9139115041975581582
+      GeneralDoor_0001_HozDoorOpen0007: -439363577931309512
+      GeneralDoor_0002_HozDoorOpen0006: 8529226860791859893
+      GeneralDoor_0003_HozDoorOpen0005: -4189372452900883182
+      GeneralDoor_0004_HozDoorOpen0004: -8272852212832487074
+      GeneralDoor_0005_HozDoorOpen0003: -6922120861399479178
+      GeneralDoor_0006_HozDoorOpen0002: -3857094845151986399
+      GeneralDoor_0007_HozDoorOpen0001: -8237262796459107336
+      LobbyAndComms_0000_CommsLobbyFloor: 458928412382456371
+      LobbyAndComms_0001_LeftLobbyCouch: -5719915104961227282
+      LobbyAndComms_0002_Bookcase: -1045085597097768191
+      LobbyAndComms_0003_RightLobbyCouch: -3923128908903653374
+      LobbyAndComms_0004_CommsConsole: 16841059146758291
+      LobbyAndComms_0005_CommsComputer: 6787151569824719508
+      LobbyAndComms_0006_CommsComputerBack: 8240844512633093937
+      LobbyAndComms_0007_DiagnoseElevatorsClean: 4309907393744012847
+      Main Turbine F1: -1616752300753904238
+      Main Turbine F2: 6710245542128135612
+      Main Turbine F3: -5984391020515254796
+      Main Turbine F4: -6851273089296441517
+      Mimi F1: -8858235078434895339
+      Mimi F2: -8049706783262865094
+      Mimi F3: 7232271361509739120
+      Mimi F4: -4086973910891088455
+      Plug Leak F1: 6165129974966445212
+      Plug Leak F2: 3960049653235952555
+      Server 1 F1: -427632734777208037
+      Server 1 F2: 2529182618603850203
+      Server 1 F3: 5860293687567158860
+      Server 1 F4: 1718013507556661510
+      Server 2 F1: 4422703998836734435
+      Server 2 F2: 302513813094379808
+      Server 2 F3: -8467335938617031896
+      Spider F1: -4139803648468320006
+      Spider F10: 631913154154291002
+      Spider F11: 4927143024843364163
+      Spider F2: 3037714469283513623
+      Spider F3: 3006987086412823
+      Spider F4: -6778419047251027487
+      Spider F5: -5953930146705978410
+      Spider F6: 7607476859385371315
+      Spider F7: 4625382818465351293
+      Spider F8: 2452986861131097367
+      Spider F9: -6904232146657528348
+      StorageAndLobby_0000_StorageLobbyFloor: 1841350569502101616
+      StorageAndLobby_0001_RightStorageShelfFront: -3148444114722884539
+      StorageAndLobby_0002_LeftStorageShelfFront: -4202533352103261940
+      StorageAndLobby_0003_RightStorageShelfBack: 535891236979886882
+      StorageAndLobby_0004_LeftStorageShelfBack: -1021385085863096797
+      StorageAndLobby_0005_StorageChairs: 7080186782592098698
+      StorageAndLobby_0006_SortScubaGear: 3607821993497128033
+      StorageAndLobby_0007_FrontStorageBoxesSmall: 324719168584815259
+      StorageAndLobby_0008_TrollyAndSuch: 5341073000033374745
+      StorageAndLobby_0009_HatBox: -532623285889271379
+      StorageAndLobby_0010_PolusArtifactBox: -7418449324510689495
+      StorageAndLobby_0011_BaseTradeStorageBoxes: -1798672069088983063
+      StorageAndLobby_0012_DarkRustedWires: -910428712781834491
+      StorageAndLobby_0013_DownloadDataDiagonal: -7228328155395555656
+      Twin Turbine Frame 1: -4609697647824437076
+      Twin Turbine Frame 2: 8694216750453493251
+      Yeti 1 - cropped: 3723636170651532566
+      Yeti 2 - cropped: -2817009477109214000
+      catEarFrames-Cat00: 954744793052027814
+      catEarFrames-Cat01: 3787837096726804358
+      catEarFrames-Cat02: -5811703259427907424
+      catEarFrames-Cat03: 8031069555590978251
+      catEarFrames-Cat04: -3747558048041717807
+      catEarFrames-Cat05: 7465336549599031883
+      catEarFrames-Cat06: 1868018290038752929
+      catEarFrames-Cat07: 495147623456719779
+      catEarFrames-Cat08: 7369867280464523769
+      catEarFrames-Cat09: 7888718570860061073
+      catEarFrames-Cat10: -9159453955227657861
+      catEarFrames-Cat11: -6081169659535098939
+      catEarFrames-Cat12: 3534279841757022706
+      catEarFrames-Cat13: -341211701326071563
+      catEarFrames-Cat14: 311856833663716875
+      catEarFrames-Cat15: 6729055040653542021
+      catEarFrames-Cat16: -7388959032515134277
+      catEarFrames-Cat17: -1460962321266659319
+      catEarFrames-Cat18: 5931076532450641170
+      catEarFrames-Cat19: 854838996702717708
+      catEarFrames-Cat20: 6482841637582904253
+      catEarFrames-Cat21: -7555479469402091731
+      catEarFrames-Cat22: -3795181288090975439
+      catEarFrames-Cat23: 3996568984387169818
+      catEarFrames-Cat24: -7946676006234658211
+      catEarFrames-Cat25: -1023860343267674459
+      catEarFrames-Cat26: 8027172202688138950
+      catEarFrames-Cat27: -2535636008076544604
+      catEarFrames-Cat28: -8747555336385336561
+      catEarFrames-Cat29: 3427104756762203533
+      catEarFrames-Cat30: -6622158169892265602
+      catEarFrames-Cat31: -7104188605083356234
+      catEarFrames-Cat32: -6233709702653180413
+      catEarFrames-Cat33: 1914751115097185442
+      catEarFrames-Cat34: 5275123131099799280
+      catEarFrames-Cat35: 6691688714994086908
+      catEarFrames-Cat36: -439877384261742272
+      catEarFrames-Cat37: 2704960724872605852
+      catEarFrames-Cat38: 8316849317365020724
+      catEarFrames-Cat39: -8106919162604643699
+      catEarFrames-Cat40: -937813397083125632
+      catEarFrames-Cat41: -4988653371623804541
+      catEarFrames-Cat42: 149089460083173107
+      catEarFrames-Cat43: -3712480276890069415
+      catEarFrames-Cat44: 8633958452231819132
+      catEarFrames-Cat45: -895842642276805678
+      catEarFrames-Cat46: -3091510537955722806
+      catEarFrames-Cat47: 7384429503239818035
+      catEarFrames-Cat48: -5908117157950877673
+      catTailFrames-Cat00: 5332779924227888505
+      catTailFrames-Cat01: -3845549010620186392
+      catTailFrames-Cat02: 5429230617478108273
+      catTailFrames-Cat03: 439686224857630918
+      catTailFrames-Cat04: 2658650898438100363
+      catTailFrames-Cat05: -3312881243112552770
+      catTailFrames-Cat06: -297315793389709720
+      catTailFrames-Cat07: 1823250848094148423
+      catTailFrames-Cat08: -4252828070096216506
+      catTailFrames-Cat09: -4936957484199381743
+      catTailFrames-Cat10: -6288327296693908186
+      catTailFrames-Cat11: -1724079301477496262
+      catTailFrames-Cat12: 6256269620225939720
+      catTailFrames-Cat13: -5332446588996028261
+      catTailFrames-Cat14: -2315928366845697696
+      catTailFrames-Cat15: 9161562907882230325
+      catTailFrames-Cat16: 7003961626055026509
+      catTailFrames-Cat17: 5375772594922168999
+      catTailFrames-Cat18: 2907080639444361682
+      catTailFrames-Cat19: -9028914635759341834
+      catTailFrames-Cat20: 6633603726217024847
+      catTailFrames-Cat21: -612958994827009074
+      catTailFrames-Cat22: -8863409139652813963
+      catTailFrames-Cat23: 4467778373362521334
+      catTailFrames-Cat24: -8521535456517409408
+      catTailFrames-Cat25: -4019718351641364623
+      catTailFrames-Cat26: 9215923996087195850
+      catTailFrames-Cat27: 2828333816900347846
+      catTailFrames-Cat28: 1925199689088022376
+      catTailFrames-Cat29: 5770647614302535647
+      catTailFrames-Cat30: 4726383939317610651
+      catTailFrames-Cat31: 4015289712555966875
+      catTailFrames-Cat32: -2462105755195731913
+      catTailFrames-Cat33: -5756422544836846859
+      catTailFrames-Cat34: 5732246900811459009
+      catTailFrames-Cat35: 4757364999018399670
+      catTailFrames-Cat36: -1064882216138475341
+      catTailFrames-Cat37: -1984035422202283608
+      catTailFrames-Cat38: -7643053339530978951
+      catTailFrames-Cat39: -5595251244269003881
+      catTailFrames-Cat40: 488090722811300931
+      catTailFrames-Cat41: 8540823841001824210
+      catTailFrames-Cat42: -4402190365797396484
+      catTailFrames-Cat43: 2601284861512803127
+      catTailFrames-Cat44: -6403339947676740635
+      catTailFrames-Cat45: 6463975048727127767
+      catTailFrames-Cat46: 8702639888653798749
+      catTailFrames-Cat47: 628614836744730991
+      catTailFrames-Cat48: 4511839654609985888
+      dk_trashcan: 898445376270864510
+      plug Leak F3: 8323133080014479588
+      plug Leak F4: 10189823288581081
+      plug Leak F5: -9119236555719370731
+      plug Leak F6: 8299694604096991304
+      plug Leak F7: -596837869579524603
+      plug Leak F8: -6022013540150418537
+      rat_run_1: -978901381638648924
+      rat_run_2: 3573629568932373604
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

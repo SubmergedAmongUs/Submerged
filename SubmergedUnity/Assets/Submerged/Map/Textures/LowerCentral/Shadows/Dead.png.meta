@@ -288,7 +288,7 @@ TextureImporter:
       213: 21300188
     second: ghost0047
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -305,10 +305,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -347,6 +349,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -359,6 +362,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -371,6 +375,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -3421,9 +3426,51 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Dead0001: 21300132
+      Dead0002: 21300002
+      Dead0003: 21300092
+      Dead0004: 21300164
+      Dead0005: 21300120
+      Dead0006: 21300012
+      Dead0007: 21300008
+      Dead0008: 21300090
+      Dead0009: 21300168
+      Dead0010: 21300134
+      Dead0011: 21300160
+      Dead0012: 21300100
+      Dead0013: 21300154
+      Dead0014: 21300006
+      Dead0015: 21300014
+      Dead0016: 21300178
+      Dead0017: 21300054
+      Dead0018: 21300146
+      Dead0019: 21300140
+      Dead0020: 21300136
+      Dead0021: 21300020
+      Dead0022: 21300102
+      Dead0023: 21300030
+      Dead0024: 21300066
+      Dead0025: 21300126
+      Dead0026: 21300170
+      Dead0027: 21300046
+      Dead0028: 21300028
+      Dead0029: 21300098
+      Dead0030: 21300128
+      Dead0031: 21300024
+      Dead0032: 21300124
+      Dead0033: 21300088
+      Dead0034: 21300040
+      Dead0035: 21300116
+      Dead0036: 21300070
+      Dead0037: 21300144
+      Dead0038: 21300082
+      Dead0039: 21300034
+      Dead0040: 21300138
+      Dead0041: 21300080
+      Dead0042: 21300000
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
