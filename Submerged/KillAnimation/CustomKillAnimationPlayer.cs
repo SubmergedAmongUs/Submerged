@@ -136,6 +136,12 @@ public sealed class CustomKillAnimationPlayer : MonoBehaviour
     [HideFromIl2Cpp]
     public IEnumerator WaitForFinish()
     {
-        while (!finished) yield return null;
+        while (!finished)
+        {
+            Warning(playhead);
+            yield return null;
+        }
+
+        Error("Finished oxygen death animation!");
     }
 }
