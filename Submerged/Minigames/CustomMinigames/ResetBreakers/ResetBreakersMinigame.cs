@@ -38,20 +38,20 @@ public sealed class ResetBreakersMinigame(nint ptr) : Minigame(ptr)
         SetRandomChars();
     }
 
+    private bool taskCompleted = false;
+
     public void Update()
     {
-        if (amClosing != CloseState.None) return;
+        if (amClosing != CloseState.None || taskCompleted) return;
 
         if (CheckSwitches())
         {
+            taskCompleted = true;
             foreach (CircuitBreaker circutBreaker in circutBreakers)
             {
                 circutBreaker.enabled = false;
             }
-            if (MyNormTask != null)
-            {
-                MyNormTask.NextStep();
-            }
+            MyNormTask?.NextStep();
             StartCoroutine(CoStartClose());
         }
     }

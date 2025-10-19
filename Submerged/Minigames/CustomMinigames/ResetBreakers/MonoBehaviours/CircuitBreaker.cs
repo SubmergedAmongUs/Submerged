@@ -30,7 +30,7 @@ public sealed class CircuitBreaker(nint ptr) : MonoBehaviour(ptr)
 
     public void Update()
     {
-        if (Input.GetKeyDown(targetChar.ToString().ToLower()))
+        if (Input.GetKeyDown(targetChar >= 'A' && targetChar <= 'Z' ? KeyCode.A + (targetChar - 'A') : targetChar >= 'a' && targetChar <= 'z' ? KeyCode.A + (targetChar - 'a') : targetChar >= '0' && targetChar <= '9' ? KeyCode.Alpha0 + (targetChar - '0') : KeyCode.None))
         {
             SoundManager.Instance.PlaySound(breakerClick, false);
             SetState(!complete);
