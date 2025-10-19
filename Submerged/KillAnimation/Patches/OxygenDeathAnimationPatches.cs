@@ -9,7 +9,9 @@ namespace Submerged.KillAnimation.Patches;
 [HarmonyPatch]
 public static class OxygenDeathAnimationPatches
 {
-    private static OxygenDeathAnimation OxygenDeath
+    private static OverlayKillAnimation _oxygenDeath;
+
+    private static OverlayKillAnimation OxygenDeath
     {
         get
         {
@@ -23,17 +25,23 @@ public static class OxygenDeathAnimationPatches
             //
             // - Alex
 
-            if (field) return field;
+            if (_oxygenDeath) return _oxygenDeath;
 
             Transform parent = new GameObject("Submerged OxygenDeathParent").DontUnload().DontDestroy().transform;
             parent.gameObject.SetActive(false);
-            OverlayKillAnimation original = UnityObject.Instantiate(HudManager.Instance.KillOverlay.KillAnims[0], parent);
+            _oxygenDeath = UnityObject.Instantiate(HudManager.Instance.KillOverlay.KillAnims[0], parent);
 
-            OxygenDeathAnimation customAnimation = original.gameObject.AddComponent<OxygenDeathAnimation>();
-            customAnimation.CreateFrom(original);
+            _oxygenDeath.killerParts.gameObject.SetActive(false);
+            _oxygenDeath.killerParts = null;
+            _oxygenDeath.transform.Find("killstabknife").gameObject.SetActive(false);
+            _oxygenDeath.transform.Find("killstabknifehand").gameObject.SetActive(false);
 
-            field = customAnimation;
-            return field;
+            _oxygenDeath.victimParts.transform.localPosition = new Vector3(-1.5f, 0, 0);
+            _oxygenDeath.KillType = CustomKillAnimTypes.Oxygen;
+
+            _oxygenDeath.gameObject.AddComponent<CustomKillAnimationPlayer>();
+
+            return _oxygenDeath;
         }
     }
 
@@ -50,15 +58,27 @@ public static class OxygenDeathAnimationPatches
         return false;
     }
 
-    [HarmonyPatch(typeof(OverlayKillAnimation), nameof(OverlayKillAnimation.WaitForFinish))]
+    [HarmonyPatch(typeof(OverlayKillAnimation._WaitForFinish_d__19), nameof(OverlayKillAnimation._WaitForFinish_d__19.MoveNext))]
     [HarmonyPrefix]
-    public static bool WaitForCustomAnimationFinishPatch(OverlayKillAnimation __instance, ref CppIEnumerator __result)
+    public static bool WaitForCustomAnimationFinishPatch(OverlayKillAnimation._WaitForFinish_d__19 __instance, ref bool __result)
     {
-        CustomKillAnimationPlayer customKillAnim = __instance.GetComponent<CustomKillAnimationPlayer>();
+        switch (__instance.__1__state)
+        {
+            case 0:
+                CustomKillAnimationPlayer customKillAnim = __instance.__4__this.GetComponent<CustomKillAnimationPlayer>();
+                if (!customKillAnim) return true;
 
-        if (!customKillAnim) return true;
-        __result = customKillAnim.WaitForFinish().WrapToIl2Cpp();
+                __instance.__2__current = customKillAnim.WaitForFinish().WrapToIl2Cpp().Cast<CppObject>();
+                __instance.__1__state = 1337;
+                return false;
 
-        return false;
+            case 1337:
+                __instance.__1__state = -1;
+                __result = false;
+                return false;
+
+            default:
+                return true;
+        }
     }
 }
