@@ -12,7 +12,7 @@ public sealed class CircuitBreaker(nint ptr) : MonoBehaviour(ptr)
 
     public AudioClip breakerClick;
 
-    public char targetChar;
+    public KeyCode targetKey;
 
     public bool complete;
 
@@ -30,7 +30,7 @@ public sealed class CircuitBreaker(nint ptr) : MonoBehaviour(ptr)
 
     public void Update()
     {
-        if (Input.GetKeyDown(targetChar.ToString().ToLower()))
+        if (Input.GetKeyDown(targetKey))
         {
             SoundManager.Instance.PlaySound(breakerClick, false);
             SetState(!complete);
