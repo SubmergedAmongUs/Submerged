@@ -66,7 +66,7 @@ public class OpenDoorsMinigameNoInterface(nint ptr) : Minigame(ptr)
 
         _controller.Update();
 
-        if (Input.GetKeyDown(_targetLetter.ToString().ToLower()))
+        if (Input.GetKeyDown(_targetLetter >= 'A' && _targetLetter <= 'Z' ? KeyCode.A + (_targetLetter - 'A') : _targetLetter >= '0' && _targetLetter <= '9' ? KeyCode.Alpha0 + (_targetLetter - '0') : KeyCode.None))
         {
             finishedScreen.SetActive(true);
             _letterSelected = true;
