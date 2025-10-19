@@ -49,16 +49,4 @@ public static class OxygenDeathAnimationPatches
 
         return false;
     }
-
-    [HarmonyPatch(typeof(OverlayKillAnimation), nameof(OverlayKillAnimation.WaitForFinish))]
-    [HarmonyPrefix]
-    public static bool WaitForCustomAnimationFinishPatch(OverlayKillAnimation __instance, ref CppIEnumerator __result)
-    {
-        CustomKillAnimationPlayer customKillAnim = __instance.GetComponent<CustomKillAnimationPlayer>();
-
-        if (!customKillAnim) return true;
-        __result = customKillAnim.WaitForFinish().WrapToIl2Cpp();
-
-        return false;
-    }
 }
