@@ -29,8 +29,12 @@ public sealed class CreditsScreenManager(nint ptr) : MonoBehaviour(ptr)
         textParent.Find("Map Design").GetComponent<TextMeshPro>().text = General.Credits_MapDesign;
         textParent.Find("Developers").GetComponent<TextMeshPro>().text = General.Credits_Developers;
         textParent.Find("Artists").GetComponent<TextMeshPro>().text = General.Credits_Artists;
-        textParent.Find("Technical Support").GetComponent<TextMeshPro>().text = General.Credits_TechnicalSupport;
+        textParent.Find("Technical Support").GetComponent<TextMeshPro>().text = ContributorsCredit;
         textParent.Find("Additional Art").GetComponent<TextMeshPro>().text = General.Credits_AdditionalArt;
         transform.Find("Translators/Text").GetComponent<TextMeshPro>().text = $"<u><b>{General.Credits_Translators}:</b></u> {TRANSLATORS}";
     }
+
+    private static string ContributorsCredit => General.Credits_Contributors == "Contributors" && !string.IsNullOrWhiteSpace(General.Credits_TechnicalSupport)
+        ? General.Credits_TechnicalSupport
+        : General.Credits_Contributors;
 }

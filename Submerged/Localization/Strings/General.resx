@@ -40,7 +40,7 @@
         <value>Project Lead</value>
     </data>
     <data name="Credits.TechnicalSupport" xml:space="preserve">
-        <value>Technical Support</value>
+        <value />
     </data>
     <data name="Credits.Translators" xml:space="preserve">
         <value>Translators</value>
@@ -54,5 +54,8 @@ If this problem persists, please reinstall Submerged or open an issue on GitHub.
     </data>
     <data name="SubmergedTooltip" xml:space="preserve">
         <value>Submerged: An underwater map with a multi-floor system, elevators, new tasks and sabotages, and more!</value>
+    </data>
+    <data name="Credits.Contributors" xml:space="preserve">
+        <value>Contributors</value>
     </data>
 </root>

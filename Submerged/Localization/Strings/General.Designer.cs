@@ -78,6 +78,15 @@ namespace Submerged.Localization.Strings {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Contributors.
+        /// </summary>
+        internal static string Credits_Contributors {
+            get {
+                return ResourceManager.GetString("Credits.Contributors", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Developers.
         /// </summary>
         internal static string Credits_Developers {
@@ -105,7 +114,7 @@ namespace Submerged.Localization.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Technical Support.
+        ///   Looks up a localized string similar to .
         /// </summary>
         internal static string Credits_TechnicalSupport {
             get {
