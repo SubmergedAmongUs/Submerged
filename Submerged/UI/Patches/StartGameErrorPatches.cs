@@ -80,7 +80,7 @@ public static class StartGameErrorPatches
         gameStartManager.StartButton.ChangeButtonText(text);
     }
 
-    [BaseGameCode(LastChecked.v2025_9_9, "This code is taken from GameStartManager.Update")]
+    [BaseGameCode(LastChecked.v17_0_0, "This code is taken from GameStartManager.Update")]
     private static void UpdateStartButtonBasedOnPlayerCount(GameStartManager gameStartManager)
     {
         gameStartManager.StartButton.SetButtonEnableState(gameStartManager.LastPlayerCount >= gameStartManager.MinPlayers);

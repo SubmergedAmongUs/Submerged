@@ -4,6 +4,7 @@ using System.Linq;
 using HarmonyLib;
 using Hazel;
 using Il2CppInterop.Runtime;
+using Reactor.Networking.Attributes;
 using Reactor.Utilities.Attributes;
 using Submerged.Enums;
 using Submerged.Extensions;
@@ -34,8 +35,6 @@ public sealed class FloorHandler(nint ptr) : MonoBehaviour(ptr)
 
     private PlayerControl _player;
     private Transform _transform;
-
-    public IEnumerable<int> ints = new List<int>();
 
     private PlayerControl Player
     {
@@ -169,19 +168,11 @@ public sealed class FloorHandler(nint ptr) : MonoBehaviour(ptr)
             return;
         }
 
-        if (!Player.AmOwner) Error("Trying to change the floor of another player will lead to an anticheat ban on official servers and is not supported.");
-        MessageWriter writer = AmongUsClient.Instance.StartRpcImmediately(PlayerControl.LocalPlayer.MyPhysics.NetId, CustomRpcCalls.RequestChangeFloor, SendOption.Reliable);
-        writer.Write(toUpper);
-        writer.Write(lastSid++);
-        writer.EndMessage();
-
-        ints.AddItem(lastSid);
+        RpcRequestChangeFloor(PlayerControl.LocalPlayer, toUpper, lastSid++);
     }
 
     public void UpdateFloor()
     {
-        if (ints.Any()) return;
-
         SubmarinePlayerFloorSystem.Instance.playerFloorStates.TryGetValue(Player.PlayerId, out onUpper);
 
         if (Player.PlayerId == PlayerControl.LocalPlayer.PlayerId)
@@ -237,6 +228,20 @@ public sealed class FloorHandler(nint ptr) : MonoBehaviour(ptr)
         for (int i = 0; i < count; i++)
         {
             _hashCodeToFloorHandler.Remove(hashCodesToRemove[i]);
+        }
+    }
+
+    [MethodRpc(CustomRpcCalls.RequestChangeFloor)]
+    public static void RpcRequestChangeFloor(PlayerControl player, bool toUpper, int sid)
+    {
+        if (!AmongUsClient.Instance.AmHost) return;
+
+        SubmarinePlayerFloorSystem floorSystem = SubmarinePlayerFloorSystem.Instance;
+
+        if (!floorSystem.playerFloorSids.ContainsKey(player.PlayerId) || floorSystem.playerFloorSids[player.PlayerId] <= sid)
+        {
+            floorSystem.playerFloorSids[player.PlayerId] = sid;
+            floorSystem!.ChangePlayerFloorState(player.PlayerId, toUpper);
         }
     }
 }

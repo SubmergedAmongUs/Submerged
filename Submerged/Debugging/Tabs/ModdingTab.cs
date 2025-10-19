@@ -8,6 +8,7 @@ using Submerged.Extensions;
 using Submerged.KillAnimation.Patches;
 using Submerged.Loading;
 using Submerged.Map;
+using Submerged.Systems.Oxygen;
 using UnityEngine;
 
 namespace Submerged.Debugging.Tabs;
@@ -54,15 +55,13 @@ public class ModdingTab : IDebugTab
         if (GUILayout.Button("Murder Self (O2)"))
         {
             OxygenDeathAnimationPatches.IsOxygenDeath = true;
-            OxygenDeathRpcPatches.MurderPlayerAsOxygenDeath = true;
 
             try
             {
-                PlayerControl.LocalPlayer.RpcMurderPlayer(PlayerControl.LocalPlayer, true);
+                SubmarineOxygenSystem.RpcOxygenDeath(PlayerControl.LocalPlayer);
             }
             finally
             {
-                OxygenDeathRpcPatches.MurderPlayerAsOxygenDeath = false;
                 OxygenDeathAnimationPatches.IsOxygenDeath = false;
             }
         }

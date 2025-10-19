@@ -5,7 +5,7 @@ namespace Submerged.BaseGame.Interfaces;
 // ReSharper disable once InconsistentNaming
 public sealed partial class AU
 {
-    [BaseGameCode(LastChecked.v2025_9_9)]
+    [BaseGameCode(LastChecked.v17_0_0)]
     public interface ISystemType
     {
         [UsedImplicitly]

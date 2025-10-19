@@ -195,7 +195,7 @@ public sealed class SubmergedExileController(nint ptr) : ExileController(ptr)
 
     // Cleanup this WrapUpAndSpawn method
     [HideFromIl2Cpp]
-    [BaseGameCode(LastChecked.v2025_9_9, "Similar to AirshipExileController.WrapUpAndSpawn")]
+    [BaseGameCode(LastChecked.v17_0_0, "Similar to AirshipExileController.WrapUpAndSpawn")]
     public IEnumerator WrapUpAndSpawn()
     {
         if (initData != null && initData.networkedPlayer)

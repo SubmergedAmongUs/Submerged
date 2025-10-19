@@ -8,7 +8,7 @@ public static class TextTranslatorTMPPatches
 {
     [HarmonyPatch(typeof(TextTranslatorTMP), nameof(TextTranslatorTMP.ResetText))]
     [HarmonyPrefix]
-    [BaseGameCode(LastChecked.v2025_9_9, "We are patching this with its own code to get rid of inlining that ruins our translation patches")]
+    [BaseGameCode(LastChecked.v17_0_0, "We are patching this with its own code to get rid of inlining that ruins our translation patches")]
     public static void ResetTextPatch(TextTranslatorTMP __instance, out bool __runOriginal)
     {
         __runOriginal = false;

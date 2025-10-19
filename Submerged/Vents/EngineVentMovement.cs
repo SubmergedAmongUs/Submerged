@@ -1,6 +1,9 @@
+using BepInEx.Unity.IL2CPP.Utils;
 using Hazel;
 using PowerTools;
+using Reactor.Networking.Attributes;
 using Submerged.Enums;
+using Submerged.Extensions;
 using Submerged.Floors;
 using UnityEngine;
 using static Submerged.Vents.VentPatchData;
@@ -27,7 +30,7 @@ public static class EngineVentMovement
         PlayerControl.LocalPlayer.NetTransform.RpcSnapTo(targetPos);
         floorHandler.RpcRequestChangeFloor(false);
 
-        RpcEngineVent();
+        RpcEngineVent(PlayerControl.LocalPlayer);
 
         yield return PublicHandleMove(PlayerControl.LocalPlayer);
 
@@ -56,9 +59,10 @@ public static class EngineVentMovement
         physics.Animations.Animator.Play(physics.Animations.group.IdleAnim);
     }
 
-    private static void RpcEngineVent()
+    [MethodRpc(CustomRpcCalls.EngineVent)]
+    public static void RpcEngineVent(PlayerControl player)
     {
-        MessageWriter rpc = AmongUsClient.Instance.StartRpcImmediately(PlayerControl.LocalPlayer.MyPhysics.NetId, CustomRpcCalls.EngineVent, SendOption.Reliable);
-        AmongUsClient.Instance.FinishRpcImmediately(rpc);
+        if (!ShipStatus.Instance.IsSubmerged()) return;
+        player.StartCoroutine(PublicHandleMove(player));
     }
 }

@@ -1,6 +1,7 @@
 ﻿using BepInEx.Unity.IL2CPP.Utils.Collections;
 using HarmonyLib;
 using Hazel;
+using Reactor.Networking.Attributes;
 using Submerged.Enums;
 using Submerged.Extensions;
 
@@ -29,20 +30,13 @@ public class CustomPlayerDataPatches
             data.HasMap = mapLoaded;
         }
 
-        MessageWriter messageWriter = AmongUsClient.Instance.StartRpcImmediately(playerControl.NetId, CustomRpcCalls.SetCustomData, SendOption.Reliable);
-        messageWriter.Write(mapLoaded);
-        messageWriter.EndMessage();
+        RpcSetCustomData(playerControl, mapLoaded);
     }
 
-    [HarmonyPatch(typeof(PlayerControl), nameof(PlayerControl.HandleRpc))]
-    [HarmonyPrefix]
-    public static bool HandleCustomDataPatch(PlayerControl __instance, [HarmonyArgument(0)] byte callId, [HarmonyArgument(1)] MessageReader reader)
+    [MethodRpc(CustomRpcCalls.SetCustomData)]
+    public static void RpcSetCustomData(PlayerControl player, bool mapLoaded)
     {
-        if (callId != CustomRpcCalls.SetCustomData) return true;
-
-        CustomPlayerData data = __instance.gameObject.EnsureComponent<CustomPlayerData>();
-        data.HasMap = reader.ReadBoolean();
-
-        return false;
+        CustomPlayerData data = player.gameObject.EnsureComponent<CustomPlayerData>();
+        data.HasMap = mapLoaded;
     }
 }

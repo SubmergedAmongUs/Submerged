@@ -41,18 +41,6 @@ public static class EngineVentPatches
         return false;
     }
 
-    [HarmonyPatch(typeof(PlayerPhysics), nameof(PlayerPhysics.HandleRpc))]
-    [HarmonyPrefix, HarmonyPriority(Priority.First + 100)]
-    public static bool HandleMovePatch(PlayerPhysics __instance, [HarmonyArgument(0)] byte callId)
-    {
-        if (!ShipStatus.Instance.IsSubmerged()) return true;
-        if (callId != CustomRpcCalls.EngineVent) return true;
-
-        __instance.StartCoroutine(EngineVentMovement.PublicHandleMove(__instance.myPlayer));
-
-        return false;
-    }
-
     [HarmonyPatch(typeof(PlayerPhysics), nameof(PlayerPhysics.RpcExitVent))]
     [HarmonyPrefix]
     public static void MovePlayerUpWhenExitingPatch(PlayerPhysics __instance, [HarmonyArgument(0)] int id)

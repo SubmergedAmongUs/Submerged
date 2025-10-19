@@ -8,7 +8,7 @@ public static class AirshipUploadGameUpdatePatches
 {
     [HarmonyPatch(typeof(AirshipUploadGame), nameof(AirshipUploadGame.Update))]
     [HarmonyPrefix]
-    [BaseGameCode(LastChecked.v2025_9_9, "This minigame would not work unles we patched this method with its own code. " +
+    [BaseGameCode(LastChecked.v17_0_0, "This minigame would not work unles we patched this method with its own code. " +
         "If it works without this patch then the patch can be removed.")]
     public static void Prefix(AirshipUploadGame __instance, out bool __runOriginal)
     {
