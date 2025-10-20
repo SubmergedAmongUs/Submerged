@@ -49,7 +49,7 @@ The table below lists the most recent Submerged release for each Among Us versio
 
 |                                       Among Us Version                                        | Submerged Version |                                        Links                                        |
 |:---------------------------------------------------------------------------------------------:|:-----------------:|:-----------------------------------------------------------------------------------:|
-|                                    `v17.0.1`<br>`v17.0.0`                                     |   `v2025.10.19`   | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2025.10.19/) |
+|                                    `v17.0.1`<br>`v17.0.0`                                     |   `v2025.10.20`   | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2025.10.20/) |
 |                 `v16.1.0`<br>`v16.0.5`<br>`v16.0.3`<br>`v16.0.2`<br>`v16.0.0`                 |    Unavailable    |                                          -                                          |
 |                 `v2024.11.26`<br>`v2024.10.29`<br>`v2024.9.4`<br>`v2024.8.13`                 |   `v2025.1.30`    | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2025.1.30/)  |
 |                                         `v2024.6.18`                                          |    `v2024.8.1`    |  [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2024.8.1/)  |
@@ -103,6 +103,7 @@ Submerged is available in the languages listed below. If you would like to help 
 |-------------------------|:--:|:---------------------------------:|
 | English                 | ✅  |                 -                 |
 | Deutsch                 | 🟡 |       Partially Translated        |
+| Español                 | 🟡 |       Partially Translated        |
 | Français                | 🟡 |       Partially Translated        |
 | Italiano                | 🟡 |       Partially Translated        |
 | Nederlands              | 🟡 |       Partially Translated        |
@@ -111,7 +112,6 @@ Submerged is available in the languages listed below. If you would like to help 
 | 日本語                     | 🟡 |       Partially Translated        |
 | 简体中文                    | 🟡 |       Partially Translated        |
 | 繁體中文                    | 🟡 |       Partially Translated        |
-| Español                 | 🟡 |       Partially Translated        |
 | Bisaya                  | ❌  |          Not Translated           |
 | Español (Latinoamérica) | ❌  | Not Translated<br>(Using Español) |
 | Gaeilge                 | ❌  |          Not Translated           |
