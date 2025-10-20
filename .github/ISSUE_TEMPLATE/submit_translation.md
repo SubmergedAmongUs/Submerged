@@ -2,7 +2,7 @@
 name: Submit translation
 about: Help us translate Submerged to other languages
 title: ''
-labels: translation
+type: Feature
 assignees: ''
 
 ---
