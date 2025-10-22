@@ -12,7 +12,7 @@ namespace Submerged.Minigames.CustomMinigames.SteadyHeartbeat;
 public sealed class SteadyHeartbeatMinigame(nint ptr) : Minigame(ptr)
 {
     private const float IN_RANGE_TARGET = 5f;
-    private readonly Vector3[] _default = [new Vector3(-4.65f, 0, 0), new Vector3(4.65f, 0, 0)];
+    private readonly Vector3[] _default = [new(-4.65f, 0, 0), new(4.65f, 0, 0)];
     private Vector3[] _beat;
 
     private LineRenderer _beatLine;

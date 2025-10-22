@@ -1,10 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using static NormalPlayerTask.TaskLength;
 using static Submerged.Enums.CustomTaskTypes.Floor;
 
 namespace Submerged.Enums;
 
-public readonly struct CustomTaskTypes
+public readonly struct CustomTaskTypes : IEquatable<CustomTaskTypes>
 {
     #region Struct implementation
 
@@ -39,6 +40,16 @@ public readonly struct CustomTaskTypes
         UpperDeck = 0b10,
         Both = LowerDeck | UpperDeck
     }
+
+    public bool Equals(CustomTaskTypes other) => taskType == other.taskType;
+
+    public override bool Equals(object obj) => obj is CustomTaskTypes other && Equals(other);
+
+    public override int GetHashCode() => (int) taskType;
+
+    public static bool operator ==(CustomTaskTypes left, CustomTaskTypes right) => left.Equals(right);
+
+    public static bool operator !=(CustomTaskTypes left, CustomTaskTypes right) => !left.Equals(right);
 
     #endregion
 
@@ -132,7 +143,7 @@ public readonly struct CustomTaskTypes
     [UsedImplicitly]
     public static readonly CustomTaskTypes RetrieveOxygenMask = new(0x98, CustomStringNames.RetrieveOxygenMask, Both, None);
 
-    // ReSharper restore InconsistentNaming, UnusedMember.Global
+    // ReSharper restore InconsistentNaming
 
     #endregion
 }

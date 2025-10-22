@@ -1,6 +1,5 @@
 ﻿using BepInEx.Unity.IL2CPP.Utils.Collections;
 using HarmonyLib;
-using Hazel;
 using Reactor.Networking.Attributes;
 using Submerged.Enums;
 using Submerged.Extensions;

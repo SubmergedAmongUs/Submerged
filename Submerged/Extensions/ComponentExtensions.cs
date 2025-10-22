@@ -34,7 +34,7 @@ public static class ComponentExtensions
     }
 
     public static T EnsureComponent<T>(this GameObject obj) where T : Component =>
-        obj.TryGetComponent<T>(out T comp) ? comp : obj.AddComponent<T>();
+        obj.TryGetComponent(out T comp) ? comp : obj.AddComponent<T>();
 
     public static Component EnsureComponent(this GameObject obj, Type type)
         => obj.TryGetComponent(Il2CppType.From(type), out Component comp) ? comp : obj.AddComponent(Il2CppType.From(type));

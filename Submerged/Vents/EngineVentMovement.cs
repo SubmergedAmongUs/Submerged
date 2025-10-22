@@ -1,5 +1,4 @@
 using BepInEx.Unity.IL2CPP.Utils;
-using Hazel;
 using PowerTools;
 using Reactor.Networking.Attributes;
 using Submerged.Enums;

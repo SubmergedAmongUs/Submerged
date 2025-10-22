@@ -1,9 +1,7 @@
 ﻿using System.Collections.Generic;
 using Hazel;
 using Il2CppInterop.Runtime.Injection;
-using InnerNet;
 using Reactor.Utilities.Attributes;
-using Submerged.Enums;
 using Submerged.Extensions;
 using AU = Submerged.BaseGame.Interfaces.AU;
 

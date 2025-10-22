@@ -18,8 +18,6 @@ public sealed class MicrowaveLunchMinigame(nint ptr) : Minigame(ptr)
 {
     private readonly List<int> _enteredNumber = [];
 
-    private readonly ClickableSprite[] _numberButtons = new ClickableSprite[10];
-
     private AudioSource _audio;
     private GameObject _background;
 
@@ -90,7 +88,6 @@ public sealed class MicrowaveLunchMinigame(nint ptr) : Minigame(ptr)
             switch (button.name.Length)
             {
                 case 1:
-                    _numberButtons[int.Parse(button.name)] = clickableSprite;
                     clickableSprite.onDown += () => NumberButtonPress(int.Parse(button.name));
 
                     break;

@@ -1,5 +1,4 @@
 ﻿using AmongUs.Data.Player;
-using BepInEx.Unity.IL2CPP.Utils.Collections;
 using HarmonyLib;
 
 namespace Submerged.Debugging.Patches;

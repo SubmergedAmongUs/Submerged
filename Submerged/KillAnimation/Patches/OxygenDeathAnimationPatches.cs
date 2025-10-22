@@ -1,7 +1,5 @@
-using BepInEx.Unity.IL2CPP.Utils.Collections;
 using HarmonyLib;
 using Reactor.Utilities.Extensions;
-using Submerged.Enums;
 using UnityEngine;
 
 namespace Submerged.KillAnimation.Patches;

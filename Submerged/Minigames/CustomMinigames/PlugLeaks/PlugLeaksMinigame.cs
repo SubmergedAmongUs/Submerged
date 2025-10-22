@@ -17,12 +17,12 @@ public sealed class PlugLeaksMinigame(nint ptr) : Minigame(ptr)
 
     public Color[] redColors =
     [
-        new Color(0.3199982f, 0.4059609f, 0.4433962f, 1f),
-        new Color(0.4528302f, 0.4147556f, 0.3438946f, 1f),
-        new Color(0.3867925f, 0.3338603f, 0.2791474f, 1f),
-        new Color(0.5188679f, 0.5188679f, 0.5188679f, 1f),
-        new Color(0.3199982f, 0.4059609f, 0.4433962f, 1f),
-        new Color(0.4528302f, 0.4147556f, 0.3438946f, 1f)
+        new(0.3199982f, 0.4059609f, 0.4433962f, 1f),
+        new(0.4528302f, 0.4147556f, 0.3438946f, 1f),
+        new(0.3867925f, 0.3338603f, 0.2791474f, 1f),
+        new(0.5188679f, 0.5188679f, 0.5188679f, 1f),
+        new(0.3199982f, 0.4059609f, 0.4433962f, 1f),
+        new(0.4528302f, 0.4147556f, 0.3438946f, 1f)
     ];
 
     public GameObject[] backgrounds;

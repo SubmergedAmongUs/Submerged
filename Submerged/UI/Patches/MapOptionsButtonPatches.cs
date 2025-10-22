@@ -3,7 +3,6 @@ using System.Linq;
 using HarmonyLib;
 using Submerged.Enums;
 using Submerged.Resources;
-using UnityEngine;
 
 namespace Submerged.UI.Patches;
 

@@ -4,7 +4,6 @@ using Hazel;
 using Il2CppInterop.Runtime.Injection;
 using Reactor.Networking.Attributes;
 using Reactor.Utilities.Attributes;
-using Submerged.BaseGame;
 using Submerged.Enums;
 using Submerged.KillAnimation.Patches;
 using UnityEngine;

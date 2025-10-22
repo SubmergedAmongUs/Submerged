@@ -2,8 +2,8 @@
 
 public interface IDebugTab
 {
-    public string Name { get; }
-    public bool ShouldShow { get; }
+    string Name { get; }
+    bool ShouldShow { get; }
 
-    public void BuildGUI();
+    void BuildGUI();
 }
