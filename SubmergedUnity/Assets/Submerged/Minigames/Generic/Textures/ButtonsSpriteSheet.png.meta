@@ -96,7 +96,7 @@ TextureImporter:
       213: 21300060
     second: quit
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -113,10 +113,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -155,6 +157,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -166,6 +170,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1454,9 +1472,40 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      buttonClick: 21300026
+      buttonEnterText: 21300028
+      closeButton: 21300006
+      customize: 21300024
+      doorlogMIRA: 21300000
+      help: 21300056
+      killButton: 21300034
+      mapAdmin: 21300020
+      mapAdminMIRA: 21300002
+      mapAdminPolus: 21300004
+      mapButtonDark: 21300036
+      playAgain: 21300058
+      privateGame: 21300050
+      progress_bar: 21300054
+      publicGame: 21300052
+      quit: 21300060
+      reportButton: 21300038
+      sabotage: 21300040
+      sabotage_Doors: 21300010
+      sabotage_O2: 21300014
+      sabotage_comms: 21300008
+      sabotage_electricity: 21300012
+      sabotage_reactor: 21300016
+      security: 21300022
+      settingsButton: 21300042
+      startButton: 21300044
+      statsButton: 21300030
+      task: 21300018
+      useButton: 21300046
+      vent: 21300048
+      vitalsPolus: 21300032
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

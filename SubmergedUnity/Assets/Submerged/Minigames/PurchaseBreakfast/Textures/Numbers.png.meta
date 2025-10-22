@@ -33,7 +33,7 @@ TextureImporter:
       213: 849386610096671516
     second: 9
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -50,10 +50,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -62,9 +64,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -92,6 +94,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -103,6 +107,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -115,6 +120,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -241,7 +247,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: bf56f720d86fb1a00800000000000000
-      internalID: 728446850243192315
+      internalID: 6967745887157389618
       vertices: []
       indices: 
       edges: []
@@ -262,7 +268,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 35ae272d56393e640800000000000000
-      internalID: 5108088467900000851
+      internalID: 728446850243192315
       vertices: []
       indices: 
       edges: []
@@ -340,9 +346,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      0: -6629531029891648246
+      1: -4217592887472625829
+      2: -4412911677491635961
+      3: -6395529614303463221
+      4: -4417143251372694878
+      5: 728446850243192315
+      6: 6967745887157389618
+      7: -519400735672398794
+      8: -1344653293438560547
+      9: 849386610096671516
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

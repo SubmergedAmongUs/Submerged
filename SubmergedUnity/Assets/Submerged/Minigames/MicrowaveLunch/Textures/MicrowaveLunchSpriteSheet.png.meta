@@ -72,7 +72,7 @@ TextureImporter:
       213: 754840452542730952
     second: screen_overlay
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -89,10 +89,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -131,6 +133,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
@@ -143,6 +146,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -155,6 +159,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -653,9 +658,32 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      MicrowaveLight: 2330403076606801535
+      OpenDoor: 6547299590817294874
+      food1_egg: 1359453621712661944
+      food2_fish: 5292281210610355178
+      food3_quiche: -1987506512888402790
+      food4_sandwhich: -4797833381070574131
+      food5_pizza: 2069280361065480784
+      microwave_base: -3990605353784605719
+      notes_with_shadow: -8487744055056290006
+      numpad_0: 1883278411930941159
+      numpad_1: -1917747596969493677
+      numpad_2: 6540325066721126549
+      numpad_3: 8003209083917769180
+      numpad_4: 422971247930945588
+      numpad_5: 4379296231024758635
+      numpad_6: -2432242856874169634
+      numpad_7: 5198890010214433452
+      numpad_8: 4543346232417244258
+      numpad_9: -1740938177792246743
+      numpad_clear: 1376690927559897554
+      numpad_cook: 1834388824180171532
+      plate: 586189491108521247
+      screen_overlay: 754840452542730952
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

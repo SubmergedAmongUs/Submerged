@@ -147,7 +147,7 @@ TextureImporter:
       213: 4146571914251465951
     second: fish_swim_anim47
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -164,10 +164,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -177,8 +179,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 1
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -206,6 +208,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -217,6 +221,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -229,6 +234,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -241,6 +247,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1264,9 +1271,57 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      fish_swim_anim00: -4862669876553623482
+      fish_swim_anim01: -3357812390284082481
+      fish_swim_anim02: -8221370380591703909
+      fish_swim_anim03: -6156507875060194459
+      fish_swim_anim04: -5346126561920191588
+      fish_swim_anim05: 692848535278326788
+      fish_swim_anim06: 3294641486988876012
+      fish_swim_anim07: 4893271299589068498
+      fish_swim_anim08: 3954997740039072084
+      fish_swim_anim09: 2001717492896073337
+      fish_swim_anim10: 5010124288334701138
+      fish_swim_anim11: 4902063911980633878
+      fish_swim_anim12: 7453448303759859326
+      fish_swim_anim13: -4931248310246335426
+      fish_swim_anim14: 1941185749481550303
+      fish_swim_anim15: -5950563097333903866
+      fish_swim_anim16: 3606123086696935462
+      fish_swim_anim17: 5235212948696533163
+      fish_swim_anim18: -2072246231149227611
+      fish_swim_anim19: -3772224528812068260
+      fish_swim_anim20: -2468949935761083808
+      fish_swim_anim21: -6970593960748323009
+      fish_swim_anim22: -2302441457259389358
+      fish_swim_anim23: 5350817666956071837
+      fish_swim_anim24: -8579018597702609601
+      fish_swim_anim25: -4621259456494048014
+      fish_swim_anim26: 8237349758411008443
+      fish_swim_anim27: -3542340342787516019
+      fish_swim_anim28: 1870676134713184306
+      fish_swim_anim29: -2458955432110185790
+      fish_swim_anim30: -952764444850948106
+      fish_swim_anim31: 8248072736552381762
+      fish_swim_anim32: 4282192248361885472
+      fish_swim_anim33: -3091614973580979418
+      fish_swim_anim34: -5100124198048119711
+      fish_swim_anim35: 8660413921548219003
+      fish_swim_anim36: 3232478601848207820
+      fish_swim_anim37: 1637371896291131011
+      fish_swim_anim38: 447087867871079745
+      fish_swim_anim39: 2745830966636721830
+      fish_swim_anim40: -3878461462816859736
+      fish_swim_anim41: 6715437049626968404
+      fish_swim_anim42: 8481530625273388774
+      fish_swim_anim43: -3053716475870980070
+      fish_swim_anim44: -7609193594480463088
+      fish_swim_anim45: -7105405459973056475
+      fish_swim_anim46: 7537173422947977661
+      fish_swim_anim47: 4146571914251465951
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

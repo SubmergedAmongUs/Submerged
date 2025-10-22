@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: 8ad37d0898ae7ee419ec25e31026e56f
-timeCreated: 1614007712
-licenseType: Free
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -98,8 +96,7 @@ TextureImporter:
       213: 21300060
     second: quit
   externalObjects: {}
-  usedFileIDs: []
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -116,9 +113,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -150,10 +150,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -165,6 +170,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -216,7 +235,7 @@ TextureImporter:
       spriteID: 7e51aa0640254eebacd36e1b64e7a67a
       internalID: 21300000
       vertices: []
-      indices:
+      indices: 
       edges: []
       weights: []
     - serializedVersion: 2
@@ -261,7 +280,7 @@ TextureImporter:
       spriteID: 6a0dec53449e495aa4ac7b47223bd3af
       internalID: 21300002
       vertices: []
-      indices:
+      indices: 
       edges: []
       weights: []
     - serializedVersion: 2
@@ -307,7 +326,7 @@ TextureImporter:
       spriteID: 0c31ad86c39f4a5b813e446614352bc6
       internalID: 21300004
       vertices: []
-      indices:
+      indices: 
       edges: []
       weights: []
     - serializedVersion: 2
@@ -341,7 +360,7 @@ TextureImporter:
       spriteID: 09e20692dc554f739fdda98730a6a709
       internalID: 21300006
       vertices: []
-      indices:
+      indices: 
       edges: []
       weights: []
     - serializedVersion: 2
@@ -375,7 +394,7 @@ TextureImporter:
       spriteID: 42c11896396349afb5d35d8a7ff8b74b
       internalID: 21300008
       vertices: []
-      indices:
+      indices: 
       edges: []
       weights: []
     - serializedVersion: 2
@@ -409,7 +428,7 @@ TextureImporter:
       spriteID: cefc509fcbd5472e81b99b4f91b1c185
       internalID: 21300010
       vertices: []
-      indices:
+      indices: 
       edges: []
       weights: []
     - serializedVersion: 2
@@ -443,7 +462,7 @@ TextureImporter:
       spriteID: a15f311f9622449daf528fd144065dbf
       internalID: 21300012
       vertices: []
-      indices:
+      indices: 
       edges: []
       weights: []
     - serializedVersion: 2
@@ -477,7 +496,7 @@ TextureImporter:
       spriteID: 3cf6900ef35f40829367d5105d4db413
       internalID: 21300014
       vertices: []
-      indices:
+      indices: 
       edges: []
       weights: []
     - serializedVersion: 2
@@ -511,7 +530,7 @@ TextureImporter:
       spriteID: 81a5be82a1e94baca06d08312721ce32
       internalID: 21300016
       vertices: []
-      indices:
+      indices: 
       edges: []
       weights: []
     - serializedVersion: 2
@@ -563,7 +582,7 @@ TextureImporter:
       spriteID: 53685c6d4e4944d8899ab24796c5ad19
       internalID: 21300018
       vertices: []
-      indices:
+      indices: 
       edges: []
       weights: []
     - serializedVersion: 2
@@ -610,7 +629,7 @@ TextureImporter:
       spriteID: fe9106ff2a794994ac5660dc055cded1
       internalID: 21300020
       vertices: []
-      indices:
+      indices: 
       edges: []
       weights: []
     - serializedVersion: 2
@@ -652,7 +671,7 @@ TextureImporter:
       spriteID: 7a2d97d839f74bd48e651853b9bec848
       internalID: 21300022
       vertices: []
-      indices:
+      indices: 
       edges: []
       weights: []
     - serializedVersion: 2
@@ -691,7 +710,7 @@ TextureImporter:
       spriteID: 2e7562fb448142daa44b9ce595965f6d
       internalID: 21300024
       vertices: []
-      indices:
+      indices: 
       edges: []
       weights: []
     - serializedVersion: 2
@@ -720,7 +739,7 @@ TextureImporter:
       spriteID: 2d1efedc2e634325a3ba74785af553a4
       internalID: 21300026
       vertices: []
-      indices:
+      indices: 
       edges: []
       weights: []
     - serializedVersion: 2
@@ -751,7 +770,7 @@ TextureImporter:
       spriteID: 438ce7dff9204b9fa721b0f34456d82e
       internalID: 21300028
       vertices: []
-      indices:
+      indices: 
       edges: []
       weights: []
     - serializedVersion: 2
@@ -785,7 +804,7 @@ TextureImporter:
       spriteID: 3a7759b152f34db992df7987439533d8
       internalID: 21300030
       vertices: []
-      indices:
+      indices: 
       edges: []
       weights: []
     - serializedVersion: 2
@@ -818,7 +837,7 @@ TextureImporter:
       spriteID: a0836693eeab4dc9bbfd73821c6598c5
       internalID: 21300032
       vertices: []
-      indices:
+      indices: 
       edges: []
       weights: []
     - serializedVersion: 2
@@ -862,7 +881,7 @@ TextureImporter:
       spriteID: 0d9c95765d22447c85e6033197950449
       internalID: 21300034
       vertices: []
-      indices:
+      indices: 
       edges: []
       weights: []
     - serializedVersion: 2
@@ -896,7 +915,7 @@ TextureImporter:
       spriteID: 04196dba2601473da878d9d773194859
       internalID: 21300036
       vertices: []
-      indices:
+      indices: 
       edges: []
       weights: []
     - serializedVersion: 2
@@ -954,7 +973,7 @@ TextureImporter:
       spriteID: d942a68c9f644d378be4cc4e0d279e13
       internalID: 21300038
       vertices: []
-      indices:
+      indices: 
       edges: []
       weights: []
     - serializedVersion: 2
@@ -998,7 +1017,7 @@ TextureImporter:
       spriteID: 0146f0250e754741bdd1d978a1d30e9d
       internalID: 21300040
       vertices: []
-      indices:
+      indices: 
       edges: []
       weights: []
     - serializedVersion: 2
@@ -1032,7 +1051,7 @@ TextureImporter:
       spriteID: 85e0ff4965ec48dda0b2ad26fdae88bf
       internalID: 21300042
       vertices: []
-      indices:
+      indices: 
       edges: []
       weights: []
     - serializedVersion: 2
@@ -1099,7 +1118,7 @@ TextureImporter:
       spriteID: f7ddee5ee4de41269051adb89cdff345
       internalID: 21300044
       vertices: []
-      indices:
+      indices: 
       edges: []
       weights: []
     - serializedVersion: 2
@@ -1133,7 +1152,7 @@ TextureImporter:
       spriteID: 8651af51e98b4bd8a187a7a48f35806f
       internalID: 21300046
       vertices: []
-      indices:
+      indices: 
       edges: []
       weights: []
     - serializedVersion: 2
@@ -1175,7 +1194,7 @@ TextureImporter:
       spriteID: 3ffa782afe1c4cc68988164909b72a6d
       internalID: 21300048
       vertices: []
-      indices:
+      indices: 
       edges: []
       weights: []
     - serializedVersion: 2
@@ -1206,7 +1225,7 @@ TextureImporter:
       spriteID: 387ef8c8b6c841509bff053639b376a2
       internalID: 21300050
       vertices: []
-      indices:
+      indices: 
       edges: []
       weights: []
     - serializedVersion: 2
@@ -1237,7 +1256,7 @@ TextureImporter:
       spriteID: bf339ba222f941e3af9500c12110aa94
       internalID: 21300052
       vertices: []
-      indices:
+      indices: 
       edges: []
       weights: []
     - serializedVersion: 2
@@ -1266,7 +1285,7 @@ TextureImporter:
       spriteID: 3609efeb38d74915a1a1d85f17b16ca9
       internalID: 21300054
       vertices: []
-      indices:
+      indices: 
       edges: []
       weights: []
     - serializedVersion: 2
@@ -1300,7 +1319,7 @@ TextureImporter:
       spriteID: 153a234df4d543a79357747ac569b1e8
       internalID: 21300056
       vertices: []
-      indices:
+      indices: 
       edges: []
       weights: []
     - serializedVersion: 2
@@ -1368,7 +1387,7 @@ TextureImporter:
       spriteID: 45b356fe038f408b8f0f610e7536d79e
       internalID: 21300058
       vertices: []
-      indices:
+      indices: 
       edges: []
       weights: []
     - serializedVersion: 2
@@ -1440,22 +1459,53 @@ TextureImporter:
       spriteID: 89e7eae1c2e946c9a5f29f46e38f1fc5
       internalID: 21300060
       vertices: []
-      indices:
+      indices: 
       edges: []
       weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID:
+    spriteID: 
     internalID: 0
     vertices: []
-    indices:
+    indices: 
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag:
+    nameFileIdTable:
+      buttonClick: 21300026
+      buttonEnterText: 21300028
+      closeButton: 21300006
+      customize: 21300024
+      doorlogMIRA: 21300000
+      help: 21300056
+      killButton: 21300034
+      mapAdmin: 21300020
+      mapAdminMIRA: 21300002
+      mapAdminPolus: 21300004
+      mapButtonDark: 21300036
+      playAgain: 21300058
+      privateGame: 21300050
+      progress_bar: 21300054
+      publicGame: 21300052
+      quit: 21300060
+      reportButton: 21300038
+      sabotage: 21300040
+      sabotage_Doors: 21300010
+      sabotage_O2: 21300014
+      sabotage_comms: 21300008
+      sabotage_electricity: 21300012
+      sabotage_reactor: 21300016
+      security: 21300022
+      settingsButton: 21300042
+      startButton: 21300044
+      statsButton: 21300030
+      task: 21300018
+      useButton: 21300046
+      vent: 21300048
+      vitalsPolus: 21300032
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
-  userData:
-  assetBundleName:
-  assetBundleVariant:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

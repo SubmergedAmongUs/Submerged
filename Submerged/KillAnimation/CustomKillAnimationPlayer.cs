@@ -76,7 +76,6 @@ public sealed class CustomKillAnimationPlayer : MonoBehaviour
         if (playhead > ANIM_DURATION)
         {
             finished = true;
-
             return;
         }
 

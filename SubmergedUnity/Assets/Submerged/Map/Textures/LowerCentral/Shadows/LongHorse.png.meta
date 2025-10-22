@@ -267,7 +267,7 @@ TextureImporter:
       213: 21300174
     second: hors_idleBody0037
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -284,10 +284,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -326,6 +328,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -338,6 +341,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -350,6 +354,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -12435,9 +12440,95 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      hors_idleBody0001: 21300060
+      hors_idleBody0002: 21300108
+      hors_idleBody0003: 21300120
+      hors_idleBody0004: 21300148
+      hors_idleBody0005: 21300118
+      hors_idleBody0006: 21300066
+      hors_idleBody0007: 21300110
+      hors_idleBody0008: 21300018
+      hors_idleBody0009: 21300014
+      hors_idleBody0010: 21300086
+      hors_idleBody0011: 21300094
+      hors_idleBody0012: 21300124
+      hors_idleBody0013: 21300000
+      hors_idleBody0014: 21300020
+      hors_idleBody0015: 21300012
+      hors_idleBody0016: 21300098
+      hors_idleBody0017: 21300028
+      hors_idleBody0018: 21300152
+      hors_idleBody0019: 21300032
+      hors_idleBody0020: 21300132
+      hors_idleBody0021: 21300160
+      hors_idleBody0022: 21300146
+      hors_idleBody0023: 21300010
+      hors_idleBody0024: 21300114
+      hors_idleBody0025: 21300158
+      hors_idleBody0026: 21300140
+      hors_idleBody0027: 21300144
+      hors_idleBody0028: 21300104
+      hors_idleBody0029: 21300024
+      hors_idleBody0030: 21300074
+      hors_idleBody0031: 21300088
+      hors_idleBody0032: 21300116
+      hors_idleBody0033: 21300030
+      hors_idleBody0034: 21300102
+      hors_idleBody0035: 21300022
+      hors_idleBody0036: 21300162
+      hors_idleBody0037: 21300174
+      hors_idleBody0038: 21300090
+      hors_idleBody0039: 21300076
+      hors_idleBody0040: 21300048
+      hors_idleBody0041: 21300170
+      hors_idleBody0042: 21300154
+      hors_idleBody0043: 21300150
+      hors_idleBody0044: 21300072
+      hors_idleBody0045: 21300050
+      hors_idleBody0046: 21300078
+      hors_idleBody0047: 21300130
+      hors_idleBody0048: 21300040
+      hors_idleBody0049: 21300036
+      hors_idleBody0050: 21300134
+      hors_idleBody0051: 21300122
+      hors_idleBody0052: 21300136
+      hors_idleBody0053: 21300128
+      hors_idleBody0054: 21300044
+      hors_idleBody0055: 21300058
+      hors_idleBody0056: 21300002
+      hors_idleBody0057: 21300068
+      hors_idleBody0058: 21300168
+      hors_idleBody0059: 21300142
+      hors_idleBody0060: 21300004
+      hors_idleBody0061: 21300052
+      hors_idleBody0062: 21300166
+      hors_idleBody0063: 21300046
+      hors_idleBody0064: 21300082
+      hors_idleBody0065: 21300126
+      hors_idleBody0066: 21300164
+      hors_idleBody0067: 21300112
+      hors_idleBody0068: 21300006
+      hors_idleBody0069: 21300056
+      hors_idleBody0070: 21300034
+      hors_idleBody0071: 21300038
+      hors_idleBody0072: 21300026
+      hors_idleBody0073: 21300054
+      hors_idleBody0074: 21300042
+      hors_idleBody0075: 21300138
+      hors_idleBody0076: 21300092
+      hors_idleBody0077: 21300096
+      hors_idleBody0078: 21300064
+      hors_idleBody0079: 21300172
+      hors_idleBody0080: 21300106
+      hors_runBody0001: 21300100
+      hors_runBody0002: 21300080
+      hors_runBody0003: 21300008
+      hors_runBody0004: 21300156
+      hors_runBody0005: 21300084
+      hors_runBody0006: 21300062
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

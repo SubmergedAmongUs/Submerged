@@ -99,7 +99,7 @@ TextureImporter:
       213: 3585165839111352652
     second: Ticket2
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -116,10 +116,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -128,9 +130,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -158,6 +160,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -169,6 +173,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -181,6 +186,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -868,9 +874,41 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Base_Back: -4543555419946760460
+      DiagnoseDoor2_01: 8101081864173048521
+      DiagnoseDoor2_02: -1237119960684186650
+      DiagnoseDoor2_03: -8933867527636504673
+      DiagnoseDoor2_04: 3643000672816917428
+      DiagnoseDoor2_05: -6860136125316798982
+      DiagnoseDoor2_06: 1557701800019165973
+      DiagnoseDoor2_07: -8271536535329424495
+      DiagnoseDoor2_08: -6744465332097982303
+      DiagnoseDoor2_09: 7576007203764538748
+      DiagnoseDoor2_10: -89160517342632371
+      DiagnoseDoor2_11: -3249262981152306627
+      DiagnoseDoor2_12: -6930802295987255841
+      DiagnoseDoor2_13: -3540080886079928731
+      DiagnoseDoor2_14: 5220557380606002932
+      DiagnoseDoor2_15: -4340823639768324049
+      DiagnoseDoor2_16: -402550754799429388
+      DiagnoseDoor2_17: 3961944066089558918
+      DiagnoseDoor2_18: -8302150726190437095
+      DiagnoseDoor2_19: -894428126473288738
+      DiagnoseDoor2_20: -561673461812886985
+      DiagnoseDoor2_21: -1132087515271113597
+      DiagnoseDoor2_22: -5765024022301969386
+      DiagnoseDoor2_23: 6228903259599779420
+      DiagnoseDoor2_24: -5042681047787128211
+      DiagnoseDoor2_25: 6582869869735435282
+      DiagnoseDoor2_26: -1093913881135308090
+      Diagnose_Button: 8973528545786387743
+      Ticket: -4936889353348742911
+      Ticket2: 3585165839111352652
+      Ticket_dispenser_Full: -7323354658855041726
+      Ticket_dispenser_Top: 3861960490497601522
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

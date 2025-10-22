@@ -78,7 +78,7 @@ TextureImporter:
       213: -395372025143443954
     second: fish_bite24
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -95,10 +95,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -108,8 +110,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 2
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -137,6 +139,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -148,6 +152,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -160,6 +165,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -172,6 +178,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -712,9 +719,34 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      fish_bite00: 7870176885551464523
+      fish_bite01: -4910861486082298717
+      fish_bite02: -7184200756423682751
+      fish_bite03: 3331618483270206483
+      fish_bite04: 3797991566726678326
+      fish_bite05: 4494372517012197893
+      fish_bite06: -3409020086068193880
+      fish_bite07: -2059281886592160826
+      fish_bite08: 1850367177218200460
+      fish_bite09: 7117413787548183272
+      fish_bite10: -6495166076239437024
+      fish_bite11: -4458011014392876542
+      fish_bite12: 2628665664914896405
+      fish_bite13: -880684601342614463
+      fish_bite14: -7734713052919843148
+      fish_bite15: -7434972119693255999
+      fish_bite16: 3479356769408465745
+      fish_bite17: -6545509836424310199
+      fish_bite18: 6172830872309052624
+      fish_bite19: 4270690407597807268
+      fish_bite20: -3023199855981781112
+      fish_bite21: -7604903771776609449
+      fish_bite22: -6666937302314367078
+      fish_bite23: 3587261011181955451
+      fish_bite24: -395372025143443954
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

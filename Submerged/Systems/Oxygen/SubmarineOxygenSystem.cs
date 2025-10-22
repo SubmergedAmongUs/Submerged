@@ -2,7 +2,9 @@
 using System.Linq;
 using Hazel;
 using Il2CppInterop.Runtime.Injection;
+using Reactor.Networking.Attributes;
 using Reactor.Utilities.Attributes;
+using Submerged.Enums;
 using Submerged.KillAnimation.Patches;
 using UnityEngine;
 using AU = Submerged.BaseGame.Interfaces.AU;
@@ -54,18 +56,16 @@ public sealed class SubmarineOxygenSystem(nint ptr) : CppObject(ptr), AU.ISystem
                 try
                 {
                     OxygenDeathAnimationPatches.IsOxygenDeath = true;
-                    OxygenDeathRpcPatches.MurderPlayerAsOxygenDeath = true;
 
                     if (localPlayer.inVent)
                     {
                         Vent.currentVent.SetButtons(false);
                         localPlayer.MyPhysics.RpcExitVent(Vent.currentVent.Id);
                     }
-                    localPlayer.RpcMurderPlayer(localPlayer, true);
+                    RpcOxygenDeath(localPlayer);
                 }
                 finally
                 {
-                    OxygenDeathRpcPatches.MurderPlayerAsOxygenDeath = false;
                     OxygenDeathAnimationPatches.IsOxygenDeath = false;
                 }
             }
@@ -122,6 +122,11 @@ public sealed class SubmarineOxygenSystem(nint ptr) : CppObject(ptr), AU.ISystem
         doKillCheck = reader.ReadBoolean();
     }
 
+    public void MarkClean()
+    {
+        IsDirty = false;
+    }
+
     public void Serialize(MessageWriter writer, bool initialState)
     {
         writer.Write(countdown);
@@ -162,5 +167,19 @@ public sealed class SubmarineOxygenSystem(nint ptr) : CppObject(ptr), AU.ISystem
     {
         byte amount = msgReader.ReadByte();
         RepairDamage(player, amount);
+    }
+
+    [MethodRpc(CustomRpcCalls.OxygenDeath)]
+    public static void RpcOxygenDeath(PlayerControl player)
+    {
+        try
+        {
+            if (player.AmOwner) KillCooldownPatches.PreventReset = true;
+            player.MurderPlayer(player, MurderResultFlags.Succeeded | MurderResultFlags.DecisionByHost);
+        }
+        finally
+        {
+            KillCooldownPatches.PreventReset = false;
+        }
     }
 }

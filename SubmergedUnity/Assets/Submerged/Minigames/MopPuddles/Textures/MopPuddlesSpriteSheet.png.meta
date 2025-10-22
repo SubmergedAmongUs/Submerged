@@ -69,7 +69,7 @@ TextureImporter:
       213: -1101192720393940257
     second: puddle7
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -86,10 +86,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -98,9 +100,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -128,6 +130,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -139,6 +143,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -151,6 +156,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -628,9 +634,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      1: -2374222918679686493
+      2: -761933863725385812
+      3: -5906598218874874896
+      4: -1816755548282093316
+      Bucket_1: 949185140388405158
+      Bucket_2: -6256017313231689475
+      Bucket_water_sorryugottamask: -581647557964234878
+      Mop Puddle LD Filtration: -1752381820872662760
+      Mop Puddle LD Halls: 8025427438337525227
+      Mop Puddle LD Storage: 3642733526074406515
+      Mop Puddle UD Admin: -8100960167944144491
+      Mop Puddle UD Comms: 3529356234137455610
+      bucket shadow: 2122068693196875397
+      mop: 4246452032700133501
+      mop_soaked: 5559365761576847822
+      puddle1: 5232941047700551359
+      puddle2: -972795382094903561
+      puddle3: -1633790777925783273
+      puddle4: 2938264369100021353
+      puddle5: -8462323282813097764
+      puddle6: -4776148068956320770
+      puddle7: -1101192720393940257
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

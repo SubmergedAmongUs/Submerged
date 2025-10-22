@@ -177,7 +177,7 @@ TextureImporter:
       213: 3194782757838505180
     second: merged_bubbles_43
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -194,10 +194,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -206,9 +208,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -236,6 +238,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -247,6 +251,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -259,6 +264,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -271,6 +277,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1441,9 +1448,64 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Reticle: -6776817779631042170
+      Target: 2865870748345947649
+      align_telescope: 5746186521494623499
+      align_telescope_active_vent: 2620168497237725838
+      align_telescope_bones: -1513115343639873599
+      align_telescope_crystal: -5937736546632067289
+      align_telescope_dormant_vent: 6791958158741680899
+      align_telescope_fossil: 487812304301792297
+      align_telescope_mug: -4712053457605823372
+      align_telescope_seaweed: -1085696731962921756
+      merged_bubbles_0: 989586375613908341
+      merged_bubbles_1: 2339346337270258330
+      merged_bubbles_10: -6420438993396168218
+      merged_bubbles_11: 4249300751263845249
+      merged_bubbles_12: 2971679782092587890
+      merged_bubbles_13: -3253610028327167598
+      merged_bubbles_14: 1130322155887673808
+      merged_bubbles_15: -2291813779929983263
+      merged_bubbles_16: -2271326704719493077
+      merged_bubbles_17: 8596581801365718322
+      merged_bubbles_18: -1438165301138806192
+      merged_bubbles_19: -8176330040498012003
+      merged_bubbles_2: 7125964934325514692
+      merged_bubbles_20: -2380236732349941112
+      merged_bubbles_21: 3190572435751321151
+      merged_bubbles_22: -2215627461022531852
+      merged_bubbles_23: 8948228704734903216
+      merged_bubbles_24: -812150973538464185
+      merged_bubbles_25: 7758123088985960232
+      merged_bubbles_26: 4618414973646706749
+      merged_bubbles_27: 4642203197574969396
+      merged_bubbles_28: -6589670985594367339
+      merged_bubbles_29: -4276400911275974721
+      merged_bubbles_3: 7405403921300917983
+      merged_bubbles_30: -744344631555223148
+      merged_bubbles_31: 6523925393538697956
+      merged_bubbles_32: 2470000859386256485
+      merged_bubbles_33: 4597389370789623757
+      merged_bubbles_34: -6588827225406199922
+      merged_bubbles_35: -8835024631624960859
+      merged_bubbles_36: 2450107861932479259
+      merged_bubbles_37: -479245815465734307
+      merged_bubbles_38: -1136810672641068528
+      merged_bubbles_39: -4825365304802923012
+      merged_bubbles_4: 2113468762949209401
+      merged_bubbles_40: 9023266565263621147
+      merged_bubbles_41: -7309434049115314197
+      merged_bubbles_42: 3806408721388531034
+      merged_bubbles_43: 3194782757838505180
+      merged_bubbles_5: -5261983888436689670
+      merged_bubbles_6: -3531956835503728512
+      merged_bubbles_7: -8239362062694764933
+      merged_bubbles_8: -8461393376890153661
+      merged_bubbles_9: -8370838090843118386
+      telescope_mask: -2444369143521968972
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

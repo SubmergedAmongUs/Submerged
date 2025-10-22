@@ -78,7 +78,7 @@ TextureImporter:
       213: -1068678752406259797
     second: Stain5_0
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -95,10 +95,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -107,9 +109,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -137,6 +139,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -148,6 +152,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -160,6 +165,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -595,9 +601,29 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Background2: 3585075094346165510
+      Border: -4095400071365676399
+      Cloth: -8156673925844777607
+      Stain1: -5159151613712771947
+      Stain2: 8376325004759897596
+      Stain3: -8635609086559005891
+      Stain4: -2154746395134500023
+      Stain5: 2767036777377281617
+      animated-ruby_sparkle0001: -268480552333197661
+      animated-ruby_sparkle0002: -975748568325775735
+      animated-ruby_sparkle0003: 4632275834067673094
+      animated-ruby_sparkle0004: 9040219373186783447
+      animated-ruby_sparkle0005: 1723848395785938919
+      animated-ruby_sparkle0006: -6942391397441351108
+      animated-ruby_sparkle0007: 6520054924881894740
+      animated-ruby_sparkle0008: -1551319244248397133
+      animated-ruby_sparkle0009: 2479019740241603784
+      animated-ruby_sparkle0010: -5869640958435759060
+      animated-ruby_sparkle0011: -9132028556791094773
+      animated-ruby_sparkle0012: 988546402864236648
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

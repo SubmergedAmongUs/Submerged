@@ -120,7 +120,7 @@ TextureImporter:
       213: 2261861439786629593
     second: Numerics_9
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -137,10 +137,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -149,9 +151,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -179,6 +181,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -190,6 +194,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -202,6 +207,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1036,9 +1042,48 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Alphabet_A: 1436257492963854593
+      Alphabet_B: 7090254869336543421
+      Alphabet_C: -961134702702882796
+      Alphabet_D: 7401378962522552950
+      Alphabet_E: 7639694025435774109
+      Alphabet_F: 8498252264533710309
+      Alphabet_G: -1824711354384918746
+      Alphabet_H: 4318496237948587906
+      Alphabet_I: -7619223600206397044
+      Alphabet_J: -3089087821736039375
+      Alphabet_K: 2103090359077008927
+      Alphabet_L: -1758964796699454595
+      Alphabet_M: -3321684509537479571
+      Alphabet_N: 4654545418180118971
+      Alphabet_O: -5283012189605682436
+      Alphabet_P: -5028200748246998498
+      Alphabet_Q: -774197663890800287
+      Alphabet_R: -9189113202205365230
+      Alphabet_S: 3909179532137086022
+      Alphabet_T: 3046750949132728539
+      Alphabet_U: -2123181943228866784
+      Alphabet_V: -3011487546740019000
+      Alphabet_W: -3438165978943944257
+      Alphabet_X: -3413250858302694606
+      Alphabet_Y: 166512522392948126
+      Alphabet_Z: -699071324918184698
+      Circuit Breaker: 3247574082852552417
+      Circuit-Breaker-Switch_OFF: 7531292786945903219
+      Circuit-Breaker-Switch_ON: 4039590925586684930
+      Numerics_0: 949596039761129043
+      Numerics_1: 4709021591416514729
+      Numerics_2: -5829026820719573456
+      Numerics_3: -4510844502509349724
+      Numerics_4: -8392088176087304576
+      Numerics_5: 5032373578287086970
+      Numerics_6: 8318414034146138955
+      Numerics_7: -1214362200822241391
+      Numerics_8: -3185559605715944297
+      Numerics_9: 2261861439786629593
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

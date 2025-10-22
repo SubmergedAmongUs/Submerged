@@ -193,9 +193,9 @@ public sealed class SubmergedExileController(nint ptr) : ExileController(ptr)
         yield return WrapUpAndSpawn();
     }
 
-    // CLeanup this WrapUpAndSpawn method
+    // Cleanup this WrapUpAndSpawn method
     [HideFromIl2Cpp]
-    [BaseGameCode(LastChecked.v2024_8_13, "Similar to AirshipExileController.WrapUpAndSpawn")]
+    [BaseGameCode(LastChecked.v17_0_0, "Similar to AirshipExileController.WrapUpAndSpawn")]
     public IEnumerator WrapUpAndSpawn()
     {
         if (initData != null && initData.networkedPlayer)
@@ -212,19 +212,18 @@ public sealed class SubmergedExileController(nint ptr) : ExileController(ptr)
 
         if (TutorialManager.InstanceExists || (GameManager.Instance && !GameManager.Instance.LogicFlow.IsGameOverDueToDeath()))
         {
-            ShipStatus.Instance.StartCoroutine(ShipStatus.Instance.PrespawnStep());
+            yield return ShipStatus.Instance.PrespawnStep();
 
             // We can't use ReEnableGameplay because it fades the screen to clear and we don't want that
             PlayerControl.LocalPlayer.SetKillTimer(GameManager.Instance.LogicOptions.GetKillCooldown());
             ShipStatus.Instance.EmergencyCooldown = GameManager.Instance.LogicOptions.GetEmergencyCooldown();
-            Camera.main!.GetComponent<FollowerCamera>().Locked = false;
-            DestroyableSingleton<HudManager>.Instance.SetHudActive(true);
+            HudManager.Instance.PlayerCam.Locked = false;
+            HudManager.Instance.SetMapButtonEnabled(true);
+            HudManager.Instance.SetHudActive(true);
             ControllerManager.Instance.CloseAndResetAll();
         }
 
         Destroy(gameObject);
-
-        yield break;
     }
 
     public override CppIEnumerator Animate() => WaitForFadeAndAnimate().WrapToIl2Cpp();

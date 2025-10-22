@@ -39,19 +39,22 @@ public sealed class ReshelvePart1(nint ptr) : MonoBehaviour(ptr)
             this.StartCoroutine(CoOnMouseDown(clickableSprite.gameObject));
         };
 
-        transform.Find("Books/Benthic Beasts")?.GetComponentInChildren<TextMeshPro>().SetText(Tasks.ReshelveBooks_Book02_Lounge);
-        transform.Find("Books/Ichthyologist Weekly")?.GetComponentInChildren<TextMeshPro>().SetText(Tasks.ReshelveBooks_Book06_Lounge);
-        transform.Find("Books/Octopus Digest")?.GetComponentInChildren<TextMeshPro>().SetText(Tasks.ReshelveBooks_Book11_Lounge);
-        transform.Find("Books/Kelper Worms")?.GetComponentInChildren<TextMeshPro>().SetText(Tasks.ReshelveBooks_Book08_Medical);
-        transform.Find("Books/Nautical Nonsense")?.GetComponentInChildren<TextMeshPro>().SetText(Tasks.ReshelveBooks_Book10_Medical);
-        transform.Find("Books/Sea Slugs & You!")?.GetComponentInChildren<TextMeshPro>().SetText(Tasks.ReshelveBooks_Book13_Medical);
+        SetText("Books/Benthic Beasts", Tasks.ReshelveBooks_Book02_Lounge);
+        SetText("Books/Ichthyologist Weekly", Tasks.ReshelveBooks_Book06_Lounge);
+        SetText("Books/Octopus Digest", Tasks.ReshelveBooks_Book11_Lounge);
+        SetText("Books/Kelper Worms", Tasks.ReshelveBooks_Book08_Medical);
+        SetText("Books/Nautical Nonsense", Tasks.ReshelveBooks_Book10_Medical);
+        SetText("Books/Sea Slugs & You!", Tasks.ReshelveBooks_Book13_Medical);
     }
 
     [HideFromIl2Cpp]
     private IEnumerator CoOnMouseDown(GameObject obj)
     {
         minigame.Task.customData[minigame.ConsoleId + 2] = 1;
-        minigame.Task!?.NextStep();
+        if (minigame.Task != null)
+        {
+            minigame.Task.NextStep();
+        }
 
         SpriteRenderer rend = obj.GetComponent<SpriteRenderer>();
         TextMeshPro text = obj.GetComponentInChildren<TextMeshPro>();
@@ -64,5 +67,15 @@ public sealed class ReshelvePart1(nint ptr) : MonoBehaviour(ptr)
         }
 
         minigame.minigameProperties.CloseTask();
+    }
+
+    private void SetText(string objName, string targetText)
+    {
+        Transform targetTrans = transform.Find(objName);
+        if (targetTrans == null)
+        {
+            return;
+        }
+        targetTrans.GetComponentInChildren<TextMeshPro>().SetText(targetText);
     }
 }

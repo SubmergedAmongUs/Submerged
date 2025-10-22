@@ -49,7 +49,9 @@ The table below lists the most recent Submerged release for each Among Us versio
 
 |                                       Among Us Version                                        | Submerged Version |                                        Links                                        |
 |:---------------------------------------------------------------------------------------------:|:-----------------:|:-----------------------------------------------------------------------------------:|
-|                                         `v2024.11.26`<br>`v2024.10.29`<br>`v2024.9.4`<br>`v2024.8.13`                                        |   `v2025.1.30`    | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2025.1.30/)  |
+|                                    `v17.0.1`<br>`v17.0.0`                                     |   `v2025.10.22`   | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2025.10.22/) |
+|                 `v16.1.0`<br>`v16.0.5`<br>`v16.0.3`<br>`v16.0.2`<br>`v16.0.0`                 |    Unavailable    |                                          -                                          |
+|                 `v2024.11.26`<br>`v2024.10.29`<br>`v2024.9.4`<br>`v2024.8.13`                 |   `v2025.1.30`    | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2025.1.30/)  |
 |                                         `v2024.6.18`                                          |    `v2024.8.1`    |  [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2024.8.1/)  |
 |                                  `v2024.6.4`<br>`v2024.3.5`                                   |   `v2024.3.25`    | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2024.3.25/)  |
 |                                         `v2023.11.28`                                         |   `v2023.11.29`   | [Download](https://github.com/SubmergedAmongUs/Submerged/releases/tag/v2023.11.29/) |
@@ -66,10 +68,10 @@ The table below lists the most recent Submerged release for each Among Us versio
 
 Submerged depends on the following mods and modding tools in order to function properly:
 
-| Mod                                                       | Version                  |
-|-----------------------------------------------------------|--------------------------|
-| [BepInEx](https://builds.bepinex.dev/projects/bepinex_be) | `v6.0.0-be.692` or later |
-| [Reactor](https://github.com/nuclearpowered/reactor)      | `v2.3.0` or later        |
+| Mod                                                       | Version           |
+|-----------------------------------------------------------|-------------------|
+| [BepInEx](https://builds.bepinex.dev/projects/bepinex_be) | `v6.0.0-be.735`   |
+| [Reactor](https://github.com/nuclearpowered/reactor)      | `v2.5.0` or later |
 
 > [!Note]
 > If you are using the Microsoft Store version of Among Us, you will need to download the `Unity (IL2CPP) for Windows (x64) games` version of BepInEx. Otherwise, you will need to download the `Unity (IL2CPP) for Windows (x86) games` version.
@@ -87,7 +89,7 @@ This mod has been tested and works with the Steam, Epic, itch.io and Microsoft S
 1. Download the correct ZIP [release](#releases) based on your Among Us version.
 2. Navigate to your Among Us installation directory.
 3. Extract the downloaded files there. Ensure that the `BepInEx` folder is located in the same folder as the `Among Us.exe` file (Check screenshot below).
-![Folder Structure](./.github/Images/Folder-Structure.png)
+   ![Folder Structure](./.github/Images/Folder-Structure.png)
 
 4. Run the game (Please note that the first launch might take some time).
 
@@ -100,16 +102,16 @@ Submerged is available in the languages listed below. If you would like to help 
 | Language                | ❔  |              Status               |
 |-------------------------|:--:|:---------------------------------:|
 | English                 | ✅  |                 -                 |
-| Deutsch                 | ✅  |         Fully Translated          |
-| Français                | ✅  |         Fully Translated          |
-| Italiano                | ✅  |         Fully Translated          |
-| Nederlands              | ✅  |         Fully Translated          |
-| Português (Brasil)      | ✅  |         Fully Translated          |
-| Русский                 | ✅  |         Fully Translated          |
-| 日本語                     | ✅  |         Fully Translated          |
-| 简体中文                    | ✅  |         Fully Translated          |
-| 繁體中文                    | ✅  |         Fully Translated          |
+| Deutsch                 | 🟡 |       Partially Translated        |
 | Español                 | 🟡 |       Partially Translated        |
+| Français                | 🟡 |       Partially Translated        |
+| Italiano                | 🟡 |       Partially Translated        |
+| Nederlands              | 🟡 |       Partially Translated        |
+| Português (Brasil)      | 🟡 |       Partially Translated        |
+| Русский                 | 🟡 |       Partially Translated        |
+| 日本語                     | 🟡 |       Partially Translated        |
+| 简体中文                    | 🟡 |       Partially Translated        |
+| 繁體中文                    | 🟡 |       Partially Translated        |
 | Bisaya                  | ❌  |          Not Translated           |
 | Español (Latinoamérica) | ❌  | Not Translated<br>(Using Español) |
 | Gaeilge                 | ❌  |          Not Translated           |
@@ -140,41 +142,41 @@ _This mod is not affiliated with Among Us or Innersloth LLC, and the content con
 
 For business inquiries, please contact us at `submergedamongus@gmail.com`.
 
-
 # Credits
 
 - Project Lead
-  - [5up](https://twitch.tv/5up/)
+    - [5up](https://twitch.tv/5up/)
 - Developers
-  - [Alexejhero](https://github.com/Alexejhero/)
-  - [arctic_zeph](https://twitter.com/arctic_zeph/)
-  - [probablyadnf](https://github.com/simonkellly/)
+    - [Alexejhero](https://github.com/Alexejhero/)
+    - [arctic_zeph](https://twitter.com/arctic_zeph/)
+    - [probablyadnf](https://github.com/simonkellly/)
 - Map Design
-  - [Axyn](https://twitter.com/itsAxyn/)
-  - [Blaustoise](https://twitter.com/blaustoise/)
+    - [Axyn](https://twitter.com/itsAxyn/)
+    - [Blaustoise](https://twitter.com/blaustoise/)
 - Artists
-  - [colerobin_](https://twitter.com/colerobin_)
-  - [flipsonthemoon](https://twitter.com/flipsonthemoon/)
-  - [mushrium](https://twitter.com/mushrium/)
-  - [sabimrtn](https://twitter.com/sabimrtn/)
-  - [theinkpages](https://www.instagram.com/theinkpages/)
-  - [xiiyta](https://twitter.com/xiiyta/)
-- Technical Support
-  - [cybershard](https://github.com/cybershard/)
-  - [js6pak](https://github.com/js6pak)
-  - [Sanae6](https://twitter.com/Sanae6k/)
+    - [colerobin_](https://twitter.com/colerobin_)
+    - [flipsonthemoon](https://twitter.com/flipsonthemoon/)
+    - [mushrium](https://twitter.com/mushrium/)
+    - [sabimrtn](https://twitter.com/sabimrtn/)
+    - [theinkpages](https://www.instagram.com/theinkpages/)
+    - [xiiyta](https://twitter.com/xiiyta/)
+- Contributors
+    - [cybershard](https://github.com/cybershard/)
+    - [js6pak](https://github.com/js6pak)
+    - [Sanae6](https://twitter.com/Sanae6k/)
+    - [XtraCube](https://github.com/xtracube/)
 - Additional Art
-  - [acronmd](https://twitter.com/acronmd/)
-  - [pb](https://twitter.com/QueenTamandua/)
+    - [acronmd](https://twitter.com/acronmd/)
+    - [QueenPb](https://twitter.com/QueenTamandua/)
 - Translators
-  - Dekokiyo - 日本語
-  - ItsNiceCraft - Deutsch
-  - MissJukebox - Español
-  - Monid73 - Русский
-  - PENGUN - Italiano
-  - RevoLou - Português do Brasil
-  - RobinRMC - Nederlands
-  - SPRLC - Français
-  - ねろちゃん - 日本語
-  - 阿龍DragonTw - 繁體中文
-  - 黑客Hecker - 简体中文
+    - Dekokiyo - 日本語
+    - ItsNiceCraft - Deutsch
+    - MissJukebox - Español
+    - Monid73 - Русский
+    - PENGUN - Italiano
+    - RevoLou - Português do Brasil
+    - RobinRMC - Nederlands
+    - SPRLC - Français
+    - ねろちゃん - 日本語
+    - 阿龍DragonTw - 繁體中文
+    - 黑客Hecker - 简体中文

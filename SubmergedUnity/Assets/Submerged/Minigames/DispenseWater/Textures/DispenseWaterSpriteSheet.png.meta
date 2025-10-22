@@ -72,7 +72,7 @@ TextureImporter:
       213: -337480500739870530
     second: Dispenser
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -89,10 +89,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -101,9 +103,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -131,6 +133,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -142,6 +146,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -154,6 +159,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -631,9 +637,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Dispense Water Background: 8253991993545854664
+      Dispense Water F1: 9168342557160216783
+      Dispense Water F10: 3473410793954541567
+      Dispense Water F11: 3360612119891053315
+      Dispense Water F12: -4428875223126142312
+      Dispense Water F13: -5925002283204181685
+      Dispense Water F2: -8503173303653004132
+      Dispense Water F3: 7943492988416038808
+      Dispense Water F4: -912755471213662675
+      Dispense Water F5: 8548394577676694280
+      Dispense Water F6: -7862267500943128293
+      Dispense Water F7: 8490581442140254107
+      Dispense Water F8x: -4509417311905647326
+      Dispense Water F9x: -3113161118448539320
+      Dispenser: -337480500739870530
+      bottle: 6587758831544789272
+      button: 8636877481111216802
+      cap: 289380581595770655
+      green_button: 3496921770934414464
+      polusnode: -3577706003054347015
+      sub1: -4837718387389563259
+      sub2: -6083887856592087137
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -40,7 +40,7 @@ public sealed class ResetBreakersMinigame(nint ptr) : Minigame(ptr)
 
     public void Update()
     {
-        if (amClosing != CloseState.None) return;
+        if (amClosing != CloseState.None || MyNormTask.IsComplete) return;
 
         if (CheckSwitches())
         {
@@ -48,21 +48,28 @@ public sealed class ResetBreakersMinigame(nint ptr) : Minigame(ptr)
             {
                 circutBreaker.enabled = false;
             }
-
-            MyNormTask!?.NextStep();
+            if (MyNormTask != null)
+            {
+                MyNormTask.NextStep();
+            }
             StartCoroutine(CoStartClose());
         }
     }
 
     public void SetRandomChars()
     {
-        char[] chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789".ToCharArray();
-        chars.Shuffle();
+        KeyCode[] keys = Enumerable.Range((int) KeyCode.A, 26)
+            .Concat(Enumerable.Range((int) KeyCode.Alpha0, 10))
+            .Select(k => (KeyCode) k)
+            .ToArray();
+        keys.Shuffle();
+
+        Warning(string.Join(", ", keys));
 
         for (int i = 0; i < circutBreakers.Count; i++)
         {
-            circutBreakers[i].targetChar = chars[i];
-            circutBreakers[i].character.sprite = letters.FirstOrDefault(l => l.name.Contains($"_{chars[i].ToString().ToUpper()}"));
+            circutBreakers[i].targetKey = keys[i];
+            circutBreakers[i].character.sprite = letters.FirstOrDefault(l => l.name.Contains($"_{keys[i].ToString()[^1..].ToUpper()}"));
         }
     }
 

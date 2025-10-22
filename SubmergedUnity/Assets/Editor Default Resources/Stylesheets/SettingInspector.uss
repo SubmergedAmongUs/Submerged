@@ -1,0 +1,31 @@
+﻿.unity-popup-field {
+    margin: 2px 12px;
+    justify-content: space-between;
+}
+
+.unity-popup-field__input {
+    width: 160px;
+    max-width: 160px;
+    min-width: 160px;
+}
+
+.unity-enum-field {
+    margin: 2px 12px;
+    justify-content: space-between;
+}
+
+.unity-enum-field__input {
+    width: 160px;
+    max-width: 160px;
+    min-width: 160px;
+}
+
+.group {
+    transition: all 0.2s;
+}
+
+.group:disabled {
+}
+
+.group .unity-toggle__input {
+}

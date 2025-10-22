@@ -3,7 +3,7 @@ using HarmonyLib;
 using Submerged.Extensions;
 using Submerged.Map;
 using UnityEngine;
-using ShipStatus_PrespawnStep = ShipStatus._PrespawnStep_d__100;
+using ShipStatus_PrespawnStep = ShipStatus._PrespawnStep_d__94;
 
 namespace Submerged.SpawnIn.Patches;
 

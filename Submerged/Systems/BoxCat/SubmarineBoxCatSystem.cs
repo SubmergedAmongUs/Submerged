@@ -34,6 +34,11 @@ public sealed class SubmarineBoxCatSystem(nint ptr) : CppObject(ptr), AU.ISystem
         TriggerCatUpdate();
     }
 
+    public void MarkClean()
+    {
+        IsDirty = false;
+    }
+
     public void Serialize(MessageWriter writer, bool initialState)
     {
         writer.Write(_position);

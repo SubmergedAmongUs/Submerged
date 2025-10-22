@@ -1,4 +1,5 @@
-﻿using HarmonyLib;
+﻿using AmongUs.Data.Player;
+using HarmonyLib;
 
 namespace Submerged.Debugging.Patches;
 
@@ -12,7 +13,7 @@ public static class GameTestingPatches
         __instance.MinPlayers = 1;
     }
 
-    [HarmonyPatch(typeof(StatsManager), nameof(StatsManager.AmBanned), MethodType.Getter)]
+    [HarmonyPatch(typeof(PlayerBanData), nameof(PlayerBanData.IsBanned), MethodType.Getter)]
     [HarmonyPostfix]
     public static void PreventBanPatch(out bool __result)
     {
@@ -27,11 +28,10 @@ public static class GameTestingPatches
     [HarmonyPriority(Priority.First)]
     public static bool StopGameEndingPatch() => false;
 
-    [HarmonyPatch(typeof(AprilFoolsMode), nameof(AprilFoolsMode.ShouldShowAprilFoolsToggle))]
-    [HarmonyPrefix]
-    public static bool EnableAprilFoolsTogglePatch(out bool __result)
+    [HarmonyPatch(typeof(CreateGameOptions), nameof(CreateGameOptions.Show))]
+    [HarmonyPostfix]
+    public static void ShowAprilFoolsToggle(CreateGameOptions __instance)
     {
-        __result = true;
-        return false;
+        __instance.AprilFoolsToggle.SetActive(true);
     }
 }

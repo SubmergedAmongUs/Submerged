@@ -94,6 +94,11 @@ public sealed class SubmarineElevatorSystem(nint ptr) : CppObject(ptr), AU.ISyst
         lerpTimer = 0;
     }
 
+    public void MarkClean()
+    {
+        IsDirty = false;
+    }
+
     public void Serialize(MessageWriter writer, bool initialState)
     {
         writer.Write(upperDeckIsTargetFloor);

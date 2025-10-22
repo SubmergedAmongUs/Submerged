@@ -16,23 +16,22 @@ Submerged tries to patch as little as possible in order to allow other mods to b
 
 - SpawnablePrefabs
   - `11` - SubmarineStatus
-- RPCCalls
+- Systems
+    - `130` - SubmarineOxygenSystem
+    - `136` - SubmarineElevatorSystem (HallwayLeft)
+    - `137` - SubmarineElevatorSystem (HallwayRight)
+    - `138` - SubmarineElevatorSystem (LobbyLeft)
+    - `139` - SubmarineElevatorSystem (LobbyRight)
+    - `140` - SubmarineElevatorSystem (Service)
+    - `141` - SubmarinePlayerFloorSystem
+    - `142` - SubmarineSecuritySabotageSystem
+    - `143` - SubmarineSpawnInSystem
+    - `144` - SubmarineBoxCatSystem
+- Reactor MethodRPCs
   - `210` - SetCustomData
   - `211` - RequestChangeFloor
-  - `212` - AcknowledgeChangeFloor
   - `213` - EngineVent
   - `214` - OxygenDeath
-- Systems
-  - `130` - SubmarineOxygenSystem
-  - `136` - SubmarineElevatorSystem (HallwayLeft)
-  - `137` - SubmarineElevatorSystem (HallwayRight)
-  - `138` - SubmarineElevatorSystem (LobbyLeft)
-  - `139` - SubmarineElevatorSystem (LobbyRight)
-  - `140` - SubmarineElevatorSystem (Service)
-  - `141` - SubmarinePlayerFloorSystem
-  - `142` - SubmarineSecuritySabotageSystem
-  - `143` - SubmarineSpawnInSystem
-  - `144` - SubmarineBoxCatSystem
 
 # Important Classes
 
@@ -46,7 +45,7 @@ Location: `Submerged.Elevators.Objects.ElevatorMover`
 
 ## GenericShadowBehaviour
 
-This compnent can be added to objects in order to make them cast a shadow from upper deck to lower deck. You might need to create custom shadow renderers to describe how the shadow needs to be drawn. These classes extend `RelativeShadowRenderer`
+This component can be added to objects in order to make them cast a shadow from upper deck to lower deck. You might need to create custom shadow renderers to describe how the shadow needs to be drawn. These classes extend `RelativeShadowRenderer`
 
 Location: `Submerged.Floors.Objects.GenericShadowBehaviour`
 

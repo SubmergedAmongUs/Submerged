@@ -1,0 +1,62 @@
+﻿.unity-button {
+    transition: all 0.2s;
+    border-radius: 4px;
+    border-width: 0;
+    margin: 2px;
+    scale: 1 1;
+}
+
+.unity-button:hover {
+    scale: 1.05 1.05;
+}
+
+.unity-button:active {
+    scale: 0.98 0.98;
+}
+
+.unity-button:inactive {
+}
+
+.unity-button:disabled {
+    scale: 1 1;
+}
+
+.btn-primary {
+    background-color: royalblue;
+}
+
+.btn-primary:hover {
+    background-color: rgb(65, 121, 241);
+}
+
+.btn-primary:active {
+    background-color: royalblue;
+}
+
+.btn-warning {
+    background-color: darkgoldenrod;
+}
+
+.btn-warning:hover {
+    background-color: rgb(189, 150, 11);
+}
+
+.btn-warning:active {
+    background-color: darkgoldenrod;
+}
+
+.btn-danger {
+    background-color: indianred;
+}
+
+.btn-danger:hover {
+    background-color: rgb(221, 108, 108);
+}
+
+.btn-danger:active {
+    background-color: indianred;
+}
+
+.btn-thick {
+    height: 32px;
+}

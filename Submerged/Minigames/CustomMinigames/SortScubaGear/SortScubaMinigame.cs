@@ -78,7 +78,10 @@ public sealed class SortScubaMinigame(nint ptr) : Minigame(ptr)
                 if (CheckBoxes())
                 {
                     _forceClose = true;
-                    MyNormTask!?.NextStep();
+                    if (MyNormTask != null)
+                    {
+                        MyNormTask.NextStep();
+                    }
                     StartCoroutine(CoStartClose());
                 }
             };

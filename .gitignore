@@ -345,3 +345,5 @@ MigrationBackup/
 Submerged/Resources/AssetBundles/submerged.manifest
 Submerged/Resources/AssetBundles/AssetBundles
 Submerged/Resources/AssetBundles/AssetBundles.manifest
+
+.vscode

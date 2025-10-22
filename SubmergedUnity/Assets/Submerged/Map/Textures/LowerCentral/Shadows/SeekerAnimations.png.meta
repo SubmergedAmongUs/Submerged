@@ -156,7 +156,7 @@ TextureImporter:
       213: 21300100
     second: Seeker_Walk0010
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -173,10 +173,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -215,6 +217,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -227,6 +230,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -239,6 +243,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -3068,9 +3073,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Seeker_Walk0001: 21300008
+      Seeker_Walk0002: 21300036
+      Seeker_Walk0003: 21300040
+      Seeker_Walk0004: 21300046
+      Seeker_Walk0005: 21300030
+      Seeker_Walk0006: 21300074
+      Seeker_Walk0007: 21300042
+      Seeker_Walk0008: 21300048
+      Seeker_Walk0009: 21300000
+      Seeker_Walk0010: 21300100
+      Seeker_Walk0011: 21300050
+      Seeker_Walk0012: 21300078
+      Seeker_idle0001: 21300080
+      Seeker_idle0002: 21300090
+      Seeker_idle0003: 21300026
+      Seeker_idle0004: 21300044
+      Seeker_idle0005: 21300020
+      Seeker_idle0006: 21300022
+      Seeker_idle0007: 21300088
+      Seeker_idle0008: 21300052
+      Seeker_idle0009: 21300016
+      Seeker_idle0010: 21300002
+      Seeker_idle0011: 21300018
+      Seeker_idle0012: 21300058
+      Seeker_idle0013: 21300096
+      Seeker_idle0014: 21300076
+      Seeker_idle0015: 21300094
+      Seeker_idle0016: 21300014
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

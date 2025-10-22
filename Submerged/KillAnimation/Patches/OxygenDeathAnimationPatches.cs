@@ -1,7 +1,5 @@
-using BepInEx.Unity.IL2CPP.Utils.Collections;
 using HarmonyLib;
 using Reactor.Utilities.Extensions;
-using Submerged.Enums;
 using UnityEngine;
 
 namespace Submerged.KillAnimation.Patches;
@@ -9,9 +7,7 @@ namespace Submerged.KillAnimation.Patches;
 [HarmonyPatch]
 public static class OxygenDeathAnimationPatches
 {
-    private static OverlayKillAnimation _oxygenDeath;
-
-    private static OverlayKillAnimation OxygenDeath
+    private static OxygenDeathAnimation OxygenDeath
     {
         get
         {
@@ -25,23 +21,17 @@ public static class OxygenDeathAnimationPatches
             //
             // - Alex
 
-            if (_oxygenDeath) return _oxygenDeath;
+            if (field) return field;
 
             Transform parent = new GameObject("Submerged OxygenDeathParent").DontUnload().DontDestroy().transform;
             parent.gameObject.SetActive(false);
-            _oxygenDeath = UnityObject.Instantiate(HudManager.Instance.KillOverlay.KillAnims[0], parent);
+            OverlayKillAnimation original = UnityObject.Instantiate(HudManager.Instance.KillOverlay.KillAnims[0], parent);
 
-            _oxygenDeath.killerParts.gameObject.SetActive(false);
-            _oxygenDeath.killerParts = null;
-            _oxygenDeath.transform.Find("killstabknife").gameObject.SetActive(false);
-            _oxygenDeath.transform.Find("killstabknifehand").gameObject.SetActive(false);
+            OxygenDeathAnimation customAnimation = original.gameObject.AddComponent<OxygenDeathAnimation>();
+            customAnimation.CreateFrom(original);
 
-            _oxygenDeath.victimParts.transform.localPosition = new Vector3(-1.5f, 0, 0);
-            _oxygenDeath.KillType = CustomKillAnimTypes.Oxygen;
-
-            _oxygenDeath.gameObject.AddComponent<CustomKillAnimationPlayer>();
-
-            return _oxygenDeath;
+            field = customAnimation;
+            return field;
         }
     }
 
@@ -54,18 +44,6 @@ public static class OxygenDeathAnimationPatches
         if (killer.PlayerId != victim.PlayerId || !IsOxygenDeath || AprilFoolsMode.ShouldHorseAround() || AprilFoolsMode.ShouldLongAround()) return true;
 
         __instance.ShowKillAnimation(OxygenDeath, killer, victim);
-
-        return false;
-    }
-
-    [HarmonyPatch(typeof(OverlayKillAnimation), nameof(OverlayKillAnimation.WaitForFinish))]
-    [HarmonyPrefix]
-    public static bool WaitForCustomAnimationFinishPatch(OverlayKillAnimation __instance, ref CppIEnumerator __result)
-    {
-        CustomKillAnimationPlayer customKillAnim = __instance.GetComponent<CustomKillAnimationPlayer>();
-
-        if (!customKillAnim) return true;
-        __result = customKillAnim.WaitForFinish().WrapToIl2Cpp();
 
         return false;
     }

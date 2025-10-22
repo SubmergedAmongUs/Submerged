@@ -1,0 +1,34 @@
+﻿.btn-round {
+    transition: all 0.2s;
+
+    border-radius: 8px;
+    width: 120px;
+    height: 40px;
+}
+
+.btn-round:hover {
+    background-color: darkgray;
+
+    border-radius: 22px;
+}
+
+.btn-round:active {
+    color: white;
+    background-color: dimgray;
+}
+
+.btn-primary {
+    transition: all 0.2s;
+
+    background-color: dodgerblue;
+    color: white;
+}
+
+.btn-primary:hover {
+
+    background-color: royalblue;
+}
+
+.btn-primary:active {
+    background-color: darkblue;
+}

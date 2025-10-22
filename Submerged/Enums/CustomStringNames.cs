@@ -40,6 +40,7 @@ public readonly struct CustomStringNames
 
     // General
     public static readonly CustomStringNames Submerged = new(555_0_000, "Submerged");
+    public static readonly CustomStringNames SubmergedTooltip = new(555_0_001, () => General.SubmergedTooltip);
 
     // Rooms
     public static readonly CustomStringNames Research = new(555_1_000, () => Locations.Research);
