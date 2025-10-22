@@ -1,0 +1,91 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - "*"
+  workflow_dispatch:
+
+env:
+  DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
+  DOTNET_NOLOGO: true
+  DOTNET_CLI_TELEMETRY_OPTOUT: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 9
+
+      - name: Restore NuGet packages
+        run: dotnet restore
+
+      - name: Build Debug
+        run: dotnet build -c Debug --no-restore
+
+      - name: Build Release
+        run: dotnet build -c Release --no-restore
+
+      - name: Upload mod dll
+        uses: actions/upload-artifact@v4
+        with:
+          name: Submerged
+          path: Submerged/bin/Submerged/Release/net6.0/Submerged.dll
+
+      - name: Cache BepInEx and Reactor download
+        id: cache
+        uses: actions/cache@v4
+        with:
+          path: BepInEx
+          key: BepInEx-${{ hashFiles('**/packages.lock.json') }}
+
+      - name: Download BepInEx
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: |
+          BEPINEX_VERSION=$(grep '<PackageReference Include="BepInEx.Unity.IL2CPP"' Submerged/Submerged.csproj | sed 's/.*Version="6.0.0-be.\([^"]*\)".*/\1/')
+          curl -o build_page.html https://builds.bepinex.dev/projects/bepinex_be
+          ARCHIVE_NAME_X64=$(grep -o "BepInEx-Unity.IL2CPP-win-x64-6.0.0-be.${BEPINEX_VERSION}+[^\"']*.zip" build_page.html)
+          ARCHIVE_NAME_X86=$(grep -o "BepInEx-Unity.IL2CPP-win-x86-6.0.0-be.${BEPINEX_VERSION}+[^\"']*.zip" build_page.html)
+          curl -o BepInEx_x64.zip https://builds.bepinex.dev/projects/bepinex_be/${BEPINEX_VERSION}/${ARCHIVE_NAME_X64}
+          curl -o BepInEx_x86.zip https://builds.bepinex.dev/projects/bepinex_be/${BEPINEX_VERSION}/${ARCHIVE_NAME_X86}
+          mkdir BepInEx
+          unzip BepInEx_x64.zip -d BepInEx/x64
+          unzip BepInEx_x86.zip -d BepInEx/x86
+          chmod -R u+rwx BepInEx
+
+      - name: Download and copy Reactor
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: |
+          REACTOR_VERSION=$(grep '<PackageReference Include="Reactor"' Submerged/Submerged.csproj | sed 's/.*Version="\([^"]*\)-ci\..*/\1/')
+          curl -L -o Reactor.dll https://github.com/NuclearPowered/Reactor/releases/download/${REACTOR_VERSION}/Reactor.dll
+          cp Reactor.dll BepInEx/x64/BepInEx/plugins/Reactor.dll
+          cp Reactor.dll BepInEx/x86/BepInEx/plugins/Reactor.dll
+
+      - name: Create install archives
+        run: |
+          cp Submerged/bin/Submerged/Release/net6.0/Submerged.dll BepInEx/x64/BepInEx/plugins/Submerged.dll
+          cp Submerged/bin/Submerged/Release/net6.0/Submerged.dll BepInEx/x86/BepInEx/plugins/Submerged.dll
+
+      - name: Upload x64 mod archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: Submerged+dependencies (MSStore)
+          path: BepInEx/x64
+
+      - name: Upload x86 mod archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: Submerged+dependencies (Steam, Epic, Itch)
+          path: BepInEx/x86
+
+      - name: Cleanup folders for caching
+        run: |
+          rm BepInEx/x64/BepInEx/plugins/Submerged.dll
+          rm BepInEx/x86/BepInEx/plugins/Submerged.dll

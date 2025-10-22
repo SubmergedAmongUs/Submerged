@@ -1609,3 +1609,7 @@ resharper_xaml_xaml_unknown_device_family_type_highlighting_highlighting = warni
 resharper_xaml_xaml_xamarin_forms_data_type_and_binding_context_type_mismatched_highlighting_highlighting = warning
 resharper_xaml_x_key_attribute_disallowed_highlighting = error
 resharper_xunit_xunit_test_with_console_output_highlighting = warning
+
+[*.{yml,yaml}]
+indent_size = 2
+tab_width = 2

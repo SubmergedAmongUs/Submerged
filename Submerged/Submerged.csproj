@@ -9,13 +9,15 @@
 
         <NoWarn>$(NoWarn);CS0436</NoWarn>
 
-        <DebugType>embedded</DebugType>
-        <DebugSymbols>true</DebugSymbols>
         <TargetFramework>net6.0</TargetFramework>
         <LangVersion>preview</LangVersion>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+
+        <DebugType>embedded</DebugType>
+        <DebugSymbols>true</DebugSymbols>
         <Configurations>Debug;Release</Configurations>
         <Platforms>Submerged</Platforms>
+        <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
     </PropertyGroup>
 
     <ItemGroup>
