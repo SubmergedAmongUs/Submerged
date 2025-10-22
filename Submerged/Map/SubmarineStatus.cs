@@ -23,6 +23,7 @@ using Submerged.Systems.SecuritySabotage;
 using Submerged.Vents;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace Submerged.Map;
 
@@ -90,6 +91,7 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
         vitalsPanel = Instantiate(MapLoader.Airship.transform.Find("Medbay/panel_vitals").gameObject, transform);
         vitalsPanel.transform.position = new Vector3(4.9882f, 32.8877f, 0.0366f);
         vitalsPanel.SetActive(true);
+        FixMinigameClosing(vitalsPanel.GetComponent<SystemConsole>().MinigamePrefab);
 
         normalShip.EmergencyButton = transform.Find("TopFloor/Adm-Obsv-Loun-MR/TaskConsoles/console-mr-callmeeting").GetComponent<SystemConsole>();
 
@@ -129,6 +131,7 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
             SystemConsole taskPicker = Instantiate(MapLoader.Skeld.transform.GetComponentsInChildren<SystemConsole>().First(c => c.FreeplayOnly));
             taskPicker.transform.position = new Vector3(5.2393f, -27.8891f, -0.002f);
             taskPicker.usableDistance = 1;
+            FixMinigameClosing(taskPicker.MinigamePrefab);
         }
 
         int num = 0;
@@ -382,7 +385,25 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
         IEnumerable<PlayerTask> ourTasks = GetAllTasks(normalShip);
         PlayerTask targetTask = GetAllTasks(from).First(t => t.TaskType == taskType);
 
-        foreach (PlayerTask task in ourTasks.Where(t => t.TaskType == taskType)) task.MinigamePrefab = targetTask.MinigamePrefab;
+        foreach (PlayerTask task in ourTasks.Where(t => t.TaskType == taskType))
+        {
+            task.MinigamePrefab = targetTask.MinigamePrefab;
+            FixMinigameClosing(task.MinigamePrefab); // It's probably fine if we modify the prefab directly cuz this shouldn't interfere with base game
+        }
+    }
+
+    private void FixMinigameClosing(Minigame minigame)
+    {
+        foreach (PassiveButton passiveButton in minigame.GetComponentsInChildren<PassiveButton>(true))
+        {
+            foreach (PersistentCall call in passiveButton.OnClick.m_PersistentCalls.m_Calls)
+            {
+                if (call.methodName == nameof(Minigame.Close) && call.mode == PersistentListenerMode.Bool && call.target.TryCast<Minigame>())
+                {
+                    call.mode = PersistentListenerMode.Void;
+                }
+            }
+        }
     }
 
     private void ResolveHudMap()
