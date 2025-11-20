@@ -76,13 +76,13 @@ jobs:
       - name: Upload x64 mod archive
         uses: actions/upload-artifact@v4
         with:
-          name: Submerged+dependencies (MSStore)
+          name: Submerged+dependencies (Epic, MSStore)
           path: BepInEx/x64
 
       - name: Upload x86 mod archive
         uses: actions/upload-artifact@v4
         with:
-          name: Submerged+dependencies (Steam, Epic, Itch)
+          name: Submerged+dependencies (Steam, Itch)
           path: BepInEx/x86
 
       - name: Cleanup folders for caching
