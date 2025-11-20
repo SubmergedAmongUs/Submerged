@@ -1,4 +1,5 @@
-﻿using Il2CppInterop.Runtime.InteropTypes.Fields;
+﻿using Il2CppInterop.Runtime.Attributes;
+using Il2CppInterop.Runtime.InteropTypes.Fields;
 using Reactor.Utilities.Attributes;
 using UnityEngine;
 
@@ -19,6 +20,7 @@ public sealed class ElevatorRoomTrackerCollider(nint ptr) : MonoBehaviour(ptr)
         col.SetPath(1, GetPath(collider2.Value));
     }
 
+    [HideFromIl2Cpp]
     private Vector2[] GetPath(BoxCollider2D col)
     {
         Vector2 ext = col.size * 0.5f;
@@ -26,7 +28,6 @@ public sealed class ElevatorRoomTrackerCollider(nint ptr) : MonoBehaviour(ptr)
         Transform t = col.transform;
         Transform myT = transform;
 
-        // Clockwise polygon points
         return
         [
             myT.InverseTransformPoint(t.TransformPoint(off + new Vector2(-ext.x, -ext.y))),
