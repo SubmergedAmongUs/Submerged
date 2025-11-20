@@ -48,5 +48,21 @@ public static class MapOptionsButtonPatches
             __instance.Values = __instance.Values.Append(CustomStringNames.Submerged).ToArray();
         }
     }
-}
 
+    [HarmonyPatch(typeof(CreateGameOptions), nameof(CreateGameOptions.Start))]
+    [HarmonyPrefix]
+    public static void SetupMapBackground(CreateGameOptions __instance)
+    {
+        if (__instance.bgCrewmates.Length < 7)
+        {
+            __instance.bgCrewmates = __instance.bgCrewmates.Append(__instance.bgCrewmates[0]).ToArray();
+        }
+
+        if (__instance.mapBanners.Length < 7)
+        {
+            __instance.mapBanners = __instance.mapBanners.Append(_optionsIcon.Value.NameImage).ToArray();
+        }
+
+        __instance.currentCrewSprites ??= __instance.skeldCrewSprites;
+    }
+}
