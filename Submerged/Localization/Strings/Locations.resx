@@ -42,10 +42,7 @@
     <data name="Deck.Upper" xml:space="preserve">
         <value>Upper Deck</value>
     </data>
-    <data name="Elevator" xml:space="preserve">
-        <value>Elevator</value>
-    </data>
-    <data name="Elevator.Service" xml:space="preserve">
+    <data name="Elevators.Service" xml:space="preserve">
         <value>Service Elevator</value>
     </data>
     <data name="Filtration" xml:space="preserve">
@@ -65,5 +62,11 @@
     </data>
     <data name="Research" xml:space="preserve">
         <value>Research</value>
+    </data>
+    <data name="Elevators.East" xml:space="preserve">
+        <value>East Elevators</value>
+    </data>
+    <data name="Elevators.West" xml:space="preserve">
+        <value>West Elevators</value>
     </data>
 </root>

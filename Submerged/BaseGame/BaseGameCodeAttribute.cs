@@ -6,7 +6,8 @@ public enum LastChecked
 {
     // ReSharper disable InconsistentNaming
     v17_0_0,
-    v17_0_1
+    v17_0_1,
+    v17_1_0,
     // ReSharper restore InconsistentNaming
 }
 

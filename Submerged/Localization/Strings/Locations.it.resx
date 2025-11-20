@@ -33,10 +33,7 @@
     <data name="Deck.Upper" xml:space="preserve">
         <value>Livello Superiore</value>
     </data>
-    <data name="Elevator" xml:space="preserve">
-        <value>Ascensore</value>
-    </data>
-    <data name="Elevator.Service" xml:space="preserve">
+    <data name="Elevators.Service" xml:space="preserve">
         <value>Ascensore Tecnica</value>
     </data>
     <data name="Filtration" xml:space="preserve">

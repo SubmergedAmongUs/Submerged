@@ -63,16 +63,6 @@ Location: `Submerged.Map.Patches.ShipStatus_CalculateLightRadius_Patch`
 
 <br>
 
-## `void ArrowBehaviour.UpdatePosition()`
-
-<u>When playing on Submerged</u>, this method is completely overwritten by the mod to make arrows point to the nearest elevator if their target is on the other floor.
-
-This patch may work incorrectly with mods that make use of custom arrow behaviours, since those might not be affected by this.
-
-Location: `Submerged.Minigames.Patches.ArrowBehaviour_Update_Patch`
-
-<br>
-
 ## `void Console.Use()`
 
 <u>When playing on Submerged</u>, this method is completely overwritten by the mod to check if the player is trying to open the Fix Wiring task in Electrical, and provide the 8-wires minigame instead of the 4-wires one.

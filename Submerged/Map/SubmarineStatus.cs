@@ -42,6 +42,7 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
     public AudioSource powerDownSound;
     public AudioSource powerUpSound;
     public SwitchSystem switchSystem;
+    public GameObject detectiveMapLocationsPrefab;
 
     public MinigameProperties minigameProperties;
     public Tilemap2 aprilFoolsShadowSpritesHolder;
@@ -72,6 +73,7 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
         minigameProperties.Awake();
         DestroyImmediate(GetComponent<DivertPowerMetagame>());
         aprilFoolsShadowSpritesHolder = transform.Find("MinigameProperties/April Fools Shadow Sprites").GetComponent<Tilemap2>();
+        detectiveMapLocationsPrefab = minigameProperties.gameObjects[2];
 
         ResolveTaskMinigames(normalShip.CommonTasks);
         ResolveTaskMinigames(normalShip.LongTasks);
@@ -140,6 +142,9 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
         foreach (NormalPlayerTask t in normalShip.ShortTasks) t.Index = num++;
 
         Instantiate(MapLoader.Fungle.specialSabotage.screenTint).gameObject.AddComponent<SubmarineOxygenTint>();
+
+        // Reverse console list in order to fix Record Nav Beacon Data task arrow
+        normalShip.AllConsoles = normalShip.AllConsoles.Reverse().ToArray();
     }
 
     private void Start()
@@ -421,6 +426,10 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
             text.font = mapFont;
             text.fontMaterial = mapFontMaterial;
         }
+
+        // Update prefabs from base game
+        normalShip.MapPrefab.detectiveMapButtonPrefab = MapLoader.Skeld.MapPrefab.detectiveMapButtonPrefab;
+        normalShip.MapPrefab.countOverlay.GetComponent<ObjectPoolBehavior>().Prefab = MapLoader.Skeld.MapPrefab.countOverlay.GetComponent<ObjectPoolBehavior>().Prefab;
     }
 
     [HideFromIl2Cpp]

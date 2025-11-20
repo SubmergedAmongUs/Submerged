@@ -21,10 +21,7 @@
     <data name="Central" xml:space="preserve">
         <value>Centrale</value>
     </data>
-    <data name="Elevator" xml:space="preserve">
-        <value>Ascenseur</value>
-    </data>
-    <data name="Elevator.Service" xml:space="preserve">
+    <data name="Elevators.Service" xml:space="preserve">
         <value>Ascenseur de service</value>
     </data>
     <data name="Observatory" xml:space="preserve">

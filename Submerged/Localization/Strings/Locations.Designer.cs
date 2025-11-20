@@ -114,20 +114,29 @@ namespace Submerged.Localization.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Elevator.
+        ///   Looks up a localized string similar to East Elevators.
         /// </summary>
-        internal static string Elevator {
+        internal static string Elevators_East {
             get {
-                return ResourceManager.GetString("Elevator", resourceCulture);
+                return ResourceManager.GetString("Elevators.East", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Service Elevator.
         /// </summary>
-        internal static string Elevator_Service {
+        internal static string Elevators_Service {
             get {
-                return ResourceManager.GetString("Elevator.Service", resourceCulture);
+                return ResourceManager.GetString("Elevators.Service", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to West Elevators.
+        /// </summary>
+        internal static string Elevators_West {
+            get {
+                return ResourceManager.GetString("Elevators.West", resourceCulture);
             }
         }
         

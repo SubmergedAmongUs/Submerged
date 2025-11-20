@@ -34,10 +34,7 @@
     <data name="Deck.Upper" xml:space="preserve">
         <value>Oberes Deck</value>
     </data>
-    <data name="Elevator" xml:space="preserve">
-        <value>Aufzug</value>
-    </data>
-    <data name="Elevator.Service" xml:space="preserve">
+    <data name="Elevators.Service" xml:space="preserve">
         <value>Serviceaufzug</value>
     </data>
     <data name="Filtration" xml:space="preserve">

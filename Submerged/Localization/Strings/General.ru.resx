@@ -30,9 +30,6 @@
     <data name="Credits.Translators" xml:space="preserve">
         <value>Переводчики</value>
     </data>
-    <data name="Credits.TechnicalSupport" xml:space="preserve">
-        <value>Техническая поддержка</value>
-    </data>
     <data name="Credits.AdditionalArt" xml:space="preserve">
         <value>Доп. спрайты</value>
     </data>

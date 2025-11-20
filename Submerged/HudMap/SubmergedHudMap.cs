@@ -22,6 +22,7 @@ public sealed class SubmergedHudMap(nint ptr) : MonoBehaviour(ptr)
     public Il2CppReferenceField<GameObject> downArrow;
 
     private bool _disableChangeFloor;
+    private bool _startedOnTop;
 
     private void Start()
     {
@@ -63,9 +64,14 @@ public sealed class SubmergedHudMap(nint ptr) : MonoBehaviour(ptr)
     private void OnEnable()
     {
         if (PlayerControl.LocalPlayer.transform.position.y < -10f)
+        {
             MoveMapDown();
+        }
         else
+        {
             MoveMapUp();
+            _startedOnTop = true;
+        }
     }
 
     public void MoveMapUp()
@@ -73,6 +79,15 @@ public sealed class SubmergedHudMap(nint ptr) : MonoBehaviour(ptr)
         upArrow.Value.SetActive(false);
         downArrow.Value.SetActive(!_disableChangeFloor);
         hudTransform.Value.localPosition = Vector3.zero;
+
+        foreach (UiElement button in map.Value.detectiveLocationControllerButtons)
+        {
+            if (button.name.EndsWith("_Scrolled") == _startedOnTop)
+            {
+                button.transform.localPosition -= new Vector3(0, LOWER_Y, 0);
+                button.name = !_startedOnTop ? button.name + "_Scrolled" : button.name[..^"_Scrolled".Length];
+            }
+        }
     }
 
     public void MoveMapDown()
@@ -80,5 +95,14 @@ public sealed class SubmergedHudMap(nint ptr) : MonoBehaviour(ptr)
         upArrow.Value.SetActive(!_disableChangeFloor);
         downArrow.Value.SetActive(false);
         hudTransform.Value.localPosition = new Vector3(0, LOWER_Y, 0);
+
+        foreach (UiElement button in map.Value.detectiveLocationControllerButtons)
+        {
+            if (button.name.EndsWith("_Scrolled") != _startedOnTop)
+            {
+                button.transform.localPosition += new Vector3(0, LOWER_Y, 0);
+                button.name = _startedOnTop ? button.name + "_Scrolled" : button.name[..^"_Scrolled".Length];
+            }
+        }
     }
 }

@@ -51,8 +51,19 @@ public readonly struct CustomStringNames
     public static readonly CustomStringNames Ballast = new(555_1_005, () => Locations.Ballast);
     public static readonly CustomStringNames LowerCentral = new(555_1_006, () => Locations.Central_Lower);
     public static readonly CustomStringNames LowerLobby = new(555_1_007, () => Locations.Lobby_Lower);
-    public static readonly CustomStringNames Elevator = new(555_1_008, () => Locations.Elevator);
-    public static readonly CustomStringNames ElevatorService = new(555_1_009, () => Locations.Elevator_Service);
+    public static readonly CustomStringNames ElevatorService = new(555_1_009, () => Locations.Elevators_Service);
+    public static readonly CustomStringNames ElevatorsWest = new(555_1_010, () =>
+    {
+        return Locations.Elevators_West == "West Elevators" && !string.IsNullOrEmpty(Deprecated.Elevator)
+            ? Deprecated.Elevator + Deprecated.ElevatorSuffix_West
+            : Locations.Elevators_West;
+    });
+    public static readonly CustomStringNames ElevatorsEast = new(555_1_011, () =>
+    {
+        return Locations.Elevators_East == "East Elevators" && !string.IsNullOrEmpty(Deprecated.Elevator)
+            ? Deprecated.Elevator + Deprecated.ElevatorSuffix_East
+            : Locations.Elevators_East;
+    });
 
     // Tasks
     public static readonly CustomStringNames PlugLeaks = new(555_2_000, () => Tasks.PlugLeaks);
@@ -80,6 +91,10 @@ public readonly struct CustomStringNames
     public static readonly CustomStringNames LocateVolcanicActivity = new(555_2_022, () => Tasks.LocateVolcanicActivity);
     public static readonly CustomStringNames RetrieveOxygenMask = new(555_2_023, () => Tasks.RetrieveOxygenMask);
     public static readonly CustomStringNames StabilizeWaterLevels = new(555_2_024, () => Tasks.StabilizeWaterLevels);
+
+    // Deprecated
+    [Obsolete("Elevators are now split into East and West, this StringName will be removed in a future update.")]
+    public static readonly CustomStringNames Elevator = new(555_1_008, () => !string.IsNullOrEmpty(Deprecated.Elevator) ? Deprecated.Elevator : "Elevator");
 
     // ReSharper restore InconsistentNaming
 

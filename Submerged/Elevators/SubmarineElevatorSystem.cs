@@ -17,7 +17,6 @@ public sealed class SubmarineElevatorSystem(nint ptr) : CppObject(ptr), AU.ISyst
 
     public readonly SystemTypes systemTypes;
 
-    private SubmarineElevatorSystem _tandem;
     public ElevatorMovementStage lastStage = ElevatorMovementStage.Complete;
     public float lerpTimer;
     public bool moving;
@@ -41,7 +40,7 @@ public sealed class SubmarineElevatorSystem(nint ptr) : CppObject(ptr), AU.ISyst
         tandemSystemType = tandemElevator;
     }
 
-    private SubmarineElevatorSystem Tandem => _tandem ??= ShipStatus.Instance.Systems[tandemSystemType].Cast<SubmarineElevatorSystem>();
+    private SubmarineElevatorSystem Tandem => field ??= ShipStatus.Instance.Systems[tandemSystemType].Cast<SubmarineElevatorSystem>();
 
     public bool IsDirty { get; private set; }
 

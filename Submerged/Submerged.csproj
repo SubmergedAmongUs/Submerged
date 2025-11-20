@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <VersionPrefix>2025.10.22</VersionPrefix>
+        <VersionPrefix>2025.11.20</VersionPrefix>
         <VersionSuffix Condition="'$(Configuration)' == 'Debug'">dev</VersionSuffix>
         <Authors>Submerged Team</Authors>
         <RepositoryType>git</RepositoryType>
@@ -21,7 +21,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="AmongUs.GameLibs.Steam" Version="2025.10.14" />
+        <PackageReference Include="AmongUs.GameLibs.Steam" Version="2025.11.18" />
         <PackageReference Include="BepInEx.Unity.IL2CPP" Version="6.0.0-be.735" />
         <PackageReference Include="Reactor" Version="2.5.0-ci.371" />
 
@@ -35,6 +35,10 @@
     <ItemGroup>
         <EmbeddedResource Include="**\Resources\**" />
         <EmbeddedResource Remove="**\Resources\**\*.cs" />
+        <EmbeddedResource Update="Localization\Strings\Deprecated.resx">
+            <Generator>ResXFileCodeGenerator</Generator>
+            <LastGenOutput>Deprecated.Designer.cs</LastGenOutput>
+        </EmbeddedResource>
         <EmbeddedResource Update="Localization\Strings\General.resx">
             <Generator>ResXFileCodeGenerator</Generator>
             <LastGenOutput>General.Designer.cs</LastGenOutput>
@@ -50,6 +54,9 @@
     </ItemGroup>
 
     <ItemGroup>
+        <EmbeddedResource Update="Localization\Strings\Deprecated.*.resx">
+            <DependentUpon>Deprecated.resx</DependentUpon>
+        </EmbeddedResource>
         <EmbeddedResource Update="Localization\Strings\General.*.resx">
             <DependentUpon>General.resx</DependentUpon>
         </EmbeddedResource>

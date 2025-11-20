@@ -30,9 +30,6 @@
     <data name="Credits.Translators" xml:space="preserve">
         <value>Traductores</value>
     </data>
-    <data name="Credits.TechnicalSupport" xml:space="preserve">
-        <value>Soporte Técnico</value>
-    </data>
     <data name="Credits.AdditionalArt" xml:space="preserve">
         <value>Otros Artistas</value>
     </data>

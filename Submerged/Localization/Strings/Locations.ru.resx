@@ -39,10 +39,7 @@
     <data name="Lobby.Lower" xml:space="preserve">
         <value>Нижнее лобби</value>
     </data>
-    <data name="Elevator" xml:space="preserve">
-        <value>Лифт</value>
-    </data>
-    <data name="Elevator.Service" xml:space="preserve">
+    <data name="Elevators.Service" xml:space="preserve">
         <value>Служебный лифт</value>
     </data>
     <data name="Central" xml:space="preserve">

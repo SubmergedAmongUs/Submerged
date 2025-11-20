@@ -39,10 +39,7 @@
     <data name="Lobby.Lower" xml:space="preserve">
         <value>Vestíbulo Inferior</value>
     </data>
-    <data name="Elevator" xml:space="preserve">
-        <value>Ascensor</value>
-    </data>
-    <data name="Elevator.Service" xml:space="preserve">
+    <data name="Elevators.Service" xml:space="preserve">
         <value>Ascensor de Servicio</value>
     </data>
     <data name="Central" xml:space="preserve">

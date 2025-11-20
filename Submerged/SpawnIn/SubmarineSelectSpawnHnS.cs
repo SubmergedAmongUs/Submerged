@@ -6,6 +6,7 @@ using Submerged.Floors;
 using Submerged.Localization.Strings;
 using Submerged.Map;
 using Submerged.SpawnIn.Enums;
+using Submerged.Systems.SecuritySabotage;
 using UnityEngine;
 
 namespace Submerged.SpawnIn;
@@ -111,6 +112,9 @@ public sealed class SubmarineSelectSpawnHnS(nint ptr) : SubmarineSelectSpawn(ptr
             {
                 SubmergedHnSManager.ReassignTasks(player, onUpper);
             }
+
+            SubmarineSecuritySabotageSystem.Instance.fixedCams = [0, 1, 2];
+            SubmarineSecuritySabotageSystem.Instance.IsDirty = true;
         }
 
         yield break;
