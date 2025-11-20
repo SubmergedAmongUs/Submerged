@@ -142,6 +142,9 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
         foreach (NormalPlayerTask t in normalShip.ShortTasks) t.Index = num++;
 
         Instantiate(MapLoader.Fungle.specialSabotage.screenTint).gameObject.AddComponent<SubmarineOxygenTint>();
+
+        // Reverse console list in order to fix Record Nav Beacon Data task arrow
+        normalShip.AllConsoles = normalShip.AllConsoles.Reverse().ToArray();
     }
 
     private void Start()

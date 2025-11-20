@@ -82,7 +82,8 @@ public sealed class SubmarineSpawnInSystem(nint ptr) : CppObject(ptr), AU.ISyste
 
         foreach (NetworkedPlayerInfo instanceAllPlayer in GameData.Instance.AllPlayers)
         {
-            if (instanceAllPlayer.IsDead || instanceAllPlayer.Disconnected || instanceAllPlayer.Object.isDummy) continue;
+            if (!instanceAllPlayer || !instanceAllPlayer.Object ||
+                instanceAllPlayer.IsDead || instanceAllPlayer.Disconnected || instanceAllPlayer.Object.isDummy) continue;
             count++;
         }
 
