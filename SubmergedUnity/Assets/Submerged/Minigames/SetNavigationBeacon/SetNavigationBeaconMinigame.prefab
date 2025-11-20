@@ -1710,7 +1710,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boxCollider: {fileID: 0}
-  targetUrl: SetNavBeaconTask;SetNavBeaconMinigame
+  targetUrl: ;SetNavBeaconMinigame
   needed: 0
 --- !u!114 &2975083863563041238
 MonoBehaviour:

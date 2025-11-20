@@ -7,6 +7,15 @@ namespace Submerged.Minigames.CustomMinigames.RecordNavBeaconData;
 [RegisterInIl2Cpp]
 public sealed class SetNavBeaconTask(nint ptr) : NormalPlayerTask(ptr)
 {
+    private void Awake()
+    {
+        Arrow = GetComponentInChildren<ArrowBehaviour>(true);
+        ShowTaskStep = true;
+        MaxStep = 2;
+        HasLocation = true;
+        LocationDirty = true;
+    }
+
     public override void UpdateArrowAndLocation()
     {
         if (!Arrow)
