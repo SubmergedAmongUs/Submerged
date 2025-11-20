@@ -59,11 +59,10 @@ public sealed class SubmarineSecuritySabotageSystem(nint ptr) : CppObject(ptr), 
         {
             case 0:
                 fixedCams.RemoveAll(c => c == camId);
-
                 break;
+
             case 1:
                 if (!fixedCams.Contains(camId)) fixedCams.Add(camId);
-
                 break;
         }
 
