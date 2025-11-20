@@ -424,8 +424,9 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
             text.fontMaterial = mapFontMaterial;
         }
 
-        // Add detective map button prefab
+        // Update prefabs from base game
         normalShip.MapPrefab.detectiveMapButtonPrefab = MapLoader.Skeld.MapPrefab.detectiveMapButtonPrefab;
+        normalShip.MapPrefab.countOverlay.GetComponent<ObjectPoolBehavior>().Prefab = MapLoader.Skeld.MapPrefab.countOverlay.GetComponent<ObjectPoolBehavior>().Prefab;
     }
 
     [HideFromIl2Cpp]
