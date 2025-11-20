@@ -1,9 +1,10 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Submerged.Enums;
 
-public readonly struct CustomSystemTypes
+public readonly struct CustomSystemTypes : IEquatable<CustomSystemTypes>
 {
     internal static void Initialize()
     {
@@ -32,6 +33,16 @@ public readonly struct CustomSystemTypes
     public static implicit operator SystemTypes(CustomSystemTypes self) => self.systemType;
 
     public static explicit operator byte(CustomSystemTypes self) => (byte) self.systemType;
+
+    public bool Equals(CustomSystemTypes other) => systemType == other.systemType;
+
+    public override bool Equals(object obj) => obj is CustomSystemTypes other && Equals(other);
+
+    public override int GetHashCode() => (int) systemType;
+
+    public static bool operator ==(CustomSystemTypes left, CustomSystemTypes right) => left.Equals(right);
+
+    public static bool operator !=(CustomSystemTypes left, CustomSystemTypes right) => !left.Equals(right);
 
     #endregion
 
@@ -67,16 +78,16 @@ public readonly struct CustomSystemTypes
     public static readonly CustomSystemTypes LowerLobby = new(0x87, CustomStringNames.LowerLobby);
 
     [UsedImplicitly]
-    public static readonly CustomSystemTypes ElevatorHallwayLeft = new(0x88, CustomStringNames.Elevator);
+    public static readonly CustomSystemTypes ElevatorHallwayLeft = new(0x88, CustomStringNames.ElevatorsWest);
 
     [UsedImplicitly]
-    public static readonly CustomSystemTypes ElevatorHallwayRight = new(0x89, CustomStringNames.Elevator);
+    public static readonly CustomSystemTypes ElevatorHallwayRight = new(0x89, CustomStringNames.ElevatorsWest);
 
     [UsedImplicitly]
-    public static readonly CustomSystemTypes ElevatorLobbyLeft = new(0x8a, CustomStringNames.Elevator);
+    public static readonly CustomSystemTypes ElevatorLobbyLeft = new(0x8a, CustomStringNames.ElevatorsEast);
 
     [UsedImplicitly]
-    public static readonly CustomSystemTypes ElevatorLobbyRight = new(0x8b, CustomStringNames.Elevator);
+    public static readonly CustomSystemTypes ElevatorLobbyRight = new(0x8b, CustomStringNames.ElevatorsEast);
 
     [UsedImplicitly]
     public static readonly CustomSystemTypes ElevatorService = new(0x8c, CustomStringNames.ElevatorService);

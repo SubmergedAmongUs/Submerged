@@ -20,15 +20,15 @@
     </resheader>
 
     <data name="Credits.TechnicalSupport" xml:space="preserve">
-        <value>Technical Support</value>
+        <value></value>
     </data>
     <data name="ElevatorSuffix.East" xml:space="preserve">
-        <value> (East)</value>
+        <value />
     </data>
     <data name="ElevatorSuffix.West" xml:space="preserve">
-        <value> (West)</value>
+        <value />
     </data>
     <data name="Elevator" xml:space="preserve">
-        <value>Elevator</value>
+        <value />
     </data>
 </root>

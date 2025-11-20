@@ -60,7 +60,7 @@ namespace Submerged.Localization.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Technical Support.
+        ///   Looks up a localized string similar to .
         /// </summary>
         internal static string Credits_TechnicalSupport {
             get {
@@ -69,7 +69,7 @@ namespace Submerged.Localization.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Elevator.
+        ///   Looks up a localized string similar to .
         /// </summary>
         internal static string Elevator {
             get {
@@ -78,7 +78,7 @@ namespace Submerged.Localization.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to  (East).
+        ///   Looks up a localized string similar to .
         /// </summary>
         internal static string ElevatorSuffix_East {
             get {
@@ -87,7 +87,7 @@ namespace Submerged.Localization.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to  (West).
+        ///   Looks up a localized string similar to .
         /// </summary>
         internal static string ElevatorSuffix_West {
             get {
