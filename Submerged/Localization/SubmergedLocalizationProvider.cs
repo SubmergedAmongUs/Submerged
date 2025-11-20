@@ -15,6 +15,7 @@ public sealed class SubmergedLocalizationProvider : LocalizationProvider
     {
         CultureInfo cultureInfo = newLanguage.ToCultureInfo();
 
+        Deprecated.Culture = cultureInfo;
         General.Culture = cultureInfo;
         Locations.Culture = cultureInfo;
         Tasks.Culture = cultureInfo;
