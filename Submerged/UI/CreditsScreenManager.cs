@@ -34,7 +34,7 @@ public sealed class CreditsScreenManager(nint ptr) : MonoBehaviour(ptr)
         transform.Find("Translators/Text").GetComponent<TextMeshPro>().text = $"<u><b>{General.Credits_Translators}:</b></u> {TRANSLATORS}";
     }
 
-    private static string ContributorsCredit => General.Credits_Contributors == "Contributors" && !string.IsNullOrWhiteSpace(General.Credits_TechnicalSupport)
-        ? General.Credits_TechnicalSupport
+    private static string ContributorsCredit => General.Credits_Contributors == "Contributors" && !string.IsNullOrWhiteSpace(Deprecated.Credits_TechnicalSupport)
+        ? Deprecated.Credits_TechnicalSupport
         : General.Credits_Contributors;
 }

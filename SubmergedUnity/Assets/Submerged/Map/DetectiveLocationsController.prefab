@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2409149644953218323}
   - component: {fileID: 4443273815766602651}
   - component: {fileID: 3278867282585504189}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Upper Central
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127,7 +127,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4721431009778512925}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Upper Deck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -175,7 +175,7 @@ GameObject:
   - component: {fileID: 4292180662879771172}
   - component: {fileID: 8181087060803963297}
   - component: {fileID: 2014009224472409368}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: East Elevator (Right)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -270,7 +270,7 @@ GameObject:
   - component: {fileID: 8236990841549287762}
   - component: {fileID: 3908068182407798282}
   - component: {fileID: 6192684041068975326}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Meeting Room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -375,7 +375,7 @@ GameObject:
   - component: {fileID: 4445897147301305547}
   - component: {fileID: 9098430441612554367}
   - component: {fileID: 6849179999281239173}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: West Elevator (Right)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -474,7 +474,7 @@ GameObject:
   - component: {fileID: 6005709528409614423}
   - component: {fileID: 3164146720271682776}
   - component: {fileID: 7550976021094999025}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Research
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -584,7 +584,7 @@ GameObject:
   - component: {fileID: 977320756578083283}
   - component: {fileID: 7374929529687152455}
   - component: {fileID: 4627002894277371442}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Service Elevator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -679,7 +679,7 @@ GameObject:
   - component: {fileID: 7893830467227828026}
   - component: {fileID: 1551306008119871515}
   - component: {fileID: 6217444131070383458}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Lounge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -777,7 +777,7 @@ GameObject:
   - component: {fileID: 6573917861352199158}
   - component: {fileID: 1309837730375394281}
   - component: {fileID: 6498614123922767437}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: West Elevator (Left)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -875,7 +875,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4032974546467333905}
   - component: {fileID: 5228069925925058920}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DetectiveLocationsController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -890,7 +890,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5507716109891652029}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.9411765}
   m_ConstrainProportionsScale: 0
@@ -922,7 +922,7 @@ GameObject:
   - component: {fileID: 1894611330963265551}
   - component: {fileID: 4359251496577936565}
   - component: {fileID: 1045067640149756932}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Admin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1021,7 +1021,7 @@ GameObject:
   - component: {fileID: 574377965139190034}
   - component: {fileID: 822226036529960496}
   - component: {fileID: 1370229705194053035}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Cafeteria
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1127,7 +1127,7 @@ GameObject:
   - component: {fileID: 8296747818120437939}
   - component: {fileID: 7631901821167762024}
   - component: {fileID: 4562738670640717956}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: East Elevator (Left)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1222,7 +1222,7 @@ GameObject:
   - component: {fileID: 1428467370552941603}
   - component: {fileID: 4168207140043815285}
   - component: {fileID: 5234512638150905585}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Upper Lobby
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1331,7 +1331,7 @@ GameObject:
   - component: {fileID: 439550204640526316}
   - component: {fileID: 6710890815440892132}
   - component: {fileID: 5106761850807036144}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Communications
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1440,7 +1440,7 @@ GameObject:
   - component: {fileID: 507866508444869225}
   - component: {fileID: 1225148860845586630}
   - component: {fileID: 3651008250095943550}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Observatory
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1546,7 +1546,7 @@ GameObject:
   - component: {fileID: 8607124403690543269}
   - component: {fileID: 5898741443749855062}
   - component: {fileID: 8841983029805670523}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Medical
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -30,9 +30,6 @@
     <data name="Credits.Translators" xml:space="preserve">
         <value>Vertalers</value>
     </data>
-    <data name="Credits.TechnicalSupport" xml:space="preserve">
-        <value>Technische Support</value>
-    </data>
     <data name="Error.PlayersMissingSubmerged" xml:space="preserve">
         <value>Kan het spel niet starten, omdat de volgende spelers Submerged niet hebben:</value>
     </data>

@@ -10,7 +10,7 @@ public static class DetectiveRolePatches
     [HarmonyPostfix]
     public static void CreateMapLocationsPatch(DetectiveRole __instance)
     {
-        if (SubmarineStatus.instance)
+        if (SubmarineStatus.instance && !DetectiveLocationsController.Instance)
         {
             GameObject.Instantiate(SubmarineStatus.instance.detectiveMapLocationsPrefab);
         }

@@ -39,9 +39,6 @@
     <data name="Credits.ProjectLead" xml:space="preserve">
         <value>Project Lead</value>
     </data>
-    <data name="Credits.TechnicalSupport" xml:space="preserve">
-        <value />
-    </data>
     <data name="Credits.Translators" xml:space="preserve">
         <value>Translators</value>
     </data>

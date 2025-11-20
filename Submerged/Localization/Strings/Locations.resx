@@ -42,9 +42,6 @@
     <data name="Deck.Upper" xml:space="preserve">
         <value>Upper Deck</value>
     </data>
-    <data name="Elevator" xml:space="preserve">
-        <value>Elevator</value>
-    </data>
     <data name="Elevator.Service" xml:space="preserve">
         <value>Service Elevator</value>
     </data>

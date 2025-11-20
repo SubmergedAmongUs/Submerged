@@ -35,6 +35,10 @@
     <ItemGroup>
         <EmbeddedResource Include="**\Resources\**" />
         <EmbeddedResource Remove="**\Resources\**\*.cs" />
+        <EmbeddedResource Update="Localization\Strings\Deprecated.resx">
+            <Generator>ResXFileCodeGenerator</Generator>
+            <LastGenOutput>Deprecated.Designer.cs</LastGenOutput>
+        </EmbeddedResource>
         <EmbeddedResource Update="Localization\Strings\General.resx">
             <Generator>ResXFileCodeGenerator</Generator>
             <LastGenOutput>General.Designer.cs</LastGenOutput>
@@ -50,6 +54,9 @@
     </ItemGroup>
 
     <ItemGroup>
+        <EmbeddedResource Update="Localization\Strings\Deprecated.*.resx">
+            <DependentUpon>Deprecated.resx</DependentUpon>
+        </EmbeddedResource>
         <EmbeddedResource Update="Localization\Strings\General.*.resx">
             <DependentUpon>General.resx</DependentUpon>
         </EmbeddedResource>

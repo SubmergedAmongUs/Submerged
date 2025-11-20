@@ -114,15 +114,6 @@ namespace Submerged.Localization.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Elevator.
-        /// </summary>
-        internal static string Elevator {
-            get {
-                return ResourceManager.GetString("Elevator", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Service Elevator.
         /// </summary>
         internal static string Elevator_Service {

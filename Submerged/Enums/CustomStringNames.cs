@@ -51,7 +51,7 @@ public readonly struct CustomStringNames
     public static readonly CustomStringNames Ballast = new(555_1_005, () => Locations.Ballast);
     public static readonly CustomStringNames LowerCentral = new(555_1_006, () => Locations.Central_Lower);
     public static readonly CustomStringNames LowerLobby = new(555_1_007, () => Locations.Lobby_Lower);
-    public static readonly CustomStringNames Elevator = new(555_1_008, () => Locations.Elevator);
+    public static readonly CustomStringNames Elevator = new(555_1_008, () => Deprecated.Elevator);
     public static readonly CustomStringNames ElevatorService = new(555_1_009, () => Locations.Elevator_Service);
 
     // Tasks
