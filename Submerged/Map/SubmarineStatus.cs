@@ -42,6 +42,7 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
     public AudioSource powerDownSound;
     public AudioSource powerUpSound;
     public SwitchSystem switchSystem;
+    public GameObject detectiveMapLocationsPrefab;
 
     public MinigameProperties minigameProperties;
     public Tilemap2 aprilFoolsShadowSpritesHolder;
@@ -72,6 +73,7 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
         minigameProperties.Awake();
         DestroyImmediate(GetComponent<DivertPowerMetagame>());
         aprilFoolsShadowSpritesHolder = transform.Find("MinigameProperties/April Fools Shadow Sprites").GetComponent<Tilemap2>();
+        detectiveMapLocationsPrefab = minigameProperties.gameObjects[2];
 
         ResolveTaskMinigames(normalShip.CommonTasks);
         ResolveTaskMinigames(normalShip.LongTasks);
@@ -421,6 +423,9 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
             text.font = mapFont;
             text.fontMaterial = mapFontMaterial;
         }
+
+        // Add detective map button prefab
+        normalShip.MapPrefab.detectiveMapButtonPrefab = MapLoader.Skeld.MapPrefab.detectiveMapButtonPrefab;
     }
 
     [HideFromIl2Cpp]
