@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using Il2CppSystem.IO;
 using Reactor.Utilities.Attributes;
+using Rewired;
 using Submerged.Extensions;
 using Submerged.Minigames.CustomMinigames.ResetBreakers.MonoBehaviours;
 using Submerged.Minigames.MonoBehaviours;
@@ -15,6 +17,7 @@ public sealed class ResetBreakersMinigame(nint ptr) : Minigame(ptr)
 
     public List<Sprite> letters;
     public GameObject switches;
+    public GameObject empty;
 
     public AudioClip breakerClick;
 
@@ -25,6 +28,7 @@ public sealed class ResetBreakersMinigame(nint ptr) : Minigame(ptr)
         minigameProperties = GetComponent<MinigameProperties>();
         letters = minigameProperties.sprites.Take(36).ToList();
         switches = transform.Find("Switches").gameObject;
+        empty = transform.Find("Empty").gameObject;
         breakerClick = minigameProperties.audioClips[0];
 
         for (int i = 0; i < switches.transform.childCount; i++)
@@ -66,11 +70,22 @@ public sealed class ResetBreakersMinigame(nint ptr) : Minigame(ptr)
 
         Warning(string.Join(", ", keys));
 
+#if ANDROID
+        for (int i = 0; i < circutBreakers.Count; i++)
+        {
+            SpriteRenderer emptyRend = empty.GetComponent<SpriteRenderer>();
+
+            circutBreakers[i].character.sprite = emptyRend.sprite;
+            circutBreakers[i].character.color = emptyRend.color;
+            circutBreakers[i].character.transform.localScale = empty.transform.localScale;
+        }
+#else
         for (int i = 0; i < circutBreakers.Count; i++)
         {
             circutBreakers[i].targetKey = keys[i];
             circutBreakers[i].character.sprite = letters.FirstOrDefault(l => l.name.Contains($"_{keys[i].ToString()[^1..].ToUpper()}"));
         }
+#endif
     }
 
     public bool CheckSwitches()

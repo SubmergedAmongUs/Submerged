@@ -1,0 +1,253 @@
+ManifestFileVersion: 0
+CRC: 3639323936
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6be9ba3c380395b7f289764f096e51c5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 53a9ba29fe2565a1c284cb86d8f5ea6b
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 6be9ba3c380395b7f289764f096e51c5
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 58
+  Script: {instanceID: 0}
+- Class: 60
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 62
+  Script: {instanceID: 0}
+- Class: 68
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 84
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 041221cb30bbf4f498f8689a04673fd4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ec73d5bcb7acf2a42993634e0ec01b58, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4c92cd45d89d6c94eb0e6b34ce5c7cbc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b035ecedddc26464388afad65d81ec47, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1f0e39fb083564b4d991d86e752f09d7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c0873defd78ad1044bd9503d4cf8cf9a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 85de669c32bf6a045bf5feb5137e503e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d828ef6510394480920365cc94bb74be, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3faff4719d8e2054bb559425c46ad905, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7d43eb25843e86a4ca950d35ab9f0d50, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 26d177961929fa446939baf8c606aaa3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 62b3283dcc711da4d917f53e8f995f62, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: cf2c91ad7f538e14f9da4141cd408967, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ad678e2f060dba9439e4398d2c23676d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e35bccd144aed004ca4a5c7741b14cbe, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: aae54fc4779347cb88a83e451e88a5a0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c45b78e9183c541408a11c85769fc22d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e152ee1ad41e72045baad1c13dff6729, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f13fc53b4e123044d863fe5917f14605, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4af7a43dddb3c4e4a881fc33b2a9805f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1abf8c90df7a3874d807349956e20fc9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 711298cc744d63245bddc0105cd6177b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 44fcad9381865174c8b110e9639d2cab, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b1e0efcd8ed5adf4abca3d313f069917, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 47209275ee7cef647bca7b0d7b034136, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2ddc64c63b142cf4e97b5d2cebe38d3a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 57fcff6dd4efc62439c50a121a6a9de5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 43daec49c528f7b428f3cdfce607fb70, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1c4b22672edf3ee408f8b26fb81b5f9f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b39f41737900fa145923fa37dcd6984f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ba51728d5aa50104283dc673f800c7c7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 876cdc670824e1145afca2c63226790c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d80bdb66c23d7dc4c8d0236efc5b1383, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9f4bbca43fd582d49ae0747be563d808, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2f3d049f58c2b7741a6d7c860223ebfa, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 11ebe42ee62d51f42872207b518c6fb2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: bf4c4420187246446ae2cb1a0c6635ea, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9b12cd939de170b488953d70cb023213, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d63dee465a8136b42b0bb9f1804789a9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 01ed0310196ffc04180791fccef84c7a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 849c5f84f0a19af46b566d54d9101502, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b34152de3bd093439ba6d6750bd647e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4412206e899043f4e967240b669380ad, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e5248692327f264489de5d4a4b8f45f8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d53a470c2f57a7e4ab0426cf0b5e34a5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 89b72f5423a507a4e907d97f2d37effc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5173466c496920c46a57914f0c9adb31, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4962bebc69442aa41a195c55448e0091, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d931e77edbcb4785a4d36a63b0c71f23, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 609e25e058bb6264689fb5d5ee182163, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a6152b964e9b4dd8b3ecec5ecfe97c83, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4653bb7c4e33d674fb3a60510c90c01b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 691fb2327a923b9469306abd81b52994, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 21b331bfab6651f4eb3d033727c759c3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f6bd1f34b1ad3f84db93c7cfa0692e31, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a9b0522716ca9264fb74e38b47a86432, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 864c42fea7b281045b8deb498354e69d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5ab0085022de63e4883c7f1ba53388ec, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 81c24b1bb0eeb3b4c8fab8e6304553bd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c783983f7670aba4fb76e8911eed24f3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d34c111da8bc4dc19845ceda53fc9064, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3b025578dbe5ab84781068ccfb02f29a, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 120
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 331
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: FloatRange
+- AssemblyName: Assembly-CSharp
+  ClassName: IntRange
+- AssemblyName: Assembly-CSharp
+  ClassName: TaskSet
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.FaceInfo_Legacy
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.FontAssetCreationSettings
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.KerningTable
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_Character
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_FontFeatureTable
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_FontWeightPair
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_GlyphAdjustmentRecord
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_GlyphPairAdjustmentRecord
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_GlyphValueRecord
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.VertexGradient
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.ArgumentCache
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentListenerMode
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.UnityEvent
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.FaceInfo
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.Glyph
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.GlyphMetrics
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.GlyphRect
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Button/ButtonClickedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+Assets:
+- Assets/Submerged/Credits/CreditsScreen.prefab
+- Assets/Submerged/Map/Submerged.prefab
+Dependencies: []

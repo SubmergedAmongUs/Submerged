@@ -1,4 +1,7 @@
-﻿using Reactor.Utilities.Attributes;
+﻿using System.Linq;
+using Il2CppSystem.IO;
+using Reactor.Utilities.Attributes;
+using Rewired;
 using UnityEngine;
 
 namespace Submerged.Minigames.CustomMinigames.ResetBreakers.MonoBehaviours;
@@ -26,15 +29,29 @@ public sealed class CircuitBreaker(nint ptr) : MonoBehaviour(ptr)
 
         on.SetActive(complete);
         off.SetActive(!complete);
+
+#if ANDROID
+        ButtonBehavior click = gameObject.AddComponent<ButtonBehavior>();
+        click.OnClick = new UnityEngine.UI.Button.ButtonClickedEvent();
+        click.OnClick.AddListener(new System.Action(() =>
+        {
+            ToggleBreaker();
+        }));
+#endif
     }
 
     public void Update()
     {
         if (Input.GetKeyDown(targetKey))
         {
-            SoundManager.Instance.PlaySound(breakerClick, false);
-            SetState(!complete);
+            ToggleBreaker();
         }
+    }
+
+    public void ToggleBreaker()
+    {
+        SoundManager.Instance.PlaySound(breakerClick, false);
+        SetState(!complete);
     }
 
     public void SetState(bool state)
