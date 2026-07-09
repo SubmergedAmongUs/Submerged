@@ -49,16 +49,28 @@ public static class MapLoader
     {
         AssetReference reference = AmongUsClient.Instance.ShipPrefabs._items[(int) map];
 
-        if (reference.IsValid())
+        AsyncOperationHandle<GameObject> handle;
+
+        if (reference.OperationHandle.IsValid())
         {
-            shipStatus.Value = reference.OperationHandle.Result.Cast<GameObject>().GetComponent<T>();
+            handle = reference.OperationHandle.Convert<GameObject>();
+
+            if (!handle.IsDone)
+                yield return handle;
         }
         else
         {
-            AsyncOperationHandle<GameObject> asset = reference.LoadAsset<GameObject>();
-            yield return asset;
+            handle = reference.LoadAsset<GameObject>();
+            yield return handle;
+        }
 
-            shipStatus.Value = asset.Result.GetComponent<T>();
+        if (handle.Status == UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationStatus.Succeeded)
+        {
+            shipStatus.Value = handle.Result.GetComponent<T>();
+        }
+        else
+        {
+            UnityEngine.Debug.LogError("Failed to load map asset");
         }
     }
 }
