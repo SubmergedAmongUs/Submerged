@@ -6,12 +6,12 @@ namespace Submerged.Debugging.Patches;
 [DebugHarmonyPatch]
 public static class GameTestingPatches
 {
-    [HarmonyPatch(typeof(GameStartManager), nameof(GameStartManager.Update))]
+    /*[HarmonyPatch(typeof(GameStartManager), nameof(GameStartManager.Update))]
     [HarmonyPrefix]
     public static void AllowStartingWithOnePlayerPatch(GameStartManager __instance)
     {
         __instance.MinPlayers = 1;
-    }
+    }*/
 
     [HarmonyPatch(typeof(PlayerBanData), nameof(PlayerBanData.IsBanned), MethodType.Getter)]
     [HarmonyPostfix]
@@ -20,7 +20,7 @@ public static class GameTestingPatches
         __result = false;
     }
 
-    [HarmonyPatch(typeof(LogicGameFlowNormal), nameof(LogicGameFlowNormal.CheckEndCriteria))]
+    /*[HarmonyPatch(typeof(LogicGameFlowNormal), nameof(LogicGameFlowNormal.CheckEndCriteria))]
     [HarmonyPatch(typeof(LogicGameFlowHnS), nameof(LogicGameFlowHnS.CheckEndCriteria))]
     [HarmonyPatch(typeof(LogicGameFlowNormal), nameof(LogicGameFlowNormal.IsGameOverDueToDeath))]
     [HarmonyPatch(typeof(LogicGameFlowHnS), nameof(LogicGameFlowHnS.IsGameOverDueToDeath))]
@@ -33,5 +33,5 @@ public static class GameTestingPatches
     public static void ShowAprilFoolsToggle(CreateGameOptions __instance)
     {
         __instance.AprilFoolsToggle.SetActive(true);
-    }
+    }*/
 }
