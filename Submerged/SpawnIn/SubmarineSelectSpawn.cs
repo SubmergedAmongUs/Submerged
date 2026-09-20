@@ -419,7 +419,7 @@ public class SubmarineSelectSpawn(nint ptr) : Minigame(ptr)
         PlayerControl.LocalPlayer.SetKillTimer(GameManager.Instance.LogicOptions.GetKillCooldown());
         ShipStatus.Instance.EmergencyCooldown = GameManager.Instance.LogicOptions.GetEmergencyCooldown();
         HudManager.Instance.PlayerCam.Locked = false;
-        HudManager.Instance.SetMapButtonEnabled(true);
+        HudManager.Instance.SetMapAndInfoButtonsEnabled(true);
         HudManager.Instance.SetHudActive(true);
         ControllerManager.Instance.CloseAndResetAll();
 
