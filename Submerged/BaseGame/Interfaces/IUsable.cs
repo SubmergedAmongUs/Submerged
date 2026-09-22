@@ -3,7 +3,7 @@
 // ReSharper disable once InconsistentNaming
 public sealed partial class AU
 {
-    [BaseGameCode(LastChecked.v17_0_0)]
+    [BaseGameCode(LastChecked.v18_0_0)]
     public interface IUsable
     {
         [UsedImplicitly]

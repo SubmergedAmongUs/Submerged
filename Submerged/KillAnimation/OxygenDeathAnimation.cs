@@ -35,7 +35,7 @@ public class OxygenDeathAnimation(nint ptr) : OverlayKillAnimation(ptr)
         gameObject.AddComponent<CustomKillAnimationPlayer>();
     }
 
-    [BaseGameCode(LastChecked.v17_0_1, "Entire method is copied because WaitForFinish is not virtual.")]
+    [BaseGameCode(LastChecked.v18_0_0, "Entire method is copied because WaitForFinish is not virtual.")]
     public override CppIEnumerator CoShow(KillOverlay parent)
     {
         return enumerator().WrapToIl2Cpp();
