@@ -53,6 +53,12 @@ public sealed class SubmergedExileController(nint ptr) : ExileController(ptr)
 
         _darkness = transform.Find("Darkness");
         textTransform = transform.Find("Text");
+        // This is better to do in unity, and I think I'll make a new, better PR once I have my unity environment properly set up again
+        // - Atony
+        judgeText = Instantiate(Text, Text.transform.parent);
+        judgeText.transform.localPosition += new Vector3(0, 0.35f, 1);
+        judgeText.text = TranslationController.Instance.GetString(StringNames.JudgeCourtAdjourned);
+        judgeText.gameObject.SetActive(false);
 
         _bubbles = transform.Find("BubbleSystem");
     }
