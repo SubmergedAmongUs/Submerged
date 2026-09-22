@@ -407,7 +407,7 @@ public class SubmarineSelectSpawn(nint ptr) : Minigame(ptr)
         yield break;
     }
 
-    [BaseGameCode(LastChecked.v17_0_0, "Part of this method is from ExileController.ReEnableGameplay")]
+    [BaseGameCode(LastChecked.v18_0_0, "Part of this method is from ExileController.ReEnableGameplay")]
     private void Cleanup(bool unfade = true)
     {
         if (unfade)
@@ -419,7 +419,7 @@ public class SubmarineSelectSpawn(nint ptr) : Minigame(ptr)
         PlayerControl.LocalPlayer.SetKillTimer(GameManager.Instance.LogicOptions.GetKillCooldown());
         ShipStatus.Instance.EmergencyCooldown = GameManager.Instance.LogicOptions.GetEmergencyCooldown();
         HudManager.Instance.PlayerCam.Locked = false;
-        HudManager.Instance.SetMapButtonEnabled(true);
+        HudManager.Instance.SetMapAndInfoButtonsEnabled(true);
         HudManager.Instance.SetHudActive(true);
         ControllerManager.Instance.CloseAndResetAll();
 
