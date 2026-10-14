@@ -5,12 +5,18 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Submerged", "Submerged\Submerged.csproj", "{13ACAAD7-C0BE-468C-8710-14C77F7C24BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Submerged.InteropGenerator", "Build\InteropGenerator\InteropGenerator.csproj", "{A23DD0DF-F35D-4931-9865-D605923571AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Submerged = Debug|Submerged
 		Release|Submerged = Release|Submerged
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A23DD0DF-F35D-4931-9865-D605923571AA}.Debug|Submerged.ActiveCfg = Debug|Any CPU
+		{A23DD0DF-F35D-4931-9865-D605923571AA}.Debug|Submerged.Build.0 = Debug|Any CPU
+		{A23DD0DF-F35D-4931-9865-D605923571AA}.Release|Submerged.ActiveCfg = Release|Any CPU
+		{A23DD0DF-F35D-4931-9865-D605923571AA}.Release|Submerged.Build.0 = Release|Any CPU
 		{13ACAAD7-C0BE-468C-8710-14C77F7C24BA}.Debug|Submerged.ActiveCfg = Debug|Submerged
 		{13ACAAD7-C0BE-468C-8710-14C77F7C24BA}.Debug|Submerged.Build.0 = Debug|Submerged
 		{13ACAAD7-C0BE-468C-8710-14C77F7C24BA}.Release|Submerged.ActiveCfg = Release|Submerged

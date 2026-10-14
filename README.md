@@ -71,11 +71,11 @@ Submerged depends on the following mods and modding tools in order to function p
 
 | Mod                                                       | Version           |
 |-----------------------------------------------------------|-------------------|
-| [BepInEx](https://builds.bepinex.dev/projects/bepinex_be) | `v6.0.0-be.735`   |
-| [Reactor](https://github.com/nuclearpowered/reactor)      | `v2.5.0` or later |
+| [BepInEx](https://builds.bepinex.dev/projects/bepinex_be) | `v6.0.0-be.785`   |
+| [Reactor](https://github.com/nuclearpowered/reactor)      | `v2.5.1` |
 
 > [!Note]
-> If you are using the Microsoft Store version of Among Us, you will need to download the `Unity (IL2CPP) for Windows (x64) games` version of BepInEx. Otherwise, you will need to download the `Unity (IL2CPP) for Windows (x86) games` version.
+> Choose the BepInEx Unity IL2CPP Windows archive that matches the architecture of your game executable (x64 or x86). The Steam v19 executable requires x64.
 
 # Installation
 
@@ -83,7 +83,7 @@ Submerged depends on the following mods and modding tools in order to function p
 
 This mod is only guaranteed to work on Windows operating systems. We have no plans on ensuring compatibility with Linux-based operating systems or Mac.
 
-This mod has been tested and works with the Steam, Epic, itch.io and Microsoft Store versions of Among Us. We do not support or endorse using a pirated version of Among Us with Submerged.
+Previous releases supported Steam, Epic, itch.io and Microsoft Store. We do not support or endorse using a pirated version of Among Us with Submerged.
 
 ## Installation Steps
 

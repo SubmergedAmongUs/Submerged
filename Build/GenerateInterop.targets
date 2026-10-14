@@ -1,0 +1,55 @@
+<Project>
+    <PropertyGroup>
+        <InteropRoot>$([MSBuild]::NormalizePath('$(MSBuildProjectDirectory)', '$(BaseIntermediateOutputPath)', 'interop'))</InteropRoot>
+        <InteropDirectory>$(InteropRoot)/2026.9.29-1.5.3</InteropDirectory>
+        <UnityReferenceDirectory>$(InteropRoot)/unity-2022.3.44</UnityReferenceDirectory>
+        <UnityReferenceArchive>$(InteropRoot)/unity-2022.3.44.zip</UnityReferenceArchive>
+        <InteropDotNetHost Condition="'$(DOTNET_HOST_PATH)' != ''">$(DOTNET_HOST_PATH)</InteropDotNetHost>
+        <InteropDotNetHost Condition="'$(InteropDotNetHost)' == ''">dotnet</InteropDotNetHost>
+    </PropertyGroup>
+
+    <Target Name="PrepareInteropReferences" DependsOnTargets="ResolveProjectReferences" Condition="'$(DesignTimeBuild)' != 'true'">
+        <MakeDir Directories="$(InteropRoot)" />
+        <DownloadFile SourceUrl="https://unity.bepinex.dev/libraries/2022.3.44.zip"
+                      DestinationFolder="$(InteropRoot)" DestinationFileName="unity-2022.3.44.zip"
+                      Condition="!Exists('$(UnityReferenceArchive)')" />
+        <GetFileHash Files="$(UnityReferenceArchive)" Algorithm="SHA256">
+            <Output TaskParameter="Items" ItemName="_UnityReferenceArchive" />
+        </GetFileHash>
+        <Error Condition="'%(_UnityReferenceArchive.FileHash)' != 'E9E6C943619867F0AAFB6888BD57EC49E46F833B92EC0E43223346370D69E0BD'"
+               Text="The Unity 2022.3.44 reference archive has an unexpected SHA-256 hash. Remove the archive from obj/interop and restore it from the original source." />
+        <Unzip SourceFiles="$(UnityReferenceArchive)" DestinationFolder="$(UnityReferenceDirectory)"
+               SkipUnchangedFiles="true" />
+        <ItemGroup>
+            <_GameReferenceInput Include="$(PkgAmongUs_GameLibs_Steam)/build/*.dll" />
+            <_InteropToolInput Include="@(InteropGenerator)" />
+        </ItemGroup>
+        <Error Condition="'@(_GameReferenceInput)' == ''" Text="Among Us reference assemblies are missing. Run dotnet restore Submerged.sln --locked-mode." />
+        <Error Condition="'@(InteropGenerator)' == ''" Text="The interop generator did not build successfully." />
+        <ReadLinesFromFile File="$(InteropDirectory)/generation.files" Condition="Exists('$(InteropDirectory)/generation.files')">
+            <Output TaskParameter="Lines" ItemName="_InteropExpectedOutput" />
+        </ReadLinesFromFile>
+    </Target>
+
+    <Target Name="GenerateInteropReferences" DependsOnTargets="PrepareInteropReferences" Condition="'$(DesignTimeBuild)' != 'true'"
+            Inputs="@(_GameReferenceInput);@(_InteropToolInput);$(UnityReferenceArchive);$(MSBuildThisFileFullPath)"
+            Outputs="$(InteropDirectory)/generation.complete;$(InteropDirectory)/generation.files;@(_InteropExpectedOutput);$(InteropDirectory)/Assembly-CSharp.dll;$(InteropDirectory)/UnityEngine.CoreModule.dll">
+        <ItemGroup>
+            <_PreviousInteropFiles Include="$(InteropDirectory)/*" />
+        </ItemGroup>
+        <Delete Files="@(_PreviousInteropFiles)" />
+        <MakeDir Directories="$(InteropDirectory)" />
+        <Exec Command="&quot;$(InteropDotNetHost)&quot; &quot;@(InteropGenerator)&quot; &quot;$(PkgAmongUs_GameLibs_Steam)/build&quot; &quot;$(InteropDirectory)&quot; &quot;$(UnityReferenceDirectory)&quot;" />
+        <ItemGroup>
+            <_GeneratedInteropFiles Include="$(InteropDirectory)/*.dll" />
+        </ItemGroup>
+        <WriteLinesToFile File="$(InteropDirectory)/generation.files" Lines="@(_GeneratedInteropFiles->'%(FullPath)')" Overwrite="true" />
+        <Touch Files="$(InteropDirectory)/generation.complete" AlwaysCreate="true" />
+    </Target>
+
+    <Target Name="AddInteropReferences" BeforeTargets="ResolveAssemblyReferences" DependsOnTargets="GenerateInteropReferences">
+        <ItemGroup>
+            <Reference Include="$(InteropDirectory)/*.dll" Private="false" />
+        </ItemGroup>
+    </Target>
+</Project>

@@ -29,6 +29,8 @@ public sealed class SubmarineSpawnInSystem(nint ptr) : CppObject(ptr), AU.ISyste
 
     public void Deteriorate(float deltaTime)
     {
+        if (currentState == SpawnInState.Done) return;
+
         if (currentState == SpawnInState.Spawning)
         {
             timer = Mathf.Max(0, timer - deltaTime);
