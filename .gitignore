@@ -347,3 +347,6 @@ Submerged/Resources/AssetBundles/AssetBundles
 Submerged/Resources/AssetBundles/AssetBundles.manifest
 
 .vscode
+
+# Local build caches
+.build-cache/

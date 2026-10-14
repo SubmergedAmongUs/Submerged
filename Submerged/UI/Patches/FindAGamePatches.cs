@@ -15,7 +15,7 @@ public static class FindAGamePatches
     [HarmonyPrefix]
     public static void AddSubmergedIconPatch(MatchMakerGameButton __instance, GameListing gameListing)
     {
-        if (__instance.MapIcons.Length < 5) __instance.MapIcons = UpdateMapIcons(__instance.MapIcons).ToArray();
+        if (__instance.MapIcons.Length == 5) __instance.MapIcons = UpdateMapIcons(__instance.MapIcons).ToArray();
     }
 
     private static SCG.IEnumerable<Sprite> UpdateMapIcons(Il2CppReferenceArray<Sprite> existingIcons)

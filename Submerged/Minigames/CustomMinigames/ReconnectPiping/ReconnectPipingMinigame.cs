@@ -132,6 +132,7 @@ public sealed class ReconnectPipingMinigame(nint ptr) : Minigame(ptr)
         this.StartCoroutine(SpinItem(valve));
     }
 
+    [HideFromIl2Cpp]
     public Direction FindDirection((int xPos, int yPos) start, (int xPos, int yPos) next)
     {
         switch (start.xPos - next.xPos)

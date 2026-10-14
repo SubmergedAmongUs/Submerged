@@ -80,6 +80,7 @@ public sealed class PipeCell(nint ptr) : MonoBehaviour(ptr)
         _canClick = true;
     }
 
+    [HideFromIl2Cpp]
     public void SetPiece(Direction firstDirection, Direction secondDirection, bool randomiseRotation = true)
     {
         GameObject gameObj = gameObject;
@@ -153,6 +154,7 @@ public sealed class PipeCell(nint ptr) : MonoBehaviour(ptr)
         SetPiece(directions[0], directions[1]);
     }
 
+    [HideFromIl2Cpp]
     public Direction GetNextDirection(Direction direction)
     {
         float currentAngle = Mathf.Abs(gameObject.transform.localEulerAngles.z % 360 + 360) % 360;

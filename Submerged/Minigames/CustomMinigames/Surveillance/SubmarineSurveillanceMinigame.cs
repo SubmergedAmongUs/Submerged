@@ -124,8 +124,8 @@ public sealed class SubmarineSurvillanceMinigame(nint ptr) : Minigame(ptr)
                                 .First(t => t != null)
                                 .ChangeSound;
 
-        ClickTab(3);
-        ClickTab(0);
+        SelectCamera(3);
+        SelectCamera(0);
     }
 
     private void Update()
@@ -174,7 +174,14 @@ public sealed class SubmarineSurvillanceMinigame(nint ptr) : Minigame(ptr)
 
     private void ClickTab(int index)
     {
-        if (IsCommsActive() || selectedCam == index) return;
+        if (IsCommsActive()) return;
+
+        SelectCamera(index);
+    }
+
+    private void SelectCamera(int index)
+    {
+        if (selectedCam == index) return;
         selectedCam = index;
 
         // Set Positions

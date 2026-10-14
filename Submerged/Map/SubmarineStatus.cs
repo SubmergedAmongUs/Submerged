@@ -551,6 +551,13 @@ public sealed class SubmarineStatus(nint intPtr) : MonoBehaviour(intPtr)
 
         newExile.ImpostorText = data.GunContent.GetComponent<TextMeshPro>(); // ImpostorText
         newExile.Text = data.RifleContent.GetComponent<TextMeshPro>(); // MainText
+
+        newExile.judgeText = Instantiate(newExile.Text, newExile.Text.transform.parent);
+        newExile.judgeText.name = "JudgeText";
+        newExile.judgeText.transform.localPosition += new Vector3(0, 0.35f, 1);
+        newExile.judgeText.text = TranslationController.Instance.GetString(StringNames.JudgeCourtAdjourned);
+        newExile.judgeText.gameObject.SetActive(false);
+
         newExile.TextSound = data.OpenSound; // ExileSound
         newExile.Duration = 6; // Can't serialize this, hardcoded
 
