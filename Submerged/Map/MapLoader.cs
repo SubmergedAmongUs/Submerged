@@ -49,16 +49,21 @@ public static class MapLoader
     {
         AssetReference reference = AmongUsClient.Instance.ShipPrefabs._items[(int) map];
 
-        if (reference.IsValid())
+        AsyncOperationHandle<GameObject> handle = reference.OperationHandle.IsValid() switch
         {
-            shipStatus.Value = reference.OperationHandle.Result.Cast<GameObject>().GetComponent<T>();
+            true => reference.OperationHandle.Convert<GameObject>(),
+            false => reference.LoadAsset<GameObject>()
+        };
+
+        if (!handle.IsDone) yield return handle;
+
+        if (handle.Status == AsyncOperationStatus.Succeeded)
+        {
+            shipStatus.Value = handle.Result.GetComponent<T>();
         }
         else
         {
-            AsyncOperationHandle<GameObject> asset = reference.LoadAsset<GameObject>();
-            yield return asset;
-
-            shipStatus.Value = asset.Result.GetComponent<T>();
+            Error("Could not load Submerged map");
         }
     }
 }

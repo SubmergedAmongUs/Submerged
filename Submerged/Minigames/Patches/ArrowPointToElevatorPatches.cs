@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace Submerged.Minigames.Patches;
 
-[BaseGameCode(LastChecked.v17_0_0, "UpdatePosition is inlined in IL2CPP, we must check to make sure it is still inlined across versions.")]
+[BaseGameCode(LastChecked.v18_0_0, "UpdatePosition is inlined in IL2CPP, we must check to make sure it is still inlined across versions.")]
 [HarmonyPatch]
 public static class ArrowBehaviourUpdatePositionPatch
 {
